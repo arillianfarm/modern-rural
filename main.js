@@ -1,11 +1,10 @@
 'use strict';
 
 let app = angular.module("myApp", ["ngRoute"]);
-app.config(function($routeProvider, $sceDelegateProvider) {
-    //allow all videos from Youtube and google sheets to display
+app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
+    //allow all videos from You tube and google sheets to display
     $sceDelegateProvider.resourceUrlWhitelist(['self', '*://www.youtube.com/**', '*://docs.google.com/spreadsheets/**']);
-
-
+    // $locationProvider.hashPrefix("");
     console.log("app loaded "+ Date.now())
     $routeProvider
         .when("/", {
@@ -38,8 +37,8 @@ app.config(function($routeProvider, $sceDelegateProvider) {
         .when("/pictures", {
             templateUrl : "landingPages/pictures.html"
         })
-        .when("/DIYing", {
-            templateUrl : "landingPages/DIYing.html"
+        .when("/diying", {
+            templateUrl : "landingPages/diying.html"
         })
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
@@ -50,8 +49,9 @@ app.config(function($routeProvider, $sceDelegateProvider) {
             {name:"dogsPool.png"} ,
             {name:"sammyBomb.png", small_hide:true},
             {name:"Sunflower.png", small_hide:true},
-            {name:"goatsLeaf.png"},
             {name:"waterGarden.png", small_hide:true},
+            {name:"cooking.png",small_hide:true},
+            {name:"goatsLeaf.png"},
             {name:"chickenSunrise.png", small_hide:true},
             {name:"prettyRadish.png"},
             {name:"skyChoke.png", small_hide:true},
@@ -63,21 +63,19 @@ app.config(function($routeProvider, $sceDelegateProvider) {
         templateUrl: 'directives/picBanner.html'
     };
 }]).controller('mainController', function( $scope){
-    $scope.headerPicFiles = [
-        {name:"dogsPool.png"} ,
-        {name:"sammyBomb.png", small_hide:true},
-        {name:"Sunflower.png", small_hide:true},
-        {name:"goatsLeaf.png"},
-        {name:"waterGarden.png", small_hide:true},
-        {name:"chickenSunrise.png", small_hide:true},
-        {name:"prettyRadish.png"},
-        {name:"skyChoke.png", small_hide:true},
-        {name:"weldingArthur.png"},
-    ];
+// UTILITY FUNCTIONS
+    $scope.getIframeSrc = function (url) {
+        return url;
+    };
+    
+    // The URL to embed a YouTube video is https://www.youtube.com/embed/VIDEO_ID (instead of /short or whatever).
+    $scope.getIframeSrcForYouTube = function (videoId) {
+        return 'https://www.youtube.com/embed/' + videoId;
+    };
 
-}).controller('videoController', function( $scope){
-// The URL to embed a YouTube video is https://www.youtube.com/embed/VIDEO_ID (instead of /short or whatever).
-        $scope.videos = [
+// VIDEO VIEW
+
+    $scope.videos = [
         {
             youtubeID: "3VR7YxoKQp8",
             //cz3icswXVF0 on arillian farm site goes public 8/30/24
@@ -90,21 +88,39 @@ app.config(function($routeProvider, $sceDelegateProvider) {
         }
     ];
 
-    $scope.getIframeSrc = function (videoId) {
-        return 'https://www.youtube.com/embed/' + videoId;
-    };
-}).controller('pictureController', function( $scope){
+// PICTURE VIEW
+
     $scope.pictures = [
         {
             file: "hueyXena.png",
             caption: "Huey Loves Xexe bear!"
         }
     ];
-}).controller('recipeController', function( $scope){
+
+//DIY PROJECTS VIEW
+
+    $scope.projects = [
+        {
+            name: "Catio",
+            header_pic: "",
+            tools: [],
+            materials: [],
+            phases: [
+                {
+                    pic: [],
+                    text: ""
+                }
+            ]
+        }
+    ];
+
+// RECIPES VIEW
+
     $scope.recipes = [
         {
             name: "pickled onions",
-            pic: "pickledonions.png",
+            header_pic: "pickledonions.png",
+            servings: "1 jar of pickled onions",
             ingredients: [
                 "1 onion",
                 "3/4 cup beet juice",
@@ -114,37 +130,78 @@ app.config(function($routeProvider, $sceDelegateProvider) {
                 "3/8 cup white sugar",
                 "1 spring fresh rosemary"
             ],
-            steps: [
-                "Slice the onion into thin rings (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine)",
-                "put the onion slices and all other ingredients into a sterile mason jar",
-                "seal the jar and shake until all sugar and salt are dissolved",
-                "leave in fridge for at least three days to marinate"],
+            steps: [{
+                    pic: "",
+                    instruction:"Slice the onion into thin rings or rainbows (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine)"
+                },
+                {pic: "",
+                    instruction:"put the onion slices and all other ingredients into a sterile mason jar"
+                },{
+                    pic: "",
+                    instruction:"seal the jar and shake until all sugar and salt are dissolved"
+                },{
+                    pic: "",
+                    instruction: "leave in fridge for at least three days to marinate"
+            }],
             notes: "great on sandwiches, salads or rice"
-        }
+        },
+        {
+            name: "creamy avocado, pickled onion wontons",
+            header_pic: "wontons6.png",
+            servings: "1 wonton",
+            ingredients: [
+                "pinch of pickled onions",
+                "1 wonton wrapper",
+                "3-5 chunks of fresh avocado",
+                "a bit of chopped walnut (optional)",
+                "1 healthy glob of cream cheese",
+                "oil (to coat wonton wrapper)"
+            ],
+            steps: [{
+                pic: "wontons1.png",
+                instruction:"coat the outside of wonton wrapper with oil then put all ingredients on un-oiled side"
+            },
+                {
+                    instruction:"fold wonton wrapper around filling and put into a muffin tray, silicon muffin cup or directly onto the rack of an air frier"
+                },{
+                    instruction:"set temp to 385 and air fry for 4-6 minutes or until outside is browned"
+                },{
+                    pic: "wontons4.png",
+                    instruction: "let cool and enjoy"
+                }],
+            notes: "Pairs nicely with your favorite nugget dipping sauces"
+        },{
+            name: "creamy banana walnut wonton",
+            header_pic: "wontons5.png",
+            servings: "1 wonton",
+            ingredients: [
+                "a bit of chopped walnut (optional)",
+                "a slice of banana",
+                "1 wonton wrapper",
+                "1 healthy glob of cream cheese",
+                "oil (to coat wonton wrapper)",
+                "a few pinches of brown sugar",
+            ],
+            steps: [{
+                pic: "wontons3.png",
+                instruction:"coat the outside of wonton wrapper with oil then put all ingredients on un-oiled side"
+            },
+                {
+                    instruction:"fold wonton wrapper around filling and put into a muffin tray, silicon muffin cup or directly onto the rack of an air frier"
+                },{
+                    instruction:"set temp to 385 and air fry for 4-6 minutes or until outside is browned"
+                },{
+                    pic: "wontons4.png",
+                    instruction: "let cool and enjoy"
+                }],
+            notes: "this dish is bananas"}
     ];
 
     $scope.searchRecipes = function(term){
+        //todo: write this function!
+    };
 
-    };
-}).controller('projectController', function( $scope){
-    $scope.recipes = [
-        {
-            name: "pond",
-            phases: [
-                {
-                    pics: [],
-                    tools: [],
-                    materials: [],
-                    text: ""
-                }
-            ]
-        }
-    ];
-}).controller('blogController', function( $scope){
-    $scope.sortOldFirst = false;
-    $scope.getIframeSrc = function (url) {
-        return url;
-    };
+//BLOG VIEW
 
     $scope.blogEntriesRaw = [
         {
@@ -179,26 +236,27 @@ app.config(function($routeProvider, $sceDelegateProvider) {
                 }
             ]
         }
-    ]
+    ];
 
-    $scope.expandTopEntry = function(a){
-        if ($scope.sortOldFirst && a.entry_number === 1 ||  !$scope.sortOldFirst && a.entry_number === $scope.blogEntriesRaw.length){
+    $scope.expandTopBlogEntry = function(a){
+        if ($scope.blogSort === 'o2a' && a.entry_number === 1 || a.entry_number === $scope.blogEntriesRaw.length){
             a.expanded = true
         } else {
             a.expanded = false;
         };
         return a;
-    }
+    };
 
-    $scope.toggleSortOldFirst = function(oldFirst){
-        $scope.sortOldFirst = !oldFirst;
+    $scope.setBlogSortAndReorderList = function(sortType){
+        let newSort = sortType || ((!$scope.blogSort || ($scope.blogSort === 'o2n')) ? 'n2o' : 'o2n');
+        $scope.blogSort = newSort;
         $scope.sortBlogList();
     }
 
     $scope.sortBlogList = function(){
         return $scope.blogEntriesRaw.sort(function(a, b){
-            a = $scope.expandTopEntry(a);
-            return $scope.sortOldFirst ? a.entry_number - b.entry_number : b.entry_number - a.entry_number
+            a = $scope.expandTopBlogEntry(a);
+            return $scope.blogSort === 'o2n' ? a.entry_number - b.entry_number : b.entry_number - a.entry_number;
         });
     };
 
@@ -214,11 +272,8 @@ app.config(function($routeProvider, $sceDelegateProvider) {
         }
     }
 
-    $scope.init = function(){
-        $scope.blogEntries = $scope.sortBlogList();
-    }
-    $scope.init();
-}).controller('booksController', function( $scope){
+// BOOKS VIEW
+
         $scope.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
         $scope.hyperspear_display_pages = ["hyperspear1.png", "hyperspear2.png", "hyperspear3.png" ];
 
@@ -245,6 +300,12 @@ app.config(function($routeProvider, $sceDelegateProvider) {
 
 
         $scope.init = function(){
+            //init recipes
+            $scope.recipeSort = 'a2z';
+            //init blogs
+            $scope.blogSort = 'n2o';
+            $scope.blogEntries = $scope.sortBlogList();
+            //init books
             $scope.setNextDisplayPage();
             $scope.setNextDisplayPage('hyperspear');
         }
