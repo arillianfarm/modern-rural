@@ -38,20 +38,41 @@ app.config(function($routeProvider, $sceDelegateProvider) {
         .when("/pictures", {
             templateUrl : "landingPages/pictures.html"
         })
+        .when("/DIYing", {
+            templateUrl : "landingPages/DIYing.html"
+        })
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
         })
-}).controller('mainController', function( $scope){
+}).directive('picBanner', ['$interval',  function($interval){
+    function link(scope, element, attrs) {
+        scope.headerPicFiles = [
+            {name:"dogsPool.png"} ,
+            {name:"sammyBomb.png", small_hide:true},
+            {name:"Sunflower.png", small_hide:true},
+            {name:"goatsLeaf.png"},
+            {name:"waterGarden.png", small_hide:true},
+            {name:"chickenSunrise.png", small_hide:true},
+            {name:"prettyRadish.png"},
+            {name:"skyChoke.png", small_hide:true},
+            {name:"weldingArthur.png"},
+        ];
+    }
+    return {
+        link: link,
+        templateUrl: 'directives/picBanner.html'
+    };
+}]).controller('mainController', function( $scope){
     $scope.headerPicFiles = [
-        "chickenSunrise.png",
-        "chokeSky.png",
-        "waterGarden.png",
-        "dogsPool.png",
-        "sammySky.png",
-        "artichokeBundle.png",
-        "goatsLeaf.png",
-        "Sunflower.png",
-        "cactusSky.png"
+        {name:"dogsPool.png"} ,
+        {name:"sammyBomb.png", small_hide:true},
+        {name:"Sunflower.png", small_hide:true},
+        {name:"goatsLeaf.png"},
+        {name:"waterGarden.png", small_hide:true},
+        {name:"chickenSunrise.png", small_hide:true},
+        {name:"prettyRadish.png"},
+        {name:"skyChoke.png", small_hide:true},
+        {name:"weldingArthur.png"},
     ];
 
 }).controller('videoController', function( $scope){

@@ -1,9 +1,14 @@
-<div class="row" ng-controller="mainController" style="margin-left:-20em; width:155%">
-    <img ng-if="headerPicFiles && headerPicFiles.length" ng-repeat="pic in headerPicFiles track by $index" ng-src="./assets/headerPictures/{{pic}}" style="height: 250px;">
-    <div class="col-xs-12 text-center">
-        <h3>
-            <b class="text-white" style="margin-right: 60px;">Arillian Farm - an Eggcellent place to be!</b>
+<div class="row" ng-controller="mainController" >
+    <div class="col-xs-12  text-center">
+        <div pic-banner></div>
+    </div>
+    <div class="col-xs-12 text-center text-white" >
+        <h3 class="" >
+            <b >Arillian Farm </b>
         </h3>
+        <h4>
+            <b>an Eggcellent place to be!</b>
+        </h4>
     </div>
 </div>
 
