@@ -63,7 +63,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         templateUrl: 'directives/picBanner.html'
     };
 }]).controller('mainController', function( $scope){
-// UTILITY FUNCTIONS
+    console.log("main controller loaded")
+
+    // UTILITY FUNCTIONS
     $scope.getIframeSrc = function (url) {
         return url;
     };
@@ -77,14 +79,28 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     $scope.videos = [
         {
-            youtubeID: "3VR7YxoKQp8",
-            //cz3icswXVF0 on arillian farm site goes public 8/30/24
+            youtubeID: "cz3icswXVF0",
             title: "McGoats Zoomies through the chicken coop"
         },
         {
-            youtubeID: "NGgsXWeCsgI",
-            //yKpOoAmH_YU? on arillian farm site goes public 8/30/24
-            title: "Totes is king of the Coop"
+            youtubeID: "yKpOoAmH_YU",
+            title: "Totes takes the ramp instead"
+        },
+        {
+            youtubeID: "Uo8EC0U5iCo",
+            title: "Chicks (a few weeks old) start exploring the world outside theyr brooding tent"
+        },
+        {
+            youtubeID: "Ey92lBEr-Wc",
+            title: "newly emerged from chrysalis, a Giant Swallow Tail stretches its wings "
+        },
+        {
+            youtubeID: "8uWjOiXSEO4",
+            title: "Peach Faced Love Bird Parrots Eating My Mammoth Sunflowers"
+        },
+        {
+            youtubeID: "hfUF5UTryYE?",
+            title: "Sammy, my Ayam Cemani Rooster and Leggy Leghorn throwin' back swigs of water"
         }
     ];
 
@@ -105,9 +121,10 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             header_pic: "",
             tools: [],
             materials: [],
+            //1 phase = 1 google slide
             phases: [
                 {
-                    pic: [],
+                    pic: {},
                     text: ""
                 }
             ]
@@ -170,7 +187,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     instruction: "let cool and enjoy"
                 }],
             notes: "Pairs nicely with your favorite nugget dipping sauces"
-        },{
+        },
+        {
             name: "creamy banana walnut wonton",
             header_pic: "wontons5.png",
             servings: "1 wonton",
@@ -194,7 +212,37 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     pic: "wontons4.png",
                     instruction: "let cool and enjoy"
                 }],
-            notes: "this dish is bananas"}
+            notes: "this dish is bananas"},
+        {
+            name: "Baked egg in a cheese basket",
+            header_pic: "becb.png",
+            servings: "1 egg basket",
+            ingredients: [
+                "1/4 cup shredded cheese",
+                "1 pad of butter",
+                "1 egg",
+                "salsa (optional)",
+                "Greek yogurt and/or Sour Cream (optional)",
+                "Chopped Green onions (optional)"
+            ],
+            steps: [{
+                pic: "becb1.png",
+                instruction:"put a pad of butter in a silicone or tin muffin cup then crack an egg on top of it"
+            },
+                {
+                    pic: "becb2.png",
+                    instruction:"sprinkle shredded cheese in a circle on a silicone tray or similar"
+                },{
+                    pic: "becb3.png",
+                    instruction:"microwave the cheese for a few seconds, bake or airfry at 385F for about 2 min --or until cheese is melted"
+                },{
+                    pic: "becb4.png",
+                    instruction: "let the cheese cool and peel if of baking mat, then drape it over the back of a muffin cup, pop the egg and butter muffin cup in the air frier or ove and or bake or airfry (at 385) for another 3-5 minutes --until egg yolk is cooked to desired yolkiness and cheese is crisp, but not burnt"
+                },{
+                    pic: "becb.png",
+                    instruction: "put egg in cheese basket and top with desired toppings"
+                }],
+            notes: "high fat low carb mmmm"}
     ];
 
     $scope.searchRecipes = function(term){

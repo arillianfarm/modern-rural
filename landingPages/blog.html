@@ -8,7 +8,6 @@
         <div class="col-xs-4 mt-5 text-white text-right" ng-click="setBlogSortAndReorderList()">
             Sort:
             <button class="btn btn-primary" ng-if="blogSort">
-
                 <span class="ml-2"  ng-if="blogSort == 'o2n'">Old to New</span><span class="ml-2"  ng-if="blogSort == 'n2o'">New to Old</span>
             </button>
         </div>
@@ -67,6 +66,9 @@
                                                 {{paragraph.text}}
                                             </b>
                                             <br>
+                                        </div>
+                                        <div ng-if="paragraph.pic" class="col-xs-12" >
+                                            <img ng-src="./assets/blog/{{paragraph.pic}}" style="height: 20em;">
                                         </div>
 
                                     </div>

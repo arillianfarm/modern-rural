@@ -13,9 +13,8 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-<!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">-->
 
 
 </head>
@@ -23,7 +22,9 @@
 <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-
+<!--<script src="https://unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>-->
+<!--<script src="//unpkg.com/angular-ui-router@0.4.2/release/angular-ui-router.js"></script>-->
+<!--<script data-require="ui-router@*" data-semver="1.0.0-beta.2" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-rc.1/angular-ui-router.min.js"></script>-->
 
 <body ng-app="myApp">
 <div class="container">
@@ -40,7 +41,6 @@
 						</button>
 						<a class="navbar-brand pointer small-hide" href="#!main">Arillian Farm</a>
 					</div>
-
 					<div class="collapse navbar-collapse" id="navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li><a href="#!about">About</a><span class="hover"></span></li>
@@ -50,7 +50,6 @@
 							<li><a href="#!videos">Videos</a><span class="hover"></span></li>
 							<li><a href="#!pictures">Pictures</a><span class="hover"></span></li>
 							<li><a href="#!diying">DIYing</a><span class="hover"></span></li>
-<!--							e.g. making a camper out of a van, setting up garden beds etc. -->
 							<li><a href="#!blog">Blog</a><span class="hover"></span></li>
 <!--							<li><a href="#!merch">Merch</a><span class="hover"></span></li>-->
 						</ul>
@@ -60,9 +59,7 @@
 		</div>
 	</div>
 	<div class="viewrow">
-<!--		<div class="col-xs-12">-->
-			<div ng-view ng-controller="mainController"></div>
-<!--		</div>-->
+		<div ng-view ng-controller="mainController"></div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12  mt-5 text-center">

@@ -1,6 +1,6 @@
 
   <img ng-if="headerPicFiles && headerPicFiles.length"
        ng-repeat="pic in headerPicFiles track by $index"
-       ng-src="./assets/headerPictures/{{pic.name}}"
+       ng-src="assets/headerPictures/{{pic.name}}"
        ng-class="{'small-hide':pic.small_hide}"
        style="height: 10em;">
