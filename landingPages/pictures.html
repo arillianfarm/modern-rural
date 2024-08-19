@@ -1,4 +1,20 @@
 <div  class="container">
+  <div class="row text-white text-center">
+    <div class="col-xs-12">
+      <h4>Caption Contest</h4>
+    </div>
+    <div class="col-xs-12">
+      <img  ng-src="./assets/pictures/captionContest1.png" style="height: 50em;">
+    </div>
+    <div class="col-xs-12 mb-5">
+        Email A Funny Caption To Post For This Picture
+      <a class="btn btn-primary btn-sm pointer" style="font-weight: bold;" href="mailto:arillianfarm@gmail.com">
+        <i class="fa fa-envelope" ></i>
+      </a>
+    </div>
+  </div>
+  <hr>
+
   <div class="row " ng-repeat="pic in pictures track by $index">
     <div class="col-xs-12 text-center">
       <img  ng-src="./assets/pictures/{{pic.file}}" style="height: 300px;">

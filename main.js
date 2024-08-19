@@ -104,8 +104,24 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             title: "Peach Faced Love Bird Parrots Eating My Mammoth Sunflowers"
         },
         {
-            youtubeID: "hfUF5UTryYE?",
+            youtubeID: "OIGeXAjvL4E",
+            title: "Lots of Love Birds Snacking on Live Sunflowers"
+        },
+        {
+            youtubeID: "hfUF5UTryYE",
             title: "Sammy, my Ayam Cemani Rooster and Leggy Leghorn throwin' back swigs of water"
+        },
+        {
+            youtubeID: "oRu1Mi0ifZU",
+            title: "Huey catches flying turtles like he's a super mario brother"
+        },
+        {
+            youtubeID: "iiMBoQ_3NWo",
+            title: "Huey Ka-bluey"
+        },
+        {
+            youtubeID: "F3LDBVHpgfQ?",
+            title: "Found This Guy Trying to Catch Mosquito Fish in Our Pond"
         }
     ];
 
