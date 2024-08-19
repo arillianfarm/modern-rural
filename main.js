@@ -304,7 +304,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         {
             entry_number: 2,
             entry_date: "August 9, 2024",
-            entry_subject: "OMG I Love My Google Sheets Kanban",
+            entry_subject: "My Google Sheets Kanban Board",
             pic_file: "kanban1.png",
             link: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJC6WFdhJzehXvB2h_5yPAZsoQVBE7aT6oIhu1mrtGZ4G0hfzhyBuynwkqPvYJWYLfytprri2vwEqb/pubhtml",
             entry_paragraphs: [

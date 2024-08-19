@@ -118,8 +118,6 @@ body{
     opacity: 0.1;
 }
 
-
-
 @media (max-width: 767px) {
     .nav{
         padding-bottom:20px;
@@ -137,9 +135,16 @@ body{
     .small-hide{
         display: none;
     }
+    img {
+        width:100%;
+        height:auto;
+    }
 }
 
 @media (min-width: 480px) {
+    iframe {
+        height:400px;
+    }
     .fixed-right {
         margin-left: 52em !important;
     }
