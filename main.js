@@ -130,11 +130,17 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             //1 phase = 1 google slide
             phases: [
                 {
-                    pic: "catio2.png",
+                    pic: "catio1.png",
                     text: ""
                 },
                 {
+                    pic: "catio2.png",
+                    text: ""
+                },{
                     pic: "catio3.png",
+                    text: ""
+                },{
+                    pic: "catio4.png",
                     text: ""
                 },{
                     pic: "catio5.png",
@@ -153,12 +159,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     text: ""
                 },{
                     pic: "catio10.png",
-                    text: ""
-                },{
-                    pic: "catio11.png",
-                    text: ""
-                },{
-                    pic: "catio12.png",
                     text: ""
                 },
             ]

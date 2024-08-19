@@ -22,42 +22,22 @@
 <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-<!--<script src="https://unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>-->
-<!--<script src="//unpkg.com/angular-ui-router@0.4.2/release/angular-ui-router.js"></script>-->
-<!--<script data-require="ui-router@*" data-semver="1.0.0-beta.2" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-rc.1/angular-ui-router.min.js"></script>-->
 
 <body ng-app="myApp">
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12 mb-5">
-			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand pointer small-hide" href="#!main">Arillian Farm</a>
-					</div>
-					<div class="collapse navbar-collapse" id="navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li><a href="#!about">About</a><span class="hover"></span></li>
-							<li><a href="#!comics" ><span>Comics</span></a><span class="hover"></span></li>
-							<li><a href="#!books">Books</a><span class="hover"></span></li>
-							<li><a href="#!recipes">Recipes</a><span class="hover"></span></li>
-							<li><a href="#!videos">Videos</a><span class="hover"></span></li>
-							<li><a href="#!pictures">Pictures</a><span class="hover"></span></li>
-							<li><a href="#!diying">DIYing</a><span class="hover"></span></li>
-							<li><a href="#!blog">Blog</a><span class="hover"></span></li>
-<!--							<li><a href="#!merch">Merch</a><span class="hover"></span></li>-->
-						</ul>
-					</div>
-				</div>
-			</nav>
+<div class="container" >
+<!--	<div class="row">-->
+		<div class="scrollmenu" >
+			<a href="/" style="marginl-right:5em;"><b>Arillian Farm</b></a><span class="hover"></span>
+			<a href="#!about">About</a><span class="hover"></span>
+			<a href="#!comics" ><span>Comics</span></a><span class="hover"></span>
+			<a href="#!books">Books</a><span class="hover"></span>
+			<a href="#!recipes">Recipes</a><span class="hover"></span>
+			<a href="#!videos">Videos</a><span class="hover"></span>
+			<a href="#!pictures">Pictures</a><span class="hover"></span>
+			<a href="#!diying">DIYing</a><span class="hover"></span>
+			<a href="#!blog">Blog</a><span class="hover"></span>
 		</div>
-	</div>
+<!--	</div>-->
 	<div class="viewrow">
 		<div ng-view ng-controller="mainController"></div>
 	</div>

@@ -20,6 +20,7 @@ body{
     color:#FFF !important;
     letter-spacing:2px;
     margin-top:2px;
+    margin-bottom:10px;
 }
 
 .nav {
@@ -30,11 +31,11 @@ body{
     top:0px;
     left:0px;
 }
-.nav a:hover{
-    color:#FFF !important;
-    background:#f4933e !important;
-    cursor: pointer;
-}
+/*.nav a:hover{*/
+/*    color:#FFF !important;*/
+/*    background:#f4933e !important;*/
+/*    cursor: pointer;*/
+/*}*/
 
 .nav li{
     position:relative;
@@ -43,16 +44,16 @@ body{
     padding-top:5em;
 }
 
-.nav a{
+/*.nav a{*/
 
-    font:500 11px Lato;
-    letter-spacing:2px;
-    padding:16px !important;
-    color:#a3bfc6 !important;
-    text-transform:uppercase;
-    position:relative;
-    z-index:1000;
-}
+/*    font:500 11px Lato;*/
+/*    letter-spacing:2px;*/
+/*    padding:16px !important;*/
+/*    color:#a3bfc6 !important;*/
+/*    text-transform:uppercase;*/
+/*    position:relative;*/
+/*    z-index:1000;*/
+/*}*/
 
 .navbar-inverse .navbar-toggle{
     border:none;
@@ -88,34 +89,33 @@ body{
     cursor: pointer;
 }
 
-.clock-column {
+div.scrollmenu {
+    background-color: #33333;
+    overflow: auto;
+    white-space: nowrap;
+    border-bottom:4px solid #f4933e !important;
+}
+
+div.scrollmenu a {
     display: inline-block;
-    width: calc(100% / 7);
-    margin: 0 auto;
+    /*color: white;*/
+    text-align: center;
+    /*padding: 14px;*/
+    text-decoration: none;
+    font:500 11px Lato;
+    letter-spacing:2px;
+    padding:16px !important;
+    /*color:#a3bfc6 !important;*/
+    color:#FFF !important;
+    text-transform:uppercase;
+    position:relative;
+    z-index:1000;
 }
 
-.dot:before {
-    content: '';
-    display: block;
-    padding-top: 100%;
-}
-
-.dot {
-    position: relative;
-    max-width: 100%;
-    margin: 0.5rem;
-    background-color: firebrick;
-    border-color: firebrick;
-    background-size: 100% auto;
-    border-radius: 50%;
-    border-style: solid;
-    height: calc(100vh / 5);
-    width: calc(100vh / 5);
-}
-
-.off {
-    background-color: green;
-    opacity: 0.1;
+div.scrollmenu a:hover{
+    color:#FFF !important;
+    background:#f4933e !important;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {
@@ -132,6 +132,9 @@ body{
     .nav{
         padding-bottom:20px;
     }
+    /*.navbar-nav {*/
+    /*    overflow-x:scroll;*/
+    /*}*/
     .small-hide{
         display: none;
     }
