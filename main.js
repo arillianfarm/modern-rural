@@ -5,10 +5,12 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     //allow all videos from You tube and google sheets to display
     $sceDelegateProvider.resourceUrlWhitelist(['self', '*://www.youtube.com/**', '*://docs.google.com/spreadsheets/**']);
     // $locationProvider.hashPrefix("");
+    //$locationProvider.html5Mode(true);
     console.log("app loaded "+ Date.now())
     $routeProvider
         .when("/", {
-            templateUrl : "landingPages/main.html"
+            templateUrl : "landingPages/main.html",
+            controller: "mainController"
         })
         .when("/main", {
             templateUrl : "landingPages/main.html"
@@ -42,6 +44,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         })
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
+        })
+        .otherwise( {
+            redirectTo : "/"
         })
 }).directive('picBanner', ['$interval',  function($interval){
     function link(scope, element, attrs) {
@@ -118,15 +123,44 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.projects = [
         {
             name: "Catio",
-            header_pic: "",
+            header_pic: "catio13.png",
+            about: "",
             tools: [],
             materials: [],
             //1 phase = 1 google slide
             phases: [
                 {
-                    pic: {},
+                    pic: "catio2.png",
                     text: ""
-                }
+                },
+                {
+                    pic: "catio3.png",
+                    text: ""
+                },{
+                    pic: "catio5.png",
+                    text: ""
+                },{
+                    pic: "catio6.png",
+                    text: ""
+                },{
+                    pic: "catio7.png",
+                    text: ""
+                },{
+                    pic: "catio8.png",
+                    text: ""
+                },{
+                    pic: "catio9.png",
+                    text: ""
+                },{
+                    pic: "catio10.png",
+                    text: ""
+                },{
+                    pic: "catio11.png",
+                    text: ""
+                },{
+                    pic: "catio12.png",
+                    text: ""
+                },
             ]
         }
     ];
