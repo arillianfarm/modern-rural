@@ -48,7 +48,23 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         .otherwise( {
             redirectTo : "/"
         })
-}).directive('picBanner', ['$interval',  function($interval){
+}).factory('dataService', ['$http', function($http) {
+    //factory to retrieve data from Json Files for each landing page
+        //var data;
+        return {
+            getData: function(category, $scope) {
+                if ($scope[category]) {
+                    return Promise.resolve($scope[category]);
+                 } else {
+                    let filename = `pageData/${category}.json`;
+                    return $http.get(filename).then(function(response) {
+                        //data = response.data;
+                        return response.data;
+                    });
+                }
+            }
+        };
+    }]).directive('picBanner', ['$interval',  function($interval){
     function link(scope, element, attrs) {
         scope.headerPicFiles = [
             {name:"dogsPool.png"} ,
@@ -67,7 +83,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         link: link,
         templateUrl: 'directives/picBanner.html'
     };
-}]).controller('mainController', function( $scope){
+}]).controller('mainController', function( $scope, dataService){
     console.log("main controller loaded")
 
     // UTILITY FUNCTIONS
@@ -80,50 +96,55 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return 'https://www.youtube.com/embed/' + videoId;
     };
 
+    dataService.getData('videos',$scope).then(function(jsonObj) {
+        //vm.products = data;
+        //e.g. projects, pictures, videos
+        $scope.videos = jsonObj.data;
+    });
 // VIDEO VIEW
-
-    $scope.videos = [
-        {
-            youtubeID: "cz3icswXVF0",
-            title: "McGoats Zoomies through the chicken coop"
-        },
-        {
-            youtubeID: "yKpOoAmH_YU",
-            title: "Totes takes the ramp instead"
-        },
-        {
-            youtubeID: "Uo8EC0U5iCo",
-            title: "Chicks (a few weeks old) start exploring the world outside theyr brooding tent"
-        },
-        {
-            youtubeID: "Ey92lBEr-Wc",
-            title: "newly emerged from chrysalis, a Giant Swallow Tail stretches its wings "
-        },
-        {
-            youtubeID: "8uWjOiXSEO4",
-            title: "Peach Faced Love Bird Parrots Eating My Mammoth Sunflowers"
-        },
-        {
-            youtubeID: "OIGeXAjvL4E",
-            title: "Lots of Love Birds Snacking on Live Sunflowers"
-        },
-        {
-            youtubeID: "hfUF5UTryYE",
-            title: "Sammy, my Ayam Cemani Rooster and Leggy Leghorn throwin' back swigs of water"
-        },
-        {
-            youtubeID: "oRu1Mi0ifZU",
-            title: "Huey catches flying turtles like he's a super mario brother"
-        },
-        {
-            youtubeID: "iiMBoQ_3NWo",
-            title: "Huey Ka-bluey"
-        },
-        {
-            youtubeID: "F3LDBVHpgfQ?",
-            title: "Found This Guy Trying to Catch Mosquito Fish in Our Pond"
-        }
-    ];
+//
+//     $scope.videos = [
+//         {
+//             youtubeID: "cz3icswXVF0",
+//             title: "McGoats Zoomies through the chicken coop"
+//         },
+//         {
+//             youtubeID: "yKpOoAmH_YU",
+//             title: "Totes takes the ramp instead"
+//         },
+//         {
+//             youtubeID: "Uo8EC0U5iCo",
+//             title: "Chicks (a few weeks old) start exploring the world outside theyr brooding tent"
+//         },
+//         {
+//             youtubeID: "Ey92lBEr-Wc",
+//             title: "newly emerged from chrysalis, a Giant Swallow Tail stretches its wings "
+//         },
+//         {
+//             youtubeID: "8uWjOiXSEO4",
+//             title: "Peach Faced Love Bird Parrots Eating My Mammoth Sunflowers"
+//         },
+//         {
+//             youtubeID: "OIGeXAjvL4E",
+//             title: "Lots of Love Birds Snacking on Live Sunflowers"
+//         },
+//         {
+//             youtubeID: "hfUF5UTryYE",
+//             title: "Sammy, my Ayam Cemani Rooster and Leggy Leghorn throwin' back swigs of water"
+//         },
+//         {
+//             youtubeID: "oRu1Mi0ifZU",
+//             title: "Huey catches flying turtles like he's a super mario brother"
+//         },
+//         {
+//             youtubeID: "iiMBoQ_3NWo",
+//             title: "Huey Ka-bluey"
+//         },
+//         {
+//             youtubeID: "F3LDBVHpgfQ?",
+//             title: "Found This Guy Trying to Catch Mosquito Fish in Our Pond"
+//         }
+//     ];
 
 // PICTURE VIEW
 
