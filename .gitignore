@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+
+# content for future releases
+upcoming-content/

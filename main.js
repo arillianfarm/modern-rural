@@ -112,6 +112,10 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return doc[nameField].replace(" ", "-");
     }
 
+    $scope.copyToClipboard = function(){
+
+    };
+
     // The URL to embed a YouTube video is https://www.youtube.com/embed/VIDEO_ID (instead of /short or whatever).
     $scope.getIframeSrcForYouTube = function (videoId) {
         return 'https://www.youtube.com/embed/' + videoId;

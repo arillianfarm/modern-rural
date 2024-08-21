@@ -7,7 +7,9 @@ body{
     background:#192226 !important;
 }
 
-
+.border2px {
+      border:2px solid white;
+  }
 
 .navbar-inverse{
     background:#222B31 !important;

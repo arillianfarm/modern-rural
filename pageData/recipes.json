@@ -55,31 +55,6 @@
       "notes": "Pairs nicely with your favorite nugget dipping sauces"
     },
     {
-      "name": "creamy banana walnut wonton",
-      "header_pic": "wontons5.png",
-      "servings": "1 wonton",
-      "ingredients": [
-        "a bit of chopped walnut (optional)",
-        "a slice of banana",
-        "1 wonton wrapper",
-        "1 healthy glob of cream cheese",
-        "oil (to coat wonton wrapper)",
-        "a few pinches of brown sugar"
-      ],
-      "steps": [{
-        "pic": "wontons3.png",
-        "instruction":"coat the outside of wonton wrapper with oil then put all ingredients on un-oiled side"
-      },
-        {
-          "instruction":"fold wonton wrapper around filling and put into a muffin tray, silicon muffin cup or directly onto the rack of an air frier"
-        },{
-          "instruction":"set temp to 385 and air fry for 4-6 minutes or until outside is browned"
-        },{
-          "pic": "wontons4.png",
-          "instruction": "let cool and enjoy"
-        }],
-      "notes": "this dish is bananas"},
-    {
       "name": "Baked egg in a cheese basket",
       "header_pic": "becb.png",
       "servings": "1 egg basket",
@@ -108,6 +83,37 @@
           "pic": "becb.png",
           "instruction": "put egg in cheese basket and top with desired toppings"
         }],
+      "notes": "high fat low carb mmmm"},
+    {
+      "name": "Sourdough Starter",
+      "header_pic": "becb.png",
+      "servings": "1 egg basket",
+      "ingredients": [
+        "1/4 cup shredded cheese",
+        "1 pad of butter",
+        "1 egg",
+        "salsa (optional)",
+        "Greek yogurt and/or Sour Cream (optional)",
+        "Chopped Green onions (optional)"
+      ],
+      "steps": [{
+        "pic": "becb1.png",
+        "instruction":"put a pad of butter in a silicone or tin muffin cup then crack an egg on top of it"
+      },
+        {
+          "pic": "becb2.png",
+          "instruction":"sprinkle shredded cheese in a circle on a silicone tray or similar"
+        },{
+          "pic": "becb3.png",
+          "instruction":"microwave the cheese for a few seconds, bake or airfry at 385F for about 2 min --or until cheese is melted"
+        },{
+          "pic": "becb4.png",
+          "instruction": "let the cheese cool and peel if of baking mat, then drape it over the back of a muffin cup, pop the egg and butter muffin cup in the air frier or ove and or bake or airfry (at 385) for another 3-5 minutes --until egg yolk is cooked to desired yolkiness and cheese is crisp, but not burnt"
+        },{
+          "pic": "becb.png",
+          "instruction": "put egg in cheese basket and top with desired toppings"
+        }],
       "notes": "high fat low carb mmmm"}
+  ]
   ]
 }
