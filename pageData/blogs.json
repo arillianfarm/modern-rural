@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "entry_number": 1,
+      "entry_date": "August 9, 2024",
+      "entry_subject": "Do Folks Even Read Blogs?",
+      "entry_paragraphs": [
+        {
+          "bold":false,
+          "text":"So I’ve been working on this website for a few days now and I’ve been poking around the internet, checking out sites from authors who have content on the web (do people still say web?)"
+        },
+        {
+          "bold":false,
+          "text": "I was checking out a few different authors that are doing direct marketing and cutting out social media platforms etc (which is what I want to do… develop my own brand and get folks to want to bother to come find my little nook on the web and throw a couple bucks my way if they enjoyed it) and I noticed everyone seems to have a blog. I don’t actually believe that people read blogs in this day and age (do people still say day and age? … is it day and age or day in age?), but I think that the more “content” I have and the more links there are to click, the better SEO my site will have… maybe. Okay, so now I think I’m going to put a task on my Kanban Board about reading some SEO articles. Byyyyyyeeeee."
+        }
+      ]
+    },
+    {
+      "entry_number": 2,
+      "entry_date": "August 12, 2024",
+      "entry_subject": "My Google Sheets Kanban Board",
+      "pic_file": "kanban1.png",
+      "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJC6WFdhJzehXvB2h_5yPAZsoQVBE7aT6oIhu1mrtGZ4G0hfzhyBuynwkqPvYJWYLfytprri2vwEqb/pubhtml",
+      "entry_paragraphs": [
+        {
+          "bold":false,
+          "text": "When I decided (a few weeks ago) to make this site to get the Arillian Farm brand out there, I decided to make (find a free template for) a Kanban board for myself like the one I used to use someone else was paying me to write software... and when I found a template and started throwing tasks on it... OMG it felt good!"
+        },
+        {
+          "bold":false,
+          "text": "It's like lifting thoughts out of my brain and putting them into a Pensive from Harry Potter or something. Having a place to jot down the millions of things I want to do in my life is such a relief! Being able to sort and search my dreams and acomplishments from my phone and my laptop is luxurious and oh goddamn the sweet sweet dopamine release when I change the status of a task to Finished... I've missed it. Doing things and keeping track of it is almost better than a puff of weed."
+        }
+      ]
+    },
+    {
+      "entry_number": 3,
+      "entry_date": "August 20, 2024",
+      "entry_subject": "A day on Arillian Farm",
+      "pic_file": "chickenFeed.png",
+      "link": null,
+      "entry_paragraphs": [
+        {
+          "bold":false,
+          "text": "4:00AM I usually get up between 3:30- 4:30AM which I love because I’ve always liked to have a few hours of darkness and solitude in the morning… and it’s usually less than 90F when I wake up, so its the only time I can putter around outside and not melt like a popsicle(this is my natural wake up time. I haven’t used an alarm in like five  years).",
+          "link": null,
+          "pic": "fourAMScreenShot.PNG"
+        },
+        {
+          "bold":false,
+          "text": "4:15AM I make breakfast for my dogs and put together some treats to go with my chickens and goats feed.",
+          "pic": "happyBasilOkra.png"
+        },
+        {
+          "bold":false,
+          "text": "4:45AM Barnyard Breakfast! I try to feed my chickens before sunrise for two reasons 1- I want them to lay as early in the day as possible ‘cause I’ve had chickens not make it through the heat… and almost all of them died when or right after they laid… also, there are a million pigeons and doves that try to get after their food and they don’t show up until after sunrise. There’s a streetlight that shines down on the livestock paddock, so its light enough for them to see…The other day a pair of owls were hooting at them and I had to get them all cooped up again really fast, so that’s a downside of getting them up earlier. Lol.",
+          "pic": "breakfastTreats.png"
+        }
+      ]
+    }
+  ]
+}
