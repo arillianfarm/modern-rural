@@ -63,7 +63,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                 }
             }
         };
-    }]).directive('picBanner', ['$interval',  function($interval){
+    }]).directive('picBanner', [ function(){
     function link(scope, element, attrs) {
         scope.headerPicFiles = [
             {name:"dogsPool.png"} ,
@@ -81,6 +81,20 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     return {
         link: link,
         templateUrl: 'directives/picBanner.html'
+    };
+}]).directive('clickIcons', [function(){
+    function link(scope, element, attrs) {
+    }
+    return {
+        link: link,
+        templateUrl: 'directives/clickIcons.html'
+    };
+}]).directive('contentSearch', [function(){
+    function link(scope, element, attrs) {
+    }
+    return {
+        link: link,
+        templateUrl: 'directives/contentSearch.html'
     };
 }]).controller('mainController', function( $scope, dataService,$location, $anchorScroll){
     console.log("main controller loaded")

@@ -1,18 +1,5 @@
 
 <div class="container" >
-    <div class="row">
-        <div class="col-xs-8">
-            <input class="form-control mt-5" id="blogSearch" ng-keyup="searchBlogs(term)" ng-model="term" type="text" placeholder="... COMING SOON: Search Blog Entries...">
-        </div>
-
-        <div class="col-xs-4 mt-5 text-white text-right" ng-click="setBlogSortAndReorderList()">
-            Sort:
-            <button class="btn btn-primary" ng-if="blogSort">
-                <span class="ml-2"  ng-if="blogSort == 'o2n'">Old to New</span><span class="ml-2"  ng-if="blogSort == 'n2o'">New to Old</span>
-            </button>
-        </div>
-    </div>
-    <br>
     <div class="panel" id="blogTable">
         <div class="panel-heading">
             <div class="row">
