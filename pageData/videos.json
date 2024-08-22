@@ -2,42 +2,46 @@
   "data":  [
   {
     "youtubeID": "cz3icswXVF0",
-    "title": "McGoats Zoomies through the chicken coop"
+    "title": "McGoats raids the chicken coop",
+    "albums": ["goats", "animals"],
+    "release_date": "8/30/24"
   },
   {
     "youtubeID": "yKpOoAmH_YU",
-    "title": "Totes takes the ramp instead"
+    "title": "Totes takes the ramp instead",
+    "albums": ["goats", "animals"],
+    "release_date": "8/30/24"
   },
   {
     "youtubeID": "Uo8EC0U5iCo",
-    "title": "Chicks (a few weeks old) start exploring the world outside their brooding tent"
+    "title": "chicks exploring"
   },
   {
     "youtubeID": "Ey92lBEr-Wc",
-    "title": "Giant Swallow Tail Butterfly Fresh Out Of Its Cacoon "
+    "title": "Butterfly Fresh Out Of Its Cocoon "
   },
   {
     "youtubeID": "OIGeXAjvL4E",
-    "title": "Lots of Love Birds Snacking on Giant Sunflowers"
+    "title": "Love Birds Snacking on Giant Sunflowers"
   },
   {
     "youtubeID": "hfUF5UTryYE",
-    "title": "Sammy, My Ayam Cemani Rooster and Leggy Leghorn Throwin' Back Swigs Of Water"
+    "title": "Chickens Throwin' Back Swigs Of Water"
   },
   {
     "youtubeID": "oRu1Mi0ifZU",
-  "title": "Huey Takes Down Flying Turtles like He's A Super Mario Brother!"
+  "title": "Catches Flying Turtles Like Super Mario"
   },
   {
     "youtubeID": "iiMBoQ_3NWo",
     "title": "Huey Ka-Bluey!"
   },{
     "youtubeID": "WQm9I3alVSg",
-    "title": "Huey Ka-Bluey Finally Found A Use For Our Bowflex"
+    "title": "Someone's Finally Using The Bowflex"
   },
   {
     "youtubeID": "F3LDBVHpgfQ",
-    "title": "Found This Guy Trying To Catch Mosquito Fish In Our Pond"
+    "title": "Found This Guy Trying To Fish In Our Pond"
   }
   ]
 }

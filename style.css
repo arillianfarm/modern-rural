@@ -104,25 +104,47 @@ div.scrollmenu {
 
 div.scrollmenu a {
     display: inline-block;
-    /*color: white;*/
     text-align: center;
-    /*padding: 14px;*/
     text-decoration: none;
     font:500 11px Lato;
     letter-spacing:2px;
     padding:16px !important;
-    /*color:#a3bfc6 !important;*/
     color:#FFF !important;
     text-transform:uppercase;
     position:relative;
     z-index:1000;
 }
 
-div.scrollmenu a:hover{
-    color:#FFF !important;
-    background:#f4933e !important;
-    cursor: pointer;
+div.scrollmenu {
+    background-color: #33333;
+    overflow: auto;
+    white-space: nowrap;
+    border-bottom:4px solid #f4933e !important;
 }
+
+.video-box {
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+/*div.vert-scrollmenu a {*/
+/*    display: inline-block;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    font:500 11px Lato;*/
+/*    letter-spacing:2px;*/
+/*    padding:16px !important;*/
+/*    color:#FFF !important;*/
+/*    text-transform:uppercase;*/
+/*    position:relative;*/
+/*    z-index:1000;*/
+/*}*/
+
+/*div.vert-scrollmenu a:hover{*/
+/*    color:#FFF !important;*/
+/*    background:#f4933e !important;*/
+/*    cursor: pointer;*/
+/*}*/
 
 @media (max-width: 767px) {
     .nav{

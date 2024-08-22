@@ -106,6 +106,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         console.log("click")
     };
 
+    $scope.toCaps = function(string){
+        return string.toUpperCase();
+    }
+
+
     //to route to an external url need to use this function
     $scope.getIframeSrc = function (url) {
         return url;
@@ -151,6 +156,15 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     };
 
 // VIDEO VIEW
+    $scope.albumCovers = [
+        {name: "animals", thumbnail:"assets/headerPictures/chickenSunrise.png"},
+        {name: "goats", thumbnail:"assets/pictures/goatAirplane.png"},
+        {name: "dogs", thumbnail:"assets/pictures/hueyXena.png"},
+        {name: "chickens", thumbnail:"assets/headerPictures/sammySky.png"},
+        {name: "arillian Skies", thumbnail:"assets/headerPictures/sunset1.png"},
+        {name: "gardens", thumbnail:"assets/headerPictures/artichokeBundle.png"},
+        {name: "all", thumbnail:"assets/pictures/washingBeets.png"}
+    ];
 
 // PICTURE VIEW
 
