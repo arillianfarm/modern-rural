@@ -1,13 +1,17 @@
 <div  class="container">
-  <div class="row " ng-repeat="recipe in recipes track by $index">
+  <div class="row" ng-repeat="recipe in recipes track by $index">
    <div class="card card-primary">
      <div class="card-header">
          <div class="row">
-             <div class="col-xs-12 col-lg-6">
-                <h3>{{recipe.name}}</h3>
+             <div class="col-xs-8 col-lg-5">
+                <h4>{{recipe.name}}</h4>
              </div>
-             <div class="col-lg-6 small-hide text-right mt-3">
-                 <h4 ng-if="recipe.notes" class="text-muted" >{{recipe.notes}}</h4>
+             <div class="col-lg-5 small-hide text-right mt-3" >
+                 <h5 ng-if="recipe.notes" >{{recipe.notes}}</h5>
+             </div>
+             <div class="col-xs-4 col-lg-2 mt-4 text-white cursPoint" >
+                 <a class="btn btn-light btn-xs" ng-click="copyForClipboard(recipe.summary)"><i class="fa fa-files-o"> Recipe </i></a>
+                 <a class="btn btn-info btn-xs" ng-click="putHashLinkOnClipboard(recipe.name)"> <i class="fa fa-files-o"> Link </i> </a>
              </div>
          </div>
      </div>

@@ -85,6 +85,10 @@ body{
     background:#f4933e;
 }
 
+.cursPoint{
+    cursor: pointer;
+}
+
 .blog-header{
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;

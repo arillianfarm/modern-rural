@@ -101,6 +101,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     // UTILITY FUNCTIONS
 
+    //function to test that ngclick events etc are firing
+    $scope.sayClick = function(){
+        console.log("click")
+    };
+
     //to route to an external url need to use this function
     $scope.getIframeSrc = function (url) {
         return url;
@@ -108,23 +113,33 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     //scroll to a specific entry on a specific view
     $scope.scrollToHash = function() {
+        //todo, will it be a problem that I include all views on the main page?
         var hash = $location.hash();
         if (hash) {
             $anchorScroll();
         }
     };
 
-    $scope.assembleIDattribute = function(doc, docType){
-        let nameField;
-        switch(docType) {
-            case 'blog':
-                nameField = "entry_subject";
-            break;
-            default:
-                nameField = 'name';
-        }
-        return doc[nameField].replace(" ", "-");
+    //put text into clipboard
+    $scope.copyForClipboard = function(text) {
+        navigator.clipboard.writeText(text).then(() => {
+            console.log('Text copied to clipboard:' + text);
+        })
+        .catch(err => {
+            console.error('Failed to copy text:  ', err);
+        });
+    };
+
+    $scope.assembleIDattribute = function(docName){
+        return docName.replace(" ", "-");
     }
+
+    $scope.putHashLinkOnClipboard = function(nameTitleField){
+        let preHash = $location['$$absUrl'];
+        let postHash = $scope.assembleIDattribute(nameTitleField);
+        let hashLink = `${preHash}#${postHash}`;
+        $scope.copyForClipboard(hashLink);
+    };
 
     $scope.copyToClipboard = function(){
 
