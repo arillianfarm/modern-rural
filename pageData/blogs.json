@@ -4,6 +4,18 @@
       "entry_number": 1,
       "entry_date": "August 9, 2024",
       "entry_subject": "Do Folks Even Read Blogs?",
+      "feature_section_1": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
       "entry_paragraphs": [
         {
           "bold":false,
@@ -19,6 +31,18 @@
       "entry_number": 2,
       "entry_date": "August 12, 2024",
       "entry_subject": "My Google Sheets Kanban Board",
+      "feature_section_1": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
       "pic_file": "kanban1.png",
       "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJC6WFdhJzehXvB2h_5yPAZsoQVBE7aT6oIhu1mrtGZ4G0hfzhyBuynwkqPvYJWYLfytprri2vwEqb/pubhtml",
       "entry_paragraphs": [
@@ -36,6 +60,18 @@
       "entry_number": 3,
       "entry_date": "August 20, 2024",
       "entry_subject": "A day on Arillian Farm",
+      "feature_section_1": {
+        "caption": "Buck Bugggaaak",
+        "pic": "chickenFeed.png"
+      },
+      "feature_section_2": {
+        "caption": "Yummy Yummy in the tummy",
+        "pic": "breakfastTreats.png"
+      },
+      "feature_section_3": {
+        "caption": "oh lalala",
+        "pic": "happyBasilOkra.png"
+      },
       "pic_file": "chickenFeed.png",
       "link": null,
       "entry_paragraphs": [

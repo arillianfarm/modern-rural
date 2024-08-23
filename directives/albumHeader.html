@@ -1,0 +1,37 @@
+<div class="row text-center small-hide">
+  <div class="col-xs-12 ml-20" style="display:inline-flex;">
+    <div class="text-center "ng-repeat="album in albumCovers track by $index">
+      <div class="ml-5 cursPoint"
+           style="padding:10px;">
+                            <span >
+                                <img class="br20"
+                                     ng-click="goToAlbum(album.name)"
+                                     ng-src="{{album.thumbnail}}"
+                                     height="100em; ">
+                            </span>
+      </div>
+      <p class="text-white text-small text-center">
+        {{album.name}}
+      </p>
+    </div>
+  </div>
+</div>
+<div class="row text-center big-hide">
+  <div class="col-xs-12 x-scroller" >
+    <div class="text-center "ng-repeat="album in albumCovers track by $index">
+      <div class="ml-5 cursPoint"
+       style="padding:10px;">
+        <span >
+            <img class="small-round"
+                 ng-click="goToAlbum(album.name)"
+                 ng-src="{{album.thumbnail}}"
+                 height="50em;"
+                 width="50em; ">
+        </span>
+      </div>
+      <p class="text-white text-center">
+        {{album.name}}
+      </p>
+    </div>
+  </div>
+</div>

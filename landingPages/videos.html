@@ -1,10 +1,20 @@
-<div class="row text-center p-3 mb-5" >
-    <div class="col-xs-12" ng-repeat="video in videos">
-        <h3 class="text-white">{{video.title}}</h3>
-        <iframe width="100%"
-                height="auto"
-                autoplay="0"
-                ng-src="{{getIframeSrcForYouTube(video.youtubeID)}}">
-        </iframe>
+<div class="container text-center p-3 mb-5" >
+    <div class="row text-center" >
+        <div class="col-xs-12">
+            <h4 class="text-white">Video Albums</h4>
+        </div>
+        <div class="ml-5" album-header></div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-12 col-lg-4 mb-5" ng-repeat="video in videos track by $index">
+            <a class="text-white" ng-href="{{getIframeSrcForYouTube(video.youtubeID)}}" target="_blank">{{toCaps(video.title, 50)}} <i class="fa fa-external-link"></i></a>
+            <iframe width="100%"
+                    class="video-box"
+                    height="auto"
+                    autoplay="0"
+                    ng-src="{{getIframeSrcForYouTube(video.youtubeID)}}">
+            </iframe>
+        </div>
     </div>
 </div>
