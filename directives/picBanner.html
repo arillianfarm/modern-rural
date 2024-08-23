@@ -1,6 +1,5 @@
-
-  <img ng-if="headerPicFiles && headerPicFiles.length"
-       ng-repeat="pic in headerPicFiles track by $index"
-       ng-src="assets/headerPictures/{{pic.name}}"
-       ng-class="{'small-hide':pic.small_hide}"
-       style="width: auto; height: 10em;">
+<img ng-if="headerPicFiles && headerPicFiles.length"
+     ng-repeat="pic in headerPicFiles track by $index"
+     ng-src="assets/headerPictures/{{pic.name}}"
+     ng-class="{'small-hide':pic.small_hide}"
+     style="width: auto; height: 10em;">
