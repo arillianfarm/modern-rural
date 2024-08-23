@@ -16,6 +16,7 @@ body{
     border-bottom:4px solid #f4933e !important;
 }
 
+
 .navbar-brand{
     font:12px Lato !important;
     text-transform:uppercase;
@@ -46,6 +47,27 @@ body{
     padding-top:1em;
 }
 
+
+
+.x-scroller {
+    /*width: 500px;*/
+    /*height: 100px;*/
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.x-scroller div {
+    /*width: 24.5%;*/
+    /*background-color: #eee;*/
+    float: none;
+    /*height: 90%;*/
+    margin: 0 0.25%;
+    display: inline-block;
+    zoom: 1;
+}
 /*.nav a{*/
 
 /*    font:500 11px Lato;*/
@@ -122,6 +144,10 @@ div.scrollmenu {
     border-bottom:4px solid #f4933e !important;
 }
 
+.br20{
+    border-radius: 20px;
+}
+
 .video-box {
     border-radius: 20px;
     border: 2px solid white;
@@ -169,6 +195,10 @@ div.scrollmenu {
     img {
         width:100%;
         height:auto;
+    }
+    img.small-round {
+        border-radius:20px;
+        height:5em;
     }
 }
 

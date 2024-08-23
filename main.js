@@ -45,6 +45,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
         })
+        .when("/album", {
+            templateUrl : "landingPages/album.html"
+        })
         .otherwise( {
             redirectTo : "/"
         })
@@ -96,6 +99,13 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         link: link,
         templateUrl: 'directives/contentSearch.html'
     };
+}]).directive('albumHeader', [function(){
+    function link(scope, element, attrs) {
+    }
+    return {
+        link: link,
+        templateUrl: 'directives/albumHeader.html'
+    };
 }]).controller('mainController', function( $scope, dataService,$location, $anchorScroll){
     console.log("main controller loaded")
 
@@ -106,8 +116,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         console.log("click")
     };
 
-    $scope.toCaps = function(string){
-        return string.toUpperCase();
+    $scope.toCaps = function(string, truncateLength){
+        let newString;
+        if (truncateLength){
+            newString = (string.length > truncateLength ? `${string.substring(0,truncateLength)}...` : string);
+        }
+        return newString.toUpperCase();
+    }
+
+    $scope.trunc = function(string, length){
+        return string.substring(0,length);
     }
 
 
@@ -155,15 +173,20 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return 'https://www.youtube.com/embed/' + videoId;
     };
 
+    $scope.goToAlbum = function(){
+        //TODO: write function to put a hash location in and then have a view for video / pic album
+    };
+
+
 // VIDEO VIEW
     $scope.albumCovers = [
-        {name: "animals", thumbnail:"assets/headerPictures/chickenSunrise.png"},
-        {name: "goats", thumbnail:"assets/pictures/goatAirplane.png"},
-        {name: "dogs", thumbnail:"assets/pictures/hueyXena.png"},
-        {name: "chickens", thumbnail:"assets/headerPictures/sammySky.png"},
-        {name: "arillian Skies", thumbnail:"assets/headerPictures/sunset1.png"},
-        {name: "gardens", thumbnail:"assets/headerPictures/artichokeBundle.png"},
-        {name: "all", thumbnail:"assets/pictures/washingBeets.png"}
+        {name: "all", thumbnail:"assets/pictures/washbeetssq.png"},
+        {name: "arillian Skies", thumbnail:"assets/pictures/sunsetsq.png"},
+        {name: "chickens", thumbnail:"assets/faviconsSammy1/android-chrome-192x192.png"},
+        {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
+        {name: "gardens", thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
+        {name: "goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png"},
+        {name: "wildlife", thumbnail:"assets/pictures/butterflysunrise.png"}
     ];
 
 // PICTURE VIEW

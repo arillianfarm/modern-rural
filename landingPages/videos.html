@@ -1,27 +1,14 @@
 <div class="container text-center p-3 mb-5" >
-    <div class="row" >
+    <div class="row text-center" >
         <div class="col-xs-12">
-            <h4 class="text-white">Albums</h4>
+            <h4 class="text-white">Video Albums</h4>
         </div>
-        <div class="row" >
-            <div class="col-xs-12 " style="display:inline-flex;">
-                <div class="mb-5 ml-5 video-box"
-                     style="height:10em"
-                      ng-repeat="album in albumCovers track by $index">
-                    <span >
-                        <img ng-src="{{album.thumbnail}}" height="50em;">
-                    </span>
-                    <h5 class="text-white">
-                        {{toCaps(album.name)}}
-                    </h5>
-                </div>
-            </div>
-        </div>
+        <div class="ml-5" album-header></div>
     </div>
     <hr>
     <div class="row">
         <div class="col-xs-12 col-lg-4 mb-5" ng-repeat="video in videos track by $index">
-            <p class="text-white">{{toCaps(video.title)}}</p>
+            <a class="text-white" ng-href="{{getIframeSrcForYouTube(video.youtubeID)}}" target="_blank">{{toCaps(video.title, 50)}} <i class="fa fa-external-link"></i></a>
             <iframe width="100%"
                     class="video-box"
                     height="auto"
