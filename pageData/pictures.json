@@ -2,6 +2,7 @@
   "data": [
   {
     "file": "hueyXena.png",
-  "caption": "Huey Loves Xexe bear!"
+    "caption": "Huey Loves Xexe bear!",
+    "albums": ["dogs"]
   }
 ]}

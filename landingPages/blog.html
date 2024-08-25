@@ -1,7 +1,12 @@
 <div class="container br20 border2px" >
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="text-white">Blog</h2>
+        </div>
+    </div>
     <div class="row text-white">
         <div class="col-xs-12 col-lg-8" style="border-right:2px solid white;">
-            <div  ng-repeat="entry in blogEntries track by $index">
+            <div  ng-if="$index == 0" ng-repeat="entry in blogEntries track by $index">
                 <div ng-id="assembleIDattribute(entry.entry_subject)"  ng-click="entry.expanded = !entry.expanded">
                     <h5 class="mb-0">
                         <div class="row blog-header">
@@ -13,6 +18,7 @@
                             </div>
                         </div>
                     </h5>
+                    <hr>
                 </div>
                 <div  class={{entry.expanded?'show':'hide'}} >
                     <div class="row">
@@ -27,27 +33,25 @@
                             </div>
                         </div>
                         <div ng-if="!entry.link && entry.pic_file" class="col-xs-12 text-center mb-5 mt-5">
-                            <img ng-src="./assets/blog/{{entry.pic_file}}" style="height: 20em;">
+                            <img class="br20" ng-src="./assets/blog/{{entry.pic_file}}" style="height: 20em;">
                         </div>
                         <div ng-if="entry.link && !entry.pic_file" class="col-xs-12 text-center mb-5 mt-5">
                             <h3  ng-href="{{getIframeSrc(entry.link)}}" target="_blank">[LINK]</h3>
                         </div>
-                        <div class="col-xs-12 text-center" ng-repeat="paragraph in entry.entry_paragraphs track by $index">
-                            <h4  ng-if="!paragraph.bold" style="margin-left:25px;">
+                        <div class="col-xs-12 text-justified wrap" ng-repeat="paragraph in entry.entry_paragraphs track by $index">
+                            <p  ng-if="!paragraph.bold" style="margin-left:25px;">
                                 {{paragraph.text}}
-                            </h4>
-                            <h4>
-                                <b ng-if="paragraph.bold">
-                                    {{paragraph.text}}
-                                </b>
-                            </h4>
-                            <br>
-                            <div ng-if="paragraph.pics" class="col-xs-12"  >
-                                <img ng-src="./assets/blog/{{pic}}"
+                            </p>
+                            <b ng-if="paragraph.bold">
+                                {{paragraph.text}}
+                            </b>
+                                <img ng-if="paragraph.pics"
+                                     ng-src="./assets/blog/{{pic}}"
                                      style="height: 20em;"
+                                     class="br20"
                                      ng-repeat="pic in paragraph.pics track by $index"
                                 >
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -55,21 +59,35 @@
         </div>
 <!--        side scroll bar-->
         <div class="col-lg-4 small-hide">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Past Articles</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li ng-repeat="item in [{link:'/'}]" class="nav-item">
-                                <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3>
+                        <a>Past Entries</a>
+                    </h3>
+                    <hr>
                 </div>
-            </nav>
+                <div class="col-xs-12 border2px br20 m-2" ng-repeat="item in blogEntries track by $index" >
+                   <div class="row">
+                       <div class="col-xs-12">
+                           <h4>
+                               <a class="nav-link text-white" ng-click="scrollToBlogItem(item.entry_subject)">{{ item.entry_subject }}</a>
+                           </h4>
+                       </div>
+
+                       <div class="col-lg-12" >
+                           <div class="wrap" ng-if="item.feature_section_1 && item.feature_section_1.pic">
+                               <img class="br20"
+                                     ng-src="{{item.feature_section_1.pic}}"
+                                     width="75em;"
+                                     height="75em;">
+                           </div>
+                           <div>
+                                <p ng-if="item.entry_paragraphs && item.entry_paragraphs[0]">{{trunc(item.entry_paragraphs[0].text, 80)}}</p>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

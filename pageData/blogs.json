@@ -30,10 +30,10 @@
     {
       "entry_number": 2,
       "entry_date": "August 12, 2024",
-      "entry_subject": "My Google Sheets Kanban Board",
+      "entry_subject": "Yes We Kanban!",
       "feature_section_1": {
         "caption": "",
-        "pic": ""
+        "pic": "assets/blog/kanban1.png"
       },
       "feature_section_2": {
         "caption": "",
@@ -62,7 +62,7 @@
       "entry_subject": "A day on Arillian Farm",
       "feature_section_1": {
         "caption": "Buck Bugggaaak",
-        "pic": "chickenFeed.png"
+        "pic": "assets/blog/chickenFeed.png"
       },
       "feature_section_2": {
         "caption": "Yummy Yummy in the tummy",

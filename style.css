@@ -153,6 +153,11 @@ div.scrollmenu {
     border: 2px solid white;
 }
 
+.wrap {
+    float:left;
+    margin:5px;
+}
+
 /*div.vert-scrollmenu a {*/
 /*    display: inline-block;*/
 /*    text-align: center;*/

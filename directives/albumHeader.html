@@ -1,14 +1,14 @@
 <div class="row text-center small-hide">
-  <div class="col-xs-12 ml-20" style="display:inline-flex;">
+  <div class="col-xs-12 te" style="display:inline-flex; ">
     <div class="text-center "ng-repeat="album in albumCovers track by $index">
       <div class="ml-5 cursPoint"
            style="padding:10px;">
-                            <span >
-                                <img class="br20"
-                                     ng-click="goToAlbum(album.name)"
-                                     ng-src="{{album.thumbnail}}"
-                                     height="100em; ">
-                            </span>
+              <span >
+                  <img class="br20"
+                       ng-click="goToAlbum(album.name)"
+                       ng-src="{{album.thumbnail}}"
+                       height="100em; ">
+              </span>
       </div>
       <p class="text-white text-small text-center">
         {{album.name}}

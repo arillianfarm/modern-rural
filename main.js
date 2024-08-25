@@ -48,6 +48,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         .when("/album", {
             templateUrl : "landingPages/album.html"
         })
+        .when("/archive", {
+            templateUrl : "landingPages/archive.html"
+        })
         .otherwise( {
             redirectTo : "/"
         })
@@ -125,7 +128,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     }
 
     $scope.trunc = function(string, length){
-        return string.substring(0,length);
+        let newString;
+        if (length){
+            newString = (string.length > length ? `${string.substring(0,length)}...` : string);
+        }
+        return newString;
     }
 
 
@@ -153,8 +160,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         });
     };
 
+    $scope.scrollToBlogItem = function(docName){
+        let newHash= `${docName.split(" ").join("-")}`;
+        let hash = $location.hash(newHash);
+        if (hash) {
+            $anchorScroll();
+        }
+    }
+
     $scope.assembleIDattribute = function(docName){
-        return docName.replace(" ", "-");
+        return docName.split(" ").join("-");
     }
 
     $scope.putHashLinkOnClipboard = function(nameTitleField){
@@ -245,12 +260,12 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                    pagesToUse = $scope.hyperspear_display_pages;
                    displayPage = $scope.hyperspear_display_page||"";
                    currentIndex = pagesToUse.indexOf(displayPage);
-                   nextPage = currentIndex +1 <= ($scope.hyperspear_display_pages.length -1) ? $scope.hyperspear_display_pages[currentIndex +1] : $scope.hyperspear_display_pages[0];
+                   nextPage = currentIndex +1 >= ($scope.hyperspear_display_pages.length -1) ? $scope.hyperspear_display_pages[currentIndex +1] : $scope.hyperspear_display_pages[0];
                    $scope.hyperspear_display_page = nextPage;
                    break;
                default:
                 currentIndex = pagesToUse.indexOf(displayPage);
-                nextPage = currentIndex +1 <= ($scope.unfettered_display_pages.length -1) ? $scope.unfettered_display_pages[currentIndex +1] : $scope.unfettered_display_pages[0];
+                nextPage = currentIndex +1 >= ($scope.unfettered_display_pages.length -1) ? $scope.unfettered_display_pages[currentIndex +1] : $scope.unfettered_display_pages[0];
                 $scope.unfettered_display_page = nextPage;
            }
 
@@ -261,19 +276,18 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             $scope.recipeSort = 'a2z';
             dataService.getData('recipes',$scope).then(function(jsonObj) {
                 $scope.recipes = jsonObj.data;
-                $scope.scrollToHash();
             });
 
             //initialize videos
             dataService.getData('videos',$scope).then(function(jsonObj) {
                 $scope.videos = jsonObj.data;
-                $scope.scrollToHash();
+                $scope.currentVideoAlbum = 'all';
             });
 
             //initialize pictures
             dataService.getData('pictures',$scope).then(function(jsonObj) {
                 $scope.pictures = jsonObj.data;
-                $scope.scrollToHash();
+                $scope.currentPhotoAlbum = 'all';
             });
 
             //initialize  blogs
@@ -281,13 +295,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             dataService.getData('blogs',$scope).then(function(jsonObj) {
                 $scope.blogEntriesRaw = jsonObj.data;
                 $scope.blogEntries = $scope.sortBlogList();
-                $scope.scrollToHash();
             });
 
             //initialize projects
             dataService.getData('projects',$scope).then(function(jsonObj) {
                 $scope.projects = jsonObj.data;
-                $scope.scrollToHash();
             });
 
             //initialize  books
@@ -295,8 +307,10 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             $scope.hyperspear_display_pages = ["hyperspear1.png", "hyperspear2.png", "hyperspear3.png" ];
             $scope.setNextDisplayPage();
             $scope.setNextDisplayPage('hyperspear');
+
+            $scope.scrollToHash();
         }
-        $scope.init();
+    $scope.init();
     })
 $(document).ready(function(){
     console.log("document ready")
