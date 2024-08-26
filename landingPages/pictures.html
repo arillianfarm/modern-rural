@@ -32,11 +32,11 @@
   <div class="row text-center" >
     <div class="col-xs-12">
       <h4 class="text-white">Picture Albums</h4>
-      <div class="ml-5" album-header></div>
+      <div class="ml-5" album-header album-type="pictures"></div>
     </div>
   </div>
   <hr>
-  <div class="row">
+  <div class="row" ng-if="pictures">
     <div class="col-xs-12 col-lg-4 mb-5" ng-repeat="pic in pictures track by $index">
       <h4 class="text-white">
         {{pic.caption}}
@@ -46,18 +46,4 @@
     </div>
   </div>
 </div>
-
-<!--  <div class="row">-->
-<!--    <div class="col-xs-12 border2px text-center text-white">-->
-<!--      <h2>Albums</h2>-->
-<!--      <div class="row " ng-repeat="pic in pictures track by $index">-->
-<!--        <div class="col-xs-12 text-center">-->
-<!--          <img  ng-src="./assets/pictures/{{pic.file}}" style="height: 300px;">-->
-<!--        </div>-->
-<!--        <div class="col-xs-12 text-center">-->
-<!--          <h4 class="text-muted" ng-if="pic.caption">{{pic.caption}}</h4>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
 </div>

@@ -2,11 +2,11 @@
     <div class="row text-center" >
         <div class="col-xs-12">
             <h4 class="text-white">Video Albums</h4>
-            <div class="ml-5" album-header></div>
+            <div class="ml-5" album-header album-type="videos"></div>
         </div>
     </div>
     <hr>
-    <div class="row">
+    <div class="row" ng-if="videos">
         <div class="col-xs-12 col-lg-4 mb-5" ng-repeat="video in videos track by $index">
             <a class="text-white"
                ng-href="{{getIframeSrcForYouTube(video.youtubeID)}}"

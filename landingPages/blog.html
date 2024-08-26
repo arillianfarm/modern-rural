@@ -4,7 +4,7 @@
             <h2 class="text-white">Blog</h2>
         </div>
     </div>
-    <div class="row text-white">
+    <div class="row text-white" ng-if="blogEntries">
         <div class="col-xs-12 col-lg-8" style="border-right:2px solid white;">
             <div  ng-if="$index == 0" ng-repeat="entry in blogEntries track by $index">
                 <div ng-id="assembleIDattribute(entry.entry_subject)"  ng-click="entry.expanded = !entry.expanded">

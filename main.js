@@ -104,6 +104,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     };
 }]).directive('albumHeader', [function(){
     function link(scope, element, attrs) {
+        scope.albumType = attrs.albumType;
     }
     return {
         link: link,
@@ -188,7 +189,21 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return 'https://www.youtube.com/embed/' + videoId;
     };
 
-    $scope.goToAlbum = function(){
+    $scope.goToAlbum = function(albumName, albumType){
+        let filteredList = [];
+        $scope.currentAlbum = albumName;
+        switch (albumType){
+            case 'videos':
+                filteredList = albumName == 'all' ? $scope.videosRaw : $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumName)>-1);
+                $scope.videos = filteredList;
+                break;
+            case 'pictures':
+                filteredList = albumName == 'all' ? $scope.picturesRaw : $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumName)>-1);
+                $scope.pictures = filteredList;
+                break;
+            default:
+                break;
+        }
         //TODO: write function to put a hash location in and then have a view for video / pic album
     };
 
@@ -280,14 +295,14 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
             //initialize videos
             dataService.getData('videos',$scope).then(function(jsonObj) {
+                $scope.videosRaw = jsonObj.data;
                 $scope.videos = jsonObj.data;
-                $scope.currentVideoAlbum = 'all';
             });
 
             //initialize pictures
             dataService.getData('pictures',$scope).then(function(jsonObj) {
+                $scope.picturesRaw = jsonObj.data;
                 $scope.pictures = jsonObj.data;
-                $scope.currentPhotoAlbum = 'all';
             });
 
             //initialize  blogs
@@ -308,6 +323,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             $scope.setNextDisplayPage();
             $scope.setNextDisplayPage('hyperspear');
 
+            $scope.currentAlbum = 'all';
             $scope.scrollToHash();
         }
     $scope.init();

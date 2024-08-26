@@ -158,6 +158,13 @@ div.scrollmenu {
     margin:5px;
 }
 
+.highlighted {
+    border: 3px solid yellow;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
 /*div.vert-scrollmenu a {*/
 /*    display: inline-block;*/
 /*    text-align: center;*/
