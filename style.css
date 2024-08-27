@@ -148,6 +148,10 @@ div.scrollmenu {
     border-radius: 20px;
 }
 
+.bb2 {
+    border-bottom: 2px solid white;
+}
+
 .video-box {
     border-radius: 20px;
     border: 2px solid white;
