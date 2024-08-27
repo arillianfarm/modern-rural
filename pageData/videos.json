@@ -4,44 +4,72 @@
     "youtubeID": "cz3icswXVF0",
     "title": "McGoats raids the chicken coop",
     "albums": ["goats", "animals"],
-    "release_date": "8/30/24"
+    "release_date": "9/27/24"
   },
   {
     "youtubeID": "yKpOoAmH_YU",
     "title": "Totes takes the ramp instead",
     "albums": ["goats", "animals"],
-    "release_date": "8/30/24"
+    "release_date": "9/27/24"
   },
   {
     "youtubeID": "Uo8EC0U5iCo",
-    "title": "chicks exploring"
+    "title": "chicks exploring",
+    "albums": ["chickens", "animals"],
+    "release_date": "9/27/24"
   },
   {
     "youtubeID": "Ey92lBEr-Wc",
-    "title": "Butterfly Fresh Out Of Its Cocoon "
+    "title": "Butterfly Fresh Out Of Its Cocoon ",
+    "albums": ["wildlife", "animals"],
+    "release_date": "9/27/24"
   },
   {
     "youtubeID": "OIGeXAjvL4E",
-    "title": "Love Birds Snacking on Giant Sunflowers"
+    "title": "Love Birds Snacking on Giant Sunflowers",
+    "albums": ["wildlife", "animals"],
+    "release_date": "9/27/24"
   },
   {
     "youtubeID": "hfUF5UTryYE",
-    "title": "Chickens Throwin' Back Swigs Of Water"
+    "title": "Chickens Throwin' Back Swigs Of Water",
+    "albums": ["chickens", "animals"],
+    "release_date": "9/27/24"
   },
   {
     "youtubeID": "oRu1Mi0ifZU",
-  "title": "Catches Flying Turtles Like Super Mario"
+    "title": "Catches Flying Turtles Like Super Mario",
+    "albums": ["dogs", "animals"],
+    "release_date": "9/27/24"
   },
   {
     "youtubeID": "iiMBoQ_3NWo",
-    "title": "Huey Ka-Bluey!"
+    "title": "Huey Ka-Bluey!",
+    "albums": ["dogs", "animals"],
+    "release_date": "9/27/24"
   },{
     "youtubeID": "WQm9I3alVSg",
-    "title": "Someone's Finally Using The Bowflex"
-  },
+    "title": "Someone's Finally Using The Bowflex",
+    "albums": ["dogs", "animals"],
+      "release_date": "9/27/24"
+    },
   {
     "youtubeID": "F3LDBVHpgfQ",
-    "title": "Found This Guy Trying To Fish In Our Pond"
+    "title": "Found This Guy Trying To Fish In Our Pond",
+    "albums": ["wildlife", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "fjlJJqY582s",
+    "title": "Huey Teaching me which toys he likes best",
+    "albums": ["dogs", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "22PEk_bnVH0",
+    "title": "Totes and McGoats sharing sun-scorched brussels sprouts",
+    "albums": ["dogs", "animals"],
+    "release_date": "9/27/24"
   }
   ]
 }

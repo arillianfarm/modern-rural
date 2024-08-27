@@ -1,8 +1,16 @@
 {
   "data": [
   {
+    "file": "farmfluencers.png",
+    "caption": "Totes And I Just Trying To Be Farmfluencers Over Here!",
+    "albums": ["goats"]
+  },{
     "file": "hueyXena.png",
     "caption": "Huey Loves Xexe bear!",
     "albums": ["dogs"]
+  },{
+    "file": "butterflysunrise.png",
+    "caption": "Fresh out of the cacoon",
+    "albums": ["wildlife"]
   }
 ]}
