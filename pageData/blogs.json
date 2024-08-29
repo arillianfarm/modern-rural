@@ -29,7 +29,7 @@
     },
     {
       "entry_number": 2,
-      "entry_date": "August 12, 2024",
+      "entry_date": "August 16, 2024",
       "entry_subject": "Yes We Kanban!",
       "feature_section_1": {
         "caption": "",
@@ -58,8 +58,10 @@
     },
     {
       "entry_number": 3,
-      "entry_date": "August 20, 2024",
+      "entry_date": "August 23, 2024",
       "entry_subject": "A day on Arillian Farm",
+      "custom_blog_1": true,
+      "featured_blog": true,
       "feature_section_1": {
         "caption": "Buck Bugggaaak",
         "pic": "assets/blog/chickenFeed.png"
@@ -77,19 +79,147 @@
       "entry_paragraphs": [
         {
           "bold":false,
-          "text": "4:00AM, 87F - Out into The Dark Hottness I Go! To Grab Basil For My Chickens and Okra For My Dogs. (These are two of the few things in my garden that seem to thrive in August)",
+          "text": "4:00AM, 87F - Out into The Dark Hotness I Go! To Grab Basil For My Chickens and Okra For My Dogs. (These are two of the few things in my garden that seem to thrive in August)",
           "link": null,
           "pics": ["fourAMScreenShot.PNG", "happyBasilOkra.png"]
         },
         {
           "bold":false,
           "text": "4:45AM Barnyard Breakfast! (I feed my chickens before sunrise for two reasons 1- I want them to lay as early in the day as possible 'cause I think laying is more stressful the hotter it gets, 2, there are a million pigeons and doves that try to get after their food and they don’t show up until after sunrise.",
-          "pics": ["breakfastTreats.png"]
+          "pics": ["breakfastTreats.png", "barnyardbreakfast2.png", "earlyAManimals.png"],
+          "videos": ["BqNq-B4QhXU"]
         },
         {
           "bold":false,
-          "text": "" ,
+          "text": "5:00AM DOoooUGH - I’m going to make sourdough bread later, so I need to wake up (remove from fridge and let it come to room temp) and feed my starter. It needs to be “fed” a half cup of flour and a half cup of water once a week and if I’m not going to be using it that day, I usually dump about a cup of the existing starter into my compost before I feed it." ,
+          "internal_links": ["recipes-sourdough", "recipes-sourdough-starter"],
+          "pics": ["feedStarter.png"]
+        },{
+          "bold":false,
+          "text": "6:00AM Coffee break (my friend Christa got me this amazing mug) I’ve been making cold brew instead of hot coffee … partly ‘cause its hot and partly because its less acidic than hot coffee. I put it in my fridge door ‘cause I think the constant agitation form the door opening and closing will help it brew… but that could be fake news." ,
           "pics": []
+        },
+        {
+          "bold":false,
+          "text": "6:30AM Dog breakfast and shift change! Our two male dogs can’t be together anymore (due to Huey stalking and wanting to kill Pajama), so we keep them separated by a locked door –or leashed to opposing walls at all times. I swap who’s in the bedroom and who’s outside after breakfast so they both have a chance to play with Xena and play fetch outside before its too hot." ,
+          "pics": []
+        },
+        {
+          "bold":false,
+          "text": "Weeding and Chicken treating" ,
+          "pics": []
+        },
+        {
+          "bold":false,
+          "text": "TENDING WATER GARDEN… THE OVERFLOW POND WATER FLOWS INTO THE CHICKENS COOP, SO THEY GET ANOTHER MUDDY / WET AREA TO COOL OFF (originally I was going to have the pond extend under their fence, but it turns out I’m not great at spacial analysis and my pond tarp was no where near large enough for that" ,
+          "pics": []
+        },
+        {
+          "bold":false,
+          "text": "Make poo piles ... clean the chicken coop and goat bedding (for later use in soil)" ,
+          "pics": []
+        }, {
+          "bold":false,
+          "text": "7:45AM On Tuesdays we break our weekend fast with a fresh smoothie that Arthur has designed to deliver the maximum nutritional value with the least amount of calories and a somewhat palatable taste. (I’ve tried to recreate the smoothies myself and they are definitely not palatable)" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "8:30AM Arthur is off to work. Time to start fleshing out this blog entry" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "10:30AM Start makeing dough for sourdough bread" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "11:30AM Final Fantasy Break while the bread proofs" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "12:00PM Ice the livestock and give the chickens some frozen corn treats" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "12:30 Continue with bread and Formatting this blog entry",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "2:00 feed the chickens and goats their afternoon meal – the goats get a little bit of chicken food because they scream at me for all the world to hear if I feed the chickens but not them. And the chickens don’t get oatmeal or banana in the afternoon ‘cause apparently 2 bananas is where I draw the line on over-treating my chickens. THey do get the egg shells from our morning smoothie though (to help them get enough ‘grit’ for digestion).",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "2:15 feed the dogs their afternoon meal",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "2:30 Bake the bread and continue working on Arillian Farm site",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "3:00 Tea Time / Watch some nostalgic 90s comfort tv (currently half way through season 1 of Who’s The Boss)",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "5:00 Coop up the chickens, collect the eggs, and tether the dogs",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "5:30 Arthur comes home, relax until bedtime",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "8:00 zzz",
+          "pics": []
+        }
+
+      ]
+    },
+    {
+      "entry_number": 4,
+      "entry_date": "August 30, 2024",
+      "entry_subject": "From Bread winner to bread baker OR From bringing home the bacon to stay at home farmer",
+      "feature_section_1": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "entry_paragraphs": [
+        {
+          "bold":false,
+          "text":"I was very fortunate after I went to a coding bootcamp in 2014. I was hired for my first (and only) software job two weeks after I completed the course."
+        },{
+          "bold":false,
+          "text":"When I first started working as a software developer, I loved my job and I really liked the team I worked with. At the height of my seven years with the company, there were five developers. We had a shared kanban board and played pointing poker and discussed what we were working on with each other and we had this thing we did where one of us would go 'doobee doobee doop doop doop' and the rest of us would go 'ahhhhaa' like in that one Annie Lennox song. It was just a great feeling of teamness. Plus, I was making about 25% more than I had at my previous job, so I was officially the breadwinner in my house."
+        },{
+          "bold":false,
+          "text":"Then my company had layoffs and our team got reduced to two. My least favorite coworker became my boss, we closed our physical office and started working from home. My new boss immediately hired three developers to work remotely from other countries (two from Ukraine and one from Nicaragua), so we all worked at different times of day and there was some language barrier, which became stressful."
+        },{
+          "bold":false,
+          "text":"Our boss had assigned us overlapping tasks in the same couple of files, so we were having immense issues merging our work together and communication was difficult and slow. I started waking up at 1:00AM so I could try to communicate with the Ukrainian developers before they “pushed” their file changes for the day and our boss basically stopped responding to work chat or emails and eventually abandoned his job entirely. Then the Ukrainian developers dropped off the project."
+        },{
+          "bold":false,
+          "text":"I was suddenly thrust into the role of project manager and lead developer, but I didn’t get a raise or pay bump. The owner of the company thanked me for stepping up and that was all the reward I got for increasing my weekly work hours from about 45 to about 65 just so I could merge and debug our shared files enough to keep the project from moving backward."
+        },{
+          "bold":false,
+          "text":"The only thing that made it bearable was my Nicaraguan coworker. He knew more about certain aspects of computer science than I and I knew more about other things than him, so we worked well together in that regard, but also, he’s just a genuinely good person: hardworking and communicative and also, he always spoke pridefully about his family and seemed to go to great lengths to take care of them. He lost his mother during COVID and after that, since he wasn’t able to get vaccines for his family in Nicaragua, he drove them (on dirt roads through small towns etc… not on a highway or anything) to Honduras to get them vaccinated. We would chat about what was going on in our lives and when I told him I have chickens, he sent me a feather with a picture of Nicaragua painted on it… and it was just like one of the most thoughtful unique things I’ve received. He’s just a very kind and thoughtful person. So, when the (non-technically inclined) owner of my company, who had never actually evaluated the work of my coworker, asked me to fire him because he wanted to put a different remote developer on our team instead, it was a gut punch. The economy wasn’t great and my co-worker supported a lot of people. It seemed like the job was much more important to him than me. Plus he was a hard worker and had a strong knowledge of the project, so I gave my notice and urged the owner to keep my coworker on since, after I left, he would be the only one with any knowledge of what we’d built so far."
+        },{
+          "bold":false,
+          "pic_file": "budget1.png",
+          "link": "https://docs.google.com/spreadsheets/d/1o5IAf3smq-RFusiekqUcnpePol36Cuo5QNgkbgEjOQc/edit?usp=sharing",
+          "text":"I guess that makes it sound more dramatic and altruistic than it was. I didn’t quit on the spot when they told me I was going to have to fire him. I’d actually already been planning to quit that year because I’d been feeling increasingly stressed and unhappy with the company, plus I was doing pretty well establishing a more passive income for myself."
+        },{
+          "bold":false,
+          "text":"A couple years earlier, I’d pulled equity out of my rental house in Tempe to build a second rental house on the same property as my first rental. I was finally three months from completion when they asked me to let my co-worker go. I had made a Google Sheet to track my spending and see if it was feasible for me to keep my expenses within my projected income. I was easing back on spending by cooking more at home and slowing down my Amazon Prime habit, so I’d been staying on budget for several months, plus, Arthur and I did a lot of the finishing work on the new rental house, so I was actually going to come in under my projected construction cost. Also, Arthur had just gotten a promotion at work, so we decided it was fine for me to quit and focus on my backyard farm and writing."
+        },{
+          "bold":false,
+          "text":"A week after the owner of my company told me to fire my coworker, at our next zoom meeting, I gave three months notice (so he could find a replacement and I could train them)  and I advised him that keeping my coworker on would be highly advisable since he was about to be the only person holding knowledge of the last several years of work on the project. They kept him on and gave him a raise and I started gardening, cooking and writing more."
         }
       ]
     }

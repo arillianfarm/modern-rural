@@ -45,11 +45,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
         })
-        .when("/album", {
-            templateUrl : "landingPages/album.html"
-        })
-        .when("/archive", {
-            templateUrl : "landingPages/archive.html"
+        .when("/petcare", {
+            templateUrl : "landingPages/animalCare.html"
         })
         .otherwise( {
             redirectTo : "/"
@@ -110,9 +107,22 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         link: link,
         templateUrl: 'directives/albumHeader.html'
     };
-}]).controller('mainController', function( $scope, dataService,$location, $anchorScroll){
-    console.log("main controller loaded")
+}]).directive('customBlog', [function(){
+    function link(scope, element, attrs) {
+        scope.blogData = JSON.parse(attrs.blogData);
+    }
+    return {
+        link: link,
+        templateUrl: 'directives/customBlog.html'
+    };
+}]).controller('mainController', function( $scope, $rootScope, dataService,$location, $anchorScroll){
 
+    $rootScope.smallView = window.innerWidth <= 400;
+    $rootScope.windowHeight = window.innerHeight;
+
+    $scope.calculateAlbumContainerSize = function(){
+        return $rootScope.smallView ? '25em' : '100%';
+    };
     // UTILITY FUNCTIONS
 
     //function to test that ngclick events etc are firing
@@ -142,6 +152,12 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return url;
     };
 
+    // The URL to embed a YouTube video is https://www.youtube.com/embed/VIDEO_ID (instead of /short or whatever).
+    $scope.getIframeSrcForYouTube = function (videoId) {
+        return 'https://www.youtube.com/embed/' + videoId;
+    };
+
+
     //scroll to a specific entry on a specific view
     $scope.scrollToHash = function() {
         //todo, will it be a problem that I include all views on the main page?
@@ -162,14 +178,15 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     };
 
     $scope.scrollToBlogItem = function(docName){
-        let newHash= `${docName.split(" ").join("-")}`;
-        let hash = $location.hash(newHash);
-        if (hash) {
-            $anchorScroll();
-        }
+         let newHash= `${docName.split(" ").join("-")}`;
+         let hash = $location.hash(newHash);
+         $scope.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName)
+        // if (hash) {
+        //     $anchorScroll();
+        // }
     }
 
-    $scope.assembleIDattribute = function(docName){
+    $rootScope.assembleIDattribute = function(docName){
         return docName.split(" ").join("-");
     }
 
@@ -184,10 +201,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     };
 
-    // The URL to embed a YouTube video is https://www.youtube.com/embed/VIDEO_ID (instead of /short or whatever).
-    $scope.getIframeSrcForYouTube = function (videoId) {
-        return 'https://www.youtube.com/embed/' + videoId;
-    };
 
     $scope.goToAlbum = function(albumName, albumType){
         let filteredList = [];
@@ -211,7 +224,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 // VIDEO VIEW
     $scope.albumCovers = [
         {name: "all", thumbnail:"assets/pictures/washbeetssq.png"},
-        {name: "arillian Skies", thumbnail:"assets/pictures/sunsetsq.png"},
+        {name: "sky", thumbnail:"assets/pictures/sunsetsq.png"},
         {name: "chickens", thumbnail:"assets/faviconsSammy1/android-chrome-192x192.png"},
         {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
         {name: "gardens", thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
@@ -308,8 +321,14 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             //initialize  blogs
             $scope.blogSort = 'n2o';
             dataService.getData('blogs',$scope).then(function(jsonObj) {
-                $scope.blogEntriesRaw = jsonObj.data;
-                $scope.blogEntries = $scope.sortBlogList();
+                $scope.blogEntriesRaw = jsonObj.data.reduce((acc,item)=>{
+                    if (item.featured_blog){
+                        $scope.featuredBlogEntry = item;
+                    }
+                    acc.push(item);
+                    return acc;
+                },[]);
+                $scope.blogEntries = angular.copy($scope.blogEntriesRaw);
             });
 
             //initialize projects

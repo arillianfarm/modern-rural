@@ -1,4 +1,4 @@
-<div  class="container border2px br20">
+<div  class="container border2px br20"  ng-style="{'max-width':calculateAlbumContainerSize()}">
   <div class="row text-white text-center border2px">
     <div class="col-xs-12">
       <h2>Caption Contest</h2>
@@ -32,17 +32,18 @@
   <div class="row text-center" >
     <div class="col-xs-12">
       <h4 class="text-white">Picture Albums</h4>
-      <div class="ml-5" album-header album-type="pictures"></div>
+      <div class="ml-5 big-hide" style="max-width:26em;" album-header album-type="pictures"></div>
+      <div class="ml-5 small-hide" album-header album-type="pictures"></div>
     </div>
   </div>
   <hr>
-  <div class="row" ng-if="pictures">
+  <div class="row text-center" ng-if="pictures">
     <div class="col-xs-12 col-lg-4 mb-5" ng-repeat="pic in pictures track by $index">
       <h4 class="text-white">
         {{pic.caption}}
       </h4>
       <img  class="br20"
-            ng-src="./assets/pictures/{{pic.file}}" style="height: 300px;">
+            ng-src="./assets/pictures/{{pic.file}}" style="height: 18em;">
     </div>
   </div>
 </div>

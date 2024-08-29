@@ -1,0 +1,56 @@
+<div class="row text-white" ng-if="blogData">
+    <div class="col-xs-12">
+        <div  >
+            <div ng-id="assembleIDattribute(blogData.entry_subject)">
+                <h5 class="mb-0">
+                    <div class="row blog-header">
+                        <div class="col-xs-6">
+                            {{blogData["entry_subject"]}}
+                        </div>
+                        <div class="col-xs-6 pull-right text-right">
+                            {{blogData.entry_date}}
+                        </div>
+                    </div>
+                </h5>
+                <hr>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h3 class="text-subtle">{{blogData.entry_subject}}</h3>
+                    </div>
+                    <div ng-if="blogData.pic_file && blogData.link" class="row mb-2 mt-2" >
+                        <div class="col-xs-12 text-center">
+                            <a ng-href="{{getIframeSrc(blogData.link)}}" target="_blank">
+                                <img ng-src="./assets/blog/{{blogData.pic_file}}" style="height: 20em;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 text-justified wrap" ng-repeat="paragraph in blogData.entry_paragraphs track by $index">
+                        <div ng-if="paragraph.videos && paragraph.videos.length" ng-repeat="youtubeID in blogData.videos track by $index" class="col-xs-12 text-center mb-5 mt-5">
+                            <iframe
+                                    class="video-box"
+                                    height="auto"
+                                    autoplay="0"
+                                    ng-src="{{getIframeSrcForYouTube(youtubeID)}}">
+                            </iframe>
+                        </div>
+                        <p  ng-if="!paragraph.bold" style="margin-left:25px;">
+                            {{paragraph.text}}
+                        </p>
+                        <b ng-if="paragraph.bold">
+                            {{paragraph.text}}
+                        </b>
+                        <img ng-if="paragraph.pics"
+                             ng-src="./assets/blog/{{pic}}"
+                             style="height: 20em;"
+                             class="br20"
+                             ng-repeat="pic in paragraph.pics track by $index"
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -10,7 +10,35 @@
     "albums": ["dogs"]
   },{
     "file": "butterflysunrise.png",
-    "caption": "Fresh out of the cacoon",
+    "caption": "Fresh out of the cocoon",
     "albums": ["wildlife"]
+  },{
+    "file": "birdPond.png",
+    "caption": "Pigeons Taking Flight",
+    "albums": ["wildlife"]
+  },{
+    "file": "arsunrise1.png",
+    "caption": "A Beautiful Day In Our Neighborhood",
+    "albums": ["sky"]
+  },{
+    "file": "dragoncloud.png",
+    "caption": "Dragon cloud",
+    "albums": ["sky"]
+  },{
+    "file": "kitchenSupervisors.png",
+    "caption": "My Kitchen Supervisors",
+    "albums": ["dogs"]
+  },{
+    "file": "totesMcGoatsComingHome.jpg",
+    "caption": "Bringing My Goat Kids Home To The Farm",
+    "albums": ["goats", "animals"]
+  },{
+    "file": "ayaSammy3DaysOld.png",
+    "caption": "Aya and Sammy - three days after hatching",
+    "albums": ["chickens", "animals"]
+  },{
+    "file": "totesOnBoard.png",
+    "caption": "Totes on Board",
+    "albums": ["goats", "animals"]
   }
 ]}

@@ -4,57 +4,56 @@
             <h2 class="text-white">Blog</h2>
         </div>
     </div>
-    <div class="row text-white" ng-if="blogEntries">
-        <div class="col-xs-12 col-lg-8" style="border-right:2px solid white;">
-            <div  ng-if="$index == 0" ng-repeat="entry in blogEntries track by $index">
-                <div ng-id="assembleIDattribute(entry.entry_subject)"  ng-click="entry.expanded = !entry.expanded">
+    <div class="row text-white" >
+        <div ng-if="blogEntries" class="col-xs-12 col-lg-8" style="border-right:2px solid white;">
+            <div class="row" ng-if="featuredBlog.custom_blog_1" custom-blog blog-data="{{featuredBlogEntry}}"></div>
+            <div ng-if="featuredBlogEntry && !featuredBlog.custom_blog_1">
+                <div ng-id="assembleIDattribute(featuredBlogEntry.entry_subject)">
                     <h5 class="mb-0">
                         <div class="row blog-header">
                             <div class="col-xs-6">
-                                {{entry.entry_subject}}
+                                {{featuredBlogEntry.entry_subject}}
                             </div>
                             <div class="col-xs-6 pull-right text-right">
-                                {{entry.entry_date}}
+                                {{featuredBlogEntry.entry_date}}
                             </div>
                         </div>
                     </h5>
                     <hr>
                 </div>
-                <div  class={{entry.expanded?'show':'hide'}} >
-                    <div class="row">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h3 class="text-subtle">{{featuredBlogEntry.entry_subject}}</h3>
+                    </div>
+                    <div ng-if="featuredBlogEntry.pic_file && featuredBlogEntry.link" class="row mb-2 mt-2" >
                         <div class="col-xs-12 text-center">
-                            <h3 class="text-subtle">{{entry.entry_subject}}</h3>
-                        </div>
-                        <div ng-if="entry.pic_file && entry.link" class="row mb-2 mt-2" >
-                            <div class="col-xs-12 text-center">
-                                <a ng-href="{{getIframeSrc(entry.link)}}" target="_blank">
-                                    <img ng-src="./assets/blog/{{entry.pic_file}}" style="height: 20em;">
-                                </a>
-                            </div>
-                        </div>
-                        <div ng-if="!entry.link && entry.pic_file" class="col-xs-12 text-center mb-5 mt-5">
-                            <img class="br20" ng-src="./assets/blog/{{entry.pic_file}}" style="height: 20em;">
-                        </div>
-                        <div ng-if="entry.link && !entry.pic_file" class="col-xs-12 text-center mb-5 mt-5">
-                            <h3  ng-href="{{getIframeSrc(entry.link)}}" target="_blank">[LINK]</h3>
-                        </div>
-                        <div class="col-xs-12 text-justified wrap" ng-repeat="paragraph in entry.entry_paragraphs track by $index">
-                            <p  ng-if="!paragraph.bold" style="margin-left:25px;">
-                                {{paragraph.text}}
-                            </p>
-                            <b ng-if="paragraph.bold">
-                                {{paragraph.text}}
-                            </b>
-                                <img ng-if="paragraph.pics"
-                                     ng-src="./assets/blog/{{pic}}"
-                                     style="height: 20em;"
-                                     class="br20"
-                                     ng-repeat="pic in paragraph.pics track by $index"
-                                >
-
+                            <a ng-href="{{getIframeSrc(featuredBlogEntry.link)}}" target="_blank">
+                                <img ng-src="./assets/blog/{{featuredBlogEntry.pic_file}}" style="height: 20em;">
+                            </a>
                         </div>
                     </div>
+                    <div ng-if="!featuredBlogEntry.link && featuredBlogEntry.pic_file" class="col-xs-12 text-center mb-5 mt-5">
+                        <img class="br20" ng-src="./assets/blog/{{featuredBlogEntry.pic_file}}" style="height: 20em;">
+                    </div>
+                    <div ng-if="featuredBlogEntry.link && !featuredBlogEntry.pic_file" class="col-xs-12 text-center mb-5 mt-5">
+                        <h3  ng-href="{{getIframeSrc(featuredBlogEntry.link)}}" target="_blank">[LINK]</h3>
+                    </div>
+                    <div class="col-xs-12 text-justified wrap" ng-repeat="paragraph in featuredBlogEntry.entry_paragraphs track by $index">
+                        <p  ng-if="!paragraph.bold" style="margin-left:25px;">
+                            {{paragraph.text}}
+                        </p>
+                        <b ng-if="paragraph.bold">
+                            {{paragraph.text}}
+                        </b>
+                            <img ng-if="paragraph.pics"
+                                 ng-src="./assets/blog/{{pic}}"
+                                 style="height: 20em;"
+                                 class="br20"
+                                 ng-repeat="pic in paragraph.pics track by $index"
+                            >
+                    </div>
                 </div>
+
             </div>
         </div>
 <!--        side scroll bar-->
@@ -66,14 +65,13 @@
                     </h3>
                     <hr>
                 </div>
-                <div class="col-xs-12 border2px br20 m-2" ng-repeat="item in blogEntries track by $index" >
+                <div class="col-xs-12 border2px br20 m-2" ng-class="{'highlighted': item.entry_subject === featuredBlogEntry.entry_subject }" ng-repeat="item in blogEntries track by $index" >
                    <div class="row">
                        <div class="col-xs-12">
                            <h4>
                                <a class="nav-link text-white" ng-click="scrollToBlogItem(item.entry_subject)">{{ item.entry_subject }}</a>
                            </h4>
                        </div>
-
                        <div class="col-lg-12" >
                            <div class="wrap" ng-if="item.feature_section_1 && item.feature_section_1.pic">
                                <img class="br20"
