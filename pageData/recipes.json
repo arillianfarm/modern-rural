@@ -86,6 +86,110 @@
           "pic": "becb.png",
           "instruction": "put egg in cheese basket and top with desired toppings"
         }],
-      "notes": "high fat low carb mmmm"}
+      "notes": "high fat low carb mmmm"},
+    {
+      "name": "Air Fried Okra",
+      "header_pic": "okra6.png",
+      "servings": "1-2 servings",
+      "summary": "INGREDIENTS: 1/4 lb fresh okra - chopped, 1/4 cup flour, 2 tbsp cornmeal, 1/2 tsp garlic powder, 1/4 tsp fresh ground pepper, 1/4 tsp salt, 1/2 cup Greek Yogurt mixed with 2 tbsp water, oil for frying. INSTRUCTIONS: (1) In a shallow bowl, whisk together: flour, cornmeal, garlic powder, pepper and salt. In a separate bowl whisk greek yogurt and water. (2) Fully coat the okra with the yogurt mixture. Then, one at a time or in small batches dredge in the flour mixture and set in baking pan. (3) Drizzle or spray olive oil over okra and shake to coat all sides. Airfry at 385 for 15 minutes --pause halfway to shake. (4) Enjoy with a dipping sauce (such as greek yogurt ranch)",
+      "ingredients": [
+        "1/4 lb fresh okra - chopped",
+        "1/4 cup flour",
+        "2 tbsp cornmeal",
+        "1/2 tsp garlic powder",
+        "1/4 tsp fresh ground pepper",
+        "1/4 tsp salt",
+        "1/2 cup Greek Yogurt mixed with 2 tbsp water",
+        "oil for frying"
+      ],
+      "steps": [{
+        "pic": "okra2.png",
+        "instruction":"In a shallow bowl, whisk together: flour, cornmeal, garlic powder, pepper and salt. In a separate bowl whisk greek yogurt and water."
+      },
+        {
+          "pic": "okra3.png",
+          "instruction":"Fully coat the okra with the yogurt mixture. Then, one at a time or in small batches dredge in the flour mixture and set in baking pan."
+        },{
+          "pic": "okra5.png",
+          "instruction":"Drizzle or spray olive oil over okra and shake to coat all sides. Airfry at 385 for 15 minutes --pause halfway to shake."
+        },{
+          "pic": "okra6.png",
+          "instruction": "Enjoy with a dipping sauce (such as greek yogurt ranch)"
+        }],
+      "notes": "Crisp and Slick"},
+    {
+      "name": "Sourdough Starter",
+      "header_pic": "sds1.png",
+      "servings": "1 jar of sourdough starter",
+      "summary": "INGREDIENTS:  flour, filtered water. INSTRUCTIONS: [Day 1] (1) In a sterile glass jar combine 1/2 cup flour and 1/2 cup filtered water (2) Stir until combined, forming a thick paste. (3) Cover jar loosely with lid or cheese cloth and set in a warm (approx 75F), draft free location. [Days 2-5] (1) Discard half the mixture (2) stir in 1/2 cup flour and 1/2 cup water (3) Cover and set in a warm, draft free location. [DAYS 6-7] Increase the frequency to every 12 hours. Discard half the mixture and feed as before. [STORING AND MAINTAINING] The starter is ready when it doubles in size within 4-8 hours after feeding, has a bubbly appearance and smells fermented. Once this is achieved, you may store it in the fridge (loosely covered) and cut back feeding to once every 7-10 days. [ACTIVATE BEFORE USE] Your starter should be brought upto room temperature and have a bubbly appearance before using in baking.",
+      "ingredients": [
+        "Flour",
+        "Water"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"[Day 1] (1) In a sterile glass jar combine 1/2 cup flour and 1/2 cup filtered water (2) Stir until combined, forming a thick paste. (3) Cover jar loosely with lid or cheese cloth and set in a warm (approx 75F), draft free location."
+      },
+        {
+          "pic": "",
+          "instruction":"[Days 2-5] (1) Discard half the mixture (2) stir in 1/2 cup flour and 1/2 cup water (3) Cover and set in a warm, draft free location."
+        },{
+          "pic": "",
+          "instruction":"[DAYS 6-7] Increase the frequency to every 12 hours. Discard half the mixture and feed as before. "
+        },{
+          "pic": "",
+          "instruction":"[STORING AND MAINTAINING] The starter is ready when it doubles in size within 4-8 hours after feeding, has a bubbly appearance and smells fermented. Once this is achieved, you may store it in the fridge (loosely covered) and cut back feeding to once every 7-10 days."
+        },{
+          "pic": "",
+          "instruction": "[ACTIVATE BEFORE USE] Your starter should be brought upto room temperature and have a bubbly appearance before using in baking."
+        }],
+      "notes": "Let's Get This Party Starter"},
+    {
+      "name": "San Francisco Style Sourdough Bread",
+      "header_pic": "sdoughb.png",
+      "servings": "1 loaf of bread",
+      "summary": "INGREDIENTS: 15g Active Dry Yeast, 8fl oz water (at temp 110F), 6oz Sourdough Starter, 1lb Bread Flour, 15g salt, cornmeal --as needed, egg white -beaten. INSTRUCTIONS: (1) Sprinkle yeast over 2fl oz water and set aside until dissolved and foamy. (2) Add the remaining flour and salt. Knead until the dough is smooth and elastic, approx 10 minutes. (3) ",
+      "ingredients": [
+        "15g Active Dry Yeast",
+        "8fl oz water (at temp 110F)",
+        "6oz Sourdough Starter",
+        "1 lb Bread Flour",
+        "15g salt",
+        "cornmeal --as needed",
+        "egg white -beaten"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"Sprinkle yeast over 2fl oz water and set aside until dissolved and foamy."
+      },
+        {
+          "pic": "",
+          "instruction":"In the bowl of a stand mixer, fitted with a dough hook, combine the starter and the remaining 6oz of flour."
+        },{
+          "pic": "",
+          "instruction":"Stir until a dough forms, then add yeast mixture. Knead 5 minutes on medium speed."
+        },{
+          "pic": "",
+          "instruction":"Add the remaining flour and salt. Knead until the dough is smooth and elastic, approx 10 minutes."
+        },{
+          "pic": "",
+          "instruction": "Place the dough in a lightly greased bowl and cover with a damp cloth. Ferment --until doubled-- in a warm place (about 80-90F)"
+        },{
+          "pic": "",
+          "instruction": "Punch down the dough and shape it into a round loaf. Place the loaf on a greased and cornmeal dusted sheet-pan."
+        },{
+          "pic": "",
+          "instruction": "Proof the dough in a warm place, covered with a damp cloth, until it has risen to 2 1/2 times its original size."
+        },{
+          "pic": "",
+          "instruction": "Brush the risen loaf with the beaten egg white and score the top of the loaf with a sharp knife."
+        },{
+          "pic": "",
+          "instruction": "Bake at 450F, spraying steam in for the first 4 minutes of baking."
+        },{
+          "pic": "",
+          "instruction": "Reduce to 375F and continue baking until the loaf is well browned, approximately 35-45 minutes."
+        }],
+      "notes": "Let's Get This Party Starter"}
   ]
 }
