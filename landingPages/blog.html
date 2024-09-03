@@ -6,8 +6,8 @@
     </div>
     <div class="row text-white" >
         <div ng-if="blogEntries" class="col-xs-12 col-lg-8" style="border-right:2px solid white;">
-            <div class="row" ng-if="featuredBlog.custom_blog_1" custom-blog blog-data="{{featuredBlogEntry}}"></div>
-            <div ng-if="featuredBlogEntry && !featuredBlog.custom_blog_1">
+            <div class="row" ng-if="featuredBlogEntry.custom_blog_1" custom-blog blog-data="{{featuredBlogEntry}}"></div>
+            <div ng-if="featuredBlogEntry && !featuredBlogEntry.custom_blog_1">
                 <div ng-id="assembleIDattribute(featuredBlogEntry.entry_subject)">
                     <h5 class="mb-0">
                         <div class="row blog-header">
@@ -58,12 +58,11 @@
         </div>
 <!--        side scroll bar-->
         <div class="col-lg-4 small-hide">
-            <div class="row">
-                <div class="col-xs-12">
+            <div class="row cursPoint">
+                <div class="col-xs-12 text-center">
                     <h3>
-                        <a>Past Entries</a>
+                        <a>All Blog Entries</a>
                     </h3>
-                    <hr>
                 </div>
                 <div class="col-xs-12 border2px br20 m-2" ng-class="{'highlighted': item.entry_subject === featuredBlogEntry.entry_subject }" ng-repeat="item in blogEntries track by $index" >
                    <div class="row">

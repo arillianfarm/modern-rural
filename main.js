@@ -160,7 +160,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     //scroll to a specific entry on a specific view
     $scope.scrollToHash = function() {
-        //todo, will it be a problem that I include all views on the main page?
         var hash = $location.hash();
         if (hash) {
             $anchorScroll();
@@ -177,13 +176,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         });
     };
 
+    $rootScope.titleCaps = function(string){
+        let splitStr = string.toLowerCase().split(' ');
+        for (var i = 0; i < splitStr.length; i++) {
+                splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+            }
+        return splitStr.join(" ");
+    };
+
     $scope.scrollToBlogItem = function(docName){
-         let newHash= `${docName.split(" ").join("-")}`;
-         let hash = $location.hash(newHash);
          $scope.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName)
-        // if (hash) {
-        //     $anchorScroll();
-        // }
     }
 
     $rootScope.assembleIDattribute = function(docName){
@@ -223,13 +225,13 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
 // VIDEO VIEW
     $scope.albumCovers = [
-        {name: "all", thumbnail:"assets/pictures/washbeetssq.png"},
-        {name: "sky", thumbnail:"assets/pictures/sunsetsq.png"},
-        {name: "chickens", thumbnail:"assets/faviconsSammy1/android-chrome-192x192.png"},
-        {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
-        {name: "gardens", thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
-        {name: "goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png"},
-        {name: "wildlife", thumbnail:"assets/pictures/butterflysunrise.png"}
+        {name: "All", thumbnail:"assets/beaky.png"},
+        {name: "Chickens", thumbnail:"assets/favicons/android-chrome-192x192.png"},
+        {name: "Dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
+        {name: "Gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
+        {name: "Goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png"},
+        {name: "Sky", hide_video_view: true, thumbnail:"assets/pictures/sunsetsq.png"},
+        {name: "Wildlife", thumbnail:"assets/pictures/butterflysunrise.png"}
     ];
 
 // PICTURE VIEW
@@ -244,6 +246,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
 //BLOG VIEW
     $scope.expandTopBlogEntry = function(a){
+        //todo: this function is depricated
         if ($scope.blogSort === 'o2a' && a.entry_number === 1 || a.entry_number === $scope.blogEntriesRaw.length){
             a.expanded = true
         } else {
@@ -260,7 +263,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     $scope.sortBlogList = function(){
         return $scope.blogEntriesRaw.sort(function(a, b){
-            a = $scope.expandTopBlogEntry(a);
             return $scope.blogSort === 'o2n' ? a.entry_number - b.entry_number : b.entry_number - a.entry_number;
         });
     };
@@ -328,6 +330,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     acc.push(item);
                     return acc;
                 },[]);
+                $scope.sortBlogList();
                 $scope.blogEntries = angular.copy($scope.blogEntriesRaw);
             });
 

@@ -1,6 +1,65 @@
 {
   "data": [
     {
+      "name": "Baked eggs and Asparagus",
+      "header_pic": "aspar5.png",
+      "servings": "1-2 servings",
+      "summary": "INGREDIENTS: A handful of fresh asparagus, 1-2 tbsp of butter, 2 eggs, 1 tsp fresh ground pepper, 1 clove of garlic, 1 tsp soy sauce, 1 tbsp olive oil. INSTRUCTIONS: (1) Trim asparagus and mince the garlic (2)  On you cutting board, mix together garlic, oil, soy sauce and pepper and roll the asparagus through the oil mixture until coated. (4) Layer asparagus across a baking dish and crack two eggs over the top (5) Mix butter with the remaining oil and garlic mix and dab on top of eggs (6) Airfry at 385F for about 10 min --or until eggs and asparagus are cooked as desired.",
+      "ingredients": [
+        "A handful of fresh asparagus",
+        "1-2 tbsp of butter",
+        "2 eggs",
+        "1 tsp fresh ground pepper",
+        "1 clove of garlic",
+        "1 tsp soy sauce",
+        "1 tbsp olive oil"
+      ],
+      "steps": [{
+        "pic": "aspar1.png",
+        "instruction":"Trim the asparagus and mince the garlic "
+      },
+        {
+          "pic": "aspar2.png",
+          "instruction":" On you cutting board, mix together garlic, oil, soy sauce and pepper and roll the asparagus through the oil mixture until coated."
+        },{
+          "pic": "aspar4.png",
+          "instruction": "Layer asparagus across a baking dish and crack two eggs over the top of the asparagus then mix butter with the remaining oil and garlic mix and dab on top of eggs"
+        },{
+          "pic": "asparDone.png",
+          "instruction": "Airfry at 385F for about 10 min --or until eggs and asparagus are cooked as desired."
+        }],
+      "notes": "Great Light Meal For Anytime of Day"},
+    {
+      "name": "Air Fried Okra",
+      "header_pic": "okra6.png",
+      "servings": "1-2 servings",
+      "summary": "INGREDIENTS: 1/4 lb fresh okra - chopped, 1/4 cup flour, 2 tbsp cornmeal, 1/2 tsp garlic powder, 1/4 tsp fresh ground pepper, 1/4 tsp salt, 1/2 cup Greek Yogurt mixed with 2 tbsp water, oil for frying. INSTRUCTIONS: (1) In a shallow bowl, whisk together: flour, cornmeal, garlic powder, pepper and salt. In a separate bowl whisk greek yogurt and water. (2) Fully coat the okra with the yogurt mixture. Then, one at a time or in small batches dredge in the flour mixture and set in baking pan. (3) Drizzle or spray olive oil over okra and shake to coat all sides. Airfry at 385 for 15 minutes --pause halfway to shake. (4) Enjoy with a dipping sauce (such as greek yogurt ranch)",
+      "ingredients": [
+        "1/4 lb fresh okra - chopped",
+        "1/4 cup flour",
+        "2 tbsp cornmeal",
+        "1/2 tsp garlic powder",
+        "1/4 tsp fresh ground pepper",
+        "1/4 tsp salt",
+        "1/2 cup Greek Yogurt mixed with 2 tbsp water",
+        "oil for frying"
+      ],
+      "steps": [{
+        "pic": "okra2.png",
+        "instruction":"In a shallow bowl, whisk together: flour, cornmeal, garlic powder, pepper and salt. In a separate bowl whisk greek yogurt and water."
+      },
+        {
+          "pic": "okra3.png",
+          "instruction":"Fully coat the okra with the yogurt mixture. Then, one at a time or in small batches dredge in the flour mixture and set in baking pan."
+        },{
+          "pic": "okra5.png",
+          "instruction":"Drizzle or spray olive oil over okra and shake to coat all sides. Airfry at 385 for 15 minutes --pause halfway to shake."
+        },{
+          "pic": "okra6.png",
+          "instruction": "Enjoy with a dipping sauce (such as greek yogurt ranch)"
+        }],
+      "notes": "Crisp and Slick"},
+    {
       "name": "pickled onions",
       "header_pic": "pickledonions.png",
       "servings": "1 jar of pickled onions",
@@ -54,69 +113,8 @@
           "pic": "wontons4.png",
           "instruction": "let cool and enjoy"
         }],
-      "notes": "Pairs nicely with your favorite nugget dipping sauces"
+      "notes": "Pairs nicely with your favorite dipping sauces"
     },
-    {
-      "name": "Baked egg in a cheese basket",
-      "header_pic": "becb.png",
-      "servings": "1 egg basket",
-      "summary": "INGREDIENTS: 1/4 cup shredded cheese, 1 pad of butter, 1 egg, salsa (optional), Greek yogurt and/or Sour Cream (optional), Chopped Green onions (optional). INSTRUCTIONS: (1) put a pad of butter in a silicone or tin muffin cup then crack an egg on top of it (2) sprinkle shredded cheese in a circle on a silicone tray or similar (3) microwave the cheese for a few seconds, bake or airfry at 385F for about 2 min --or until cheese is melted, (4) let the cheese cool and peel if of baking mat, then drape it over the back of a muffin cup, pop the egg and butter muffin cup in the air frier or ove and or bake or airfry (at 385) for another 3-5 minutes --until egg yolk is cooked to desired yolkiness and cheese is crisp, but not burnt (5) put egg in cheese basket and top with desired toppings",
-      "ingredients": [
-        "1/4 cup shredded cheese",
-        "1 pad of butter",
-        "1 egg",
-        "salsa (optional)",
-        "Greek yogurt and/or Sour Cream (optional)",
-        "Chopped Green onions (optional)"
-      ],
-      "steps": [{
-        "pic": "becb1.png",
-        "instruction":"put a pad of butter in a silicone or tin muffin cup then crack an egg on top of it"
-      },
-        {
-          "pic": "becb2.png",
-          "instruction":"sprinkle shredded cheese in a circle on a silicone tray or similar"
-        },{
-          "pic": "becb3.png",
-          "instruction":"microwave the cheese for a few seconds, bake or airfry at 385F for about 2 min --or until cheese is melted"
-        },{
-          "pic": "becb4.png",
-          "instruction": "let the cheese cool and peel if of baking mat, then drape it over the back of a muffin cup, pop the egg and butter muffin cup in the air frier or ove and or bake or airfry (at 385) for another 3-5 minutes --until egg yolk is cooked to desired yolkiness and cheese is crisp, but not burnt"
-        },{
-          "pic": "becb.png",
-          "instruction": "put egg in cheese basket and top with desired toppings"
-        }],
-      "notes": "high fat low carb mmmm"},
-    {
-      "name": "Air Fried Okra",
-      "header_pic": "okra6.png",
-      "servings": "1-2 servings",
-      "summary": "INGREDIENTS: 1/4 lb fresh okra - chopped, 1/4 cup flour, 2 tbsp cornmeal, 1/2 tsp garlic powder, 1/4 tsp fresh ground pepper, 1/4 tsp salt, 1/2 cup Greek Yogurt mixed with 2 tbsp water, oil for frying. INSTRUCTIONS: (1) In a shallow bowl, whisk together: flour, cornmeal, garlic powder, pepper and salt. In a separate bowl whisk greek yogurt and water. (2) Fully coat the okra with the yogurt mixture. Then, one at a time or in small batches dredge in the flour mixture and set in baking pan. (3) Drizzle or spray olive oil over okra and shake to coat all sides. Airfry at 385 for 15 minutes --pause halfway to shake. (4) Enjoy with a dipping sauce (such as greek yogurt ranch)",
-      "ingredients": [
-        "1/4 lb fresh okra - chopped",
-        "1/4 cup flour",
-        "2 tbsp cornmeal",
-        "1/2 tsp garlic powder",
-        "1/4 tsp fresh ground pepper",
-        "1/4 tsp salt",
-        "1/2 cup Greek Yogurt mixed with 2 tbsp water",
-        "oil for frying"
-      ],
-      "steps": [{
-        "pic": "okra2.png",
-        "instruction":"In a shallow bowl, whisk together: flour, cornmeal, garlic powder, pepper and salt. In a separate bowl whisk greek yogurt and water."
-      },
-        {
-          "pic": "okra3.png",
-          "instruction":"Fully coat the okra with the yogurt mixture. Then, one at a time or in small batches dredge in the flour mixture and set in baking pan."
-        },{
-          "pic": "okra5.png",
-          "instruction":"Drizzle or spray olive oil over okra and shake to coat all sides. Airfry at 385 for 15 minutes --pause halfway to shake."
-        },{
-          "pic": "okra6.png",
-          "instruction": "Enjoy with a dipping sauce (such as greek yogurt ranch)"
-        }],
-      "notes": "Crisp and Slick"},
     {
       "name": "Sourdough Starter",
       "header_pic": "sds1.png",
@@ -159,37 +157,69 @@
         "egg white -beaten"
       ],
       "steps": [{
-        "pic": "",
+        "pic": "sdb1.png",
         "instruction":"Sprinkle yeast over 2fl oz water and set aside until dissolved and foamy."
       },
         {
-          "pic": "",
+          "pic": "sdb2.png",
           "instruction":"In the bowl of a stand mixer, fitted with a dough hook, combine the starter and the remaining 6oz of flour."
         },{
           "pic": "",
           "instruction":"Stir until a dough forms, then add yeast mixture. Knead 5 minutes on medium speed."
         },{
           "pic": "",
-          "instruction":"Add the remaining flour and salt. Knead until the dough is smooth and elastic, approx 10 minutes."
+          "instruction":"Add the remaining 10 oz flour and the 15g salt. Knead (with stand mixer) until the dough is smooth and elastic, approx 10 minutes."
         },{
-          "pic": "",
+          "pic": "greasebowl.png",
           "instruction": "Place the dough in a lightly greased bowl and cover with a damp cloth. Ferment --until doubled-- in a warm place (about 80-90F)"
         },{
-          "pic": "",
+          "pic": "riseandpunch.png",
           "instruction": "Punch down the dough and shape it into a round loaf. Place the loaf on a greased and cornmeal dusted sheet-pan."
         },{
-          "pic": "",
+          "pic": "coverandproof.png",
           "instruction": "Proof the dough in a warm place, covered with a damp cloth, until it has risen to 2 1/2 times its original size."
         },{
-          "pic": "",
+          "pic": "sdb6.png",
           "instruction": "Brush the risen loaf with the beaten egg white and score the top of the loaf with a sharp knife."
         },{
-          "pic": "",
+          "pic": "injectsteam.png",
           "instruction": "Bake at 450F, spraying steam in for the first 4 minutes of baking."
         },{
-          "pic": "",
+          "pic": "sdoughb.png",
           "instruction": "Reduce to 375F and continue baking until the loaf is well browned, approximately 35-45 minutes."
         }],
-      "notes": "Let's Get This Party Starter"}
+      "notes": "Great for sandwiches, bruschetta or garlic toast"},
+    {
+      "name": "Caprese Bruscetta",
+      "header_pic": "brusDone.png",
+      "servings": "4 servings",
+      "summary": "INGREDIENTS: 8-10 slices of french italian or sourdough bread, 16-20 grape tomatoes, a handful of fresh basil leaves, 2 tsp balsamic vinegar, 1 tsp fresh ground pepper, 1 tsp soy sauce, 1 tbsp olive oil, 2 oz fresh mozzarella cheese. INSTRUCTIONS: (1) Slice the tomatoes into small discs and slice the basil into thin ribbons (2)In a small bowl combine tomatoes, basil, balsamic, ground pepper and soy sauce. Set aside to marinate. (3) dribble olive oil over sliced bread and toast for 2-4 minutes (to desired crispness) (4) Thinly Slice mozzarella (5)Top the toasted bread with tomato mixture and mozzarella.",
+      "ingredients": [
+        "8-10 slices of french italian or sourdough bread",
+        "16-20 grape tomatoes",
+        "a handful of fresh basil leaves",
+        "1 tbsp balsamic vinegar",
+        "1 tsp fresh ground pepper",
+        "1 tsp soy sauce",
+        "1 tbsp olive oil",
+        "2 oz fresh mozzarella cheese"
+      ],
+      "steps": [{
+        "pic": "brus1.png",
+        "instruction":"Slice the tomatoes into small discs and slice the basil into thin ribbons"
+      },
+        {"pic": "brus2.png",
+          "instruction":"In a small bowl combine tomatoes, basil, balsamic, ground pepper and soy sauce. Set aside to marinate."
+        },{
+          "pic": "brus3.png",
+          "instruction":"Dribble olive oil over sliced bread and toast for 2-4 minutes (to desired crispness)"
+        },{"pic": "",
+          "instruction":"Thinly Slice mozzarella."
+        },{
+          "pic": "brusDone.png",
+          "instruction": "Top the toasted bread with tomato mixture and mozzarella"
+        }],
+      "notes": "The toast with the most!"
+    }
   ]
 }
