@@ -168,7 +168,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.sayClick = function(){
         console.log("click")
     };
-
     $scope.assembleAndCopyRecipeSummary = function(recipe){
         if (!recipe || !recipe.ingredients || !recipe.steps){
             return;
@@ -344,12 +343,12 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                    pagesToUse = $scope.hyperspear_display_pages;
                    displayPage = $scope.hyperspear_display_page||"";
                    currentIndex = pagesToUse.indexOf(displayPage);
-                   nextPage = currentIndex +1 >= ($scope.hyperspear_display_pages.length -1) ? $scope.hyperspear_display_pages[currentIndex +1] : $scope.hyperspear_display_pages[0];
+                   nextPage = currentIndex < 2 ? $scope.hyperspear_display_pages[currentIndex +1] : $scope.hyperspear_display_pages[0];
                    $scope.hyperspear_display_page = nextPage;
                    break;
                default:
                 currentIndex = pagesToUse.indexOf(displayPage);
-                nextPage = currentIndex +1 >= ($scope.unfettered_display_pages.length -1) ? $scope.unfettered_display_pages[currentIndex +1] : $scope.unfettered_display_pages[0];
+                nextPage = currentIndex < 2 ? $scope.unfettered_display_pages[currentIndex +1] : $scope.unfettered_display_pages[0];
                 $scope.unfettered_display_page = nextPage;
            }
 
@@ -395,43 +394,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     console.error('Error fetching data:', error);
                 });
 
-            // dataService.getData('recipes',$scope).then(function(jsonObj1) {
-            //     $scope.recipes = jsonObj1.data;
-            //     //initialize videos
-            //     dataService.getData('videos',$scope).then(function(jsonObj2) {
-            //         $scope.videosRaw = jsonObj2.data;
-            //         $scope.videos = jsonObj2.data;
-            //         //initialize pictures
-            //         dataService.getData('pictures',$scope).then(function(jsonObj3) {
-            //             $scope.picturesRaw = jsonObj3.data;
-            //             $scope.pictures = jsonObj3.data;
-            //             //initialize  blogs
-            //             $scope.blogSort = 'n2o';
-            //             dataService.getData('blogs',$scope).then(function(jsonObj4) {
-            //                 $scope.blogEntriesRaw = jsonObj4.data.reduce((acc,item)=>{
-            //                     if (item.featured_blog){
-            //                         $scope.featuredBlogEntry = item;
-            //                     }
-            //                     acc.push(item);
-            //                     return acc;
-            //                 },[]);
-            //                 $scope.sortBlogList();
-            //                 $scope.blogEntries = angular.copy($scope.blogEntriesRaw);
-            //                 //initialize projects
-            //                 dataService.getData('projects',$scope).then(function(jsonObj5) {
-            //                     $scope.projects = jsonObj5.data;
-            //                 });
-            //             });
-            //         });
-            //     });
-            // });
-
-
             //initialize  books
             $scope.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
+            $scope.unfettered_display_page = $scope.unfettered_display_pages[0];
             $scope.hyperspear_display_pages = ["hyperspear1.png", "hyperspear2.png", "hyperspear3.png" ];
-            $scope.setNextDisplayPage();
-            $scope.setNextDisplayPage('hyperspear');
+            $scope.hyperspear_display_page = $scope.hyperspear_display_pages[0];
 
             $scope.scrollToHash();
         }
