@@ -14,7 +14,7 @@
                  <h5 ng-if="recipe.notes" >{{titleCaps(recipe.notes)}}</h5>
              </div>
              <div class="col-xs-12 col-lg-4 mt-4 text-white cursPoint text-right pull-right" >
-                 <button class="btn btn-light btn-xs" ng-click="copyForClipboard(recipe.summary)"><i class="fa fa-files-o">  </i><b>Recipe</b></button>
+                 <button class="btn btn-light btn-xs" ng-click="assembleAndCopyRecipeSummary(recipe)"><i class="fa fa-files-o">  </i><b>Recipe</b></button>
                  <button class="btn btn-info btn-xs" ng-click="putHashLinkOnClipboard(recipe.name)"> <i class="fa fa-files-o">  </i><b>Link</b></button>
              </div>
              <div class="col-xs-12 bb2 mb-2" style></div>

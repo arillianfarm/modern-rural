@@ -80,6 +80,13 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             {name:"skyChoke.png", small_hide:true},
             {name:"weldingArthur.png"},
         ];
+            // {name:"hoseWatermelon.png"},
+            // {name:"hoseTangerine.png"},
+            // {name:"hosePond.png"},
+            // {name:"pepperhose.png"},
+            // {name:"okrahose.png"},
+            // {name:"minthose.png"},
+            // {name:"fountainHose.png"}
     }
     return {
         link: link,
@@ -128,6 +135,28 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     //function to test that ngclick events etc are firing
     $scope.sayClick = function(){
         console.log("click")
+    };
+
+    $scope.assembleAndCopyRecipeSummary = function(recipe){
+        if (!recipe || !recipe.ingredients || !recipe.steps){
+            return;
+        }
+        let ingredients = "INGREDIENTS: ";
+        let instructions = " INSTRUCTIONS: ";
+        for (let i =0; i< recipe.ingredients.length;i++){
+            let ingredient = recipe.ingredients[i];
+            ingredients += ` ${ingredient}`
+            if (i < (recipe.ingredients.length -1)){
+                ingredients += ",";
+            }
+        }
+        for (let i =0; i< recipe.steps.length;i++){
+            let step = recipe.steps[i];
+            let stepNumber = i+1;
+            instructions += `(${stepNumber}) ${step.instruction}`
+        }
+        let summary = `${ingredients} ${instructions}`;
+        $scope.copyForClipboard(summary);
     };
 
     $scope.toCaps = function(string, truncateLength){
@@ -198,11 +227,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         let hashLink = `${preHash}#${postHash}`;
         $scope.copyForClipboard(hashLink);
     };
-
-    $scope.copyToClipboard = function(){
-
-    };
-
 
     $scope.goToAlbum = function(albumName, albumType){
         let filteredList = [];
