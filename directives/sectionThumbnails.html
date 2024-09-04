@@ -1,0 +1,19 @@
+<div class="row text-center ">
+  <div class="col-lg-12">
+    <div class="text-center"
+         style="display:inline-flex; "
+         ng-repeat="thumbnail in thumbnails track by $index">
+      <div class="ml-2 mr-2 cursPoint"
+           style="padding:10px;">
+              <a href="{{thumbnail.href}}">
+                  <img class="br20"
+                       ng-src="{{thumbnail.src}}"
+                       height="100em; ">
+                    <h4 class="text-white text-small text-center">
+                      {{thumbnail.view}}
+                    </h4>
+              </a>
+      </div>
+    </div>
+  </div>
+</div>

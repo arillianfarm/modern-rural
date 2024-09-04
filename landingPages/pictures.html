@@ -12,7 +12,7 @@
     <div class="col-xs-12 mb-1">
       <img  class="br20"
             ng-src="./assets/pictures/photoCaption.png"
-            style="height: 30em;">
+            ng-style="{'height': smallView ? 'auto' : '30em'}">
     </div>
     <div class="col-xs-12 mb-5">
       <div class="row">
@@ -43,7 +43,8 @@
         {{pic.caption}}
       </h4>
       <img  class="br20"
-            ng-src="./assets/pictures/{{pic.file}}" style="height: 18em;">
+            ng-src="./assets/pictures/{{pic.file}}"
+            ng-style="{'height': smallView ? 'auto' : '18em'}">
     </div>
   </div>
 </div>

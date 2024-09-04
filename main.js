@@ -60,7 +60,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                  } else {
                     let filename = `pageData/${category}.json`;
                     return $http.get(filename).then(function(response) {
-                        //data = response.data;
                         return response.data;
                     });
                 }
@@ -80,13 +79,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             {name:"skyChoke.png", small_hide:true},
             {name:"weldingArthur.png"},
         ];
-            // {name:"hoseWatermelon.png"},
-            // {name:"hoseTangerine.png"},
-            // {name:"hosePond.png"},
-            // {name:"pepperhose.png"},
-            // {name:"okrahose.png"},
-            // {name:"minthose.png"},
-            // {name:"fountainHose.png"}
     }
     return {
         link: link,
@@ -114,6 +106,46 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         link: link,
         templateUrl: 'directives/albumHeader.html'
     };
+}]).directive('sectionThumbnails', [function(){
+    function link(scope, element, attrs) {
+        scope.thumbnails = [
+            {
+                href: "#!videos",
+                src:"assets/hueyVidCap.png",
+                view: 'Video Gallery'
+            } ,
+            {
+                href: "#!recipes",
+                src:"assets/recipes/pickledonions.png",
+                view: 'Recipes'
+            } ,
+            {
+                href: "#!pictures",
+                src:"assets/pictures/butterflysunrise.png",
+                view: 'Photo Gallery'
+            } ,{
+                href: "#!merch",
+                src:"assets/arillianTshirt.png",
+                view: 'Merchandise'
+            },{
+                href: "#!diying",
+                src:"assets/diying/catio13.png",
+                view: 'DIY Projects'
+            },{
+                href: "#!comics",
+                src:"assets/comics/eyesAcrossTheSkies.png",
+                view: 'Comics'
+            },{
+                href: "#!blog",
+                src:"assets/blog/arsunrise.png",
+                view: 'Blog'
+            },
+        ];
+    }
+    return {
+        link: link,
+        templateUrl: 'directives/sectionThumbnails.html'
+    };
 }]).directive('customBlog', [function(){
     function link(scope, element, attrs) {
         scope.blogData = JSON.parse(attrs.blogData);
@@ -122,7 +154,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         link: link,
         templateUrl: 'directives/customBlog.html'
     };
-}]).controller('mainController', function( $scope, $rootScope, dataService,$location, $anchorScroll){
+}]).controller('mainController', function( $scope, $rootScope, dataService, $location, $anchorScroll){
 
     $rootScope.smallView = window.innerWidth <= 400;
     $rootScope.windowHeight = window.innerHeight;
@@ -186,7 +218,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return 'https://www.youtube.com/embed/' + videoId;
     };
 
-
     //scroll to a specific entry on a specific view
     $scope.scrollToHash = function() {
         var hash = $location.hash();
@@ -245,7 +276,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         }
         //TODO: write function to put a hash location in and then have a view for video / pic album
     };
-
 
 // VIDEO VIEW
     $scope.albumCovers = [
@@ -326,42 +356,76 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         }
 
         $scope.init = function(){
-            //initialize  recipes
+            //initialize  sorts
             $scope.recipeSort = 'a2z';
-            dataService.getData('recipes',$scope).then(function(jsonObj) {
-                $scope.recipes = jsonObj.data;
-            });
-
-            //initialize videos
-            dataService.getData('videos',$scope).then(function(jsonObj) {
-                $scope.videosRaw = jsonObj.data;
-                $scope.videos = jsonObj.data;
-            });
-
-            //initialize pictures
-            dataService.getData('pictures',$scope).then(function(jsonObj) {
-                $scope.picturesRaw = jsonObj.data;
-                $scope.pictures = jsonObj.data;
-            });
-
-            //initialize  blogs
             $scope.blogSort = 'n2o';
-            dataService.getData('blogs',$scope).then(function(jsonObj) {
-                $scope.blogEntriesRaw = jsonObj.data.reduce((acc,item)=>{
-                    if (item.featured_blog){
-                        $scope.featuredBlogEntry = item;
-                    }
-                    acc.push(item);
-                    return acc;
-                },[]);
-                $scope.sortBlogList();
-                $scope.blogEntries = angular.copy($scope.blogEntriesRaw);
-            });
+            $scope.currentAlbum = 'all';
 
-            //initialize projects
-            dataService.getData('projects',$scope).then(function(jsonObj) {
-                $scope.projects = jsonObj.data;
-            });
+            //pull in page data
+            const promises = [
+                dataService.getData('recipes', $scope),
+                dataService.getData('videos', $scope),
+                dataService.getData('pictures', $scope),
+                dataService.getData('blogs', $scope),
+                dataService.getData('projects', $scope)
+            ];
+            Promise.all(promises)
+                .then(([recipesResponse, videosResponse, picturesResponse, blogsResponse, projectsResponse]) => {
+                    // Assign data to scope variables
+                    $scope.recipes = recipesResponse.data;
+                    $scope.videosRaw = videosResponse.data;
+                    $scope.videos = videosResponse.data;
+                    $scope.picturesRaw = picturesResponse.data;
+                    $scope.pictures = picturesResponse.data;
+                    $scope.projects = projectsResponse.data;
+
+                    // Process blogs data
+                    $scope.blogEntriesRaw = blogsResponse.data.reduce((acc, item) => {
+                        if (item.featured_blog) {
+                            $scope.featuredBlogEntry = item;
+                        }
+                        acc.push(item);
+                        return acc;
+                    }, []);
+                    $scope.sortBlogList();
+                    $scope.blogEntries = angular.copy($scope.blogEntriesRaw);
+                })
+                .catch(error => {
+                    // Handle any errors during data fetching
+                    console.error('Error fetching data:', error);
+                });
+
+            // dataService.getData('recipes',$scope).then(function(jsonObj1) {
+            //     $scope.recipes = jsonObj1.data;
+            //     //initialize videos
+            //     dataService.getData('videos',$scope).then(function(jsonObj2) {
+            //         $scope.videosRaw = jsonObj2.data;
+            //         $scope.videos = jsonObj2.data;
+            //         //initialize pictures
+            //         dataService.getData('pictures',$scope).then(function(jsonObj3) {
+            //             $scope.picturesRaw = jsonObj3.data;
+            //             $scope.pictures = jsonObj3.data;
+            //             //initialize  blogs
+            //             $scope.blogSort = 'n2o';
+            //             dataService.getData('blogs',$scope).then(function(jsonObj4) {
+            //                 $scope.blogEntriesRaw = jsonObj4.data.reduce((acc,item)=>{
+            //                     if (item.featured_blog){
+            //                         $scope.featuredBlogEntry = item;
+            //                     }
+            //                     acc.push(item);
+            //                     return acc;
+            //                 },[]);
+            //                 $scope.sortBlogList();
+            //                 $scope.blogEntries = angular.copy($scope.blogEntriesRaw);
+            //                 //initialize projects
+            //                 dataService.getData('projects',$scope).then(function(jsonObj5) {
+            //                     $scope.projects = jsonObj5.data;
+            //                 });
+            //             });
+            //         });
+            //     });
+            // });
+
 
             //initialize  books
             $scope.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
@@ -369,15 +433,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             $scope.setNextDisplayPage();
             $scope.setNextDisplayPage('hyperspear');
 
-            $scope.currentAlbum = 'all';
             $scope.scrollToHash();
         }
     $scope.init();
     })
 $(document).ready(function(){
     console.log("document ready")
-
-
-
 });
 

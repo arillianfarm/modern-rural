@@ -4,6 +4,7 @@
             <h2 class="text-white">Recipes</h2>
         </div>
     </div>
+
   <div ng-if="recipes" class="row text-white" ng-repeat="recipe in recipes track by $index">
      <div class="col-xs-12">
          <div class="row">
@@ -24,7 +25,8 @@
                  <img ng-if="recipe && recipe.header_pic"
                       class="br20 m-3"
                       ng-src="./assets/recipes/{{recipe.header_pic}}"
-                      style="height: 300px; max-width: 25em;">
+                      ng-style="{'height': smallView ? 'auto' : '300px'}"
+                      style="max-width: 25em;">
              </div>
              <div class="col-xs-12 col-lg-4 mt-5" ng-if="recipe.ingredients">
                  <ul>
@@ -40,7 +42,10 @@
                  <ol style="font-weight: bold" class="text-muted">
                      <li ng-repeat="step in recipe.steps track by $index">
                          <h4>{{step.instruction}}</h4>
-                         <img class="br20" ng-if="step.pic" ng-src="./assets/recipes/{{step.pic}}" style="height: 150px;">
+                         <img class="br20"
+                              ng-if="step.pic"
+                              ng-src="./assets/recipes/{{step.pic}}"
+                              ng-style="{'height': smallView ? 'auto' : '150px'}">
                      </li>
                  </ol>
              </div>
