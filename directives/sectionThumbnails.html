@@ -10,7 +10,8 @@
                        ng-src="{{thumbnail.src}}"
                        height="100em; ">
                     <h4 class="text-white text-small text-center">
-                      {{thumbnail.view}}
+                        {{thumbnail.view}}
+                        <i ng-if="thumbnail.view=='Merchandise'" class="fa fa-external-link"></i>
                     </h4>
               </a>
       </div>

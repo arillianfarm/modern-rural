@@ -220,6 +220,18 @@
           "instruction": "Top the toasted bread with tomato mixture and mozzarella"
         }],
       "notes": "The toast with the most!"
+    }, {
+      "name": "Arthur's Nutritious Sludge",
+      "header_pic": "",
+      "servings": "1 serving",
+      "ingredients": [
+        "1 clove of garlic"
+      ],
+      "steps": [{
+        "pic": "brus1.png",
+        "instruction":"Slice the tomatoes into small discs and slice the basil into thin ribbons"
+      }],
+      "notes": "The toast with the most!"
     }
   ]
 }

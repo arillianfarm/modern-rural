@@ -116,7 +116,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             } ,
             {
                 href: "#!recipes",
-                src:"assets/recipes/pickledonions.png",
+                src:"assets/recipes/hueyLovesPotatoeSalad.png",
                 view: 'Recipes'
             } ,
             {
@@ -124,8 +124,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                 src:"assets/pictures/butterflysunrise.png",
                 view: 'Photo Gallery'
             } ,{
-                href: "#!merch",
-                src:"assets/arillianTshirt.png",
+                href: "https://www.zazzle.com/store/arillianfarm",
+                src:"assets/shopPic.png",
                 view: 'Merchandise'
             },{
                 href: "#!diying",
@@ -397,7 +397,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             //initialize  books
             $scope.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
             $scope.unfettered_display_page = $scope.unfettered_display_pages[0];
-            $scope.hyperspear_display_pages = ["hyperspear1.png", "hyperspear2.png", "hyperspear3.png" ];
+            $scope.hyperspear_display_pages = ["hyperCover1.png", "hyperspear2.png", "hyperspear3.png" ];
             $scope.hyperspear_display_page = $scope.hyperspear_display_pages[0];
 
             $scope.scrollToHash();
