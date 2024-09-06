@@ -5,18 +5,18 @@
     <div class="text-center"
          ng-class="{'highlighted': album.name  === currentAlbum}"
          ng-repeat="album in albumCovers track by $index"
+         ng-click="goToAlbum(album.name, albumType)"
          ng-if="albumType != 'videos' || !album.hide_video_view">
       <div class="ml-2 mr-2 cursPoint"
            style="padding:10px;">
               <span >
                   <img class="br20"
-                       ng-click="goToAlbum(album.name, albumType)"
                        ng-src="{{album.thumbnail}}"
                        height="100em; ">
               </span>
       </div>
       <p class="text-white text-small text-center">
-        {{album.name}}
+        {{titleCaps(album.name)}}
       </p>
     </div>
   </div>

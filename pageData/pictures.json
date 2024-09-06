@@ -2,7 +2,7 @@
   "data": [
     {
       "file": "ayaSammy3DaysOld.png",
-      "caption": "Aya and Sammy - three days after hatching",
+      "caption": "Aya and Sammy - the day I brought them home",
       "albums": ["chickens", "animals"]
     },{
       "file": "oddbird.png",
@@ -42,8 +42,8 @@
       "caption": "Totes and McGoats When They Were Angelic Baby Kids",
       "albums": ["goats", "animals"]
     },{
-    "file": "totesOnBoard.png",
-    "caption": "Totes on Board",
+    "file": "goatAirplane.png",
+    "caption": "McGoats on Board",
     "albums": ["goats", "animals"]
   },{
       "file": "farmfluencers.png",
@@ -80,10 +80,18 @@
     },{
       "file": "TurnipYourVolume.png",
       "caption": "Turnip Your Volume",
-      "albums": []
+      "albums": ["gardens"]
     },{
       "file": "turnUpTheBeets.png",
       "caption": "Turn up Your Beets",
-      "albums": []
+      "albums": ["gardens"]
+    },{
+      "file": "gardenBeds1.png",
+      "caption": "Spring In Full Swing",
+      "albums": ["gardens"]
+    },{
+      "file": "washingBeets.png",
+      "caption": "A lovely Beet Harvest!",
+      "albums": ["gardens"]
     }
   ]}

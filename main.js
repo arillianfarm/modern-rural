@@ -39,14 +39,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         .when("/pictures", {
             templateUrl : "landingPages/pictures.html"
         })
-        .when("/diying", {
-            templateUrl : "landingPages/diying.html"
+        .when("/projects", {
+            templateUrl : "landingPages/projects.html"
         })
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
-        })
-        .when("/petcare", {
-            templateUrl : "landingPages/animalCare.html"
         })
         .otherwise( {
             redirectTo : "/"
@@ -82,7 +79,15 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     }
     return {
         link: link,
-        templateUrl: 'directives/picBanner.html'
+        templateUrl: 'directives/picBanner.html',
+    };
+}]).directive('topMenu', [ function(){
+    function link(scope, element, attrs) {
+
+    }
+    return {
+        link: link,
+        templateUrl: 'directives/topMenu.html'
     };
 }]).directive('clickIcons', [function(){
     function link(scope, element, attrs) {
@@ -112,33 +117,40 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             {
                 href: "#!videos",
                 src:"assets/hueyVidCap.png",
-                view: 'Video Gallery'
+                view: 'videos',
+                name: 'Video Gallery'
             } ,
             {
                 href: "#!recipes",
                 src:"assets/recipes/hueyLovesPotatoeSalad.png",
-                view: 'Recipes'
+                view: 'recipes',
+                name: 'Recipes'
             } ,
             {
                 href: "#!pictures",
                 src:"assets/pictures/butterflysunrise.png",
-                view: 'Photo Gallery'
+                view: 'pictures',
+                name: 'Photo Gallery'
             } ,{
                 href: "https://www.zazzle.com/store/arillianfarm",
                 src:"assets/shopPic.png",
-                view: 'Merchandise'
+                view: 'merch',
+                name: 'Merchandise'
             },{
-                href: "#!diying",
-                src:"assets/diying/catio13.png",
-                view: 'DIY Projects'
+                href: "#!projects",
+                src:"assets/projects/catio13.png",
+                view: 'projects',
+                name: 'DIY Projects'
             },{
                 href: "#!comics",
                 src:"assets/comics/eyesAcrossTheSkies.png",
-                view: 'Comics'
+                view: 'comics',
+                name: 'Comics'
             },{
                 href: "#!blog",
                 src:"assets/blog/arsunrise.png",
-                view: 'Blog'
+                view: 'lbog',
+                name: 'Blog'
             },
         ];
     }
@@ -186,7 +198,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             let stepNumber = i+1;
             instructions += `(${stepNumber}) ${step.instruction}`
         }
-        let summary = `${ingredients} ${instructions}`;
+        let summary = `Recipe For ${recipe.name} ${ingredients} ${instructions}  (courtesy of Arillian Farm ${$scope.assembleHashLink(recipe.name)})`;
         $scope.copyForClipboard(summary);
     };
 
@@ -218,12 +230,15 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     };
 
     //scroll to a specific entry on a specific view
-    $scope.scrollToHash = function() {
+    $scope.scrollToHashOrTop = function() {
         var hash = $location.hash();
         if (hash) {
             $anchorScroll();
+            return;
         }
+        $anchorScroll();
     };
+
 
     //put text into clipboard
     $scope.copyForClipboard = function(text) {
@@ -251,23 +266,29 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return docName.split(" ").join("-");
     }
 
-    $scope.putHashLinkOnClipboard = function(nameTitleField){
+    $scope.assembleHashLink = function(nameTitleField){
         let preHash = $location['$$absUrl'];
         let postHash = $scope.assembleIDattribute(nameTitleField);
         let hashLink = `${preHash}#${postHash}`;
+        return hashLink;
+    }
+
+    $scope.putHashLinkOnClipboard = function(nameTitleField){
+        let hashLink = $scope.assembleHashLink(nameTitleField);
         $scope.copyForClipboard(hashLink);
     };
 
     $scope.goToAlbum = function(albumName, albumType){
+        let albumNameTemp = albumName.toLowerCase();
         let filteredList = [];
-        $scope.currentAlbum = albumName;
+        $scope.currentAlbum = albumName.toLowerCase();
         switch (albumType){
             case 'videos':
-                filteredList = albumName == 'all' ? $scope.videosRaw : $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumName)>-1);
+                filteredList = albumNameTemp == 'all' ? $scope.videosRaw : $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
                 $scope.videos = filteredList;
                 break;
             case 'pictures':
-                filteredList = albumName == 'all' ? $scope.picturesRaw : $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumName)>-1);
+                filteredList = albumNameTemp == 'all' ? $scope.picturesRaw : $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
                 $scope.pictures = filteredList;
                 break;
             default:
@@ -278,13 +299,13 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
 // VIDEO VIEW
     $scope.albumCovers = [
-        {name: "All", thumbnail:"assets/beaky.png"},
-        {name: "Chickens", thumbnail:"assets/favicons/android-chrome-192x192.png"},
-        {name: "Dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
-        {name: "Gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
-        {name: "Goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png"},
-        {name: "Sky", hide_video_view: true, thumbnail:"assets/pictures/sunsetsq.png"},
-        {name: "Wildlife", thumbnail:"assets/pictures/butterflysunrise.png"}
+        {name: "all", thumbnail:"assets/pictures/washingBeets.png"},
+        {name: "chickens", thumbnail:"assets/favicons/android-chrome-192x192.png"},
+        {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
+        {name: "gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
+        {name: "goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png"},
+        {name: "sky", hide_video_view: true, thumbnail:"assets/pictures/sunsetsq.png"},
+        {name: "wildlife", thumbnail:"assets/pictures/butterflysunrise.png"}
     ];
 
 // PICTURE VIEW
@@ -354,32 +375,41 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
         }
 
-        $scope.init = function(){
-            //initialize  sorts
-            $scope.recipeSort = 'a2z';
-            $scope.blogSort = 'n2o';
-            $scope.currentAlbum = 'all';
-
-            //pull in page data
-            const promises = [
-                dataService.getData('recipes', $scope),
-                dataService.getData('videos', $scope),
-                dataService.getData('pictures', $scope),
-                dataService.getData('blogs', $scope),
-                dataService.getData('projects', $scope)
-            ];
-            Promise.all(promises)
-                .then(([recipesResponse, videosResponse, picturesResponse, blogsResponse, projectsResponse]) => {
-                    // Assign data to scope variables
-                    $scope.recipes = recipesResponse.data;
-                    $scope.videosRaw = videosResponse.data;
-                    $scope.videos = videosResponse.data;
-                    $scope.picturesRaw = picturesResponse.data;
-                    $scope.pictures = picturesResponse.data;
-                    $scope.projects = projectsResponse.data;
-
+    $rootScope.initializeView = function(view){
+        let viewType = view.toLowerCase();
+        let uninitializedViews = ['merch','main', 'about', 'comics'];
+        if (uninitializedViews.indexOf(viewType) > -1){
+            $scope.scrollToHashOrTop();
+            return;
+        }
+        if (viewType == 'books'){
+            $scope.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
+            $scope.unfettered_display_page = $scope.unfettered_display_pages[0];
+            $scope.hyperspear_display_pages = ["hyperCover1.png", "hyperspear2.png", "hyperspear3.png" ];
+            $scope.hyperspear_display_page = $scope.hyperspear_display_pages[0];
+            $scope.scrollToHashOrTop();
+            return;
+        }
+        dataService.getData(viewType,$scope).then(function(jsonObj) {
+            if (viewType != 'blog') {
+                $scope[view] = jsonObj.data;
+            }
+            switch(viewType){
+                case 'recipes':
+                    $scope.recipeSort = 'a2z';
+                    break;
+                case 'videos':
+                    $scope.videosRaw = jsonObj.data;
+                    $scope.currentAlbum = 'all';
+                    break;
+                    case 'pictures':
+                    $scope.currentAlbum = 'all';
+                    $scope.picturesRaw = jsonObj.data;
+                    break;
+                case 'blog':
+                    $scope.blogSort = 'n2o';
                     // Process blogs data
-                    $scope.blogEntriesRaw = blogsResponse.data.reduce((acc, item) => {
+                    $scope.blogEntriesRaw = jsonObj.data.reduce((acc, item) => {
                         if (item.featured_blog) {
                             $scope.featuredBlogEntry = item;
                         }
@@ -388,20 +418,21 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     }, []);
                     $scope.sortBlogList();
                     $scope.blogEntries = angular.copy($scope.blogEntriesRaw);
-                })
-                .catch(error => {
-                    // Handle any errors during data fetching
-                    console.error('Error fetching data:', error);
-                });
+                    break;
+                case 'projects':
+                    break;
+                default:
 
-            //initialize  books
-            $scope.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
-            $scope.unfettered_display_page = $scope.unfettered_display_pages[0];
-            $scope.hyperspear_display_pages = ["hyperCover1.png", "hyperspear2.png", "hyperspear3.png" ];
-            $scope.hyperspear_display_page = $scope.hyperspear_display_pages[0];
+            }
+            $scope.scrollToHashOrTop();
+        });
+    }
+    $scope.init = function(){
+        let viewType = ($location.path()).replace("/","");
 
-            $scope.scrollToHash();
-        }
+        $scope.initializeView(viewType);
+        $scope.scrollToHashOrTop();
+    };
     $scope.init();
     })
 $(document).ready(function(){

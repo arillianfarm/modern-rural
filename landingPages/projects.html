@@ -1,0 +1,73 @@
+<div class="container border2px br20 mb-5 p-5">
+    <div class="row text-center text-white p-3 mb-5" >
+        <div class="col-xs-12 text-justified">
+            <h2 class="text-danger">This page is a chronicle of projects Arthur and I have worked on... but not necessarily a recommendation of what or how anyone else should do anything.</h2>
+        </div>
+        <div ng-if="projects" class="col-xs-12" ng-repeat="project in projects">
+<!--            <div class="card card-primary">-->
+<!--                <div class="card-header">-->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3>{{project.name}}</h3>
+                        </div>
+                        <div class="col-lg-6 small-hide text-right mt-3">
+                            <h4 ng-if="project.notes" class="text-muted" >{{project.notes}}</h4>
+                        </div>
+                    </div>
+<!--                </div>-->
+                <div class="card-body">
+                    <div class="row">
+
+                        <div  class="col-xs-12 text-center">
+                            <img class="br20"
+                                 ng-src="./assets/projects/{{project.header_pic}}"
+                                 ng-style="{'height': smallView ? 'auto' : '30em'}"
+                            >
+                        </div>
+                        <div  class="col-xs-12">
+                            <h4 ng-if="project.about">{{project.about}}</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12" ng-if="project.tools && project.tools.length" >
+                        <h3>Tools</h3>
+                        <ol style="font-weight: bold" class="text-muted">
+                            <li ng-repeat="tool in project.tools track by $index">
+                                <h4>{{tool.name}}</h4>
+                                <img ng-if="tool.pic"
+                                     ng-src="./assets/projects/{{tool.pic}}"
+                                     ng-style="{'height': smallView ? 'auto' : '150px'}">
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="col-xs-12" ng-if="project.materials && project.materials.length" >
+                        <h3>Materials</h3>
+                        <ol style="font-weight: bold" class="text-muted">
+                            <li ng-repeat="tool in project.materials track by $index">
+                                <h4>{{material.name}}</h4>
+                                <img ng-if="tool.pic" class="br20"
+                                     ng-src="./assets/projects/{material.pic}}"
+                                     ng-style="{'height': smallView ? 'auto' : '150px'}"
+                                >
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 mt-5" ng-if="project.phases">
+                            <div ng-repeat="phase in project.phases track by $index">
+                                <h4 class="text-muted" >{{phase.text}}</h4>
+                                <img ng-if="phase.pic"
+                                     class="br20"
+                                     ng-src="./assets/projects/{{phase.pic}}"
+                                     ng-style="{'height': smallView ? 'auto' : '30em'}">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+<!--            </div>-->
+        </div>
+    </div>
+</div>
+</div>
+
