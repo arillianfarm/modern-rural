@@ -51,13 +51,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 }).factory('dataService', ['$http', function($http) {
     //factory to retrieve data from Json Files for each landing page
         return {
-            getData: function(category, $scope) {
-                if ($scope[category]) {
-                    return Promise.resolve($scope[category]);
+            getData: function(category, scope) {
+                if (!category || !scope){
+                    return;
+                }
+                if (scope[category]) {
+                    return Promise.resolve(scope[category]);
                  } else {
                     let filename = `pageData/${category}.json`;
                     return $http.get(filename).then(function(response) {
-                        return response.data;
+                        return response.data?.data;
                     });
                 }
             }
@@ -251,6 +254,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     };
 
     $rootScope.titleCaps = function(string){
+        if (!string || !string.length){
+            console.error("function $rootScope.titleCaps failed");
+            return;
+        }
+
         let splitStr = string.toLowerCase().split(' ');
         for (var i = 0; i < splitStr.length; i++) {
                 splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
@@ -377,7 +385,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     $rootScope.initializeView = function(view){
         let viewType = view.toLowerCase();
-        let uninitializedViews = ['merch','main', 'about', 'comics'];
+        let uninitializedViews = ['merch','main', 'about', 'comics', ''];
         if (uninitializedViews.indexOf(viewType) > -1){
             $scope.scrollToHashOrTop();
             return;
@@ -392,24 +400,24 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         }
         dataService.getData(viewType,$scope).then(function(jsonObj) {
             if (viewType != 'blog') {
-                $scope[view] = jsonObj.data;
+                $scope[view] = jsonObj;
             }
             switch(viewType){
                 case 'recipes':
                     $scope.recipeSort = 'a2z';
                     break;
                 case 'videos':
-                    $scope.videosRaw = jsonObj.data;
+                    $scope.videosRaw = jsonObj;
                     $scope.currentAlbum = 'all';
                     break;
                     case 'pictures':
                     $scope.currentAlbum = 'all';
-                    $scope.picturesRaw = jsonObj.data;
+                    $scope.picturesRaw = jsonObj;
                     break;
                 case 'blog':
                     $scope.blogSort = 'n2o';
                     // Process blogs data
-                    $scope.blogEntriesRaw = jsonObj.data.reduce((acc, item) => {
+                    $scope.blogEntriesRaw = jsonObj.reduce((acc, item) => {
                         if (item.featured_blog) {
                             $scope.featuredBlogEntry = item;
                         }
