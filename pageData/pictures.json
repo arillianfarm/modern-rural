@@ -93,5 +93,13 @@
       "file": "washingBeets.png",
       "caption": "A lovely Beet Harvest!",
       "albums": ["gardens"]
+    },{
+      "file": "areYouYolkingMe.png",
+      "caption": "Don't Egg Me On",
+      "albums": ["dogs"]
+    },{
+      "file": "singleRainbow.png",
+      "caption": "Single Rainbow!",
+      "albums": ["sky"]
     }
   ]}
