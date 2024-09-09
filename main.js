@@ -60,12 +60,12 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                  } else {
                     let filename = `pageData/${category}.json`;
                     return $http.get(filename).then(function(response) {
-                        return response.data?.data;
+                        return Promise.resolve(response.data?.data);
                     });
                 }
             }
         };
-    }]).directive('picBanner', [ function(){
+}]).directive('picBanner', [ function(){
     function link(scope, element, attrs) {
         scope.headerPicFiles = [
             {name:"dogsPool.png"} ,
@@ -174,6 +174,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $rootScope.smallView = window.innerWidth <= 400;
     $rootScope.windowHeight = window.innerHeight;
 
+    $rootScope.data = {
+        recipes: null,
+        projects: null,
+        blog: null,
+        pictures: null,
+        videos: null,
+        blogEntries: null,
+        featuredBlogEntry: null
+    };
+
     $scope.calculateAlbumContainerSize = function(){
         return $rootScope.smallView ? '25em' : '100%';
     };
@@ -267,7 +277,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     };
 
     $scope.scrollToBlogItem = function(docName){
-         $scope.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName)
+         $scope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName)
     }
 
     $rootScope.assembleIDattribute = function(docName){
@@ -398,34 +408,34 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             $scope.scrollToHashOrTop();
             return;
         }
-        dataService.getData(viewType,$scope).then(function(jsonObj) {
+        dataService.getData(viewType,$scope).then(function(dataArr) {
             if (viewType != 'blog') {
-                $scope[view] = jsonObj;
+                $rootScope.data[view] = dataArr;
             }
             switch(viewType){
                 case 'recipes':
                     $scope.recipeSort = 'a2z';
                     break;
                 case 'videos':
-                    $scope.videosRaw = jsonObj;
+                    $scope.videosRaw = dataArr;
                     $scope.currentAlbum = 'all';
                     break;
                     case 'pictures':
                     $scope.currentAlbum = 'all';
-                    $scope.picturesRaw = jsonObj;
+                    $scope.picturesRaw = dataArr;
                     break;
                 case 'blog':
                     $scope.blogSort = 'n2o';
                     // Process blogs data
-                    $scope.blogEntriesRaw = jsonObj.reduce((acc, item) => {
+                    $scope.blogEntriesRaw = dataArr.reduce((acc, item) => {
                         if (item.featured_blog) {
-                            $scope.featuredBlogEntry = item;
+                            $scope.data.featuredBlogEntry = item;
                         }
                         acc.push(item);
                         return acc;
                     }, []);
                     $scope.sortBlogList();
-                    $scope.blogEntries = angular.copy($scope.blogEntriesRaw);
+                    $rootScope.data.blogEntries = angular.copy($scope.blogEntriesRaw);
                     break;
                 case 'projects':
                     break;

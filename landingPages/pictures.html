@@ -37,8 +37,8 @@
     </div>
   </div>
   <hr>
-  <div class="row text-center" ng-if="pictures">
-    <div class="col-xs-12 col-lg-4 mb-5" ng-repeat="pic in pictures track by $index">
+  <div class="row text-center" ng-if="data.pictures">
+    <div class="col-xs-12 col-lg-4 mb-5" ng-repeat="pic in data.pictures track by $index">
       <h4 class="text-white">
         {{pic.caption}}
       </h4>

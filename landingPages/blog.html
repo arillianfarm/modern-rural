@@ -5,8 +5,8 @@
         </div>
     </div>
     <div class="row text-white" >
-        <div ng-if="blogEntries" class="col-xs-12 col-lg-9" style="border-right:2px solid white;">
-            <div class="row" ng-if="featuredBlogEntry.custom_blog_1" custom-blog blog-data="{{featuredBlogEntry}}"></div>
+        <div ng-if="data.blogEntries" class="col-xs-12 col-lg-9" style="border-right:2px solid white;">
+            <div class="row" ng-if="data.featuredBlogEntry.custom_blog_1" custom-blog blog-data="{{data.featuredBlogEntry}}"></div>
             <div ng-if="featuredBlogEntry && !featuredBlogEntry.custom_blog_1">
                 <div ng-id="assembleIDattribute(featuredBlogEntry.entry_subject)">
                     <h5 class="mb-0">
@@ -64,7 +64,7 @@
                         <a>All Blog Entries</a>
                     </h3>
                 </div>
-                <div class="col-xs-12 border2px br20 m-2" ng-class="{'highlighted': item.entry_subject === featuredBlogEntry.entry_subject }" ng-repeat="item in blogEntries track by $index" >
+                <div class="col-xs-12 border2px br20 m-2" ng-class="{'highlighted': item.entry_subject === featuredBlogEntry.entry_subject }" ng-repeat="item in data.blogEntries track by $index" >
                    <div class="row">
                        <div class="col-xs-12">
                            <h4>
