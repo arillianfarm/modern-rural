@@ -281,7 +281,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     }
 
     $rootScope.assembleIDattribute = function(docName){
-        return docName.split(" ").join("-");
+        return docName.split(" ").join("-").replace("'","");
     }
 
     $scope.assembleHashLink = function(nameTitleField){
