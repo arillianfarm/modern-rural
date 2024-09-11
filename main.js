@@ -150,11 +150,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                 view: 'comics',
                 name: 'Comics'
             },{
+                href: "#!books",
+                src:"assets/books/hyperCover1.png",
+                view: 'books',
+                name: 'Books'
+            },{
                 href: "#!blog",
                 src:"assets/blog/arsunrise.png",
-                view: 'lbog',
+                view: 'blog',
                 name: 'Blog'
-            },
+            }
         ];
     }
     return {
@@ -181,7 +186,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         pictures: null,
         videos: null,
         blogEntries: null,
-        featuredBlogEntry: null
+        featuredBlogEntry: null,
+        hyperspear_display_pages: null,
+        hyperspear_display_page: null,
+        unfettered_display_pages: null,
+        unfettered_display_page: null
     };
 
     $scope.calculateAlbumContainerSize = function(){
@@ -373,22 +382,22 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
 // BOOKS VIEW
         $scope.setNextDisplayPage = function(book){
-            var pagesToUse = $scope.unfettered_display_pages;
-            var displayPage = $scope.unfettered_display_page||"";
+            var pagesToUse = $scope.data.unfettered_display_pages;
+            var displayPage = $scope.data.unfettered_display_page||"";
             var currentIndex;
             var nextPage;
             switch(book){
                case 'hyperspear':
-                   pagesToUse = $scope.hyperspear_display_pages;
-                   displayPage = $scope.hyperspear_display_page||"";
+                   pagesToUse = $scope.data.hyperspear_display_pages;
+                   displayPage = $scope.data.hyperspear_display_page||"";
                    currentIndex = pagesToUse.indexOf(displayPage);
-                   nextPage = currentIndex < 2 ? $scope.hyperspear_display_pages[currentIndex +1] : $scope.hyperspear_display_pages[0];
-                   $scope.hyperspear_display_page = nextPage;
+                   nextPage = currentIndex < 2 ? $scope.data.hyperspear_display_pages[currentIndex +1] : $scope.data.hyperspear_display_pages[0];
+                   $scope.data.hyperspear_display_page = nextPage;
                    break;
                default:
                 currentIndex = pagesToUse.indexOf(displayPage);
-                nextPage = currentIndex < 2 ? $scope.unfettered_display_pages[currentIndex +1] : $scope.unfettered_display_pages[0];
-                $scope.unfettered_display_page = nextPage;
+                nextPage = currentIndex < 2 ? $scope.data.unfettered_display_pages[currentIndex +1] : $scope.data.unfettered_display_pages[0];
+                $scope.data.unfettered_display_page = nextPage;
            }
 
         }
@@ -401,10 +410,10 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             return;
         }
         if (viewType == 'books'){
-            $scope.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
-            $scope.unfettered_display_page = $scope.unfettered_display_pages[0];
-            $scope.hyperspear_display_pages = ["hyperCover1.png", "hyperspear2.png", "hyperspear3.png" ];
-            $scope.hyperspear_display_page = $scope.hyperspear_display_pages[0];
+            $scope.data.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
+            $scope.data.unfettered_display_page = $scope.data.unfettered_display_pages[0];
+            $scope.data.hyperspear_display_pages = ["hyperCover1.png", "hyperspear2.png", "hyperspear3.png" ];
+            $scope.data.hyperspear_display_page = $scope.data.hyperspear_display_pages[0];
             $scope.scrollToHashOrTop();
             return;
         }
