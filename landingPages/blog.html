@@ -39,31 +39,39 @@
                         <h3  ng-href="{{getIframeSrc(data.featuredBlogEntry.link)}}" target="_blank">[LINK]</h3>
                     </div>
                     <div class="col-xs-12 text-justified" ng-repeat="section in data.featuredBlogEntry.sections track by $index">
-                        <div class="wrap">
+                        <div >
                             <img ng-if="section.pics"
                                  ng-src="./assets/blog/{{pic}}"
-                                 style="height: 20em;"
-                                 class="br20"
-                                 ng-repeat="pic in section.pics track by $index"
-                            >
-                            <a class="ml-5" ng-if="section.link && section.pic_file" ng-href="{{getIframeSrc(section.link)}}" target="_blank">
-                                <img ng-src="./assets/blog/{{section.pic_file}}" style="height: 20em;">
+                                 style="height: 20em; padding:10px;"
+                                 ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
+                                 class="br20 p2"
+                                 ng-repeat="pic in section.pics track by $index">
+                            <a class="ml-5" ng-style="{'float':section.right_side_pic ? 'right': 'left'}" ng-if="section.link && section.pic_file" ng-href="{{getIframeSrc(section.link)}}" target="_blank">
+                                <img ng-src="./assets/blog/{{section.pic_file}}"
+                                     style="height: 20em; padding:10px;">
                             </a>
-                        </div>
-                        <div ng-if="!section.paragraphs && section.text">
-                            <p  ng-if="!section.bold" style="margin-left:25px;">
+                            <p style="margin-left:25px;" ng-if="section.paragraphs" ng-repeat="p in section.paragraphs track by $index">
+                                {{p}}
+                            </p>
+                            <p  ng-if="!section.paragraphs && !section.bold && !section.h2 && !section.h3 && !section.h4" style="margin-left:25px;">
                                 {{section.text}}
                             </p>
-                            <b ng-if="section.bold">
+                            <b ng-if="!section.paragraphs && section.bold">
                                 {{section.text}}
                             </b>
-                        </div>
-                        <div ng-if="section.paragraphs" ng-repeat="p in section.paragraphs track by $index">
-                                <p style="margin-left:25px;">
-                                    {{p}}
-                                </p>
+                            <h2 ng-if="!section.paragraphs && section.h2">
+                                {{section.text}}
+                            </h2>
+                            <h3 ng-if="!section.paragraphs && section.h3">
+                                {{section.text}}
+                            </h3>
+                            <h4 ng-if="!section.paragraphs && section.h4">
+                                {{section.text}}
+                            </h4>
 
                         </div>
+
+
                     </div>
                 </div>
 

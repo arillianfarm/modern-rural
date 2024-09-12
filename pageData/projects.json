@@ -6,6 +6,7 @@
     "about": "",
     "tools": [],
     "materials": [],
+    "slides_only": true,
     "phases": [
       {
         "pic": "catio1.png",
@@ -37,6 +38,100 @@
         "text": ""
       },{
         "pic": "catio10.png",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "name": "Raised Garden Beds",
+    "header_pic": "rbTurnsoil.png",
+    "about": "I had a garden bed that wasn't getting enough light and underproducing, so I've decided to move it and start a new bed in a location that gets better light.",
+    "tools": [
+      "pickaxe",
+      "shovel",
+      "rake",
+      "gloves",
+      "mask"
+    ],
+    "materials": [
+      "2 2x6inch pieces of lumber",
+      "4 oldcastle gardenbed cornerstones",
+      "soil"
+    ],
+    "slides_only": true,
+    "phases": [
+      {
+        "pic": "rb1.png",
+        "text": ""
+      }
+    ]
+  },
+  {
+      "name": "Making Garden soil",
+      "header_pic": "makeSoil1.png",
+      "about": "",
+      "tools": [],
+      "materials": [],
+      "slides_only": true,
+      "phases": [
+        {
+          "pic": "",
+          "text": ""
+        }
+      ]
+    },
+  {
+    "name": "Growing Basil From Cuttings",
+    "header_pic": "growBas1.png",
+    "about": "",
+    "tools": [],
+    "materials": [],
+    "slides_only": true,
+    "phases": [
+      {
+        "pic": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "name": "Water Garden / Mosquito Fish pond",
+    "header_pic": "pond1.png",
+    "about": "",
+    "tools": [],
+    "materials": [],
+    "slides_only": true,
+    "phases": [
+      {
+        "pic": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "name":  "Hydroponic Gardens",
+    "header_pic": "pond1.png",
+    "about": "",
+    "tools": [],
+    "materials": [],
+    "slides_only": true,
+    "phases": [
+      {
+        "pic": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "name":  "Subway Tile",
+    "header_pic": "subTile1.png",
+    "about": "",
+    "tools": [],
+    "materials": [],
+    "slides_only": true,
+    "phases": [
+      {
+        "pic": "",
         "text": ""
       }
     ]

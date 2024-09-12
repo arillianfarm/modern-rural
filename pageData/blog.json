@@ -207,6 +207,7 @@
         },{
           "bold":false,
           "pics": ["nicPainting.png"],
+          "right_side_pic": true,
           "text":"The only thing that made it bearable was my Nicaraguan coworker. He knew more about certain aspects of computer science than I and I knew more about other things than him, so we worked well together in that regard, but also, he’s just a genuinely good person: hardworking and communicative and also, he always spoke pridefully about his family and seemed to go to great lengths to take care of them. He lost his mother during COVID and after that, since he wasn’t able to get vaccines for his family in Nicaragua, he drove them (on dirt roads through small towns etc… not on a highway or anything) to Honduras to get them vaccinated. We would chat about what was going on in our lives and when I told him I have chickens, he sent me a feather with a picture of Nicaragua painted on it… and it was just like one of the most thoughtful unique things I’ve received. He’s just a very kind and thoughtful person. So, when the (non-technically inclined) owner of my company, who had never actually evaluated the work of my coworker, asked me to fire him because he wanted to put a different remote developer on our team instead, it was a gut punch. The economy wasn’t great and my co-worker supported a lot of people. It seemed like the job was much more important to him than me. Plus he was a hard worker and had a strong knowledge of the project, so I gave my notice and urged the owner to keep my coworker on since, after I left, he would be the only one with any knowledge of what we’d built so far."
         },{
           "bold":false,
@@ -216,6 +217,52 @@
         },{
           "bold":false,
           "text":"A week after the owner of my company told me to fire my coworker, at our next zoom meeting, I gave three months notice (so he could find a replacement and I could train them)  and I advised him that keeping my coworker on would be highly advisable since he was about to be the only person holding knowledge of the last several years of work on the project. They kept him on and gave him a raise and I started gardening, cooking and writing more."
+        }
+      ]
+    },
+    {
+      "entry_number": 5,
+      "entry_date": "Sept 6, 2024",
+      "entry_subject": "The Overbigness of the world today",
+      "feature_section_1": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "bold":false,
+          "text":""
+        }
+      ]
+    },
+    {
+      "entry_number": 6,
+      "entry_date": "Sept 13, 2024",
+      "entry_subject": "Love For My Homies",
+      "feature_section_1": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "bold":false,
+          "text":"My homies are the close friends that live by me and with whom I feel at home. My friend family. We have all been on healthy journeys together and support and help each other grow. More and more, meeting for happy hour is being replaced by meeting up to do some yoga together or try a new recipe. We are each others pet sitters, task rabbits, and sounding boards. It’s not unusual for any of us to surprise another of us with a random gift for one of their pets. We cook together, grieve together, work together, sit by the side of the road, vacation and party together."
         }
       ]
     }
