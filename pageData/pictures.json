@@ -161,5 +161,29 @@
       "file": "chandlerGarden9.png",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 9",
       "albums": ["gardens"]
+    },{
+      "file": "tempeA1.png",
+      "caption": "Garden Beds at my rental house 1",
+      "albums": ["gardens"]
+    },{
+      "file": "tempeA2.png",
+      "caption": "Garden Beds at my rental house 2",
+      "albums": ["gardens"]
+    },{
+      "file": "tempeB1.png",
+      "caption": "Garden Beds at my rental house 3",
+      "albums": ["gardens"]
+    },{
+      "file": "tempeB2.png",
+      "caption": "Garden Beds at my rental house 4",
+      "albums": ["gardens"]
+    },{
+      "file": "tempeB3.png",
+      "caption": "Garden Beds at my rental house 5",
+      "albums": ["gardens"]
+    },{
+      "file": "tempeB4.png",
+      "caption": "Garden Beds at my rental house 6",
+      "albums": ["gardens"]
     }
   ]}
