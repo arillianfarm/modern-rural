@@ -202,27 +202,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.sayClick = function(){
         console.log("click")
     };
-    $scope.assembleAndCopyRecipeSummary = function(recipe){
-        if (!recipe || !recipe.ingredients || !recipe.steps){
-            return;
-        }
-        let ingredients = "INGREDIENTS: ";
-        let instructions = " INSTRUCTIONS: ";
-        for (let i =0; i< recipe.ingredients.length;i++){
-            let ingredient = recipe.ingredients[i];
-            ingredients += ` ${ingredient}`
-            if (i < (recipe.ingredients.length -1)){
-                ingredients += ",";
-            }
-        }
-        for (let i =0; i< recipe.steps.length;i++){
-            let step = recipe.steps[i];
-            let stepNumber = i+1;
-            instructions += `(${stepNumber}) ${step.instruction}`
-        }
-        let summary = `Recipe For ${recipe.name} ${ingredients} ${instructions}  (courtesy of Arillian Farm ${$scope.assembleHashLink(recipe.name)})`;
-        $scope.copyForClipboard(summary);
-    };
 
     $scope.toCaps = function(string, truncateLength){
         let newString;
@@ -234,7 +213,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     $scope.trunc = function(string, length){
         let newString;
-        if (length){
+        if (string && length){
             newString = (string.length > length ? `${string.substring(0,length)}...` : string);
         }
         return newString;
@@ -260,7 +239,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         }
         $anchorScroll();
     };
-
 
     //put text into clipboard
     $scope.copyForClipboard = function(text) {
@@ -312,11 +290,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         switch (albumType){
             case 'videos':
                 filteredList = albumNameTemp == 'all' ? $scope.videosRaw : $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
-                $scope.videos = filteredList;
+                $scope.data.videos = filteredList;
                 break;
             case 'pictures':
                 filteredList = albumNameTemp == 'all' ? $scope.picturesRaw : $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
-                $scope.pictures = filteredList;
+                $scope.data.pictures = filteredList;
                 break;
             default:
                 break;
@@ -345,7 +323,35 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         //todo: write this function!
     };
 
+    $scope.assembleAndCopyRecipeSummary = function(recipe){
+        if (!recipe || !recipe.ingredients || !recipe.steps){
+            return;
+        }
+        let ingredients = "INGREDIENTS: ";
+        let instructions = " INSTRUCTIONS: ";
+        for (let i =0; i< recipe.ingredients.length;i++){
+            let ingredient = recipe.ingredients[i];
+            ingredients += ` ${ingredient}`
+            if (i < (recipe.ingredients.length -1)){
+                ingredients += ",";
+            }
+        }
+        for (let i =0; i< recipe.steps.length;i++){
+            let step = recipe.steps[i];
+            let stepNumber = i+1;
+            instructions += `(${stepNumber}) ${step.instruction}`
+        }
+        let summary = `Recipe For ${recipe.name} ${ingredients} ${instructions}  (courtesy of Arillian Farm ${$scope.assembleHashLink(recipe.name)})`;
+        $scope.copyForClipboard(summary);
+    };
+
+
 //BLOG VIEW
+    $scope.assembleBlogSummary = function(blogEntry){
+        let sumString = ((blogEntry?.sections||[{}])[0].paragraphs||[{}])[0]?.text || "";
+        return $scope.trunc(sumString, 80);
+    };
+
     $scope.expandTopBlogEntry = function(a){
         //todo: this function is depricated
         if ($scope.blogSort === 'o2a' && a.entry_number === 1 || a.entry_number === $scope.blogEntriesRaw.length){

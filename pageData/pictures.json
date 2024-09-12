@@ -34,8 +34,16 @@
       "caption": "Get On My Level!",
       "albums": ["dogs", "animals"]
     },{
+      "file": "areYouYolkingMe.png",
+      "caption": "Don't Egg Me On",
+      "albums": ["dogs"]
+    },{
     "file": "totesMcGoatsComingHome.jpg",
     "caption": "Bringing Our Goat Kids Home To The Farm",
+    "albums": ["goats", "animals"]
+  },{
+    "file": "bottleFeedTheKids.png",
+    "caption": "Bottle Feeding The Kids",
     "albums": ["goats", "animals"]
   },{
       "file": "babyTotesMcGoats.png",
@@ -66,6 +74,10 @@
       "caption": "Dragon cloud",
       "albums": ["sky"]
     },{
+      "file": "singleRainbow.png",
+      "caption": "Single Rainbow!",
+      "albums": ["sky"]
+    },{
       "file": "butterflysunrise.png",
       "caption": "Fresh out of the cocoon",
       "albums": ["wildlife"]
@@ -94,12 +106,60 @@
       "caption": "A lovely Beet Harvest!",
       "albums": ["gardens"]
     },{
-      "file": "areYouYolkingMe.png",
-      "caption": "Don't Egg Me On",
-      "albums": ["dogs"]
+      "file": "chandlerFront1.png",
+      "caption": "Fixing Up The Front Yard of Arthur's Rental Property 1",
+      "albums": ["gardens"]
     },{
-      "file": "singleRainbow.png",
-      "caption": "Single Rainbow!",
-      "albums": ["sky"]
+      "file": "chandlerFront2.png",
+      "caption": "Fixing Up The Front Yard of Arthur's Rental Property 2",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerFront3.png",
+      "caption": "Fixing Up The Front Yard of Arthur's Rental Property 3",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerFront5.png",
+      "caption": "Fixing Up The Front Yard of Arthur's Rental Property 4",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerFront4.png",
+      "caption": "Fixing Up The Front Yard of Arthur's Rental Property 5",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden1.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 1",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden2.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 2",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden3.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 3",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden4.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 4",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden5.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 5",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden6.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 6",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden7.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 7",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden8.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 8",
+      "albums": ["gardens"]
+    },{
+      "file": "chandlerGarden9.png",
+      "caption": "Setting Up Garden Beds at Arthur's Rental Property 9",
+      "albums": ["gardens"]
     }
   ]}
