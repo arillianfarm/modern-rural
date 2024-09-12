@@ -90,16 +90,120 @@
       "caption": "Arthur Being All Mechanical",
       "albums": []
     },{
+      "file": "gardenbeds-1.png",
+      "caption": "Arillian Farm Garden Beds 1",
+      "albums": ["gardens"]
+    },{
+      "file": "gardenbeds-2.png",
+      "caption": "Arillian Farm Garden Beds 2",
+      "albums": ["gardens"]
+    },{
+      "file": "gardenbeds0.png",
+      "caption": "Arillian Farm Garden Beds 3",
+      "albums": ["gardens"]
+    },{
+      "file": "gardenBeds1.png",
+      "caption": "Arillian Farm Garden Beds 4",
+      "albums": ["gardens"]
+    },{
+      "file": "gardenbeds01.png",
+      "caption": "Arillian Farm Garden Beds 5",
+      "albums": ["gardens"]
+    },{
+      "file": "gardenbeds2a.png",
+      "caption": "Arillian Farm Garden Beds 6",
+      "albums": ["gardens"]
+    },{
+      "file": "gardenbeds2b.png",
+      "caption": "Arillian Farm Garden Beds 7",
+      "albums": ["gardens"]
+    },{
+      "file": "gardenbeds3.png",
+      "caption": "Arillian Farm Garden Beds 8",
+      "albums": ["gardens"]
+    },{
+      "file": "raisedBed1.png",
+      "caption": "Arillian Farm Garden Beds 9",
+      "albums": ["gardens"]
+    },{
+      "file": "raisedBed2.png",
+      "caption": "Arillian Farm Garden Beds 10",
+      "albums": ["gardens"]
+    },{
+      "file": "raisedBed3.png",
+      "caption": "Arillian Farm Garden Beds 11",
+      "albums": ["gardens"]
+    },{
+      "file": "raisedBed4.png",
+      "caption": "Arillian Farm Garden Beds 12",
+      "albums": ["gardens"]
+    },{
+      "file": "raisedBed5.png",
+      "caption": "Arillian Farm Garden Beds 13",
+      "albums": ["gardens"]
+    },{
+      "file": "raisedBed6.png",
+      "caption": "Arillian Farm Garden Beds 14",
+      "albums": ["gardens"]
+    },{
+      "file": "raisedBed7.png",
+      "caption": "Arillian Farm Garden Beds 15",
+      "albums": ["gardens"]
+    },{
+      "file": "wallG1.png",
+      "caption": "Arillian Farm Garden Beds 16",
+      "albums": ["gardens"]
+    },{
+      "file": "wallG2.png",
+      "caption": "Arillian Farm Garden Beds 17",
+      "albums": ["gardens"]
+    },{
+      "file": "wallG3.png",
+      "caption": "Arillian Farm Garden Beds 18",
+      "albums": ["gardens"]
+    },{
+      "file": "sunf1.png",
+      "caption": "Arillian Farm Garden Beds 19",
+      "albums": ["gardens"]
+    },{
+      "file": "sunf2.png",
+      "caption": "Arillian Farm Garden Beds 20",
+      "albums": ["gardens"]
+    },{
+      "file": "sunf3.png",
+      "caption": "Arillian Farm Garden Beds 21",
+      "albums": ["gardens"]
+    },{
+      "file": "sunf4.png",
+      "caption": "Arillian Farm Garden Beds 22",
+      "albums": ["gardens"]
+    },{
+      "file": "sunf5.png",
+      "caption": "Arillian Farm Garden Beds 23",
+      "albums": ["gardens"]
+    },{
+      "file": "sunf6.png",
+      "caption": "Arillian Farm Garden Beds 24",
+      "albums": ["gardens"]
+    },{
+      "file": "side1.png",
+      "caption": "Arillian Farm Garden Beds 25",
+      "albums": ["gardens"]
+    },{
+      "file": "side2.png",
+      "caption": "Arillian Farm Garden Beds 26",
+      "albums": ["gardens"]
+    },{
+      "file": "side3.png",
+      "caption": "Arillian Farm Garden Beds 27",
+      "albums": ["gardens"]
+    },{
       "file": "TurnipYourVolume.png",
       "caption": "Turnip Your Volume",
       "albums": ["gardens"]
     },{
       "file": "turnUpTheBeets.png",
       "caption": "Turn up Your Beets",
-      "albums": ["gardens"]
-    },{
-      "file": "gardenBeds1.png",
-      "caption": "Spring In Full Swing",
       "albums": ["gardens"]
     },{
       "file": "washingBeets.png",
