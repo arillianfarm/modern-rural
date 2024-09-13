@@ -174,7 +174,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         link: link,
         templateUrl: 'directives/customBlog.html'
     };
-}]).controller('mainController', function( $scope, $rootScope, dataService, $location, $anchorScroll){
+}]).controller('mainController', function( $scope, $rootScope, dataService, $location, $anchorScroll, $timeout){
 
     $rootScope.smallView = window.innerWidth <= 400;
     $rootScope.windowHeight = window.innerHeight;
@@ -190,7 +190,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         hyperspear_display_pages: null,
         hyperspear_display_page: null,
         unfettered_display_pages: null,
-        unfettered_display_page: null
+        unfettered_display_page: null,
+        collapse_nav_scroll: true
     };
 
     $scope.calculateAlbumContainerSize = function(){
@@ -287,7 +288,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.scrollToBlogItem = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $scope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName)
+        $scope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName);
+        $scope.data.collapse_nav_scroll = true;
     }
 
     $rootScope.assembleIDattribute = function(docName){
@@ -342,14 +344,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.setFeaturedProject = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $scope.data.featuredProject = $scope.projectsRaw.find(item=>item.name==docName)
+        $scope.data.featuredProject = $scope.projectsRaw.find(item=>item.name==docName);
+        $scope.data.collapse_nav_scroll = true;
     }
 
 // RECIPES VIEW
     $scope.setFeaturedRecipe = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $scope.data.featuredRecipe = $scope.recipesRaw.find(item=>item.name==docName)
+        $scope.data.featuredRecipe = $scope.recipesRaw.find(item=>item.name==docName);
+        $scope.data.collapse_nav_scroll = true;
     }
 
     $scope.searchRecipes = function(term){

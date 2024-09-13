@@ -5,7 +5,48 @@
         </div>
         <div class="col-xs-12 col-lg-9 mt-5 text-danger">
             <b>This page is </b> <b ng-if="!smallView"> a chronicle of projects Arthur and I have worked on...</b>
-            <p>not necessarily a recommendation of what or how anyone else should do anything.</p>
+            <p>not necessarily a recommendation of what or how anyone should do anything.</p>
+        </div>
+    </div>
+    <!--        nav scroll bar-->
+    <div class="col-xs-12 col-lg-3">
+        <div class="row cursPoint">
+            <div class="col-xs-12">
+                <h3>
+                    <a>All Projects</a>
+                    <a class="btn btn-large btn-primary"
+                       ng-if="data.collapse_nav_scroll"
+                       ng-click="data.collapse_nav_scroll = false;">
+                        <i class="fa fa-list"></i>
+                    </a>
+                </h3>
+            </div>
+            <div class="col-xs-12 border2px br20 m-2"
+                 ng-if="!data.collapse_nav_scroll || !smallView"
+                 ng-class="{'highlighted': item.name === data.featuredProject.name }"
+                 ng-repeat="item in data.projects track by $index"
+                 ng-click="setFeaturedProject(item.name)"
+            >
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>
+                            <a class="nav-link text-white" >{{item.name}}</a>
+                        </h4>
+                    </div>
+                    <div class="col-lg-12" >
+                        <div ng-if="item.header_pic">
+                            <img class="br20 mb-3 mr-3"
+                                 style="float:left"
+                                 ng-src="./assets/projects/{{item.header_pic}}"
+                                 width="75em;"
+                                 height="75em;">
+                        </div>
+                        <div>
+                            <p ng-if="item.about">{{trunc(item.about,80)}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div ng-if="data.projects" class="col-xs-12 col-lg-9" style="border-right:2px solid white;">
@@ -138,41 +179,6 @@
                         <h4 ng-if="p.h4">
                             {{p.text}}
                         </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--        right nav scroll bar-->
-        <div class="col-xs-12 col-lg-3">
-            <div class="row cursPoint">
-                <div class="col-xs-12 text-center">
-                    <h3>
-                        <a>All Projects</a>
-                    </h3>
-                </div>
-                <div class="col-xs-12 border2px br20 m-2"
-                     ng-class="{'highlighted': item.name === data.featuredProject.name }"
-                     ng-repeat="item in data.projects track by $index"
-                     ng-click="setFeaturedProject(item.name)"
-                >
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4>
-                                <a class="nav-link text-white" >{{item.name}}</a>
-                            </h4>
-                        </div>
-                        <div class="col-lg-12" >
-                            <div ng-if="item.header_pic">
-                                <img class="br20 mb-3 mr-3"
-                                     style="float:left"
-                                     ng-src="./assets/projects/{{item.header_pic}}"
-                                     width="75em;"
-                                     height="75em;">
-                            </div>
-                            <div>
-                                <p ng-if="item.about">{{trunc(item.about,80)}}</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

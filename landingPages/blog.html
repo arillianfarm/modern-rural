@@ -5,7 +5,48 @@
         </div>
     </div>
     <div class="row text-white" >
-        <div ng-if="data.blogEntries" class="col-xs-12 col-lg-9" style="border-right:2px solid white;">
+        <!--        nav scroll bar-->
+        <div class="col-xs-12 col-lg-3">
+            <div class="row cursPoint">
+                <div class="col-xs-12">
+                    <h3>
+                        <a>All Blog Entries</a>
+                        <a class="btn btn-large btn-primary"
+                           ng-if="data.collapse_nav_scroll"
+                           ng-click="data.collapse_nav_scroll = false;">
+                            <i class="fa fa-list"></i>
+                        </a>
+                    </h3>
+                </div>
+                <div class="col-xs-12 border2px br20 m-2"
+                     ng-if="!data.collapse_nav_scroll || !smallView"
+                     ng-class="{'highlighted': item.entry_subject === data.featuredBlogEntry.entry_subject }"
+                     ng-repeat="item in data.blogEntries track by $index"
+                     ng-click="scrollToBlogItem(item.entry_subject)"
+                >
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>
+                                <a class="nav-link text-white" >{{ item.entry_subject }}</a>
+                            </h4>
+                        </div>
+                        <div class="col-lg-12" >
+                            <div ng-if="item.feature_section_1 && item.feature_section_1.pic">
+                                <img class="br20 mb-3"
+                                     style="float:left"
+                                     ng-src="{{item.feature_section_1.pic}}"
+                                     width="75em;"
+                                     height="75em;">
+                            </div>
+                            <div>
+                                <p ng-if="item.sections && item.sections[0]">{{assembleBlogSummary(item)}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-lg-9" style="border-right:2px solid white;">
             <div class="row" ng-if="data.featuredBlogEntry.custom_blog_1" custom-blog blog-data="{{data.featuredBlogEntry}}"></div>
             <div ng-if="data.featuredBlogEntry && !data.featuredBlogEntry.custom_blog_1">
                 <div ng-id="assembleIDattribute(data.featuredBlogEntry.entry_subject)">
@@ -74,41 +115,6 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
-<!--        right nav scroll bar-->
-        <div class="col-xs-12 col-lg-3">
-            <div class="row cursPoint">
-                <div class="col-xs-12 text-center">
-                    <h3>
-                        <a>All Blog Entries</a>
-                    </h3>
-                </div>
-                <div class="col-xs-12 border2px br20 m-2"
-                     ng-class="{'highlighted': item.entry_subject === data.featuredBlogEntry.entry_subject }"
-                     ng-repeat="item in data.blogEntries track by $index"
-                     ng-click="scrollToBlogItem(item.entry_subject)"
-                >
-                   <div class="row">
-                       <div class="col-xs-12">
-                           <h4>
-                               <a class="nav-link text-white" >{{ item.entry_subject }}</a>
-                           </h4>
-                       </div>
-                       <div class="col-lg-12" >
-                           <div ng-if="item.feature_section_1 && item.feature_section_1.pic">
-                               <img class="br20 mb-3"
-                                    style="float:left"
-                                     ng-src="{{item.feature_section_1.pic}}"
-                                     width="75em;"
-                                     height="75em;">
-                           </div>
-                           <div>
-                                <p ng-if="item.sections && item.sections[0]">{{assembleBlogSummary(item)}}</p>
-                           </div>
-                       </div>
-                   </div>
-                </div>
             </div>
         </div>
     </div>
