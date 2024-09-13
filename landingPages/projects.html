@@ -1,73 +1,182 @@
-<div class="container border2px br20 mb-5 p-5">
-    <div class="row text-center text-white p-3 mb-5" >
-        <div class="col-xs-12 text-justified">
-            <h2 class="text-danger">This page is a chronicle of projects Arthur and I have worked on... but not necessarily a recommendation of what or how anyone else should do anything.</h2>
+<div class="container br20 border2px text-white text-justified" >
+    <div class="row">
+        <div class="col-xs-12 col-lg-3">
+            <h2 class="text-white">DIY Projects</h2>
         </div>
-        <div ng-if="data.projects" class="col-xs-12" ng-repeat="project in data.projects track by $index">
-<!--            <div class="card card-primary">-->
-<!--                <div class="card-header">-->
+        <div class="col-xs-12 col-lg-9 mt-5 text-danger">
+            <b>This page is </b> <b ng-if="!smallView"> a chronicle of projects Arthur and I have worked on...</b>
+            <p>not necessarily a recommendation of what or how anyone else should do anything.</p>
+        </div>
+    </div>
+    <div ng-if="data.projects" class="col-xs-12 col-lg-9" style="border-right:2px solid white;">
+        <div ng-if="data.featuredProject">
+            <div ng-id="assembleIDattribute(data.featuredProject.name)">
+                    <div class="row blog-header">
+                        <div class="col-xs-6">
+                            <h3>
+                             {{titleCaps(data.featuredProject.name)}}
+                            </h3>
+                        </div>
+                        <div class="col-xs-6 pull-right text-right">
+                            <h5 class="mb-0">
+                                Posted: {{data.featuredProject.pub_date}}
+                            </h5>
+                        </div>
+                    </div>
+                <hr>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-xs-12 text-center mb-5 mt-5">
+                    <img class="br20" ng-src="./assets/projects/{{data.featuredProject.header_pic}}" style="height: 20em;">
+                     <a  ng-if="data.featuredProject.link" ng-href="{{getIframeSrc(data.featuredProject.link)}}" target="_blank">
+                        <h3 ng-if="!data.featuredProject.header_pic"  ng-href="{{getIframeSrc(data.featuredProject.link)}}" >[LINK]</h3>
+                        <img ng-if="data.featuredProject.header_pic" ng-src="./assets/projects/{{data.featuredProject.header_pic}}" style="height: 20em; margin-left:3em;">
+                    </a>
+                </div>
+                <div class="col-xs-12 mt-3">
+                    <h4 ng-if="data.featuredProject.notes" class="text-muted" >{{data.featuredProject.about}}</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12" ng-if="data.featuredProject.tools && data.featuredProject.tools.length" >
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-6" >
+                            <h3>Tools</h3>
+                            <ol style="font-weight: bold" class="text-muted">
+                                <li ng-repeat="tool in data.featuredProject.tools track by $index">
+                                    <h4>{{tool}}</h4>
+                                </li>
+                            </ol>
+                            <div class="col-xs-12 col-lg-4" ng-if="data.featuredProject.tool_pics"  ng-repeat="toolPic in data.featuredProject.tool_pics track by $index">
+                                <p>{{toolPic.name}}</p>
+                                <img ng-if="matPic"
+                                     ng-src="./assets/projects/{{toolPic.pic}}"
+                                     style="height: 10em; padding:10px;"
+                                     ng-style="{'float':matPic.right_side_pic ? 'right': 'left'}"
+                                     class="br20 p2"
+                                >
+                                <a class="ml-5" ng-style="{'float':toolPic.right_side_pic ? 'right': 'left'}" ng-if="toolPic.link && toolPic.pic" ng-href="{{getIframeSrc(toolPic.link)}}" target="_blank">
+                                    <img ng-src="./assets/projects/{{toolPic.pic}}"
+                                         style="height: 10em; padding:10px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-6"  ng-if="data.featuredProject.materials && data.featuredProject.materials.length">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Materials</h3>
+                                    <ol style="font-weight: bold" class="text-muted">
+                                        <li ng-repeat="mat in data.featuredProject.materials track by $index">
+                                            <h4>{{mat}}</h4>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="col-xs-12 col-lg-4" ng-if="data.featuredProject.materials_pics"  ng-repeat="matPic in data.featuredProject.materials_pics track by $index">
+                                    <p>{{matPic.name}}</p>
+                                    <img ng-if="matPic"
+                                         ng-src="./assets/projects/{{matPic.pic}}"
+                                         style="height: 10em; padding:10px;"
+                                         ng-style="{'float':matPic.right_side_pic ? 'right': 'left'}"
+                                         class="br20 p2"
+                                    >
+                                    <a class="ml-5" ng-style="{'float':matPic.right_side_pic ? 'right': 'left'}" ng-if="matPic.link && matPic.pic" ng-href="{{getIframeSrc(matPic.link)}}" target="_blank">
+                                        <img ng-src="./assets/projects/{{matPic.pic}}"
+                                             style="height: 10em; padding:10px;">
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="row mb-2 mt-2">
+                <div class="col-xs-12 text-justified text-white"
+                     ng-if="data.featuredProject.phases && data.featuredProject.phases.length"
+                     ng-repeat="section in data.featuredProject.phases track by $index">
+                    <h3 ng-if="section.label">{{titleCaps(section.label)}}:</h3>
+                    <img ng-if="section.pic"
+                         ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
+                         ng-src="./assets/projects/{{section.pic}}"
+                         style="height: 20em; padding:10px;"
+                         class="br20 p2 ml-5"
+                         >
+                    <a class="ml-5" ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
+                       ng-if="section.link && section.pic"
+                       ng-href="{{getIframeSrc(section.link)}}"
+                       target="_blank">
+                        <img ng-src="./assets/projects/{{section.pic}}"
+                             style="height: 20em; padding:10px;">
+                    </a>
+                    <iframe ng-if="section.vid"
+                            ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
+                            class="video-box mr-3"
+                            height="auto"
+                            autoplay="0"
+                            ng-src="{{getIframeSrcForYouTube(section.vid)}}">
+                    </iframe>
+                    <div ng-if="section.paragraphs"
+                         class="mt-5"
+                         style="margin-left:25px;"
+                         ng-repeat="p in section.paragraphs track by $index">
+                        <p ng-if="!p.bold && !p.h2 && !p.h3 && !p.h4">
+                            {{p.text}}
+                        </p>
+                        <b ng-if="p.bold">
+                            {{p.text}}
+                        </b>
+                        <h2 ng-if="p.h2">
+                            {{p.text}}
+                        </h2>
+                        <h3 ng-if="p.h3">
+                            {{p.text}}
+                        </h3>
+                        <h4 ng-if="p.h4">
+                            {{p.text}}
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        right nav scroll bar-->
+        <div class="col-xs-12 col-lg-3">
+            <div class="row cursPoint">
+                <div class="col-xs-12 text-center">
+                    <h3>
+                        <a>All Projects</a>
+                    </h3>
+                </div>
+                <div class="col-xs-12 border2px br20 m-2"
+                     ng-class="{'highlighted': item.name === data.featuredProject.name }"
+                     ng-repeat="item in data.projects track by $index"
+                     ng-click="setFeaturedProject(item.name)"
+                >
                     <div class="row">
                         <div class="col-xs-12">
-                            <h3>{{project.name}}</h3>
+                            <h4>
+                                <a class="nav-link text-white" >{{item.name}}</a>
+                            </h4>
                         </div>
-                        <div class="col-lg-6 small-hide text-right mt-3">
-                            <h4 ng-if="project.notes" class="text-muted" >{{project.notes}}</h4>
-                        </div>
-                    </div>
-<!--                </div>-->
-                <div class="card-body">
-                    <div class="row">
-
-                        <div  class="col-xs-12 text-center">
-                            <img class="br20"
-                                 ng-src="./assets/projects/{{project.header_pic}}"
-                                 ng-style="{'height': smallView ? 'auto' : '30em'}"
-                            >
-                        </div>
-                        <div  class="col-xs-12">
-                            <h4 ng-if="project.about">{{project.about}}</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12" ng-if="project.tools && project.tools.length" >
-                        <h3>Tools</h3>
-                        <ol style="font-weight: bold" class="text-muted">
-                            <li ng-repeat="tool in project.tools track by $index">
-                                <h4>{{tool}}</h4>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="col-xs-12" ng-if="project.materials && project.materials.length" >
-                        <h3>Materials</h3>
-                        <ol style="font-weight: bold" class="text-muted">
-                            <li ng-repeat="mat in project.materials track by $index">
-                                <h4>{{mat}}</h4>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 mt-5" ng-if="project.phases">
-                            <div ng-repeat="phase in project.phases track by $index">
-                                <h4 class="text-muted" >{{phase.text}}</h4>
-                                <iframe
-                                        ng-if="phase.vid"
-                                        class="video-box"
-                                        height="auto"
-                                        autoplay="0"
-                                        ng-src="{{getIframeSrcForYouTube(video.youtubeID)}}">
-                                </iframe>
-                                <img ng-if="phase.pic"
-                                     class="br20"
-                                     ng-src="./assets/projects/{{phase.pic}}"
-                                     ng-style="{'height': smallView ? 'auto' : '30em'}">
+                        <div class="col-lg-12" >
+                            <div ng-if="item.header_pic">
+                                <img class="br20 mb-3 mr-3"
+                                     style="float:left"
+                                     ng-src="./assets/projects/{{item.header_pic}}"
+                                     width="75em;"
+                                     height="75em;">
+                            </div>
+                            <div>
+                                <p ng-if="item.about">{{trunc(item.about,80)}}</p>
                             </div>
                         </div>
                     </div>
-                    <hr>
                 </div>
-<!--            </div>-->
+            </div>
         </div>
     </div>
-</div>
 </div>
 

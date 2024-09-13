@@ -2,49 +2,148 @@
   "data": [
   {
     "name": "Catio",
-    "header_pic": "catio13.png",
-    "about": "",
-    "tools": [],
-    "materials": [],
+    "pub_date": "8/9/24",
+    "header_pic": "catioDone.png",
+    "featured": true,
+    "categories": ["construction", "pets", "tempe"],
+    "about": "Last year, my best friend and her girlfriend along with their three cats moved into one of the units in the two rental houses I own on a 9000 sq ft lot in Tempe, AZ. I wanted to make sure their cats had space to get fresh air and get away from each other if needed (as they blended their cat families) —and I love woodworking, so I decided to build a catio for them.",
+    "tools": [
+      "Cordless hammer/ impact drill (we use a Black and Decker Matrix drill which has a bunch of interchangeable tool heads. We used the impact head for the vast majority of the screws, but we switched to the hammer head to drill into and ).",
+      "Air Compressor with Staple gun attachment",
+      "Tin snips",
+      "Level",
+      "Square angle",
+      "Tape measure",
+      "Pencil or Pen",
+      "Electric miter saw"
+    ],
+    "materials": [
+      "2.5 inch deck screws: 1 box",
+      "Construction staples: 1 box",
+      "2-D L brackets",
+      "Concrete Drill Bits (it took us two bits to make three pilot holes in the block wall we anchored to)",
+      "Concrete Screws: 3-4 screws per anchor point",
+      "Gate hinges (set of 2)",
+      "Pressure Treated Lumber: approx 10 2x4x8s and 10 2x6x8s",
+      "Wire Mesh: We used two rolls of '“'Fencer Wire 3 ft. x 50 ft. 16-Gauge Welded Wire Fence with Mesh 2 in. x 3 in'. If I did it over again, I would use a smaller mesh, but so far it's been keeping the cats in and whatever else out.  (I read that 16 gauge was recommended to make sure cats can’t break the wire with claws or teeth)."
+    ],
+    "materials_pics": [
+      {
+        "name": "2-D L Brackets",
+        "pic": "2dl.png"
+      },{
+        "name": "3-D L Brackets",
+        "pic": "3dl.png"
+      }
+    ],
     "slides_only": true,
     "phases": [
       {
-        "pic": "catio1.png",
-        "text": ""
+        "pic": "catioA.png",
+        "label": "Planning",
+        "paragraphs": [{
+          "text": "Planning: I was very excited to see the cats reaction to the catio, so as soon as my friend signed her lease, I completely rushed everything.I did a google search for “enclosed porch catio”, got some results that looked like what I had been envisioning, skimmed through a couple blogs and articles, grabbed the dimensions of the back patio off of the house’s blueprints (from when I had this house built a couple years back) and I made a really rough sketch of a design that sort of mimicked some of the things I had seen other people do… and then I went to home depot and bought a bunch of hardware based on my initial whim."
+        }]
       },
       {
-        "pic": "catio2.png",
-        "text": ""
-      },{
-        "pic": "catio3.png",
-        "text": ""
-      },{
-        "pic": "catio4.png",
-        "text": ""
-      },{
-        "pic": "catio5.png",
-        "text": ""
-      },{
-        "pic": "catio6.png",
-        "text": ""
-      },{
-        "pic": "catio7.png",
-        "text": ""
-      },{
-        "pic": "catio8.png",
-        "text": ""
-      },{
-        "pic": "catio9.png",
-        "text": ""
-      },{
-        "pic": "catio10.png",
-        "text": ""
+        "pic": "catioB.png",
+        "label": "Build a frame",
+        "paragraphs": [{
+          "text": "First, using metal L braces, 2.5” deck screws, and pressure treated 2x4(x8)s and 2x6(x8) (that I had left over from a couple previous projects) we built a wood frame that outlined the patio windows and sliding door.  (note we used the impact drill head for building the frame… the only time we used the hammer attachment was to anchor to a masonry wall of the house)."
+        }]
+      },
+      {
+        "pic": "catioC.png",
+        "label": "Make frame into stable boxes",
+        "paragraphs": [{
+          "text": "Using the initial frame as a template, we built a matching frame for the outside panel of the catio and then cut 2x4s/2x6s to span the depth of the catio enclosure. Using deck screws, we fastened the overhead boards across the top of the two frame panels."
+        }]
+      },
+      {
+        "pic": "catioD.png",
+        "label": "Add a gate",
+        "paragraphs": [{
+          "text": "Once we had the outer frame together, we made a simple a entry gate with a height and width 2” smaller than the surrounding frame. I had wanted to keep the whole structure “floating” so it could easily be removed if my friend moved out and a new tenant did not want the catio, but every time we opened the gate, the whole structure moved, so we anchored the gate-side of the catio frame to a masonry wall of the house using a (3d) L bracket and concrete screws."
+        }]
+      },
+      {
+        "pic": "catioE.png",
+        "label": "Build the cat lounge",
+        "paragraphs": [{
+          "text": "We used a bunch of tongue and groove ceiling board, 2x4s and 2x6 scraps to make a bench, a small staircase and a perch for the cats and then I stapled scraps of carpet on to make it more comfy for them."
+        }]
+      },
+      {
+        "pic": "catioF.png",
+        "label": "Enclose the frame",
+        "paragraphs": [{
+          "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taught and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame."
+        }]
+      },
+      {
+        "pic": "catioDone.png",
+        "label": "Enjoy",
+        "paragraphs": [{
+          "text": "It’s been about a year since initial construction and so far the cats and cat moms indicate that its been working out purrrfectly."
+        }]
       }
     ]
   },
   {
+    "name": "Growing Basil From Cuttings",
+    "pub_date": "8/16/24",
+    "header_pic": "basil5.png",
+    "featured": false,
+    "categories": ["plants","garden", "grow light"],
+    "about": "Use cuttings from Pho or from a larger basil plant to grow a new clone",
+    "tools": ["box cutter (optional)", "rooting hormone (optional)", "grow light (optional)"],
+    "materials": ["basil cuttings", "jar", "small pot", "potting soil"],
+    "slides_only": false,
+    "phases": [
+      {
+        "pic": "basil1.png",
+        "label": "Selecting Cuttings",
+        "paragraphs": [
+          {
+            "text": " Take green, non-flowering, healthy basil cuttings from 'nodes' (areas where a branches branch off), as close to the bottom the plant as possible (roots from the bottom of the plant root faster). -- or you can also use cuttings from Pho."}
+        ]
+      },
+      {
+        "pic": "basilB.png",
+        "label": "Cut at 45 degree angle",
+        "paragraphs": [{
+          "text": "If the root does not come off cleanly at the node (at about a 45 degree angle)."
+        }]
+      },
+      {
+        "pic": "basilC.png",
+        "label": "To speed-up rooting",
+        "paragraphs": [{
+          "text": "You can dip the cutting in water then in rooting powder (follow manufacturors instructions for safe handling and disposal of rooting powder!)."
+        }]
+      },
+      {
+        "pic": "basil2.png",
+        "label": "Set In Well Lit Area",
+        "paragraphs": [{
+          "text": "Set cutting(s) in a jar that is about 1/4 -1/2 full of water try to keep the leaves out of the water (by draping them over the edge of the jar) and place in a window or under a florescent light or 'grow light'. It should take about 3-10 days for roots to develop."
+       }]
+      },
+      {
+        "vid": "t31lLR2nUzk",
+        "label": "Transplant to soil",
+        "paragraphs": [{
+          "text": "Once the basil has sprouted roots, transplant to a small pot, by holding the plantling suspended in a small pot and alternating between shaking dirt and pouring water around the plantling until the pot is filled with wet soil around it. When the plant is at least 6 inches tall, and has a hearty stem and vibrant leaves, Transfer to your garden or a larger (as long as it's not too cold outside)."
+      }]
+        }
+    ]
+  },
+  {
     "name": "Raised Garden Beds",
+    "pub_date": "8/23/24",
     "header_pic": "rbTurnsoil.png",
+    "featured": false,
+    "categories": ["garden"],
     "about": "I had a garden bed that wasn't getting enough light and underproducing, so I've decided to move it and start a new bed in a location that gets better light.",
     "tools": [
       "pickaxe",
@@ -54,7 +153,7 @@
       "mask"
     ],
     "materials": [
-      "2 2x6inch pieces of lumber",
+      "2 4 ft x6 inch pieces of lumber (can be 4inch thick or just fence boards)",
       "4 oldcastle gardenbed cornerstones",
       "soil"
     ],
@@ -69,6 +168,9 @@
   {
       "name": "Making Garden soil",
       "header_pic": "makeSoil1.png",
+      "pub_date": "8/30/24",
+      "featured": false,
+      "categories": ["garden"],
       "about": "",
       "tools": [],
       "materials": [],
@@ -76,27 +178,17 @@
       "phases": [
         {
           "pic": "",
+          "vid": "W2j1wN6xMMk",
           "text": ""
         }
       ]
     },
   {
-    "name": "Growing Basil From Cuttings",
-    "header_pic": "growBas1.png",
-    "about": "",
-    "tools": [],
-    "materials": [],
-    "slides_only": true,
-    "phases": [
-      {
-        "pic": "",
-        "text": ""
-      }
-    ]
-  },
-  {
     "name": "Water Garden / Mosquito Fish pond",
     "header_pic": "pond1.png",
+    "pub_date": "9/6/24",
+    "featured": false,
+    "categories": ["garden"],
     "about": "",
     "tools": [],
     "materials": [],
@@ -110,7 +202,10 @@
   },
   {
     "name":  "Hydroponic Gardens",
-    "header_pic": "pond1.png",
+    "pub_date": "9/13/24",
+    "header_pic": "hydro1.png",
+    "featured": false,
+    "categories": ["plants", "grow light","garden"],
     "about": "",
     "tools": [],
     "materials": [],
@@ -124,7 +219,10 @@
   },
   {
     "name":  "Subway Tile",
+    "pub_date": "9/20/24",
     "header_pic": "subTile1.png",
+    "featured": false,
+    "categories": ["construction", "finishing work"],
     "about": "",
     "tools": [],
     "materials": [],

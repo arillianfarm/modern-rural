@@ -1,62 +1,99 @@
-<div  class="container border2px br20">
+<div  class="container border2px br20 text-white">
     <div class="row">
-        <div class="col-xs-12">
-            <h2 class="text-white">Recipes</h2>
-        </div>
+    <div class="col-xs-12">
+        <h2 class="text-white">Recipes</h2>
     </div>
-    <div>
-        {{recipeList}}
     </div>
-  <div ng-if="data.recipes" class="row text-white" ng-repeat="recipe in data.recipes track by $index">
-     <div class="col-xs-12">
-         <div class="row">
-             <div class="col-xs-8 col-lg-4">
-                 <h4>{{titleCaps(recipe.name)}}</h4>
+  <div class="row">
+      <div class="col-xs-12 col-lg-9">
+          <div class="row">
+            <div class="col-xs-12" ng-if="data.featuredRecipe" class="row text-white">
+                <div class="row">
+                     <div class="col-xs-8 col-lg-4">
+                         <h4>{{titleCaps(data.featuredRecipe.name)}}</h4>
+                     </div>
+                     <div class="col-lg-4 small-hide mt-3" >
+                         <h5 ng-if="data.featuredRecipe.notes" >{{titleCaps(data.featuredRecipe.notes)}}</h5>
+                     </div>
+                     <div class="col-xs-12 col-lg-4 mt-4 text-white cursPoint text-right pull-right" >
+                         <button class="btn btn-light btn-xs" ng-click="assembleAndCopyRecipeSummary(data.featuredRecipe)"><i class="fa fa-files-o">  </i><b>Recipe</b></button>
+                         <button class="btn btn-info btn-xs" ng-click="putHashLinkOnClipboard(data.featuredRecipe.name)"> <i class="fa fa-files-o">  </i><b>Link</b></button>
+                     </div>
+                     <div class="col-xs-12 bb2 mb-2" style></div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+                 <div class="col-xs-12 col-lg-6 mt-5" ng-if="data.featuredRecipe.ingredients">
+                     <div class="row">
+                         <div  class="col-xs-12 text-center">
+                             <img ng-if="data.featuredRecipe.header_pic"
+                                  class="br20 m-3"
+                                  ng-src="./assets/recipes/{{data.featuredRecipe.header_pic}}"
+                                  ng-style="{'height': smallView ? 'auto' : '300px'}"
+                                  style="max-width: 25em;">
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-xs-12">
+                             <ul>
+                                 <li ng-repeat="ingredient in data.featuredRecipe.ingredients track by $index">
+                                     <h4 class="text-muted" >{{ingredient}}</h4>
+                                 </li>
+                             </ul>
+                             <ul>
+                                 <div class="text-muted mt-2" ng-if="data.featuredRecipe.servings">(makes: {{data.featuredRecipe.servings}})</div>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-xs-12 col-lg-6" style="overflow-y:scroll;">
+                     <ol style="font-weight: bold" class="text-muted">
+                         <li ng-repeat="step in data.featuredRecipe.steps track by $index">
+                             <h4>{{step.instruction}}</h4>
+                             <img class="br20"
+                                  ng-if="step.pic"
+                                  ng-src="./assets/recipes/{{step.pic}}"
+                                  ng-style="{'height': smallView ? 'auto' : '150'}">
+                         </li>
+                     </ol>
+                 </div>
              </div>
-             <div class="col-lg-4 small-hide mt-3" >
-                 <h5 ng-if="recipe.notes" >{{titleCaps(recipe.notes)}}</h5>
-             </div>
-             <div class="col-xs-12 col-lg-4 mt-4 text-white cursPoint text-right pull-right" >
-                 <button class="btn btn-light btn-xs" ng-click="assembleAndCopyRecipeSummary(recipe)"><i class="fa fa-files-o">  </i><b>Recipe</b></button>
-                 <button class="btn btn-info btn-xs" ng-click="putHashLinkOnClipboard(recipe.name)"> <i class="fa fa-files-o">  </i><b>Link</b></button>
-             </div>
-             <div class="col-xs-12 bb2 mb-2" style></div>
-         </div>
-         <div class="row">
-             <div  class="col-xs-12 col-lg-4 text-center">
-                 <img ng-if="recipe && recipe.header_pic"
-                      class="br20 m-3"
-                      ng-src="./assets/recipes/{{recipe.header_pic}}"
-                      ng-style="{'height': smallView ? 'auto' : '300px'}"
-                      style="max-width: 25em;">
-             </div>
-             <div class="col-xs-12 col-lg-4 mt-5" ng-if="recipe.ingredients">
-                 <ul>
-                     <li ng-repeat="ingredient in recipe.ingredients track by $index">
-                         <h4 class="text-muted" >{{ingredient}}</h4>
-                     </li>
-                 </ul>
-                 <ul>
-                     <div class="text-muted mt-2" ng-if="recipe.servings">(makes: {{recipe.servings}})</div>
-                 </ul>
-             </div>
-             <div class="col-xs-12 col-lg-4" style="max-height: 40em; overflow-y:scroll;">
-                 <ol style="font-weight: bold" class="text-muted">
-                     <li ng-repeat="step in recipe.steps track by $index">
-                         <h4>{{step.instruction}}</h4>
-                         <img class="br20"
-                              ng-if="step.pic"
-                              ng-src="./assets/recipes/{{step.pic}}"
-                              ng-style="{'height': smallView ? 'auto' : '150'}">
-                     </li>
-                 </ol>
-             </div>
-             <div class="col-xs-12 bb2 mb-2" style></div>
-         </div>
      </div>
-
-
+    <!--        right nav scroll bar-->
+      <div ng-if="!smallView" class="col-lg-3">
+          <div class="row cursPoint">
+              <div class="col-xs-12 text-center">
+                  <h3>
+                      <a>All Recipes</a>
+                  </h3>
+              </div>
+              <div class="col-xs-12 border2px br20 m-2"
+                   ng-class="{'highlighted': item.name === data.featuredRecipe.name }"
+                   ng-repeat="item in data.recipes track by $index"
+                   ng-click="setFeaturedRecipe(item.name)"
+              >
+                  <div class="row">
+                      <div class="col-xs-12">
+                          <h4>
+                              <a class="nav-link text-white" >{{item.name}}</a>
+                          </h4>
+                      </div>
+                      <div class="col-lg-12" >
+                          <div ng-if="item.header_pic">
+                              <img class="br20 mb-3 mr-3"
+                                   style="float:left"
+                                   ng-src="./assets/recipes/{{item.header_pic}}"
+                                   width="75em;"
+                                   height="75em;">
+                          </div>
+                          <div>
+                              <p ng-if="item.notes">{{trunc(item.notes,80)}}</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-
-
 </div>

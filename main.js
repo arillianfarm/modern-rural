@@ -232,12 +232,33 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     //scroll to a specific entry on a specific view
     $scope.scrollToHashOrTop = function() {
-        var hash = $location.hash();
-        if (hash) {
+        let locationHash = $location.hash();
+        if (locationHash) {
+        let view = ($location.path()||'projects').replace('/','');
+        let featuredItemType = 'featuredProject';
+        let rawCollection = 'projectsRaw'
+        let fieldName = 'name';
+            switch(view){
+                case 'blog':
+                    featuredItemType = 'featuredBlogEntry'
+                    rawCollection = 'blogEntriesRaw'
+                    fieldName = 'entry_subject';
+                break;
+                case 'recipes':
+                    featuredItemType = 'featuredRecipe'
+                    rawCollection = 'recipesRaw'
+                break;
+            }
+        let matchingDoc = ($scope[rawCollection]||[]).find((item)=>{
+            let hashName = $rootScope.assembleIDattribute(item[fieldName]);
+            if (hashName === locationHash){
+                return true;
+            };
+        });
+        $scope.data[featuredItemType] = matchingDoc;
+        } else {
             $anchorScroll();
-            return;
         }
-        $anchorScroll();
     };
 
     //put text into clipboard
@@ -264,7 +285,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     };
 
     $scope.scrollToBlogItem = function(docName){
-         $scope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName)
+        let hashLink = $scope.assembleIDattribute(docName);
+        $location.hash(hashLink);
+        $scope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName)
     }
 
     $rootScope.assembleIDattribute = function(docName){
@@ -316,8 +339,18 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 // PICTURE VIEW
 
 //DIY PROJECTS VIEW
+    $scope.setFeaturedProject = function(docName){
+        let hashLink = $scope.assembleIDattribute(docName);
+        $location.hash(hashLink);
+        $scope.data.featuredProject = $scope.projectsRaw.find(item=>item.name==docName)
+    }
 
 // RECIPES VIEW
+    $scope.setFeaturedRecipe = function(docName){
+        let hashLink = $scope.assembleIDattribute(docName);
+        $location.hash(hashLink);
+        $scope.data.featuredRecipe = $scope.recipesRaw.find(item=>item.name==docName)
+    }
 
     $scope.searchRecipes = function(term){
         //todo: write this function!
@@ -430,6 +463,13 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             switch(viewType){
                 case 'recipes':
                     $scope.recipeSort = 'a2z';
+                    $scope.recipesRaw = dataArr.reduce((acc, item) => {
+                        if (item.featured) {
+                            $scope.data.featuredRecipe = item;
+                        }
+                        acc.push(item);
+                        return acc;
+                    }, []);
                     break;
                 case 'videos':
                     $scope.videosRaw = dataArr;
@@ -453,6 +493,15 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     $rootScope.data.blogEntries = angular.copy($scope.blogEntriesRaw);
                     break;
                 case 'projects':
+                    $scope.projSort = 'n2o';
+                    // Process blogs data
+                    $scope.projectsRaw = dataArr.reduce((acc, item) => {
+                        if (item.featured) {
+                            $scope.data.featuredProject = item;
+                        }
+                        acc.push(item);
+                        return acc;
+                    }, []);
                     break;
                 default:
 
@@ -462,9 +511,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     }
     $scope.init = function(){
         let viewType = ($location.path()).replace("/","");
-
         $scope.initializeView(viewType);
-        $scope.scrollToHashOrTop();
     };
     $scope.init();
     })
