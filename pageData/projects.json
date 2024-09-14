@@ -261,9 +261,11 @@
     "pub_date": "9/6/24",
     "featured": false,
     "categories": ["garden"],
-    "about": "Its tough keeping chickens alive in the summer, so I made a pond for ours.",
+    "about": "Its tough to get chickens through the hot hot Arizona heat in the summer, so we made a pond for ours.",
     "tools": [
       "shovel",
+      "rake",
+      "hand tiller",
       "pickax",
       "hose"
     ],
@@ -285,28 +287,28 @@
         "pic": "pond1.png",
         "label": "Start Digging",
         "paragraphs": [{
-          "text": "Find a place for your pond and get ready to dig"
+          "text": "Find a source of river rocks, a suitable place for your pond (near an outlet for your waterfall pump, shaded for part of the day and with no pipes or electrical conduit underneath it and limber up, because you're going to spend a lot of mornings digging."
         }]
       },{
         "pic": "pond2.png",
-        "label": "Soak your hole and dig some more",
+        "label": "Soak your hole and dig some more.",
         "paragraphs": [{
           "text": "And Dig"
         }]},{
         "pic": "pond3.png",
-        "label": "Keep Soaking and Digging",
+        "label": "Keep soaking, digging",
         "paragraphs": [{
-          "text": "you've got to go on diggin' holes..."
+          "text": "You've got to go on diggin' holes..."
         }]
       },{
         "pic": "pond5.png",
-        "label": "Dig it",
+        "label": "Carve out shelves",
         "paragraphs": [{
-          "text": "..."
+          "text": "Eventually you'll want to start carving a shelf or two around the perimeter of the pond --so that you can set down river rocks and planter baskets to keep the tarp covered and allow plants to stay close to sunlight and air (The angle of the shelves should be no more than 90 degrees (if its sloping down at all, once you put the tarp down, everything you try to set on it will fall off)."
         }]
       },{
         "pic": "pond6.png",
-        "label": "Line pond hole with cardboard, and then put down a pond liner (I forgot to take a pic of the pond liner)",
+        "label": "Line pond hole with cardboard (to eventually create a clay-like layer and to pad the pond liner from rocks etc), wet the cardboard and then put down the pond liner (I forgot to take a pic of the pond liner)",
         "paragraphs": [{
           "text": "..."
         }]
@@ -317,20 +319,26 @@
           "text": "..."
         }]
       },{
-        "vid": "chickenVideo",
-        "label": "And unleash your chickens to enjoy your work",
+        "vid": "xRo1UMLiNYs",
+        "label": "Unleash your chickens to enjoy your work",
         "paragraphs": [{
-          "text": "..."
+          "text": "Once I AI-d that it was okay, and started feeding my chickens sweet potato leaves, they suddenly started eating water lilies."
+        }]
+      },{
+        "pic": "pondDone.png",
+        "label": "Maintenance",
+        "paragraphs": [{
+          "text": "I have a leak somewhere in the upper level of my pond, so I put about a bathtub worth of water in each morning... however, the water draining and fresh water filling also helps to flush out hot water, fish waste and other murk in the water). I also, use my hose to spray the algae on the top of the water to one side, skim it off, and scoop out as much blown-in hay as I can from the shallows of the pond every morning to try to keep the nitrogen and amonia levels suitable for fish and plants."
         }]
       }
     ]
   },
   {
-    "name":  "Hydroponic Gardens",
-    "pub_date": "9/13/24",
-    "header_pic": "hydro1.png",
+    "name":  "Exposed Patio Beams",
+    "pub_date": "9/20/24",
+    "header_pic": "",
     "featured": false,
-    "categories": ["plants", "grow light","garden"],
+    "categories": ["construction", "finishing work"],
     "about": "",
     "tools": [],
     "materials": [],
@@ -344,7 +352,7 @@
   },
   {
     "name":  "Subway Tile",
-    "pub_date": "9/20/24",
+    "pub_date": "9/13/24",
     "header_pic": "subTile1.png",
     "featured": false,
     "categories": ["construction", "finishing work"],
