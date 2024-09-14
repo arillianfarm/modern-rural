@@ -90,113 +90,238 @@
     ]
   },
   {
-    "name": "Growing Basil From Cuttings",
-    "pub_date": "8/16/24",
-    "header_pic": "basil5.png",
-    "featured": false,
-    "categories": ["plants","garden", "grow light"],
-    "about": "Use cuttings from Pho or from a larger basil plant to grow a new clone",
-    "tools": ["box cutter (optional)", "rooting hormone (optional)", "grow light (optional)"],
-    "materials": ["basil cuttings", "jar", "small pot", "potting soil"],
-    "slides_only": false,
-    "phases": [
-      {
-        "pic": "basil1.png",
-        "label": "Selecting Cuttings",
-        "paragraphs": [
-          {
-            "text": " Take green, non-flowering, healthy basil cuttings from 'nodes' (areas where a branches branch off), as close to the bottom the plant as possible (roots from the bottom of the plant root faster). -- or you can also use cuttings from Pho."}
-        ]
-      },
-      {
-        "pic": "basilB.png",
-        "label": "Cut at 45 degree angle",
-        "paragraphs": [{
-          "text": "If the root does not come off cleanly at the node (at about a 45 degree angle)."
-        }]
-      },
-      {
-        "pic": "basilC.png",
-        "label": "To speed-up rooting",
-        "paragraphs": [{
-          "text": "You can dip the cutting in water then in rooting powder (follow manufacturors instructions for safe handling and disposal of rooting powder!)."
-        }]
-      },
-      {
-        "pic": "basil2.png",
-        "label": "Set In Well Lit Area",
-        "paragraphs": [{
-          "text": "Set cutting(s) in a jar that is about 1/4 -1/2 full of water try to keep the leaves out of the water (by draping them over the edge of the jar) and place in a window or under a florescent light or 'grow light'. It should take about 3-10 days for roots to develop."
-       }]
-      },
-      {
-        "vid": "t31lLR2nUzk",
-        "label": "Transplant to soil",
-        "paragraphs": [{
-          "text": "Once the basil has sprouted roots, transplant to a small pot, by holding the plantling suspended in a small pot and alternating between shaking dirt and pouring water around the plantling until the pot is filled with wet soil around it. When the plant is at least 6 inches tall, and has a hearty stem and vibrant leaves, Transfer to your garden or a larger (as long as it's not too cold outside)."
-      }]
-        }
-    ]
-  },
+      "name": "Making Garden soil",
+      "header_pic": "soil3.png",
+      "pub_date": "8/30/24",
+      "featured": false,
+      "categories": ["garden"],
+      "about": "It's a dirty business",
+      "tools": [
+        "shovel",
+        "reusable construction bags (optional)",
+        "gloves",
+        "n95 mask"
+      ],
+      "materials": [
+        "compost",
+        "sand",
+        "livestock mulch",
+        "Ammend",
+        "perlite"
+      ],
+      "slides_only": true,
+      "phases": [
+        {
+          "pic": "soil1.png",
+          "label": "Gather materials",
+          "paragraphs": [
+            {
+              "text": "Gather the materials you will be using and dump them out in a mound."
+            }
+          ]},{
+          "pic": "",
+          "label": "Mix soil components",
+          "vid": "W2j1wN6xMMk",
+          "paragraphs": [
+            {
+              "text": "Stir materials together like you're folding egg whites into batter."
+            }
+          ]},{
+          "pic": "soilDone.png",
+          "label": "Disperse and Use Soil in Garden Beds or for Potting",
+          "paragraphs": [
+            {
+              "text": "Mix soil into garden beds or use in pots etc."
+            }
+          ]}
+      ]
+    },
   {
     "name": "Raised Garden Beds",
     "pub_date": "8/23/24",
     "header_pic": "rbTurnsoil.png",
     "featured": false,
     "categories": ["garden"],
-    "about": "I had a garden bed that wasn't getting enough light and underproducing, so I've decided to move it and start a new bed in a location that gets better light.",
+    "about": "Concrete planter wall blocks make setting up decent looking garden beds easy",
     "tools": [
       "pickaxe",
       "shovel",
+      "hand roto-tiller (optional)",
       "rake",
       "gloves",
       "mask"
     ],
     "materials": [
       "2 4 ft x6 inch pieces of lumber (can be 4inch thick or just fence boards)",
-      "4 oldcastle gardenbed cornerstones",
-      "soil"
+      "4 Oldcastle (or other brand) planter wall blocks",
+      "soil",
+      "perlite (optional)",
+      "compost (optional)"
     ],
     "slides_only": true,
     "phases": [
       {
-        "pic": "rb1.png",
-        "text": ""
+        "label": "Prep and Planning",
+        "pic": "rb2.png",
+        "paragraphs": [
+          {
+            "text": "Gather materials and pick a location for your garden bed that's out of the flow of traffic in your yard, but with good sun exposure. If necessary cut lumber to fit to the desired size for your garden bed."
+          }
+        ]},
+      {
+        "label": "Setup the Perimeter walls",
+        "pic": "rb3.png",
+        "paragraphs": [
+          {
+            "text": "Scrape a level path between the corner blocks for each edge of your garden."
+          }]
+      },{
+        "label": "Remove Loose Dirt and Debris from Garden Bed",
+        "pic": "rb5.png",
+        "paragraphs": [
+          {
+            "text": "When 3 side walls are placed, rake out any loose gravel or dirt from within the perimeter of the bed."
+          }]
+      },{
+        "label": "Loosen Existing Dirt",
+        "pic": "rb6.png",
+        "paragraphs": [
+          {
+            "text":  "Using the pickax, shovel and/or hand tiller, loosen the soil 3-6 inches below the bottom level of the garden walls."
+          }]
+      },{
+        "label": "Soak Overnight if Necessary",
+        "pic": "rb7.png",
+        "paragraphs": [
+          {
+            "text":  "It may be necessary to soak the bed overnight and come back to work with the damp soil the next day."
+          }]
+      },{
+        "label": "Fill with Soil",
+        "pic": "gbed6.png",
+        "paragraphs": [
+          {
+            "text":  "After the bed is dug down, add garden soil, perlite and compost and shovel/rake to mix with the loose dirt and you should be ready for planting!"
+          }]
       }
     ]
   },
   {
-      "name": "Making Garden soil",
-      "header_pic": "makeSoil1.png",
-      "pub_date": "8/30/24",
+      "name": "Growing Basil From Cuttings",
+      "pub_date": "8/16/24",
+      "header_pic": "basil5.png",
       "featured": false,
-      "categories": ["garden"],
-      "about": "",
-      "tools": [],
-      "materials": [],
-      "slides_only": true,
+      "categories": ["plants","garden", "grow light"],
+      "about": "Use cuttings from Pho or from a larger basil plant to grow a new clone",
+      "tools": ["box cutter (optional)", "rooting hormone (optional)", "grow light (optional)"],
+      "materials": ["basil cuttings", "jar", "small pot", "potting soil"],
+      "slides_only": false,
       "phases": [
         {
-          "pic": "",
-          "vid": "W2j1wN6xMMk",
-          "text": ""
+          "pic": "basil1.png",
+          "label": "Selecting Cuttings",
+          "paragraphs": [
+            {
+              "text": " Take green, non-flowering, healthy basil cuttings from 'nodes' (areas where a branches branch off), as close to the bottom the plant as possible (roots from the bottom of the plant root faster). -- or you can also use cuttings from Pho."}
+          ]
+        },
+        {
+          "pic": "basilB.png",
+          "label": "Cut at 45 degree angle",
+          "paragraphs": [{
+            "text": "If the root does not come off cleanly at the node (at about a 45 degree angle)."
+          }]
+        },
+        {
+          "pic": "basilC.png",
+          "label": "To speed-up rooting",
+          "paragraphs": [{
+            "text": "You can dip the cutting in water then in rooting powder (follow manufacturors instructions for safe handling and disposal of rooting powder!)."
+          }]
+        },
+        {
+          "pic": "basil2.png",
+          "label": "Set In Well Lit Area",
+          "paragraphs": [{
+            "text": "Set cutting(s) in a jar that is about 1/4 -1/2 full of water try to keep the leaves out of the water (by draping them over the edge of the jar) and place in a window or under a florescent light or 'grow light'. It should take about 3-10 days for roots to develop."
+          }]
+        },
+        {
+          "vid": "t31lLR2nUzk",
+          "label": "Transplant to soil",
+          "paragraphs": [{
+            "text": "Once the basil has sprouted roots, transplant to a small pot, by holding the plantling suspended in a small pot and alternating between shaking dirt and pouring water around the plantling until the pot is filled with wet soil around it. When the plant is at least 6 inches tall, and has a hearty stem and vibrant leaves, Transfer to your garden or a larger (as long as it's not too cold outside)."
+          }]
         }
       ]
     },
   {
     "name": "Water Garden / Mosquito Fish pond",
-    "header_pic": "pond1.png",
+    "header_pic": "pondDone.png",
     "pub_date": "9/6/24",
     "featured": false,
     "categories": ["garden"],
-    "about": "",
-    "tools": [],
-    "materials": [],
+    "about": "Its tough keeping chickens alive in the summer, so I made a pond for ours.",
+    "tools": [
+      "shovel",
+      "pickax",
+      "hose"
+    ],
+    "materials": [
+      "pond liner",
+      "cardboard",
+      "waterfall pump",
+      "waterfall trough",
+      "water pump tubing",
+      "river rocks",
+      "pea gravel",
+      "underwater soil bag",
+      "underwater soil mix",
+      "water lily tubor"
+    ],
     "slides_only": true,
     "phases": [
       {
-        "pic": "",
-        "text": ""
+        "pic": "pond1.png",
+        "label": "Start Digging",
+        "paragraphs": [{
+          "text": "Find a place for your pond and get ready to dig"
+        }]
+      },{
+        "pic": "pond2.png",
+        "label": "Soak your hole and dig some more",
+        "paragraphs": [{
+          "text": "And Dig"
+        }]},{
+        "pic": "pond3.png",
+        "label": "Keep Soaking and Digging",
+        "paragraphs": [{
+          "text": "you've got to go on diggin' holes..."
+        }]
+      },{
+        "pic": "pond5.png",
+        "label": "Dig it",
+        "paragraphs": [{
+          "text": "..."
+        }]
+      },{
+        "pic": "pond6.png",
+        "label": "Line pond hole with cardboard, and then put down a pond liner (I forgot to take a pic of the pond liner)",
+        "paragraphs": [{
+          "text": "..."
+        }]
+      },{
+        "pic": "pond7.png",
+        "label": "Fill with water and hope for no leaks",
+        "paragraphs": [{
+          "text": "..."
+        }]
+      },{
+        "vid": "chickenVideo",
+        "label": "And unleash your chickens to enjoy your work",
+        "paragraphs": [{
+          "text": "..."
+        }]
       }
     ]
   },

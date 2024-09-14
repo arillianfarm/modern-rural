@@ -4,18 +4,22 @@
             <h2 class="text-white">DIY Projects</h2>
         </div>
         <div class="col-xs-12 col-lg-9 mt-5 text-danger">
-            <b>This page is </b> <b ng-if="!smallView"> a chronicle of projects Arthur and I have worked on...</b>
-            <p>not necessarily a recommendation of what or how anyone should do anything.</p>
+            <div class="row">
+                <div class="col-xs-12">
+                    <b>This is </b> <b ng-if="!smallView"> a chronicle of projects Arthur and I worked on...</b>
+                    <b>not a recommendation of how anyone should do anything.</b>
+                </div>
+            </div>
         </div>
     </div>
     <!--        nav scroll bar-->
-    <div class="col-xs-12 col-lg-3">
+    <div class="col-xs-12 col-lg-3" ng-style="{'border-right': !smallView ? '2px solid white' : ''}">
         <div class="row cursPoint">
-            <div class="col-xs-12">
+            <div class="col-xs-12" >
                 <h3>
                     <a>All Projects</a>
                     <a class="btn btn-large btn-primary"
-                       ng-if="data.collapse_nav_scroll"
+                       ng-if="data.collapse_nav_scroll && smallView"
                        ng-click="data.collapse_nav_scroll = false;">
                         <i class="fa fa-list"></i>
                     </a>
@@ -49,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div ng-if="data.projects" class="col-xs-12 col-lg-9" style="border-right:2px solid white;">
+    <div ng-if="data.projects" class="col-xs-12 col-lg-9">
         <div ng-if="data.featuredProject">
             <div ng-id="assembleIDattribute(data.featuredProject.name)">
                     <div class="row blog-header">
@@ -76,8 +80,9 @@
                     </a>
                 </div>
                 <div class="col-xs-12 mt-3">
-                    <h4 ng-if="data.featuredProject.notes" class="text-muted" >{{data.featuredProject.about}}</h4>
+                    <h4 ng-if="data.featuredProject.about" class="text-muted" >{{data.featuredProject.about}}</h4>
                 </div>
+
             </div>
             <div class="row">
                 <div class="col-xs-12" ng-if="data.featuredProject.tools && data.featuredProject.tools.length" >
@@ -180,6 +185,9 @@
                             {{p.text}}
                         </h4>
                     </div>
+                </div>
+                <div class="col-xs-12 text-danger text-center">
+                    <h4>Stretch before any physically demanding work and stay hydrated!</h4>
                 </div>
             </div>
         </div>
