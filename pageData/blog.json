@@ -188,10 +188,10 @@
       "entry_number": 4,
       "entry_date": "August 30, 2024",
       "pic_file": "breadwinnerbaker.png",
-      "entry_subject": "From Bread winner to bread baker OR From bringing home the bacon to stay at home farmer",
+      "entry_subject": "From Bread winner to bread baker",
       "featured_blog": true,
       "feature_section_1": {
-        "caption": "",
+        "caption": " OR From bringing home the bacon to stay at home farmer",
         "pic": "assets/blog/breadwinnerbaker.png"
       },
       "feature_section_2": {
@@ -208,23 +208,34 @@
           "text": "",
           "paragraphs": [
             {
-              "text": "In 2014 I attended and completed a four month long coding bootcamp in Silicone Valley. Two weeks after I got home, I landed my first (and only) software job."
+              "text": "In 2016 I completed a four month coding bootcamp in Silicone Valley and was relieved and surprised to land a job two weeks after I got home."
             },
             {
-              "text":" I loved my job and I really liked the team I worked with. At the height of my seven years with the company, there were five developers. We had a shared kanban board and played pointing poker and discussed what we were working on with each other and we had this thing we did where one of us would go 'doobee doobee doop doop doop' and the rest of us would go 'ahhhhaa' like in that one Annie Lennox song. It was just a great feeling of teamness. Plus, I was making about 25% more than I had at my previous job, so I was officially the breadwinner in my house." },
+              "h4": true,
+              "text":"At first, I loved my new career. It was more engaging and challenging than any job I'd had before and I was part of a fun, young software team."
+            },
             {
-              "text": "Then my company had layoffs and our team got reduced to two. My least favorite coworker became my boss, we closed our physical office and started working from home. My new boss immediately hired three developers to work remotely from other countries (two from Ukraine and one from Nicaragua), so we all worked at different times of day and there was some language barrier, which became stressful."}
-            ],
+              "text":"At the height of my seven years with the company, there were five developers. We had a shared kanban board. There were pot lucks and team building events and we had this thing we did where one of us would go 'doobee doobee doop doop doop' and the rest of us would all go 'ahhhhaa' like in that one Annie Lennox song. It was just a great feeling of teamness. Plus, with my new salary and renalt income from my investment property, I was the bigger breadwinner of the Arillian household."
+            },
+            {
+              "h4": true,
+              "text": "About four years in, my company started having layoffs. Eventually our team got reduced to two and my least favorite co-worker became my boss."
+            },{
+              "text": "A few weeks after the final round of layoffs, we closed our physical office and started working from home. My new boss immediately hired three developers to work remotely from other countries (two from Ukraine and one from Nicaragua). We all worked at very different times of day, which made communication slow and difficult."
+            }],
+
           "pics": ["softwareCamp.png"]
         },{
           "bold":false,
           "paragraphs": [
             {
-              "text":"Our boss had assigned us overlapping tasks in the same couple of files, so we were having immense issues merging our work together and communication was difficult and slow. I started waking up at 1:00AM so I could try to communicate with the Ukrainian developers before they “pushed” their file changes for the day and our boss basically stopped responding to work chat or emails and eventually abandoned his job entirely. Then the Ukrainian developers dropped off the project."
+              "text":"It didn't help that our boss had assigned us overlapping tasks in the same couple of files and then stopped responding to work chat and emails. For weeks, we struggled with immense issues merging our work together and our codebase kept getting more and more buggy, so I started waking up at 1:00 or 2:00 AM to try to communicate with the Ukrainian developers before they 'pushed' their final file changes for the day."
             },
             {
-              "bold":false,
-              "text":"I was suddenly thrust into the role of project manager and lead developer, but I didn’t get a raise or pay bump. The owner of the company thanked me for stepping up and that was all the reward I got for increasing my weekly work hours from about 45 to about 65 just so I could merge and debug our shared files enough to keep the project from moving backward."
+              "h4": true,
+              "text": "Eventually the Ukrainian developers dropped off the project and I was suddenly thrust into the role of de facto project manager/ lead developer without an actual raise or title change."
+            },{
+              "text": "I felt like I was a ghost of myself. I stopped doing things I love, like cooking, gardening or playing with the dogs and all I did was work. I suddenly had to learn to manage the entire infrastructure supporting our application as well as sorting out the buggy code itself and my laptop was always there, tethered to my brain."
             }
           ]
         },{
@@ -232,21 +243,37 @@
           "pics": ["nicPainting.png"],
           "right_side_pic": true,
           "paragraphs": [{
-            "text":"The only thing that made it bearable was my Nicaraguan coworker. He knew more about certain aspects of computer science than I and I knew more about other things than him, so we worked well together in that regard, but also, he’s just a genuinely good person: hardworking and communicative and also, he always spoke pridefully about his family and seemed to go to great lengths to take care of them. He lost his mother during COVID and after that, since he wasn’t able to get vaccines for his family in Nicaragua, he drove them (on dirt roads through small towns etc… not on a highway or anything) to Honduras to get them vaccinated. We would chat about what was going on in our lives and when I told him I have chickens, he sent me a feather with a picture of Nicaragua painted on it… and it was just like one of the most thoughtful unique things I’ve received. He’s just a very kind and thoughtful person. So, when the (non-technically inclined) owner of my company, who had never actually evaluated the work of my coworker, asked me to fire him because he wanted to put a different remote developer on our team instead, it was a gut punch. The economy wasn’t great and my co-worker supported a lot of people. It seemed like the job was much more important to him than me. Plus he was a hard worker and had a strong knowledge of the project, so I gave my notice and urged the owner to keep my coworker on since, after I left, he would be the only one with any knowledge of what we’d built so far."
-          }]
+            "text":"The only thing that made it bearable was that I started working my closely with my coworker in Nicaragua. He's hardworking and communicative and he knows more about certain aspects of computer science than I and vice versus, so we worked well together in that regard,"
+          },{
+            "h4": true,
+            "text": "But mainly, I felt like I had someone on my team at work again."
+          },
+            {
+              "text": "We would message on the work chat about what was going on in our lives and when I told him I have chickens, he sent me a feather with a picture of Nicaragua painted on it… which is one of the most thoughtful unique things I’ve received."},
+            {
+              "text": "We had work and gardening in common, but his life was very different than mine. He's married with three kids whom he always spoke pridefully of and he seemed to go to great lengths to take care of them. He lost his mother during COVID and after that, since he wasn’t able to get vaccines in Nicaragua for his family, he drove them (on dirt roads through small towns etc… not on a highway or anything) to Honduras to get vaccinated. He’s just a very kind and thoughtful person."
+            },
+            {
+              "h4": true,
+              "text": "So, when the owner of my company, who had never actually evaluated the work of my coworker, asked me to fire him because he wanted to put a different remote developer on our team, I decided to quit and leave my coworker the job security of being the only employee with any knowledge of our project thus far."
+            }]
         },{
           "bold":false,
           "pic_file": "budget1.png",
           "link": "https://docs.google.com/spreadsheets/d/1o5IAf3smq-RFusiekqUcnpePol36Cuo5QNgkbgEjOQc/edit?usp=sharing",
           "paragraphs": [
             {
-              "text": "I guess that makes it sound more dramatic and altruistic than it was. I didn’t quit on the spot when they told me I was going to have to fire him. I’d actually already been planning to quit that year because I’d been feeling increasingly stressed and unhappy with the company, plus I was doing pretty well establishing a more passive income for myself."
+              "text": "Well, that makes it sound more dramatic and altruistic than it actually was. I didn’t decide to quit on the spot when they told me I was going to have to fire my co-worker."
             },
             {
-              "text":"A couple years earlier, I’d pulled equity out of my rental house in Tempe to build a second rental house on the same property as my first rental. I was finally three months from completion when they asked me to let my co-worker go. I had made a Google Sheet to track my spending and see if it was feasible for me to keep my expenses within my projected income. I was easing back on spending by cooking more at home and slowing down my Amazon Prime habit, so I’d been staying on budget for several months, plus, Arthur and I did a lot of the finishing work on the new rental house, so I was actually going to come in under my projected construction cost. Also, Arthur had just gotten a promotion at work, so we decided it was fine for me to quit and focus on my backyard farm and writing."
+              "h4": true,
+              "text":"I'd been training for it, easing up on my Uber Eats and Amazon Habits for months and tracking my spending on a Google Sheet in anticipation of completion of my second rental home (on the same property, behind my first rental house) near ASU."
             },
             {
-              "text":"A week after the owner of my company told me to fire my coworker, at our next zoom meeting, I gave three months notice (so he could find a replacement and I could train them)  and I advised him that keeping my coworker on would be highly advisable since he was about to be the only person holding knowledge of the last several years of work on the project. They kept him on and gave him a raise and I started gardening, cooking and writing more."
+              "text": "I was managing to keep my expenses within my new projected rental income and Arthur received a promotion from his company, so the universe seemed to be saying, it was fine for me to quit, take a breath and re-asses what I actually wanted to do with my life."
+            },
+            {
+              "text":"At the next zoom meeting, after the owner asked me to fire my coworker,  I gave three months notice (so I could train my replacement). They kept my coworker on, and I've been gardening, cooking, hanging with my critters, writing and coding the day away on my own terms ever since."
             }
           ]
         }
@@ -255,7 +282,7 @@
     {
       "entry_number": 5,
       "entry_date": "Sept 6, 2024",
-      "entry_subject": "The Overbigness of the world today",
+      "entry_subject": "My Favorite Tools",
       "feature_section_1": {
         "caption": "",
         "pic": ""

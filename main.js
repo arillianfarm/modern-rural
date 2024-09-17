@@ -141,7 +141,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                 name: 'Merchandise'
             },{
                 href: "#!projects",
-                src:"assets/projects/catio13.png",
+                src:"assets/projects/catioF.png",
                 view: 'projects',
                 name: 'DIY Projects'
             },{
