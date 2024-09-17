@@ -1,13 +1,15 @@
 <div class="container br20 border2px text-white text-justified" >
     <div class="row">
-        <div class="col-xs-12 col-lg-3">
-            <h2 class="text-white">DIY Projects</h2>
-        </div>
-        <div class="col-xs-12 col-lg-9 mt-5 text-danger">
+        <div class="col-xs-12">
             <div class="row">
-                <div class="col-xs-12">
-                    <b>This is </b> <b ng-if="!smallView"> a chronicle of projects Arthur and I worked on...</b>
-                    <b>not a recommendation of how anyone should do anything.</b>
+                <div class="col-xs-12 col-lg-3 mt-0">
+                    <h2 class="text-white">DIY Projects</h2>
+                </div>
+                <div class="col-xs-12 col-lg-9 mt-3 text-center">
+                    <h6 class="text-danger">
+                        <b>This is </b> <b ng-if="!smallView"> a chronicle of projects Arthur and I worked on...</b>
+                        <b>not a recommendation of how anyone should do anything.</b>
+                    </h6>
                 </div>
             </div>
         </div>
@@ -57,13 +59,13 @@
         <div ng-if="data.featuredProject">
             <div ng-id="assembleIDattribute(data.featuredProject.name)">
                     <div class="row blog-header">
-                        <div class="col-xs-6">
-                            <h3>
+                        <div class="col-xs-9">
+                            <h2>
                              {{titleCaps(data.featuredProject.name)}}
-                            </h3>
+                            </h2>
                         </div>
-                        <div class="col-xs-6 pull-right text-right">
-                            <h5 class="mb-0">
+                        <div class="col-xs-3 pull-right text-right mt-3">
+                            <h5 class="">
                                 Posted: {{data.featuredProject.pub_date}}
                             </h5>
                         </div>
@@ -148,7 +150,7 @@
                     <img ng-if="section.pic"
                          ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
                          ng-src="./assets/projects/{{section.pic}}"
-                         style="height: 20em; padding:10px;"
+                         style="height: 20em; padding:10px; max-width:55em;"
                          class="br20 p2 ml-5"
                          >
                     <a class="ml-5" ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
@@ -156,7 +158,7 @@
                        ng-href="{{getIframeSrc(section.link)}}"
                        target="_blank">
                         <img ng-src="./assets/projects/{{section.pic}}"
-                             style="height: 20em; padding:10px;">
+                             style="height: 20em; padding:10px; max-width:55em;">
                     </a>
                     <iframe ng-if="section.vid"
                             ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
@@ -186,7 +188,7 @@
                         </h4>
                     </div>
                 </div>
-                <div class="col-xs-12 text-danger text-center">
+                <div class="col-xs-12 text-danger mt-3 mb-3">
                     <h4>Stretch before any physically demanding work and stay hydrated!</h4>
                 </div>
             </div>

@@ -8,6 +8,22 @@
       "file": "oddbird.png",
       "caption": "So What If I'm Kind Of An Odd Bird?",
       "albums": ["chickens", "animals"]
+    },{
+      "file": "scountNchokes.png",
+      "caption": "Scout's trying to figure out why the chicken crossed the road.",
+      "albums": ["chickens", "animals"]
+    },{
+      "file": "sammyStrut.png",
+      "caption": "Sammy Strutting in The Sun.",
+      "albums": ["chickens", "animals"]
+    },{
+      "file": "chickensWading.png",
+      "caption": "Hen party at chicken beach.",
+      "albums": ["chickens", "animals"]
+    },{
+      "file": "sammyLook.png",
+      "caption": "Peek a Boo.",
+      "albums": ["chickens", "animals"]
     },
   {
     "file": "hueyXena.png",
@@ -78,8 +94,16 @@
       "caption": "Single Rainbow!",
       "albums": ["sky"]
     },{
+      "file": "swallowtailpoopillar.png",
+      "caption": "Giant Swallowtail caterpillar (or Swallowpoopillar as I fondly refer to it) on my tangerine tree.",
+      "albums": ["wildlife"]
+    },{
+      "file": "freshFromCocoon.png",
+      "caption": "Giant Swallowtail Butterfly Fresh out of the cocoon.",
+      "albums": ["wildlife"]
+    },{
       "file": "butterflysunrise.png",
-      "caption": "Fresh out of the cocoon",
+      "caption": "Giant Swallowtail readying for its first flight.",
       "albums": ["wildlife"]
     },{
       "file": "birdPond.png",

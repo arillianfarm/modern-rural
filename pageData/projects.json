@@ -36,7 +36,7 @@
         "pic": "3dl.png"
       }
     ],
-    "slides_only": true,
+    "slides_only": false,
     "phases": [
       {
         "pic": "catioA.png",
@@ -67,17 +67,17 @@
         }]
       },
       {
+        "pic": "catioAlmostDone.png",
+        "label": "Enclose the frame",
+        "paragraphs": [{
+          "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taught and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame. We ended up just short of wire for the longest side, so we used a bit of regular chicken wire across the top corner)"
+        }]
+      },
+      {
         "pic": "catioE.png",
         "label": "Build the cat lounge",
         "paragraphs": [{
           "text": "We used a bunch of tongue and groove ceiling board, 2x4s and 2x6 scraps to make a bench, a small staircase and a perch for the cats and then I stapled scraps of carpet on to make it more comfy for them."
-        }]
-      },
-      {
-        "pic": "catioF.png",
-        "label": "Enclose the frame",
-        "paragraphs": [{
-          "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taught and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame."
         }]
       },
       {
@@ -92,7 +92,7 @@
   {
       "name": "Making Garden soil",
       "header_pic": "soil3.png",
-      "pub_date": "8/30/24",
+      "pub_date": "8/16/24",
       "featured": false,
       "categories": ["garden"],
       "about": "It's a dirty business",
@@ -165,7 +165,7 @@
         "pic": "rb2.png",
         "paragraphs": [
           {
-            "text": "Gather materials and pick a location for your garden bed that's out of the flow of traffic in your yard, but with good sun exposure. If necessary cut lumber to fit to the desired size for your garden bed."
+            "text": "Gather materials and pick a location for the garden bed that's out of the flow of traffic in the yard, but with good sun exposure. If necessary cut lumber to fit to the desired size for the garden bed."
           }
         ]},
       {
@@ -173,7 +173,7 @@
         "pic": "rb3.png",
         "paragraphs": [
           {
-            "text": "Scrape a level path between the corner blocks for each edge of your garden."
+            "text": "Scrape a level path between the corner blocks for each edge of the garden."
           }]
       },{
         "label": "Remove Loose Dirt and Debris from Garden Bed",
@@ -208,7 +208,7 @@
   },
   {
       "name": "Growing Basil From Cuttings",
-      "pub_date": "8/16/24",
+      "pub_date": "8/30/24",
       "header_pic": "basil5.png",
       "featured": false,
       "categories": ["plants","garden", "grow light"],
@@ -250,18 +250,18 @@
           "vid": "t31lLR2nUzk",
           "label": "Transplant to soil",
           "paragraphs": [{
-            "text": "Once the basil has sprouted roots, transplant to a small pot, by holding the plantling suspended in a small pot and alternating between shaking dirt and pouring water around the plantling until the pot is filled with wet soil around it. When the plant is at least 6 inches tall, and has a hearty stem and vibrant leaves, Transfer to your garden or a larger (as long as it's not too cold outside)."
+            "text": "Once the basil has sprouted roots, transplant to a small pot, by holding the plantling suspended in a small pot and alternating between shaking dirt and pouring water around the plantling until the pot is filled with wet soil around it. When the plant is at least 6 inches tall, and has a hearty stem and vibrant leaves, Transfer to the garden or a larger (as long as it's not too cold outside)."
           }]
         }
       ]
     },
   {
     "name": "Water Garden / Mosquito Fish pond",
-    "header_pic": "pondDone.png",
+    "header_pic": "pondPopulated.png",
     "pub_date": "9/6/24",
     "featured": false,
     "categories": ["garden"],
-    "about": "Its tough to get chickens through the hot hot Arizona heat in the summer, so we made a pond for ours.",
+    "about": "Its tough to get chickens through the hot Arizona summers, so we made a pond for ours.",
     "tools": [
       "shovel",
       "rake",
@@ -279,86 +279,153 @@
       "pea gravel",
       "underwater soil bag",
       "underwater soil mix",
-      "water lily tubor"
+      "water lily rhizome"
     ],
     "slides_only": true,
     "phases": [
       {
         "pic": "pond1.png",
-        "label": "Start Digging",
+        "label": "Find 'The Spot'",
         "paragraphs": [{
-          "text": "Find a source of river rocks, a suitable place for your pond (near an outlet for your waterfall pump, shaded for part of the day and with no pipes or electrical conduit underneath it and limber up, because you're going to spend a lot of mornings digging."
+          "text": "Find a source of river rocks and a suitable place for the pond. (Somewhere near an outlet for the waterfall pump and near a garden hose, but with no buried pipes or electrical conduit underneath it and ideally the pond should be in partial shade). Once you've found the spot, limber up, 'cause making a pond is like a month long, full body fitness bootcamp."
         }]
       },{
-        "pic": "pond2.png",
-        "label": "Soak your hole and dig some more.",
+        "pic": "dig1.png",
+        "label": "Start Digging, Soak Hole and Repeat",
         "paragraphs": [{
-          "text": "And Dig"
+          "text": "Dig... and soak...and dig"
         }]},{
-        "pic": "pond3.png",
-        "label": "Keep soaking, digging",
-        "paragraphs": [{
-          "text": "You've got to go on diggin' holes..."
-        }]
-      },{
         "pic": "pond5.png",
         "label": "Carve out shelves",
         "paragraphs": [{
-          "text": "Eventually you'll want to start carving a shelf or two around the perimeter of the pond --so that you can set down river rocks and planter baskets to keep the tarp covered and allow plants to stay close to sunlight and air (The angle of the shelves should be no more than 90 degrees (if its sloping down at all, once you put the tarp down, everything you try to set on it will fall off)."
+          "text": "Eventually you'll want to start carving a shelf or two around the perimeter of the pond --to set river rocks and planter baskets which will hold the pond liner in place. (The angle of the shelves should be no more than 90 degrees --if it's sloping down, everything you try to set on it will fall off once you put the tarp down)."
         }]
       },{
         "pic": "pond6.png",
-        "label": "Line pond hole with cardboard (to eventually create a clay-like layer and to pad the pond liner from rocks etc), wet the cardboard and then put down the pond liner (I forgot to take a pic of the pond liner)",
+        "label": "Line pond the pond hole",
         "paragraphs": [{
-          "text": "..."
+          "text": "To create a clay-like layer under the pond liner, line the pond hole with pieces of cardboard, soak and stomp down the cardboard so that it fits the shape of the pond and then put down the pond liner (I forgot to take a pic of the pond liner. I also dug a deeper ditch than my pond liner could accommodate so I had to dam up part of my hole at the last minute, but it's been holding fine for almost a year now.)"
         }]
       },{
         "pic": "pond7.png",
-        "label": "Fill with water and hope for no leaks",
+        "label": "Place river rocks, fill with water and hope for no leaks",
         "paragraphs": [{
-          "text": "..."
+          "text": "Put the pond liner over the wet cardboard and set large river rocks on it to hold the pond liner in place around the contours of the shelves you dug."
         }]
-      },{
-        "vid": "xRo1UMLiNYs",
-        "label": "Unleash your chickens to enjoy your work",
-        "paragraphs": [{
-          "text": "Once I AI-d that it was okay, and started feeding my chickens sweet potato leaves, they suddenly started eating water lilies."
-        }]
-      },{
-        "pic": "pondDone.png",
-        "label": "Maintenance",
-        "paragraphs": [{
-          "text": "I have a leak somewhere in the upper level of my pond, so I put about a bathtub worth of water in each morning... however, the water draining and fresh water filling also helps to flush out hot water, fish waste and other murk in the water). I also, use my hose to spray the algae on the top of the water to one side, skim it off, and scoop out as much blown-in hay as I can from the shallows of the pond every morning to try to keep the nitrogen and amonia levels suitable for fish and plants."
-        }]
-      }
-    ]
-  },
-  {
-    "name":  "Exposed Patio Beams",
-    "pub_date": "9/20/24",
-    "header_pic": "",
-    "featured": false,
-    "categories": ["construction", "finishing work"],
-    "about": "",
-    "tools": [],
-    "materials": [],
-    "slides_only": true,
-    "phases": [
+      },
       {
-        "pic": "",
-        "text": ""
-      }
-    ]
+        "vid": "xRo1UMLiNYs",
+        "label": "Populate the pond",
+        "paragraphs": [{
+          "text": "I bought a dozen 'mosquito fish' from a seller on Amazon and I had a couple hundred fish within about three months of filling the pond. I also bought a water lily rhizome, a pond plant basket and soil from Amazon and planted the water lily in the deepest part of the pond away from the pump and waterfall. Note - chickens eat certain types of water lilies."
+        }]},
+      {
+          "pic": "pondPopulated.png",
+          "label": "Maintenance",
+          "paragraphs": [{
+            "text": "I have a leak somewhere in the upper level of my pond, so I put about a bathtub worth of water in each morning. (As it happens, the water draining and fresh water filling also helps to flush out hot water, fish waste and other murk in the water). I also, use my hose to spray the algae on the top of the water to one side, skim it off, and scoop out as much blown-in hay as I can from the shallows of the pond every morning to try to keep the nitrogen and amonia levels suitable for fish and plants."
+          }
+        ]
+      }]
   },
   {
-    "name":  "Subway Tile",
-    "pub_date": "9/13/24",
-    "header_pic": "subTile1.png",
+      "name":  "Subway Tile",
+      "pub_date": "9/13/24",
+      "header_pic": "subsDone.png",
+      "featured": false,
+      "categories": ["construction", "finishing work"],
+      "about": "While doing finishing work at my Tempe house, I found a pretty (time consuming) way to nicely set subway tile.",
+      "tools": [
+        "gloves",
+        "tile saw",
+        "n95 mask (wear when mixing thinset and grout)",
+        "trowel (for thinset)",
+        "float (for grouting)",
+        "5 gallon buckets for mixing and sponging",
+        "sponges",
+        "t-square",
+        "tape measure",
+        "flathead screw driver to clean grout lines"
+      ],
+      "materials": [
+        "subway tiles",
+        "tile spacers",
+        "mosaic tile backing",
+        "parchment paper (to put between sheets of tiles after gluing to mesh.",
+        "tile paste (to glue to backing)",
+        "thin set mortar",
+        "grout (natural gray)",
+        "grout sealer"
+      ],
+      "materials_pics": [
+        {
+          "name": "Tile Mesh",
+          "pic": "meshForSubTiles.png"
+        }
+      ],
+      "phases": [
+        {
+          "pic": "tileStrips.png",
+          "paragraphs": [{
+            "text": "To make sure my tiles stayed lined up, I used spacers and a t-square to set and glue tiles on sheets of mosaic mesh (in a tessellating pattern). Pro-tip It's actually a pretty relaxing activity to keep your hands busy while you're streaming your favorite whatever."
+          }]
+        },{
+          "pic": "tilesHighlights.png",
+          "paragraphs": [
+            {
+              "text": "After troweling thin set over a small section, I placed preset sheets of tiles on the wall (such that one sheet interlocked with the next, checking to keep them level across the wall before starting another row on top)."
+            }
+          ]
+        },{
+          "pic": "subBath3.png",
+          "paragraphs": [
+            {
+              "text": "I left any areas where tiles needed to be cut for edges, corners, etc open until I had set all the full mesh tile sections I could and then came back and measured and cut tiles to fill in the gaps."
+            }
+          ]
+        },{
+          "pic": "subBath4.png",
+          "paragraphs": [
+            {
+              "text": "Once all the tiles were cut and set, I grouted. Note- do not mix too much grout at once especially in a hot room. It gets hard to work with fast."
+            }
+          ]
+        },{
+          "pic": "subsDone.png",
+          "paragraphs": [
+            {
+              "text": "A few days after finishing each room, I sealed all the grout."
+
+            }
+          ]
+        }
+      ]
+    },
+  {
+    "name":  "Dealing with Ceilings",
+    "pub_date": "9/20/24",
+    "header_pic": "woodCeil.png",
     "featured": false,
     "categories": ["construction", "finishing work"],
-    "about": "",
-    "tools": [],
-    "materials": [],
+    "about": "Thermal expansion being what it is, drywall ceilings don't seem to do well in Arizona",
+    "tools": [
+      "FOR TWO-TONE EXPOSED BEAM CEILING",
+      "pry-bar",
+      "hammer with nail puller",
+      "electric sander",
+      "FOR WOOD PLANK CEILING",
+      "air-compressor with nail gun attachment",
+      "tongue-and-groove or ship-lap wood planks",
+      "quarter round or other finishing wood"
+    ],
+    "materials": [
+      "n-95 masks (wear when sanding/painting or ceiling)",
+      "gloves",
+      "paint, deck sealer or urethane",
+      "paint rollers",
+      "blue tape or edger (for paint/ stain)",
+      "finishing nails"
+    ],
     "slides_only": true,
     "phases": [
       {
