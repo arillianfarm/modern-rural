@@ -296,10 +296,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return docName.split(" ").join("-").replace("'","");
     }
 
+    $scope.getBaseUrl = function() {
+        let url = new URL(window.location.href);
+        url.hash = "";
+        return url.toString();
+    }
+
     $scope.assembleHashLink = function(nameTitleField){
-        let preHash = $location['$$absUrl'];
+        let baseUrl = `${$scope.getBaseUrl()}#!${$location.path()}`;
         let postHash = $scope.assembleIDattribute(nameTitleField);
-        let hashLink = `${preHash}#${postHash}`;
+        let hashLink = `${baseUrl}#${postHash}`;
         return hashLink;
     }
 
@@ -378,7 +384,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             let stepNumber = i+1;
             instructions += `(${stepNumber}) ${step.instruction}`
         }
-        let summary = `Recipe For ${recipe.name} ${ingredients} ${instructions}  (courtesy of Arillian Farm ${$scope.assembleHashLink(recipe.name)})`;
+        let summary = `Recipe For ${recipe.name} ${ingredients} ${instructions}  Courtesy of Arillian Farm ${$scope.assembleHashLink(recipe.name)}`;
         $scope.copyForClipboard(summary);
     };
 
