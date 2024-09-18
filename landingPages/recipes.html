@@ -104,6 +104,17 @@
                      </ol>
                  </div>
              </div>
+          <div class="row mb-5">
+              <div class="col-xs-12">
+                <hr>
+              </div>
+              <div class="col-xs-12 ">
+                  <h4>Related Recipes</h4>
+              </div>
+              <div class="col-xs-6 col-lg-4 cursPoint" ng-repeat="rr in data.featuredRecipe.related_recipes track by $index">
+                  <a ng-click="setFeaturedRecipe(rr)">{{titleCaps(rr)}}</a>
+              </div>
+          </div>
      </div>
   </div>
 </div>

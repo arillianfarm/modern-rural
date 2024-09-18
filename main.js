@@ -220,7 +220,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return newString;
     }
 
-
     //to route to an external url need to use this function
     $scope.getIframeSrc = function (url) {
         return url;
@@ -293,7 +292,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     }
 
     $rootScope.assembleIDattribute = function(docName){
-        return docName.split(" ").join("-").replace("'","");
+        return docName.split(" ").join("-").replace("'","").toLowerCase();
     }
 
     $scope.getBaseUrl = function() {
