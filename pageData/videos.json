@@ -3,42 +3,48 @@
   {
     "youtubeID": "cz3icswXVF0",
     "title": "McGoats raids the chicken coop",
-    "albums": ["goats", "animals"],
-    "release_date": "9/27/24"
-  },
-  {
-    "youtubeID": "yKpOoAmH_YU",
-    "title": "Totes takes the stairs",
-    "albums": ["goats", "animals"],
+    "albums": ["new","goats", "animals"],
     "release_date": "9/27/24"
   },
   {
     "youtubeID": "Uo8EC0U5iCo",
     "title": "chicks exploring",
-    "albums": ["chickens", "animals"],
+    "albums": ["new","chickens", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "yKpOoAmH_YU",
+    "title": "Totes takes the stairs",
+    "albums": ["new","goats", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "7a5wNx_U5Ng?",
+    "title": "Huey Teaching me which toys he likes best.Episode 1 Alligator V Turtle",
+    "albums": ["new","dogs", "animals"],
     "release_date": "9/27/24"
   },
   {
     "youtubeID": "Ey92lBEr-Wc",
     "title": "Butterfly Fresh Out Of Its Cocoon ",
-    "albums": ["wildlife", "animals"],
+    "albums": ["new","wildlife", "animals"],
     "release_date": "9/27/24"
   },
   {
     "youtubeID": "OIGeXAjvL4E",
     "title": "Love Birds Snacking on Giant Sunflowers",
-    "albums": ["wildlife", "animals"],
+    "albums": ["new","wildlife", "animals"],
     "release_date": "9/27/24"
   },
   {
     "youtubeID": "iiMBoQ_3NWo",
     "title": "Huey Ka-Bluey!",
-    "albums": ["dogs", "animals"],
+    "albums": ["new","dogs", "animals"],
     "release_date": "9/27/24"
   },{
     "youtubeID": "WQm9I3alVSg",
-    "title": "Someone's Finally Using The Bowflex",
-    "albums": ["dogs", "animals"],
+    "title": "Glad someone's Finally Using The Bowflex",
+    "albums": ["new","dogs", "animals"],
       "release_date": "9/27/24"
     },
   {
@@ -48,22 +54,15 @@
     "release_date": "9/27/24"
   },
   {
-    "youtubeID": "7a5wNx_U5Ng?",
-    "title": "Huey Teaching me which toys he likes best.Episode 1 Alligator V Turtle",
-    "albums": ["dogs", "animals"],
-    "release_date": "9/27/24"
-  },
-
-  {
     "youtubeID": "Ha7f_kbcDoQ",
-    "title": "Scout's on the fence about where to get breakfast",
-    "albums": ["chickens", "animals"],
+    "title": "Scout's on the fence about artichokes",
+    "albums": ["new","chickens", "animals"],
     "release_date": "9/27/24"
   },
   {
     "youtubeID": "_Kf4cNzedaE",
     "title": "Xena getting the dogs in the screen",
-    "albums": ["dogs", "animals"],
+    "albums": ["new","dogs", "animals"],
     "release_date": "9/27/24"
   },{
     "youtubeID": "6T75yYz6QAI",
@@ -79,13 +78,13 @@
     {
       "youtubeID": "UqPADTNqGTI",
       "title": "My Leghorn Fan Club Always Comes Flying To Get Treats",
-      "albums": ["goats", "animals"],
+      "albums": ["new", "chickens", "animals"],
       "release_date": "9/27/24"
     },
     {
       "youtubeID": "r2b3DIUO9AU",
       "title": "Chickens Chillin in The Pond",
-      "albums": ["chickens", "animals"],
+      "albums": ["new","chickens", "animals"],
       "release_date": "9/27/24"
     }
 

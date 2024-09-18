@@ -176,9 +176,10 @@ div.scrollmenu {
 }
 
 @media (min-width: 480px) {
-    iframe {
-        height:400px;
-    }
+    /*iframe {*/
+    /*    width:100%;*/
+    /*    height:auto;*/
+    /*}*/
     .fixed-right {
         margin-left: 52em !important;
     }

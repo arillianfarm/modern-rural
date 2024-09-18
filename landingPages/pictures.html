@@ -1,5 +1,7 @@
-<div  class="container border2px br20"  ng-style="{'max-width':calculateAlbumContainerSize()}">
-  <div class="row text-white text-center border2px">
+<div  class="container br20"
+      ng-class="{'border2px': !smallView}"
+      ng-style="{'max-width':calculateAlbumContainerSize()}">
+  <div class="row text-white text-center" >
     <div class="col-xs-12">
       <h2>Caption Contest</h2>
     </div>
@@ -38,11 +40,20 @@
   </div>
   <hr>
   <div class="row text-center" ng-if="data.pictures">
-    <div class="col-xs-12 col-lg-4 mb-5" ng-repeat="pic in data.pictures track by $index">
-      <h4 class="text-white">
+    <div class="col-xs-12 mb-5" ng-repeat="pic in data.pictures track by $index">
+      <h4 class="text-white" >
         {{pic.caption}}
       </h4>
-      <img  class="br20"
+      <blockquote
+              ng-if="pic.imagur_id"
+              class="imgur-embed-pub" lang="en"
+              ng-style="{'height': smallView ? 'auto' : '15em'}"
+      data-id="{{pic.imagur_id}}"><a
+              ng-href="https://imgur.com/{{pic.imagur_id}}"></a>
+      </blockquote>
+      <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+    <img ng-if="!pic.imagur_id" class="br20"
             ng-src="./assets/pictures/{{pic.file}}"
             ng-style="{'height': smallView ? 'auto' : '18em'}">
     </div>

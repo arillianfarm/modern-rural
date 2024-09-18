@@ -45,6 +45,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
         })
+        .when("/hyp123", {
+            templateUrl : "landingPages/hyperspearch1to3.html"
+        })
         .otherwise( {
             redirectTo : "/"
         })
@@ -191,12 +194,27 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         hyperspear_display_page: null,
         unfettered_display_pages: null,
         unfettered_display_page: null,
+        selected_chapters_pdf: null,
         collapse_nav_scroll: true
     };
 
     $scope.calculateAlbumContainerSize = function(){
         return $rootScope.smallView ? '25em' : '100%';
     };
+
+    // $scope.getPicSrc = function(item, view){
+    //     const imgurCheck = new RegExp('imgur*');
+    //     let src = imgurCheck.test(item.header_pic||"") ? item.header_pic : null;
+    //     if (src){
+    //         return src;
+    //     }
+    //     switch(view){
+    //         case 'recipes':
+    //             src = `./assets/recipes/${item.header_pic}`
+    //             break;
+    //     }
+    //   return src;
+    // }
     // UTILITY FUNCTIONS
 
     //function to test that ngclick events etc are firing
@@ -319,22 +337,21 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         $scope.currentAlbum = albumName.toLowerCase();
         switch (albumType){
             case 'videos':
-                filteredList = albumNameTemp == 'all' ? $scope.videosRaw : $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
+                filteredList = $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
                 $scope.data.videos = filteredList;
                 break;
             case 'pictures':
-                filteredList = albumNameTemp == 'all' ? $scope.picturesRaw : $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
+                filteredList = $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
                 $scope.data.pictures = filteredList;
                 break;
             default:
                 break;
         }
-        //TODO: write function to put a hash location in and then have a view for video / pic album
     };
 
 // VIDEO VIEW
     $scope.albumCovers = [
-        {name: "all", thumbnail:"assets/pictures/washingBeets.png"},
+        {name: "new", thumbnail:"assets/pictures/scoutNchokes.png"},
         {name: "chickens", thumbnail:"assets/favicons/android-chrome-192x192.png"},
         {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
         {name: "gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
@@ -344,6 +361,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     ];
 
 // PICTURE VIEW
+
 
 //DIY PROJECTS VIEW
     $scope.setFeaturedProject = function(docName){
@@ -452,7 +470,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     $rootScope.initializeView = function(view){
         let viewType = view.toLowerCase();
-        let uninitializedViews = ['merch','main', 'about', 'comics', ''];
+        let uninitializedViews = ['merch','main', 'about', 'comics', 'hyp123',''];
         if (uninitializedViews.indexOf(viewType) > -1){
             $scope.scrollToHashOrTop();
             return;
@@ -466,7 +484,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             return;
         }
         dataService.getData(viewType,$scope).then(function(dataArr) {
-            if (viewType != 'blog') {
+            if (['blog','pictures', 'videos'].indexOf(viewType) == -1){
                 $rootScope.data[view] = dataArr;
             }
             switch(viewType){
@@ -481,12 +499,12 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     }, []);
                     break;
                 case 'videos':
-                    $scope.videosRaw = dataArr;
-                    $scope.currentAlbum = 'all';
+                        $scope.videosRaw = dataArr;
+                        $scope.goToAlbum('new', viewType);
                     break;
                     case 'pictures':
-                    $scope.currentAlbum = 'all';
-                    $scope.picturesRaw = dataArr;
+                        $scope.picturesRaw = dataArr;
+                        $scope.goToAlbum('new', viewType);
                     break;
                 case 'blog':
                     $scope.blogSort = 'n2o';
