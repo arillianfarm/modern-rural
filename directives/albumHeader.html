@@ -28,7 +28,7 @@
          ng-repeat="album in albumCovers track by $index"
          ng-click="goToAlbum(album.name, albumType)"
          ng-if="albumType != 'videos' || !album.hide_video_view">
-      <div class="ml-5 cursPoint"
+      <div class="cursPoint"
 
        style="padding:10px;">
         <span ng-if="currentAlbum">

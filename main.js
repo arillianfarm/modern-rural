@@ -45,7 +45,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         .when("/merch", {
             templateUrl : "landingPages/merch.html"
         })
-        .when("/hyp123", {
+        .when("/hype123", {
             templateUrl : "landingPages/hyperspearch1to3.html"
         })
         .otherwise( {
@@ -203,6 +203,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return $rootScope.smallView ? '25em' : '100%';
     };
 
+
     // UTILITY FUNCTIONS
 
     //function to test that ngclick events etc are firing
@@ -343,13 +344,13 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
 // VIDEO VIEW
     $scope.albumCovers = [
-        {name: "new", thumbnail:"assets/headerPictures/android-chrome-512x512.png"},
+        {name: "new", thumbnail:"assets/headerPictures/android-chrome-192x192.png"},
         {name: "chickens", thumbnail:"assets/favicons/android-chrome-192x192.png"},
         {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
         {name: "gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
         {name: "goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png"},
-        {name: "sky", hide_video_view: true, thumbnail:"assets/pictures/sunsetsq.png"},
-        {name: "wildlife", thumbnail:"assets/pictures/butterflysunrise.png"}
+        {name: "sky", hide_video_view: true, thumbnail:"assets/android-chrome-192x192.png"},
+        {name: "wildlife", thumbnail:"assets/pictures/android-chrome-192x192.png"}
     ];
 
 // PICTURE VIEW
@@ -462,7 +463,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     $rootScope.initializeView = function(view){
         let viewType = view.toLowerCase();
-        let uninitializedViews = ['merch','main', 'about', 'comics', 'hyp123',''];
+        let uninitializedViews = ['merch','main', 'about', 'comics', 'hype123',''];
         if (uninitializedViews.indexOf(viewType) > -1){
             $scope.scrollToHashOrTop();
             return;

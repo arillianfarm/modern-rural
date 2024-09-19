@@ -145,6 +145,11 @@ div.scrollmenu {
     margin: 5px;
 }
 
+#the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+}
+
 @media (max-width: 767px) {
     .nav{
         padding-bottom:20px;
@@ -170,8 +175,8 @@ div.scrollmenu {
         height:auto;
     }
     img.small-round {
-        border-radius:20px;
-        height:5em;
+        border-radius:15px;
+        height:10em;
     }
 }
 
