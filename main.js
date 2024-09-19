@@ -183,6 +183,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $rootScope.windowHeight = window.innerHeight;
 
     $rootScope.data = {
+        loading: false,
         recipes: null,
         projects: null,
         blog: null,
@@ -202,19 +203,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return $rootScope.smallView ? '25em' : '100%';
     };
 
-    // $scope.getPicSrc = function(item, view){
-    //     const imgurCheck = new RegExp('imgur*');
-    //     let src = imgurCheck.test(item.header_pic||"") ? item.header_pic : null;
-    //     if (src){
-    //         return src;
-    //     }
-    //     switch(view){
-    //         case 'recipes':
-    //             src = `./assets/recipes/${item.header_pic}`
-    //             break;
-    //     }
-    //   return src;
-    // }
     // UTILITY FUNCTIONS
 
     //function to test that ngclick events etc are firing
@@ -305,8 +293,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.scrollToBlogItem = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $scope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName);
-        $scope.data.collapse_nav_scroll = true;
+        $rootScope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName);
+        $rootScope.data.collapse_nav_scroll = true;
     }
 
     $rootScope.assembleIDattribute = function(docName){
@@ -332,21 +320,25 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     };
 
     $scope.goToAlbum = function(albumName, albumType){
-        let albumNameTemp = albumName.toLowerCase();
-        let filteredList = [];
-        $scope.currentAlbum = albumName.toLowerCase();
-        switch (albumType){
-            case 'videos':
-                filteredList = $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
-                $scope.data.videos = filteredList;
-                break;
-            case 'pictures':
-                filteredList = $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
-                $scope.data.pictures = filteredList;
-                break;
-            default:
-                break;
-        }
+        $rootScope.data.loading = true;
+        $timeout(function(){
+            let albumNameTemp = albumName.toLowerCase();
+            let filteredList = [];
+            $scope.currentAlbum = albumName.toLowerCase();
+            switch (albumType){
+                case 'videos':
+                    filteredList = $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
+                    $rootScope.data.videos = filteredList;
+                    break;
+                case 'pictures':
+                    filteredList = $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
+                    $rootScope.data.pictures = filteredList;
+                    break;
+                default:
+                    break;
+            }
+            $rootScope.data.loading = false;
+        },10);
     };
 
 // VIDEO VIEW
@@ -367,16 +359,16 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.setFeaturedProject = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $scope.data.featuredProject = $scope.projectsRaw.find(item=>item.name==docName);
-        $scope.data.collapse_nav_scroll = true;
+        $rootScope.data.featuredProject = $scope.projectsRaw.find(item=>item.name==docName);
+        $rootScope.data.collapse_nav_scroll = true;
     }
 
 // RECIPES VIEW
     $scope.setFeaturedRecipe = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $scope.data.featuredRecipe = $scope.recipesRaw.find(item=>item.name==docName);
-        $scope.data.collapse_nav_scroll = true;
+        $rootScope.data.featuredRecipe = $scope.recipesRaw.find(item=>item.name==docName);
+        $rootScope.data.collapse_nav_scroll = true;
     }
 
     $scope.searchRecipes = function(term){
@@ -448,22 +440,22 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
 // BOOKS VIEW
         $scope.setNextDisplayPage = function(book){
-            var pagesToUse = $scope.data.unfettered_display_pages;
-            var displayPage = $scope.data.unfettered_display_page||"";
+            var pagesToUse = $rootScope.data.unfettered_display_pages;
+            var displayPage = $rootScope.data.unfettered_display_page||"";
             var currentIndex;
             var nextPage;
             switch(book){
                case 'hyperspear':
-                   pagesToUse = $scope.data.hyperspear_display_pages;
-                   displayPage = $scope.data.hyperspear_display_page||"";
+                   pagesToUse = $rootScope.data.hyperspear_display_pages;
+                   displayPage = $rootScope.data.hyperspear_display_page||"";
                    currentIndex = pagesToUse.indexOf(displayPage);
-                   nextPage = currentIndex < 2 ? $scope.data.hyperspear_display_pages[currentIndex +1] : $scope.data.hyperspear_display_pages[0];
-                   $scope.data.hyperspear_display_page = nextPage;
+                   nextPage = currentIndex < 2 ? $rootScope.data.hyperspear_display_pages[currentIndex +1] : $rootScope.data.hyperspear_display_pages[0];
+                   $rootScope.data.hyperspear_display_page = nextPage;
                    break;
                default:
                 currentIndex = pagesToUse.indexOf(displayPage);
-                nextPage = currentIndex < 2 ? $scope.data.unfettered_display_pages[currentIndex +1] : $scope.data.unfettered_display_pages[0];
-                $scope.data.unfettered_display_page = nextPage;
+                nextPage = currentIndex < 2 ? $rootScope.data.unfettered_display_pages[currentIndex +1] : $rootScope.data.unfettered_display_pages[0];
+                $rootScope.data.unfettered_display_page = nextPage;
            }
 
         }
@@ -476,13 +468,14 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             return;
         }
         if (viewType == 'books'){
-            $scope.data.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
-            $scope.data.unfettered_display_page = $scope.data.unfettered_display_pages[0];
-            $scope.data.hyperspear_display_pages = ["hyperCover1.png", "hyperspear2.png", "hyperspear3.png" ];
-            $scope.data.hyperspear_display_page = $scope.data.hyperspear_display_pages[0];
+            $rootScope.data.unfettered_display_pages = ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png" ];
+            $rootScope.data.unfettered_display_page = $rootScope.data.unfettered_display_pages[0];
+            $rootScope.data.hyperspear_display_pages = ["hyperCover1.png", "hyperspear2.png", "hyperspear3.png" ];
+            $rootScope.data.hyperspear_display_page = $rootScope.data.hyperspear_display_pages[0];
             $scope.scrollToHashOrTop();
             return;
         }
+        $rootScope.data.loading = true;
         dataService.getData(viewType,$scope).then(function(dataArr) {
             if (['blog','pictures', 'videos'].indexOf(viewType) == -1){
                 $rootScope.data[view] = dataArr;
@@ -492,7 +485,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     $scope.recipeSort = 'a2z';
                     $scope.recipesRaw = dataArr.reduce((acc, item) => {
                         if (item.featured) {
-                            $scope.data.featuredRecipe = item;
+                            $rootScope.data.featuredRecipe = item;
                         }
                         acc.push(item);
                         return acc;
@@ -511,7 +504,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     // Process blogs data
                     $scope.blogEntriesRaw = dataArr.reduce((acc, item) => {
                         if (item.featured_blog) {
-                            $scope.data.featuredBlogEntry = item;
+                            $rootScope.data.featuredBlogEntry = item;
                         }
                         acc.push(item);
                         return acc;
@@ -524,7 +517,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     // Process blogs data
                     $scope.projectsRaw = dataArr.reduce((acc, item) => {
                         if (item.featured) {
-                            $scope.data.featuredProject = item;
+                            $rootScope.data.featuredProject = item;
                         }
                         acc.push(item);
                         return acc;
@@ -533,6 +526,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                 default:
 
             }
+            $rootScope.data.loading = false;
             $scope.scrollToHashOrTop();
         });
     }

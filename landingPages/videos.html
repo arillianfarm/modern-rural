@@ -9,7 +9,7 @@
         </div>
     </div>
     <hr>
-    <div class="row" ng-if="data.videos">
+    <div class="row" ng-if="data.videos && !data.loading">
         <div class="col-xs-12 mb-3"
              style="height:45em;"
              ng-repeat="video in data.videos track by $index">
