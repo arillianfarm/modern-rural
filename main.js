@@ -351,7 +351,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
 // VIDEO VIEW
     $scope.albumCovers = [
-        {name: "new", thumbnail:"assets/pictures/scoutNchokes.png"},
+        {name: "new", thumbnail:"assets/headerPictures/android-chrome-512x512.png"},
         {name: "chickens", thumbnail:"assets/favicons/android-chrome-192x192.png"},
         {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
         {name: "gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
