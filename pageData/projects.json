@@ -413,24 +413,89 @@
       "pry-bar",
       "hammer with nail puller",
       "electric sander",
+      "electric miter saw",
       "FOR WOOD PLANK CEILING",
+      "drill -with circular bit large enough to drill out for lights (if necessary)",
       "air-compressor with nail gun attachment",
-      "tongue-and-groove or ship-lap wood planks",
-      "quarter round or other finishing wood"
+      "'punch' to tap in any nails that don't go all the way",
+      "a vehicle long enough to transport ceiling boards"
     ],
     "materials": [
-      "n-95 masks (wear when sanding/painting or ceiling)",
+      "n-95 masks (wear when demoing sanding, and painting the ceiling)",
       "gloves",
+      "sand paper",
       "paint, deck sealer or urethane",
       "paint rollers",
       "blue tape or edger (for paint/ stain)",
-      "finishing nails"
+      "finishing nails",
+      "tongue-and-groove or ship-lap wood planks",
+      "quarter round or other finishing wood"
     ],
     "slides_only": true,
     "phases": [
       {
-        "pic": "",
-        "text": ""
+        "pic": "tempPatDon.png",
+        "paragraphs": [
+          {
+            "h4": true,
+            "text": "The first ceiling to crack was the front patio of my original rental house."
+          },
+          {
+            "text": "When we started to pull down the cracked drywall (with a pry bar), we were surprised to find that the front patio shared the same attic as the house, so a bunch of insulation came down during the demo phase."
+          },
+          {
+            "text": "Once we got it cleaned up, we found that if we cut our 10 ft by 6 in boards in half, we could basically just lay them from the frame of the house across to the frame of the patio, so we cleaned and sanded the frames and glued each, then nailed each board in place (with an air compressor-powered nail gun and 18 gauge nails), snugging one into the next and pre-drilling for lights (and wiring the lights up) as we went along. (Note - Arthur is good with electricity, so it was easy enough for him to disconnect and reconnect the lights while we worked, but I myself, wouldn't attempt the lights alone)."
+          },
+          {
+            "text": "Once all the ceiling boards were grooved together, we framed the ceiling from the bottom with pine baseboards. which we nailed in place (same nails and gun as used for the ceiling boards)"
+          },
+          {
+            "text": "To protect the wood, I applied three coats of Deck Sealer with a paint roller."
+          }
+        ]
+      },{
+        "pic": "tempCeilStart.png",
+        "paragraphs": [
+          {
+            "h4": true,
+            "text": "Shortly after we finished the patio of my original rental unit, it was our turn to borrow my contractor's scaffolding in my second rental house and finish the new ceiling."
+          },{
+            "text": "My contractor advised us to use 12 ft x 8 in ship lap boards pinned to the ceiling joists with 18 gauge nails. Ship lap had a very similar look to tongue and groove, but was actually much cheaper and easier to work with (except for the fact that we were working with much longer heavier boards when we did ship lap). My contractor also recommended that we randomly vary the length of the starting board in each row use 'quarter round' to finish the edges, so that's what we did."
+          }
+        ]
+      },{
+        "pic": "tempCeilArt.png",
+        "paragraphs": [
+          {
+            "text": "Since this ceiling was much larger than the patio, we couldn't just lay the beams across a frame, for most of the boards, I had to walk up a ladder with one end of a board while Arthur climbed up the scaffolding and we both had to awkwardly hold it in place handing the nail gun back and forth until it was held in place. PRO TIP - All boards must be cut such that they start and end at a ceiling joist (otheriwse the ends will droop)!"
+          }
+        ]
+      },{
+        "pic": "tempeCeilSealed.png",
+        "paragraphs": [
+          {
+            "text": "I brushed on two coats of polyurethane to protect the wood."
+          }
+        ]
+      },{
+        "pic": "mesaRoof3.png",
+        "paragraphs": [
+          {
+            "h4": true,
+            "text": "A couple summers after the tempe drywall ceiling cracked, the ceiling of our house in mesa cracked... and fell"
+          },{
+            "text": "So my friend and I grabbed hammers and crow bars and ripped the rest of the drywall and nails down."
+          },{
+            "text": "I sanded each ceiling joist with an electric sander --and n95 mask was really important here because there was mold and mildew on some beams."
+          }
+        ]
+      },{
+        "pic": "mesaCielDone.png",
+        "paragraphs": [
+          {
+            "text": "I decided to paint the beams brown to match the trim of our house and the underside of the roof planks white, to give a cottagey two-tone effect."
+          }
+        ]
       }
     ]
   }
