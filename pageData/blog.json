@@ -8,14 +8,6 @@
         "caption": "",
         "pic": ""
       },
-      "feature_section_2": {
-        "caption": "",
-        "pic": ""
-      },
-      "feature_section_3": {
-        "caption": "",
-        "pic": ""
-      },
       "sections": [
         {"paragraphs":[
 
@@ -284,7 +276,6 @@
     },
     {
       "entry_number": 5,
-      "featured_blog": true,
       "entry_date": "Sept 6, 2024",
       "pic_file": "smixer.png",
       "entry_subject": "My Favorite Tools",
@@ -404,15 +395,135 @@
     {
       "entry_number": 6,
       "entry_date": "Sept 13, 2024",
-      "entry_subject": "Finding My Home in AZ",
+      "pic_file": "wallowingChicks.png",
+      "entry_subject": "Caring For Chickens in the Summer",
       "feature_section_1": {
-        "caption": "",
-        "pic": ""
+        "caption": "Unfortunately summers in AZ can be too much for chickens. Here's what I've gleaned from my experiences over the years.",
+        "pic": "assets/blog/wallowingChicks.png"
       },
       "sections": [
         {
-          "bold":false,
-          "text": ""
+          "pics": ["goatDoor.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "What Not To Do:"
+            },
+            {
+              "text": "I'm sad and ashamed to say I've lost some chickens to the desert heat. At first, I kept the barn fully closed (with an insulated doggy door for the goats) and that was a fine and great way to keep all the animals cool... until Totes and McGoats kicked their doggy door off (which was right next to the hen's preferred laying spot) when it was 120F. Four chickens each laid an egg and died one on top of the other. It was a pretty upsetting. I didn't get more chickens for a few years after that."
+            },
+            {
+              "text": "I've since read that air conditioning your hens can prevent them from appropriately climatizing, so when there's a power outage or some other inevitability, they overheat very easily. (I've also read that you should not use a heater in winter for chickens unless it actually freezes where you are)"
+            }
+          ]},
+        {
+        "paragraphs": [
+          {
+          "text": "This system has been going better:",
+          "h4": true
+        }]
+        },
+        {
+          "pics": ["ice4chicks.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Ice Ice baby, ba-gawk"
+            },{
+              "text": "I made an 'ice house' for my chickens in a shaded area of their coop. I call it an ice house because I put a gallon of ice in once or twice a day (depending on if its going to be over 110 or not). My chickens also have access to three large buckets of water all day in the summer. I put a pint of ice in each bucket around 8-10AM and at 2:00-4:00 every day... which is actually kind of hard on our freezer. Besides the fact that most of the storage capacity of our freezer is dedicated to making 'chicken ice' all summer, freezers have to work really hard to make that amount of ice. We actually had to buy a new fridge/freezer this summer because our old one (was from the 90s) and could no longer get cold enough to freeze three gallons of water twice a day when its 85 in the house."
+            }
+          ]
+        },
+        {
+          "pics": ["wallowingChicks.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Wallowing"
+            },{
+              "text": "I overflow the water buckets once or twice a day to make cool mud for them to wallow in. They also like to wrap themselves around the water buckets while they're cool."
+            }
+          ]
+    },
+        {
+          "vid": "r2b3DIUO9AU",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Wading"
+            },{
+              "text": "We also added a pond to the 'barnyard' so the chickens have somewhere to cool their heels (and peck at lily pads and mosquitofish)."
+            }
+      ]}
+      ]
+    },
+    {
+      "entry_number": 7,
+      "featured_blog": true,
+      "pic_file": "marketStrategy.png",
+      "entry_date": "Sept 20, 2024",
+      "entry_subject": "Preparing For Launch",
+      "feature_section_1": {
+        "caption": "I’ve been busting my ass setting up this site, combing through Google Photos for pictures and videos of our lil farm yard",
+        "pic": "assets/blog/marketStrategy.png"
+      },
+      "sections": [
+        {
+          "pics": ["thisSiteBlog.png"],
+          "right_side_pic":false,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Technically"
+            },
+            {
+              "text": "In 2015 I completed a four-month full-stack developer ‘boot camp’ in Silicon Valley. At that moment in time, there was some debate about whether Google’s framework, Angular JS would remain the preferred framework for web apps or if Facebook’s React, would usurp Angular. My bootcamp taught us Angular for two months and React for one week… and then React blew up and is now the dominant framework of the modern web."
+            },
+            {
+              "text": "I, however, fell in love with good ol’ Angular JS in all it’s two-way binding glory. I can React a little, but I just like to get all up in the HTML files with my javascript. It just feels right to me!"
+            },
+            {
+              "text": "Also, it only took me a couple weeks to make a serverless angular js site –that I am hosting for free on Github Pages… and Github Pages is easy to use… and free. So at least until I get a chance to see if I can actually drive traffic to our site, I’m just another Angular white girl over here with no back end. "
+            },
+            {
+              "text": "If I actually do generate interest in our site, I’ll probably convert it to React and set up a cloud server on AWS so I can use outside APIs to manage site assets more efficiently and possibly set up more interactive features."
+            }
+          ]
+        },
+        {
+          "pics": ["marketStrategy.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Marketing"
+            },
+            {
+              "text": "I’ve been busting my ass setting up this site, combing through Google Photos for pictures and videos of our lil farm yard, in hopes of launching our YouTube channel with enough time to gain some traction by Black Friday –which I reckon means we need to channel up before October."
+            },{
+              "text": "So next Friday is the day! I chose Friday afternoon because I figure folks will be on their phones trying to get their weekend started by like 3:00PM and Fridays tend to be payday."
+            },{
+              "text": "I’ve got a solid backlog of content for future releases and dozens of tasks to work on my Arillian Farm Kanban, so I feel prepared to hit the ground running with weekly content releases to YouTube as well and this site."
+            },{
+              "text": "With luck, our YouTube Channel may one day capitalize on our critters' adorableness and garner enough subscribers and views to generate ad revenue. In the meantime, I hope YouTube views will lead to Google searches and page views for this site. That alone would be cool because I feel like I have some things I can share with folks that’ll spread a little joy or at least give 'em something to noodle on. But also, I have a lumber and gardening supply habit to support, so I’d be living the full dream if people liked my stuff enough to kick me a buck or two on Go Fund Me and/or buy a Totes McGoats Tote Bag from Zazzle."
+            }]
+        },
+        {
+          "pics": ["youtubeediting.png"],
+          "right_side_pic":false,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Personally"
+            },
+            {
+              "text": "Even if I don’t generate any income, I’m glad I built this site. Building up content has given me an opportunity to look back on some fond memories in our lil farm yard (and offload some storage from my almost-full Google Pictures account to Arillian Farm’s YouTube channel)."
+            },
+            {
+              "text": "Rummaging through js and html files again feels good on my brain and keyboard shorthands and javascript syntax came back to me surprisingly fast. Plus, if/when I need to stop LARPing as a farmer and go back into the real workforce, converting this site from Angular to React will be an excellent learning opportunity and my Github repository and the site itself will probably be good supplements to my resume."
+            }
+          ]
         }
       ]
     }
