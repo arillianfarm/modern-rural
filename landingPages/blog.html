@@ -32,7 +32,7 @@
                         </div>
                         <div class="col-lg-12" >
                             <div ng-if="item.feature_section_1 && item.feature_section_1.pic">
-                                <img class="br20 mb-3"
+                                <img class="br20 mb-3 mr-3"
                                      style="float:left"
                                      ng-src="{{item.feature_section_1.pic}}"
                                      width="75em;"
@@ -79,19 +79,31 @@
                     <div ng-if="data.featuredBlogEntry.link && !data.featuredBlogEntry.pic_file" class="col-xs-12 text-center mb-5 mt-5">
                         <h3  ng-href="{{getIframeSrc(data.featuredBlogEntry.link)}}" target="_blank">[LINK]</h3>
                     </div>
-                    <div class="col-xs-12 text-justified text-white" ng-repeat="section in data.featuredBlogEntry.sections track by $index">
+                    <div class="col-xs-12 text-justified text-white mt-3" ng-repeat="section in data.featuredBlogEntry.sections track by $index">
                         <div >
                             <img ng-if="section.pics"
+                                 ng-repeat="pic in section.pics track by $index"
                                  ng-src="./assets/blog/{{pic}}"
-                                 style="height: 20em; padding:10px;"
+                                 style="height: 20em; padding:10px; margin:10px;"
                                  ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
                                  class="br20 p2"
-                                 ng-repeat="pic in section.pics track by $index">
-                            <a class="ml-5" ng-style="{'float':section.right_side_pic ? 'right': 'left'}" ng-if="section.link && section.pic_file" ng-href="{{getIframeSrc(section.link)}}" target="_blank">
+                                 >
+                                <iframe
+                                        ng-if="section.vid"
+                                        class="video-box"
+                                        style="height: 20em; padding:10px; margin:10px;"
+                                        height="300"
+                                        width="300"
+                                        autoplay="0"
+                                        ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
+                                        ng-src="{{getIframeSrcForYouTube(section.vid)}}">
+                                </iframe>
+                            <a class="ml-5" ng-style="{'float':section.right_side_pic ? 'right': 'left'}"
+                               ng-if="section.link && section.pic_file" ng-href="{{getIframeSrc(section.link)}}" target="_blank">
                                 <img ng-src="./assets/blog/{{section.pic_file}}"
                                      style="height: 20em; padding:10px;">
                             </a>
-                            <div style="margin-left:25px;" ng-if="section.paragraphs" ng-repeat="p in section.paragraphs track by $index">
+                            <div style="margin-left:25px; margin-right:10px;" ng-if="section.paragraphs" ng-repeat="p in section.paragraphs track by $index">
                                 <p ng-if="!p.bold && !p.h2 && !p.h3 && !p.h4">
                                     {{p.text}}
                                 </p>
@@ -107,8 +119,8 @@
                                 <h4 ng-if="p.h4">
                                     {{p.text}}
                                 </h4>
-                            </div>
 
+                            </div>
                         </div>
 
 

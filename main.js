@@ -138,7 +138,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                 view: 'pictures',
                 name: 'Photo Gallery'
             } ,{
-                href: "https://www.zazzle.com/store/arillianfarm",
+                href: "https://www.zazzle.com/collections/fall_2024-119118606070157890",
                 src:"assets/shopPic.png",
                 view: 'merch',
                 name: 'Merchandise'
@@ -401,7 +401,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
 //BLOG VIEW
     $scope.assembleBlogSummary = function(blogEntry){
-        let sumString = ((blogEntry?.sections||[{}])[0].paragraphs||[{}])[0]?.text || "";
+        let sumString = blogEntry.feature_section_1?.caption||((blogEntry?.sections||[{}])[0].paragraphs||[{}])[0]?.text || "";
         return $scope.trunc(sumString, 80);
     };
 

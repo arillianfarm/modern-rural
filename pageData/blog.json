@@ -89,7 +89,11 @@
       "sections": [
         {
           "bold":false,
-          "text": "4:00AM Out into The Dark Hotness. First task: Grab Basil For Our Chickens' and Okra For Our Dogs' Breakfasts.",
+          "paragraphs": [
+            {
+              "text": "4:00AM Out into The Dark Hotness. First task: Grab Basil For Our Chickens' and Okra For Our Dogs' Breakfasts."
+            }
+          ],
           "link": null,
           "pics": ["", ""]
         },
@@ -189,7 +193,6 @@
       "entry_date": "August 30, 2024",
       "pic_file": "breadwinnerbaker.png",
       "entry_subject": "From Bread winner to bread baker",
-      "featured_blog": true,
       "feature_section_1": {
         "caption": " OR From bringing home the bacon to stay at home farmer",
         "pic": "assets/blog/breadwinnerbaker.png"
@@ -240,7 +243,7 @@
           ]
         },{
           "bold":false,
-          "pics": ["nicPainting.png"],
+          "pics": ["NicPainting.png"],
           "right_side_pic": true,
           "paragraphs": [{
             "text":"The only thing that made it bearable was that I started working my closely with my coworker in Nicaragua. He's hardworking and communicative and he knows more about certain aspects of computer science than I and vice versus, so we worked well together in that regard,"
@@ -281,47 +284,135 @@
     },
     {
       "entry_number": 5,
+      "featured_blog": true,
       "entry_date": "Sept 6, 2024",
+      "pic_file": "smixer.png",
       "entry_subject": "My Favorite Tools",
       "feature_section_1": {
-        "caption": "",
-        "pic": ""
-      },
-      "feature_section_2": {
-        "caption": "",
-        "pic": ""
-      },
-      "feature_section_3": {
-        "caption": "",
-        "pic": ""
+        "caption": "1 - Stand Mixer, 2 - Electric Miter Saw, 3 - Silicone Muffin Wrappers, 4 - Matrix Drill + Attachments (Black&Decker), 5 - Wet Tile Saw, 6 - Air Fryer, 7 - Construction Bags, 8 - Painting Edger, 9 - Air Compressor + attachments, 10 - Sharpal ",
+        "pic": "assets/blog/smixer.png"
       },
       "sections": [
         {
-          "bold":false,
-          "text":""
+          "vid": "3R3jlJPo2y4",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "1- Stand Mixer"
+            },{
+              "text": "Google's AI, Gemini, reckons my Kitchen Aid stand mixer was made in the 1950s or '60s. It was a gift from my ex fiance like 15 years ago, but she's still kicking (so much so that I have to hold the bowl in place sometimes)! Whipping cream and kneading bread are so much easier with a stand mixer than by hand (or with a hand mixer) and its great for mixing simpler stuff like pancake batter or cookie dough."
+            }
+          ]
+        },{
+          "pics": ["msaw.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "2- Electric Miter Saw"
+            },{
+              "text": " I can't imagine hand sawing anything anymore. We have a Hitachi Compound 10inch miter saw. (I bought it off Amazon about seven or eight years ago.) The arm pivots, so you can cut angles across the end of a board to make nice wood frames. It takes two cuts to cut a 2x6inch board when it's flat thought, so if I would change anything about it I would get a 12inch blade instead of 10inches"
+            }
+          ]
+        },{
+          "pics": ["silcups.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "3- Silicone Muffin Tins"
+            },{
+              "text": "I use these for everything, holding hardware or beads, epoxy molds, sauce cups and obviously baking. First bought some of these off Amazon about ten years ago. (There's no brand information on them)."
+            }
+          ]
+        },{
+          "pics": ["matrixd.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "4- Black&Decker Cordless Matrix Drill + Attachments"
+            },{
+              "text": "There is a 'standard drill head', a 'hammer head' and 'an impact drill' as well as a small jigsaw and circular saw (that will cut through thin wood like fence boards or finishing wood). (We also used to have a sander attachment, but I accidentally ripped the velcro for the sandpaper off of it... oops). I use this drill at least once a week for something or another. (I might use it less if I didn't have goats trying to break everything around them all the time). (I bought my drill at Home Depot tweleve years ago, but I believe this drill can only be ordered online now)"
+            }
+          ]
+        },{
+          "pics": ["tsaw.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "5 - Wet Tile Saw"
+            },{
+              "text": "I've tiled a fair amount of walls and floors in the last three or four yeas and this $20.00 tile saw from Harbor Freight just keeps on truckin'!"
+            }
+          ]
+        },{
+          "pics": ["airfrier.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "6 - Air Fryer"
+            },{
+              "text": "I use our air frier to cook almost everything I eat lately. Things come out crisp (unlike in a microwave), but its faster than an oven and causes much less heat in the kitchen (which is super nice when you're struggling just to keep it 85F inside during the summer). Arthur bought our air frier off of Amazon earlier this year. The brand is Dreo, but not sure the model number... it's big enough to bake a pie in, which is cool)"
+            }
+          ]
+        },{
+          "pics": ["cbag.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "7 - Construction Bags"
+            },{
+              "text": "Between our house in Mesa and my rental property in Tempe, I do a decent amount of landscaping and gardening every week. The bag is rigid enough so you can fold it over to keep it open while you fill it and it's great for hauling leaves, soil, and tools. I like that I can fit the straps over my shoulders to make carrying heavy things easier. Plus, I feel like it's a pretty good lower body and core workout to fill, lift and cary a bag of soil or mulch across the yard. (I bought a 4-pack of: 'DURASACK Heavy Duty Storage Tote Bags 22-Gallon Rugged Woven Polypropylene Moving Bag, Holds up to 500 Pounds' off Amazon about 2 years ago and they're holding up great)"
+            }
+          ]
+        },{
+          "pics": ["pedger.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "8 - Painting Edger"
+            },{
+              "text": "The reason why I love painting edgers is because I hate dealing with blue tape... I always rip it jagged. I always forget to use a razor and peel paint off of the wall when I go to remove the tape and it makes every job take at least twice as long when you have to go around and tape all the edges. Edgers eliminate that, so I like them."
+            }
+          ]
+        },{
+          "pics": ["aircomp.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "9 - Air Compressor + attachments"
+            },{
+              "text": "Air compressors are great 'cause they can fill your pool rafts or car tires and also provide the force needed to drive finishing nails into wooden trim or staple livestock fencing or chicken wire to fence posts. (I bought our Bostitch air compressor (with two nail guns and a staple gun attachment) off Amazon about five or six years ago and its keeps performing like a champion)."
+            }
+          ]
+        },{
+          "pics": ["sharpener.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "10 - Sharpal Multi-sharpener"
+            },{
+              "text": "I use this to keep my gardening tools sharp (lawn mower blades, hedge trimmers, construction scissors etc). It keeps everything cutting sharp and cleanly. (I bought ours on Amazon about a year ago)."
+            }
+          ]
         }
       ]
     },
     {
       "entry_number": 6,
       "entry_date": "Sept 13, 2024",
-      "entry_subject": "Love For My Homies",
+      "entry_subject": "Finding My Home in AZ",
       "feature_section_1": {
-        "caption": "",
-        "pic": ""
-      },
-      "feature_section_2": {
-        "caption": "",
-        "pic": ""
-      },
-      "feature_section_3": {
         "caption": "",
         "pic": ""
       },
       "sections": [
         {
           "bold":false,
-          "text":"My homies are the close friends that live by me and with whom I feel at home. My friend family. We have all been on healthy journeys together and support and help each other grow. More and more, meeting for happy hour is being replaced by meeting up to do some yoga together or try a new recipe. We are each others pet sitters, task rabbits, and sounding boards. It’s not unusual for any of us to surprise another of us with a random gift for one of their pets. We cook together, grieve together, work together, sit by the side of the road, vacation and party together."
+          "text": ""
         }
       ]
     }
