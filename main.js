@@ -263,8 +263,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             };
         });
         $scope.data[featuredItemType] = matchingDoc;
+            globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         } else {
-            $anchorScroll();
+            globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         }
     };
 
@@ -296,6 +297,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         $location.hash(hashLink);
         $rootScope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName);
         $rootScope.data.collapse_nav_scroll = true;
+        globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
 
     $rootScope.assembleIDattribute = function(docName){
@@ -362,6 +364,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         $location.hash(hashLink);
         $rootScope.data.featuredProject = $scope.projectsRaw.find(item=>item.name==docName);
         $rootScope.data.collapse_nav_scroll = true;
+        globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
 
 // RECIPES VIEW
@@ -370,6 +373,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         $location.hash(hashLink);
         $rootScope.data.featuredRecipe = $scope.recipesRaw.find(item=>item.name==docName);
         $rootScope.data.collapse_nav_scroll = true;
+        globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
 
     $scope.searchRecipes = function(term){
@@ -403,16 +407,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.assembleBlogSummary = function(blogEntry){
         let sumString = blogEntry.feature_section_1?.caption||((blogEntry?.sections||[{}])[0].paragraphs||[{}])[0]?.text || "";
         return $scope.trunc(sumString, 80);
-    };
-
-    $scope.expandTopBlogEntry = function(a){
-        //todo: this function is depricated
-        if ($scope.blogSort === 'o2a' && a.entry_number === 1 || a.entry_number === $scope.blogEntriesRaw.length){
-            a.expanded = true
-        } else {
-            a.expanded = false;
-        };
-        return a;
     };
 
     $scope.setBlogSortAndReorderList = function(sortType){

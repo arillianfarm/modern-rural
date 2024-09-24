@@ -267,7 +267,6 @@
     {
       "name": "Potato Salad",
       "pub_date": "9/20/24",
-      "featured": true,
       "header_pic": "hueyLovesPotatoeSalad.png",
       "servings": "4 servings",
       "ingredients": [
@@ -311,6 +310,140 @@
         "instruction":"Layer sliced strawberries on a plate, top with greek yogurt then sprinkle on walnuts and brown sugar."
       }],
       "notes": "Easy Snack or Dessert For A Hot Day!"
-    }
+    },
+    {
+      "name": "Creamy banana walnut wontons",
+      "pub_date": "9/27/24",
+      "header_pic": "wontons5.png",
+      "servings": "1 wonton",
+      "related_recipes": ["creamy avocado, pickled onion wontons"],
+      "ingredients": [
+        "a bit of chopped walnut (optional)",
+        "a slice of banana",
+        "1 wonton wrapper",
+        "1 healthy glob of cream cheese",
+        "oil (to coat wonton wrapper)",
+        "a few pinches of brown sugar"
+      ],
+      "steps": [{
+        "pic": "wontons3.png",
+        "instruction":"coat the outside of wonton wrapper with oil then put all ingredients on un-oiled side"
+      },
+        {
+          "instruction":"fold wonton wrapper around filling and put into a muffin tray, silicon muffin cup or directly onto the rack of an air frier"
+        },{
+          "instruction":"set temp to 385 and air fry for 4-6 minutes or until outside is browned"
+        },{
+          "pic": "wontons4.png",
+          "instruction": "let cool and enjoy"
+        }],
+      "notes": "this dish is bananas"},
+    {
+      "name": "Ricotta, Pistacio, Date Bruscetta",
+      "pub_date": "9/27/24",
+      "related_recipes": ["capreses bruscetta"],
+      "header_pic": "hueyBrus.png",
+      "servings": "4 servings",
+      "ingredients": [
+        "1 cup Ricotta Cheese",
+        "1/2 cup shelled salted and roasted pistachios",
+        "1/3 cup dried dates"
+      ],
+      "steps": [{
+        "pic": "brusA.png",
+        "instruction":"chop dates and pistachios"
+      },
+        {"pic": "brusB.png",
+          "instruction":"Stir chopped dates and pistachios into riccotta."
+        },{
+          "pic": "brus3.png",
+          "instruction":"Drizzle olive oil over sliced bread and toast for 2-4 minutes (to desired crispness)"
+        },{
+          "pic": "brusDoneB.png",
+          "instruction": "Top the toasted bread with ricotta mixture."
+        }],
+      "notes": "A Simple Dessert-y Bruscetta"
+    },
+    {
+      "name": "Pickled Beets",
+      "pub_date": "9/27/24",
+      "header_pic": "pickledBeetsDone.png",
+      "related_recipes": ["pickled eggs"],
+      "servings": "1 jar of pickled beets (scale recipe up or down depending on how many beets you're working with)",
+      "ingredients": [
+        "6 small beets boiled and sliced --reserve boiling water to use as 'beet juice' in next step.",
+        "3/4 cup beet juice (from boiling the beets)",
+        "3/4 cup white vinegar (can also use apple cider vinegar)",
+        "1/2 to 3/4 cup granulated sugar",
+        "1/2 tbsp salt",
+        "1/2 tsp mustard seeds",
+        "1 tsp whole black pepper corns"
+      ],
+      "steps": [{
+        "pic": "washB2.png",
+        "instruction":"in a small pot, over low heat bring beet juice, vinegar, sugar and salt to a boil and stir until all sugar is dissolved, then remove from heat."
+      },{
+        "pic": "boilB.png",
+        "instruction":"Put the sliced beets into a sterile jar and pour the beet/vinegar/sugar mixture over then add pepper corns and mustard seed."
+      },{
+        "pic": "pickledBeetsDone.png",
+        "instruction":"Seal jar and let marinate in fridge for at least a week. Serve with salads, charcuterie boards or roasted."
+      }],
+      "notes": "Don't let your fresh beets go stale!"
+    },
+    {
+      "name": "Pickled Eggs",
+      "pub_date": "9/27/24",
+      "related_recipes": ["pickled beets"],
+      "header_pic": "pickledEggsDone.png",
+      "servings": "6 servings",
+      "ingredients": [
+        "1/2 jar pickled beets in brine",
+        "6 boiled and peeled eggs"
+      ],
+      "steps": [{
+        "pic": "peggs1.png",
+        "instruction":"put the boiled eggs in the jar of pickled beets and let marinate for at least a week."
+      }],
+      "notes": "Try 'em, they're good!"
+    },
+    {
+      "name": "Stuffed Bell Pepper",
+      "featured": true,
+      "pub_date": "9/27/24",
+      "related_recipes": ["pickled onions"],
+      "header_pic": "bellpep1.png",
+      "servings": "1 stuffed bell pepper",
+      "ingredients": [
+        "1/4 cup cous cous",
+        "1/2 bouillon cube - dissolved in 1/4 cup hot water",
+        "1 tsp chili powder",
+        "1-2 tbsp of butter",
+        "5-6 cherry tomatoes",
+        "a few slices of (pickled) onions",
+        "1/4 cup kidney beans",
+        "1/4 cup shredded cheese"
+      ],
+      "steps": [{
+        "pic": "bellpep2.png",
+        "instruction":"cut the stem and core out of a bell pepper and add 1/4 cup dry cous cous (quinoa or instant rice could be subbed in as well)"
+      },
+        {
+          "pic": "bellpep3.png",
+          "instruction":"dissolve half of a bouillon cube in 1/4 cup hot water then pour over cous cous in the pepper the stir in chili powder and butter."
+        },{
+          "pic": "bellpep4.png",
+          "instruction": "stuff onion, beans and tomatoes in the pepper and airfry at 385 for 10 minutes"
+        },{
+          "pic": "bellpep5.png",
+          "instruction": "top with cheese and airfry for an additional 8-10 minutes"
+        },{
+          "pic": "bellpep6.png",
+          "instruction": "The bell pepper should be wrinkling and staring to blister and cheese should be melty but not burnt."
+        },{
+          "pic": "bellpepdone.png",
+          "instruction": "slice, mix and enjoy"
+        }],
+      "notes": "pep up your cous cous"}
   ]
 }

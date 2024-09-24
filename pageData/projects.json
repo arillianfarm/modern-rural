@@ -243,14 +243,14 @@
           "pic": "basil2.png",
           "label": "Set In Well Lit Area",
           "paragraphs": [{
-            "text": "Set cutting(s) in a jar that is about 1/4 -1/2 full of water try to keep the leaves out of the water (by draping them over the edge of the jar) and place in a window or under a florescent light or 'grow light'. It should take about 3-10 days for roots to develop."
+            "text": "Set cutting(s) in a jar that is about 1/4 -1/2 full of water try to keep the leaves out of the water (by draping them over the edge of the jar) and place in a window or under a florescent light or 'grow light'. It should take about 3-10 days for roots to develop. (Note - you can clone other herbs and other herb-like plants in a similar way)"
           }]
         },
         {
           "vid": "t31lLR2nUzk",
           "label": "Transplant to soil",
           "paragraphs": [{
-            "text": "Once the basil has sprouted roots, transplant to a small pot, by holding the plantling suspended in a small pot and alternating between shaking dirt and pouring water around the plantling until the pot is filled with wet soil around it. When the plant is at least 6 inches tall, and has a hearty stem and vibrant leaves, Transfer to the garden or a larger (as long as it's not too cold outside)."
+            "text": "Once the basil has sprouted roots, transplant to a small pot, by holding the plantling suspended in a small pot and alternating between shaking dirt and pouring water around the roots of the plantling until the pot is filled with wet soil. When the plant is at least 6 inches tall, and has a hearty stem and vibrant leaves, Transfer to the garden or a larger (as long as it's not too cold outside. Also, if you have a hydroponic setup instead of soil, the rooted cutting can be placed in a 'net pot' filled with clay beads or perelite and introduced into your hydroponic garden)."
           }]
         }
       ]
@@ -334,26 +334,30 @@
       "header_pic": "subsDone.png",
       "featured": false,
       "categories": ["construction", "finishing work"],
-      "about": "While doing finishing work at my Tempe house, I found a pretty (time consuming) way to nicely set subway tile.",
+      "about": "While doing finishing work at my Tempe house, I found a pretty good/time-consuming way to nicely set subway tile.",
       "tools": [
-        "gloves",
-        "tile saw",
         "n95 mask (wear when mixing thinset and grout)",
         "trowel (for thinset)",
         "float (for grouting)",
-        "5 gallon buckets for mixing and sponging",
+        "5 gallon buckets for mixing and sponging (at least 2)",
+        "drill with mixing attachment (or extra gloves for hand mixing)",
         "sponges",
         "t-square",
         "tape measure",
-        "flathead screw driver to clean grout lines"
+        "flathead screw driver to clean grout lines",
+        "tile saw (preferably electric wet saw)",
+        "something to measure water",
+        "shop vac (to keep things tidy as you go)",
+        "dust clothes to wipe down when done with thinset / grout phases"
       ],
       "materials": [
+        "disposable gloves (lots)",
         "subway tiles",
         "tile spacers",
         "mosaic tile backing",
         "parchment paper (to put between sheets of tiles after gluing to mesh.",
         "tile paste (to glue to backing)",
-        "thin set mortar",
+        "thinset",
         "grout (natural gray)",
         "grout sealer"
       ],
@@ -367,13 +371,13 @@
         {
           "pic": "tileStrips.png",
           "paragraphs": [{
-            "text": "To make sure my tiles stayed lined up, I used spacers and a t-square to set and glue tiles on sheets of mosaic mesh (in a tessellating pattern). Pro-tip It's actually a pretty relaxing activity to keep your hands busy while you're streaming your favorite whatever."
+            "text": "To make sure my tiles were inline, I used spacers and a t-square (with a ruler) to set and glue tiles on sheets of mosaic mesh (in a tessellating pattern where the end of one row of tiles was offset by 50% from the previous and following row). Pro-tip Gluing tiles is actually a pretty relaxing activity to keep your hands busy while you're streaming your favorite whatever."
           }]
         },{
           "pic": "tilesHighlights.png",
           "paragraphs": [
             {
-              "text": "After troweling thin set over a small section, I placed preset sheets of tiles on the wall (such that one sheet interlocked with the next, checking to keep them level across the wall before starting another row on top)."
+              "text": "Following the manufacture's instructions to get ratio of dry thinset to water, I used my hand to mix the water with the thinset in a 5 gallon bucket (and then got a new glove when I was done. A drill with a mixing attachment also works well as long as you keep the drill attachment clean). After troweling thin set over a small section, I placed preset sheets of tiles on the wall (such that one sheet interlocked with the next, checking to keep them level across the wall before starting another row on top)."
             }
           ]
         },{
@@ -498,6 +502,88 @@
         ]
       }
     ]
-  }
+  },
+  {
+      "name": "Wood Tile Floors",
+      "pub_date": "9/27/24",
+      "header_pic": "tilingdirty.png",
+      "about": "Wear your grubbies, tiling is messy business!",
+      "featured": false,
+      "categories": ["construction"],
+      "tools": [
+        "5 gallon buckets for mixing and sponging (at least 2)",
+        "trowel (for thinset)",
+        "float (for grouting)",
+        "sponges",
+        "t-square (with ruler)",
+        "tape measure",
+        "drill with mixing attachment  (or extra gloves for hand mixing)",
+        "something to measure water (to hydrate thinset and grout)",
+        "flathead screw driver to clean grout lines",
+        "tile saw (preferably electric wet saw)",
+        "shop vac (to keep things tidy as you go)",
+        "dust clothes to wipe down when done with thinset / grout phases"
+      ],
+      "materials": [
+        "n95 mask (wear when mixing thinset and grout)",
+        "disposable gloves (lots)",
+        "wood-style floor tiles (Glenwood Cherry 7 in. x 20 in. Ceramic Floor and Wall Tile)",
+        "tile spacers (3/8 inch)",
+        "thin set",
+        "grout (coffee bean color)",
+        "grout sealer"
+      ],
+      "phases": [
+        {
+          "pic": "startingLiv.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Getting Started"
+            },
+            {
+              "text": "Before mixing the thinset, I did a test layout of the first few tiles of the the first three rows in each room, starting with the first tile in the corner nearest the door (and flowing in the direction you walk after entering the door). To determine the placement of the first tile in the second row, I measured 50% of the length of the tile + half the width of the grout spacer (10.1875 inches total in my case). I used a t-square to line the start of the third row up with the corner tile. And then I went back to the first row and across again, setting tile spacers around the borders of each tile as I went along. "
+            },{
+              "text": "Once I was happy with the start of my first rows, I followed the manufacture's instructions to get the ratio of dry thinset to water and I used my hand to mix them in a 5 gallon bucket (then got a new glove when I was done). A drill with a mixing attachment also works well as long as you keep the drill attachment clean."
+            }
+          ]
+        },{
+          "pic": "startingBed.png",
+
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "setting tiles"
+            },
+            {
+              "text": "When the thinset was ready, I picked up one tile at a time, starting in the corner, and using a thinset-trowel, I spread thinset directly on to the back of each tile before carefully setting it back into place. I found it easiest to keep my rows straight when I went three at a time, always keeping my first row half a tile ahead of the next row until the end of the row, and then I would start three rows coming back from the opposite wall. Since there is a limited time to work with the thinset (before it hardens), I left the partial tile spaces open (at the end of every other row), deciding to do all the cutting and setting of partial tiles after all the full tiles were set."
+            }
+
+          ]
+        },{
+          "pic": "grouty.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "grouting"
+            },
+            {
+              "text": "When I did our bedroom, I decided to grout half the room at a time (so I could move furniture onto the bare section while I tiled half the room and then move the furniture onto the grouted tiles before starting the second half of the room.) Grouting was rougher on my hands than thinsetting, so when I did the living room, I decided to just move furniture around as I went and grout after all the tiles for the whole room were set (before destroying my fingertips and cuticles with grout)."
+            }
+          ]
+        },{
+          "pic": "dogDone.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Sealing grout"
+            },
+            {
+              "text": "After waiting the recommended time for the grout to cure, I sponged on two coats of grout sealer along all grout lines."
+            }
+          ]
+        }
+      ]
+    }
 ]
 }

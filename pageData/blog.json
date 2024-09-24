@@ -44,7 +44,7 @@
         "paragraphs":[
           {
             "bold":false,
-            "text": "When I decided (a few weeks ago) to make this site to get the Arillian Farm brand out there, I decided to make (find a free template for) a Kanban board for myself like the one I used to use someone else was paying me to write software... and when I found a template and started throwing tasks on it... OMG it felt good!"
+            "text": "When I decided (a few weeks ago) to make this site and start putting the Arillian Farm brand out there, I wanted to make (find a free template for) a Kanban board for myself like the one I used to use when someone else was paying me to write software. Instead of moving tasks across columns though, I decided to use Sheet's built-in 'sort' function and I just have a list-selectable status and I generally keep my Sheet sorted by Status (unless there is some other metric I want to look at such as started date or priority) As soon as I started throwing tasks on my Sheet... OMG it felt so good!"
           }
         ]
       },
@@ -52,7 +52,7 @@
         "paragraphs":[
           {
             "bold":false,
-            "text": "It's like lifting thoughts out of my brain and putting them into a Pensive from Harry Potter or something. Having a place to jot down the millions of things I want to do in my life is such a relief! Being able to sort and search my dreams and acomplishments from my phone and my laptop is luxurious and oh goddamn the sweet sweet dopamine release when I change the status of a task to Finished... I've missed it. Doing things and keeping track of it is almost better than a puff of weed."
+            "text": "Having a place to jot down the millions of things I want to do in my life and break them down into smaller tasks is like lifting thoughts out of my brain and putting them into a Pensive from Harry Potter! Being able to sort and search my dreams and accomplishments from my phone and my laptop is luxury! And oh hot damn the sweet sweet dopamine release when I change the status of a task to finished is almost better than a puff of weed! I've missed Kanbaning. Doing things and keeping track of them, so simple, but so satisfying."
           }
         ]
       }
@@ -410,16 +410,16 @@
               "text": "What Not To Do:"
             },
             {
-              "text": "I'm sad and ashamed to say I've lost some chickens to the desert heat. At first, I kept the barn fully closed (with an insulated doggy door for the goats) and that was a fine and great way to keep all the animals cool... until Totes and McGoats kicked their doggy door off (which was right next to the hen's preferred laying spot) when it was 120F. Four chickens each laid an egg and died one on top of the other. It was a pretty upsetting. I didn't get more chickens for a few years after that."
+              "text": "I'm sad and ashamed to say I've lost chickens to the desert heat. My initial mistake was that I ran an air conditioner and kept the barn fully closed in the summer (with an insulated doggy door for the goats and a small portal cut out for the chickens to go outside) and that was fine... until Totes (or McGoats) kicked the doggy door off and hot air was coming in faster than the AC could cool the room (right next to our hen's preferred laying spot at the time). It was 120F out and four chickens each laid an egg and died one on top of the other. I made some major changes after that."
             },
             {
-              "text": "I've since read that air conditioning your hens can prevent them from appropriately climatizing, so when there's a power outage or some other inevitability, they overheat very easily. (I've also read that you should not use a heater in winter for chickens unless it actually freezes where you are)"
+              "text": "I've since read that air conditioning your hens can prevent them from appropriately climatizing, so when there's an act of Goat or some other inevitability, they overheat way too easily. (I've also read, for similar reasons, you should not use a heater in winter for chickens unless it actually freezes where you are)"
             }
           ]},
         {
         "paragraphs": [
           {
-          "text": "This system has been going better:",
+          "text": "I have a much more hands-on system that's been going better:",
           "h4": true
         }]
         },
@@ -430,7 +430,7 @@
               "h4": true,
               "text": "Ice Ice baby, ba-gawk"
             },{
-              "text": "I made an 'ice house' for my chickens in a shaded area of their coop. I call it an ice house because I put a gallon of ice in once or twice a day (depending on if its going to be over 110 or not). My chickens also have access to three large buckets of water all day in the summer. I put a pint of ice in each bucket around 8-10AM and at 2:00-4:00 every day... which is actually kind of hard on our freezer. Besides the fact that most of the storage capacity of our freezer is dedicated to making 'chicken ice' all summer, freezers have to work really hard to make that amount of ice. We actually had to buy a new fridge/freezer this summer because our old one (was from the 90s) and could no longer get cold enough to freeze three gallons of water twice a day when its 85 in the house."
+              "text": "I made an 'ice house' for my chickens in a shaded area of their outdoor habitat. (I call it an ice house because I put a gallon of ice in once or twice a day --depending on if its going to be over 110 or not). My chickens also have access to three large buckets of water all day in the summer. Around 8-10AM and at 2:00-4:00PM every day, I put a quart of ice in each bucket (this is about the maximum amount of ice our freezer can stand to make in the summer. Not only do ice containers take up a lot of space, they also make the freezer work really hard. We actually had to buy a new fridge/freezer this summer because our old one (was from the early 2000s) and could no longer get cold enough to freeze three gallons of water twice a day in our 85 degree house."
             }
           ]
         },
@@ -440,9 +440,9 @@
           "paragraphs": [
             {
               "h4": true,
-              "text": "Wallowing"
+              "text": "Wallowing Mud"
             },{
-              "text": "I overflow the water buckets once or twice a day to make cool mud for them to wallow in. They also like to wrap themselves around the water buckets while they're cool."
+              "text": "I overflow the water buckets in the mornings so there is cool mud around the buckets for the chickens to wallow in. They also like to wrap themselves around the water buckets to stay cool."
             }
           ]
     },
@@ -453,7 +453,7 @@
               "h4": true,
               "text": "Wading"
             },{
-              "text": "We also added a pond to the 'barnyard' so the chickens have somewhere to cool their heels (and peck at lily pads and mosquitofish)."
+              "text": "We also added a pond to the 'barnyard' (that is in the shade in the late afternoon), so now the chickens have somewhere to cool their heels (and peck at lily pads and mosquitofish)."
             }
       ]}
       ]
@@ -465,7 +465,7 @@
       "entry_date": "Sept 20, 2024",
       "entry_subject": "Preparing For Launch",
       "feature_section_1": {
-        "caption": "I’ve been busting my ass setting up this site, combing through Google Photos for pictures and videos of our lil farm yard",
+        "caption": "I’ve been busting my ass setting up this site and combing through Google Photos for pictures and videos of our lil farm yard",
         "pic": "assets/blog/marketStrategy.png"
       },
       "sections": [
@@ -484,7 +484,7 @@
               "text": "I, however, fell in love with good ol’ Angular JS in all it’s two-way binding glory. I can React a little, but I just like to get all up in the HTML files with my javascript. It just feels right to me!"
             },
             {
-              "text": "Also, it only took me a couple weeks to make a serverless angular js site –that I am hosting for free on Github Pages… and Github Pages is easy to use… and free. So at least until I get a chance to see if I can actually drive traffic to our site, I’m just another Angular white girl over here with no back end. "
+              "text": "Also, it only took me a couple weeks to make a serverless angular js site –that I am hosting for free on Github Pages… and Github Pages is easy to use… and free. So at least until I get a chance to see if I can actually drive traffic to our site, I’m just another white girl over here with no back end."
             },
             {
               "text": "If I actually do generate interest in our site, I’ll probably convert it to React and set up a cloud server on AWS so I can use outside APIs to manage site assets more efficiently and possibly set up more interactive features."
@@ -500,13 +500,13 @@
               "text": "Marketing"
             },
             {
-              "text": "I’ve been busting my ass setting up this site, combing through Google Photos for pictures and videos of our lil farm yard, in hopes of launching our YouTube channel with enough time (and content) to gain some traction by Black Friday (So I can maybe sell a couple of the cute holiday t-shirts I'm working on for our Zazzle store). I reckon we want our YouTube channel up before October if we want any sort of following by then."
+              "text": "I’ve been busting my ass setting up this site and combing through our Google Photos for videos and pictures of our critters, in hopes of launching our YouTube channel with enough content to gain some traction by Black Friday (So I can maybe sell a couple of the cute holiday t-shirts I'm working on for our Zazzle store). I reckon we want our YouTube channel up before October if we want any sort of following by then."
             },{
-              "text": "So next Friday is the day! I chose Friday afternoon because I figure folks will be on their phones trying to get their weekend started by like 3:00PM and Fridays tend to be payday."
+              "text": "I’ve got a solid backlog of content for future releases and dozens of tasks to work on my Arillian Farm Kanban, so I feel prepared to hit the ground running with weekly content releases for this site as well as our YouTube channel starting next Friday."
             },{
-              "text": "I’ve got a solid backlog of content for future releases and dozens of tasks to work on my Arillian Farm Kanban, so I feel prepared to hit the ground running with weekly content releases to YouTube as well as this site."
+              "text": "I'm releasing new content on Friday afternoons because I figure folks will be on their phones trying to get their weekend started by like 3:00PM on Friday. Plus, it tends to be payday."
             },{
-              "text": "With luck, our YouTube Channel may one day capitalize on our critters' adorableness and garner enough subscribers and views to generate ad revenue. In the meantime, I hope YouTube views will lead to Google searches and page views for this site. That alone would be cool because I feel like I have some things I can share with folks that’ll spread a little joy or at least give 'em something to noodle on. But also, I have a lumber and gardening supply habit to support, so I’d be living the full dream if people liked my stuff enough to kick me a buck or two on Go Fund Me and/or buy a Totes McGoats Tote Bag from Zazzle."
+              "text": "With luck, our YouTube Channel may one day capitalize on our critters' adorableness and garner enough subscribers and views to generate ad revenue. In the meantime, I hope YouTube views will lead to Google searches and page views for this site. That alone would be cool because I feel like I have some things I can share with folks that’ll spread a little joy or at least give 'em something to noodle on. But also, I have lumber and gardening supply habits to support, so I’d be living the full dream if people liked my stuff enough to kick me a buck or two on Go Fund Me and/or buy a Totes McGoats Tote Bag or T-shirt from Zazzle."
             }]
         },
         {
