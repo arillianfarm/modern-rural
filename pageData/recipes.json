@@ -2,6 +2,7 @@
   "data": [
     {
       "name": "Baked eggs and Asparagus",
+      "featured": true,
       "pub_date": "8/9/24",
       "header_pic": "aspar5.png",
       "servings": "1-2 servings",
@@ -189,27 +190,27 @@
       "servings": "1 loaf of bread",
       "summary": "INGREDIENTS: 15g Active Dry Yeast, 8fl oz water (at temp 110F), 6oz Sourdough Starter, 1lb Bread Flour, 15g salt, cornmeal --as needed, egg white -beaten. INSTRUCTIONS: (1) Sprinkle yeast over 2fl oz water and set aside until dissolved and foamy. (2) Add the remaining flour and salt. Knead until the dough is smooth and elastic, approx 10 minutes. (3) ",
       "ingredients": [
-        "15g Active Dry Yeast",
-        "8fl oz water (at temp 110F)",
-        "6oz Sourdough Starter",
-        "1 lb Bread Flour",
-        "15g salt",
+        "15g (approx 1.5 tbsp) Active Dry Yeast",
+        "8fl oz (approx 1 cup ) water --at temp 110F",
+        "6 oz (approx 3/4 cup) Sourdough Starter",
+        "1 lb (approx 3 cups) Bread Flour",
+        "15g (approx 3 tsp) salt",
         "cornmeal --as needed",
-        "egg white -beaten"
+        "1 egg white -beaten"
       ],
       "steps": [{
         "pic": "sdb1.png",
-        "instruction":"Sprinkle yeast over 2fl oz water and set aside until dissolved and foamy."
+        "instruction":"Sprinkle yeast over 2fl oz (approx 1/4 cup) water and set aside until dissolved and foamy."
       },
         {
           "pic": "sdb2.png",
-          "instruction":"In the bowl of a stand mixer, fitted with a dough hook, combine the starter and the remaining 6oz of flour."
+          "instruction":"In a medium- large bowl (preferably on a stand mixer fitted with a dough hook), mix the sourdough starter with the remaining 6oz (approx 3/4 cup) of water and then add 6oz (approx 5/8 cup) of bread flour."
         },{
           "pic": "",
           "instruction":"Stir until a dough forms, then add yeast mixture. Knead 5 minutes on medium speed."
         },{
           "pic": "",
-          "instruction":"Add the remaining 10 oz flour and the 15g salt. Knead (with stand mixer) until the dough is smooth and elastic, approx 10 minutes."
+          "instruction":"Add the remaining flour and the salt. Knead (with stand mixer with dough hook or by hand on a flat surface) until the dough is smooth and elastic, approx 10 minutes."
         },{
           "pic": "greasebowl.png",
           "instruction": "Place the dough in a lightly greased bowl and cover with a damp cloth. Ferment --until doubled-- in a warm place (about 80-90F)"
@@ -409,7 +410,6 @@
     },
     {
       "name": "Stuffed Bell Pepper",
-      "featured": true,
       "pub_date": "9/27/24",
       "related_recipes": ["pickled onions"],
       "header_pic": "bellpep1.png",

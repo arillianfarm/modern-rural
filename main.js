@@ -295,7 +295,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.scrollToBlogItem = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $rootScope.data.featuredBlogEntry = $scope.blogEntriesRaw.find(item=>item.entry_subject==docName);
+        let blogEntries =$scope.blogEntriesRaw && $scope.blogEntriesRaw.length ? $scope.blogEntriesRaw : $rootScope.data.blogEntries||[];
+        $rootScope.data.featuredBlogEntry = blogEntries.find(item=>item.entry_subject==docName);
         $rootScope.data.collapse_nav_scroll = true;
         globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
@@ -362,7 +363,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.setFeaturedProject = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $rootScope.data.featuredProject = $scope.projectsRaw.find(item=>item.name==docName);
+        let projectList = $scope.projectsRaw?.length ? $scope.projectsRaw : $rootScope.data.projects || [];
+
+        $rootScope.data.featuredProject = projectList.find(item=>item.name==docName);
         $rootScope.data.collapse_nav_scroll = true;
         globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
@@ -371,7 +374,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     $scope.setFeaturedRecipe = function(docName){
         let hashLink = $scope.assembleIDattribute(docName);
         $location.hash(hashLink);
-        $rootScope.data.featuredRecipe = $scope.recipesRaw.find(item=>item.name==docName);
+        let recipeList = $scope.recipesRaw?.length ? $scope.recipesRaw : $rootScope.data.recipes || [];
+        $rootScope.data.featuredRecipe = recipeList.find(item=>item.name==docName);
         $rootScope.data.collapse_nav_scroll = true;
         globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
