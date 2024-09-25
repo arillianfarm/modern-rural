@@ -11,13 +11,12 @@
     "title": "chicks exploring",
     "albums": ["new","chickens", "animals"],
     "release_date": "9/27/24"
-  },
-  {
-    "youtubeID": "yKpOoAmH_YU",
-    "title": "Totes takes the stairs",
-    "albums": ["new","goats", "animals"],
-    "release_date": "9/27/24"
-  },
+  },{
+      "youtubeID": "bxmE9YXxFmg",
+      "title": "Huey and Xena Love Wrestling",
+      "albums": ["new","dogs", "animals"],
+      "release_date": "9/27/24"
+    },
   {
     "youtubeID": "7a5wNx_U5Ng?",
     "title": "Huey Teaching me which toys he likes best.Episode 1 Alligator V Turtle",

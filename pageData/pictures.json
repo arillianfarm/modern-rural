@@ -1,24 +1,45 @@
 {
   "data": [
     {
+      "imagur_id": "kjDlaeY",
+      "caption": "Last one in the cuddle puddle's a rotten egg!",
+      "albums": ["new","chickens"]
+    },{
       "file": "ayaSammy3DaysOld.png",
       "imagur_id": "JzpdSKg",
       "caption": "Aya and Sammy - the day I brought them home",
       "albums": ["new","chickens", "animals"]
+    },
+    {
+      "imagur_id": "1UTDKq0",
+      "caption": "Aya found the best hiding place!",
+      "albums": ["new","chickens"]
     },{
       "file": "oddbird.png",
       "imagur_id": "ocISTxW",
       "caption": "So What If I'm Kind Of An Odd Bird?",
-      "albums": ["chickens", "animals"]
+      "albums": ["new","chickens", "animals"]
     },{
       "file": "scoutNchokes.png",
       "imagur_id": "J3i787F",
       "caption": "Scout's on the fence about artichokes.",
       "albums": ["new","chickens", "animals"]
     },{
+      "imagur_id": "Iu9vMnG",
+      "caption": "The Nest Of Friends.",
+      "albums": ["new","chickens", "animals"]
+    },{
+      "imagur_id": "lBKow5F",
+      "caption": "Hot Chicks Sun Bathing.",
+      "albums": ["new","chickens", "animals"]
+    },{
       "file": "sammyStrut.png",
       "imagur_id": "zcQkwbl",
       "caption": "Sammy Strutting in The Sun.",
+      "albums": ["new","chickens", "animals"]
+    },{
+      "imagur_id": "S3qCfLO",
+      "caption": "Taking A Dirt Nap.",
       "albums": ["new","chickens", "animals"]
     },{
       "file": "chickensWading.png",
@@ -28,7 +49,15 @@
     },{
       "file": "sammyLook.png",
       "imagur_id": "1cdzcen",
+      "caption": "I'm an Excellent perch.",
+      "albums": ["new","chickens", "animals"]
+    },{
+      "imagur_id": "PmXzs8i",
       "caption": "Peek a Boo.",
+      "albums": ["new","chickens", "animals"]
+    },{
+      "imagur_id": "tmXacfF",
+      "caption": "Mrs Buffy Giving The Stank Eye.",
       "albums": ["new","chickens", "animals"]
     },
   {
@@ -68,6 +97,61 @@
       "imagur_id": "18LGUcT",
       "caption": "Stop egging me on and feed me that yolk!",
       "albums": ["dogs"]
+    },
+    {
+      "imagur_id": "wOvsmwC",
+      "caption": "Shadow Huey",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "KxVO0LA",
+      "caption": "Huey Ka-Bluey Lift off",
+      "albums": ["dogs"]
+    },
+    {
+      "imagur_id": "h4vjDWA",
+      "caption": "Huey Loves Xena Part 2",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "zViJZwb",
+      "caption": "Huey Loves Xena part 3",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "EZ5hnSy",
+      "caption": "Huey Loves Xena Part 4",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "FAhmTWQ",
+      "caption": "Huey Loves Xena Part 5",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "rLC0VSZ",
+      "caption": "Huey Loves Xena Part 6",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "TgSYLBJ",
+      "caption": "Cuddle Buddies!",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "4J8QCsV",
+      "caption": "Jump!",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "KEpNwsi",
+      "caption": "Bella and Pajama hot make out sesh",
+      "albums": ["new","dogs"]
+    },
+    {
+      "imagur_id": "22mfIFb",
+      "caption": "Puppy Pajama was a destroyer of worlds",
+      "albums": ["new","dogs"]
     },{
     "file": "totesMcGoatsComingHome.jpg",
     "imagur_id": "USaHrdS",
@@ -104,6 +188,41 @@
     "caption": "G.O.A.T.",
     "albums": ["goats", "animals"]
   },{
+      "imagur_id": "9kXKIgG",
+      "caption": "Kisses From McGoats",
+      "albums": ["new","goats"]
+    },
+    {
+      "imagur_id": "dOJw1Mc",
+      "caption": "Baby kids",
+      "albums": ["goats"]
+    },{
+      "imagur_id": "RyjIWGt",
+      "caption": "Senor Totes",
+      "albums": ["new","goats"]
+    },{
+      "imagur_id": "N3u6Nwo",
+      "caption": "Me and My Kids",
+      "albums": ["new","goats"]
+    },{
+      "imagur_id": "fUU1Bef",
+      "caption": "My Twin Boys",
+      "albums": ["new","goats"]
+    },{
+      "imagur_id": "9hRnql8",
+      "caption": "Letting My Roots Show!",
+      "albums": ["new","gardens"]
+    },
+    {
+      "imagur_id": "9s0tGej",
+      "caption": "All Hail Our Saguaro",
+      "albums": ["new","gardens"]
+    },
+    {
+      "imagur_id": "r7WYjUJ",
+      "caption": "Twisted Roots",
+      "albums": ["new","gardens"]
+    },{
       "file": "arsunrise1.png",
       "imagur_id": "yf3A9W0",
       "caption": "A Beautiful Day In Our Neighborhood",
@@ -136,6 +255,14 @@
     },{
       "file": "birdPond.png",
       "caption": "Pigeons Taking Flight",
+      "albums": ["wildlife"]
+    },{
+      "imagur_id": "iIRBkOX",
+      "caption": "Big Ol' Scorpion from our yard",
+      "albums": ["new","wildlife"]
+    },{
+      "imagur_id": "xieK9qI",
+      "caption": "That Time Bees Built A Hive In My Compost",
       "albums": ["wildlife"]
     },{
       "file": "arthurMechanic1.png",
@@ -400,6 +527,11 @@
       "file": "cordae2.png",
       "imagur_id": "F3ANqlo",
       "caption": "Garden Beds I helped my friend set up in her yard 2",
+      "albums": ["new","gardens"]
+    },{
+      "file": "cordae3.png",
+      "imagur_id": "5Bh15Uf",
+      "caption": "Garden Beds I helped my friend set up in her yard 3",
       "albums": ["new","gardens"]
     },{
       "file": "cordae3.png",

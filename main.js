@@ -377,7 +377,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         let recipeList = $scope.recipesRaw?.length ? $scope.recipesRaw : $rootScope.data.recipes || [];
         $rootScope.data.featuredRecipe = recipeList.find(item=>item.name==docName);
         $rootScope.data.collapse_nav_scroll = true;
-        globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        $timeout(()=>{
+            globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        },25)
     }
 
     $scope.searchRecipes = function(term){

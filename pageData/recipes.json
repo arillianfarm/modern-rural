@@ -194,7 +194,7 @@
         "8fl oz (approx 1 cup ) water --at temp 110F",
         "6 oz (approx 3/4 cup) Sourdough Starter",
         "1 lb (approx 3 cups) Bread Flour",
-        "15g (approx 3 tsp) salt",
+        "15g (approx 2.5 tsp) salt",
         "cornmeal --as needed",
         "1 egg white -beaten"
       ],
@@ -216,19 +216,19 @@
           "instruction": "Place the dough in a lightly greased bowl and cover with a damp cloth. Ferment --until doubled-- in a warm place (about 80-90F)"
         },{
           "pic": "riseandpunch.png",
-          "instruction": "Punch down the dough and shape it into a round loaf. Place the loaf on a greased and cornmeal dusted sheet-pan."
+          "instruction": "Punch down the dough and shape it into a round loaf. (or you can divide into 2 smaller loaves) Place the loaf on a greased and cornmeal dusted sheet-pan."
         },{
           "pic": "coverandproof.png",
           "instruction": "Proof the dough in a warm place, covered with a damp cloth, until it has risen to 2 1/2 times its original size."
         },{
           "pic": "sdb6.png",
-          "instruction": "Brush the risen loaf with the beaten egg white and score the top of the loaf with a sharp knife."
+          "instruction": "Brush the risen loaf with the beaten egg white and score the top of the loaf with a sharp knife. (if the knife is dull and doesn't cut deep enough, the bread will rip in weird ugly ways as it rises"
         },{
           "pic": "injectsteam.png",
-          "instruction": "Bake at 450F, spraying steam in for the first 4 minutes of baking."
+          "instruction": "Bake at 450F, spraying steam in for the first 4 minutes of baking (to make the crust crustier!)"
         },{
           "pic": "sdoughb.png",
-          "instruction": "Reduce to 375F and continue baking until the loaf is well browned, approximately 35-45 minutes."
+          "instruction": "Reduce to 375F and continue baking until the loaf is well browned, approximately 35-45 minutes (about 30-35 minutes if doing 2 small loaves)."
         }],
       "notes": "Great for sandwiches, bruschetta or garlic toast"},
     {
