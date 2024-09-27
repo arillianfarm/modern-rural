@@ -48,11 +48,11 @@
       "albums": ["new","chickens", "animals"]
     },{
       "file": "sammyLook.png",
-      "imagur_id": "1cdzcen",
-      "caption": "I'm an Excellent perch.",
+      "imagur_id": "PmXzs8i" ,
+      "caption": "I'm an Eggcellent perch.",
       "albums": ["new","chickens", "animals"]
     },{
-      "imagur_id": "PmXzs8i",
+      "imagur_id": "1cdzcen",
       "caption": "Peek a Boo.",
       "albums": ["new","chickens", "animals"]
     },{
@@ -155,7 +155,7 @@
     },{
     "file": "totesMcGoatsComingHome.jpg",
     "imagur_id": "USaHrdS",
-    "caption": "Bringing Our Goat Kids Home To The Farm",
+    "caption": "Bringing Totes and McGoats Home To The Farm",
     "albums": ["new","goats", "animals"]
   },{
     "file": "bottleFeedTheKids.png",
@@ -194,7 +194,7 @@
     },
     {
       "imagur_id": "dOJw1Mc",
-      "caption": "Baby kids",
+      "caption": "Baby Goats",
       "albums": ["goats"]
     },{
       "imagur_id": "RyjIWGt",

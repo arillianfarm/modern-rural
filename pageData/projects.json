@@ -152,9 +152,11 @@
       "mask"
     ],
     "materials": [
-      "2 4 ft x6 inch pieces of lumber (can be 4inch thick or just fence boards)",
+      "2 4 ft x6 inch pieces of lumber (can be 4inch thick or just fence boards.) Note- if you wish for the walls to be more than 1 block high, multiply supplies accordingly.",
       "4 Oldcastle (or other brand) planter wall blocks",
       "soil",
+      "rebar (optional)",
+      "livestock fence or chicken wire (optional)",
       "perlite (optional)",
       "compost (optional)"
     ],
@@ -202,7 +204,10 @@
         "paragraphs": [
           {
             "text":  "After the bed is dug down, add garden soil, perlite and compost and shovel/rake to mix with the loose dirt and you should be ready for planting!"
-          }]
+          },{
+            "text": "Note - The corner blocks have a hole in the middle so you can secure them in place with rebar. Also, if your pets or local wildlife seem to be getting after your seeds or sprouts, you can use chicken wire or livestock fencing to make a simple cage to help protect your plantlings."
+          }
+        ]
       }
     ]
   },
