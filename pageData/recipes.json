@@ -444,6 +444,97 @@
           "pic": "bellpepdone.png",
           "instruction": "slice, mix and enjoy"
         }],
-      "notes": "pep up your cous cous"}
+      "notes": "pep up your cous cous"},
+    {
+      "name": "Baked egg in a cheese basket",
+      "pub_date": "10/4/24",
+      "header_pic": "becb.png",
+      "servings": "1 egg basket",
+      "ingredients": [
+        "1/4 cup shredded cheese",
+        "1 pad of butter",
+        "1 egg",
+        "salsa (optional)",
+        "Plain Greek Yogurt and/or Sour Cream (optional)",
+        "Chopped Green onions (optional)"
+      ],
+      "steps": [{
+        "pic": "becb1.png",
+        "instruction":"put a pad of butter in a silicone or tin muffin cup then crack an egg on top of it"
+      },
+        {
+          "pic": "becb2.png",
+          "instruction":"sprinkle shredded cheese in a circle on a silicone tray or similar"
+        },{
+          "pic": "becb3.png",
+          "instruction":"microwave the cheese for a few seconds, bake or airfry at 385F for about 2 min --or until cheese is melted"
+        },{
+          "pic": "becb4.png",
+          "instruction": "let the cheese cool and peel if of baking mat, then drape it over the back of a muffin cup, pop the egg and butter muffin cup in the air frier or ove and or bake or airfry (at 385) for another 3-5 minutes --until egg yolk is cooked to desired yolkiness and cheese is crisp, but not burnt"
+        },{
+          "pic": "becb.png",
+          "instruction": "put egg in cheese basket and top with desired toppings"
+        }],
+      "notes": "high fat low carb mmmm"},
+    {
+      "name": "Cheesy Potatovals",
+      "pub_date": "10/4/24",
+      "header_pic": "cheeseFriesDone.png",
+      "servings": "2 servings",
+      "ingredients": [
+        "4-5 small yellow potatoes sliced into 1/2 inch disks",
+        "1-2 green onion stems",
+        "1 tsp fresh ground pepper",
+        "1/2 tsp salt",
+        "1/2 tbsp olive oil",
+        "1/4 cup shredded cheese"
+      ],
+      "steps": [{
+        "pic": "cf2.png",
+        "instruction":"finely chop green onions and mix with oil, pepper and salt on cutting board then coat potatoes with mixture."
+      },{
+        "pic": "cf5.png",
+        "instruction":"Spread in a single layer on the tray of an airfrier and air fry at 385 for 8 minutes."
+      },{
+        "pic": "addCheeseAfter8min.png",
+        "instruction":"Toss potatoes in air frier tray, then sprinkle cheese evenly over the top."
+      },{
+        "pic": "cheeseFriesDone1.png",
+        "instruction":"Air fry for another 5-8 minutes --until potatoes and cheese are desired crispness."
+      },{
+        "pic": "cheeseFriesDone.png",
+        "instruction":"Enjoy with yogurt, ranch and/or BBQ sauce."
+      }],
+      "notes": "A Quick, Easy Snack!"
+    },
+    {
+      "name": "Air Fried Brussels Sprouts",
+      "pub_date": "10/4/24",
+      "header_pic": "BsrpCooked.png",
+      "servings": "6 servings",
+      "ingredients": [
+        "2 1/2 Cups Brussels Sprouts - halved or chopped",
+        "1/4 cup hot water",
+        "1 tsp honey",
+        "1/2 tsp red pepper flakes",
+        "1/2 tsp fresh ground black pepper",
+        "1 tsp soy sauce",
+        "1 tbsp olive oil"
+      ],
+      "steps": [{
+        "pic": "Bspr1.png",
+        "instruction":"In a medium sized microwavable bowl with a cover, dissolve honey in hot water, then mix in: red pepper flakes, black pepper, soy sauce."
+      },{
+        "pic": "BsprMicro.png",
+        "instruction":"Add brussels sprouts and stir to coat, then cover microwave on high for 2:00 minutes."
+      },{
+        "pic": "BsprPrepped.png",
+        "instruction":"Toss with olive oil and pour into a dish that fits in your air frier."
+      },{
+        "pic": "BsrpCooked.png",
+        "instruction":"Airfry at 385F for 7-10 minutes, or until desired crisp-/charred-ness."
+      }],
+      "notes": "Like The Kind They Serve At Trendy Breweries."
+    }
   ]
 }
