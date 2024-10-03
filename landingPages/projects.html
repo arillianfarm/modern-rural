@@ -98,10 +98,10 @@
                             </ol>
                             <div class="col-xs-12 col-lg-4" ng-if="data.featuredProject.tool_pics"  ng-repeat="toolPic in data.featuredProject.tool_pics track by $index">
                                 <p>{{toolPic.name}}</p>
-                                <img ng-if="matPic"
+                                <img ng-if="toolPic"
                                      ng-src="./assets/projects/{{toolPic.pic}}"
                                      style="height: 10em; padding:10px;"
-                                     ng-style="{'float':matPic.right_side_pic ? 'right': 'left'}"
+                                     ng-style="{'float':toolPic.right_side_pic ? 'right': 'left'}"
                                      class="br20 p2"
                                 >
                                 <a class="ml-5" ng-style="{'float':toolPic.right_side_pic ? 'right': 'left'}" ng-if="toolPic.link && toolPic.pic" ng-href="{{getIframeSrc(toolPic.link)}}" target="_blank">

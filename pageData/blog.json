@@ -526,6 +526,45 @@
           ]
         }
       ]
+    },
+    {
+      "entry_number": 8,
+      "entry_date": "Oct 4, 2024",
+      "entry_subject": "Falling in love with Autumn in the desert!",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/twoFalls.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "pic_file": "twoFalls.png",
+      "sections": [{
+        "pics": ["fallCA.png"],
+        "paragraphs": [
+          {
+            "text": "Growing up in California, fall blew in with the gusty, dusty Santa Ana Winds and it brought the unfortunate end of summer vacation and return to school. I was not a fan. In California, I just wanted it to be summer all the time."
+          }
+        ]
+      },{
+        "pics": ["fallAZ.png"],
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "As an adult, living in the Arizona desert, I notice that the fall does come with increased traffic; folks around here say you can tell it’s fall when the license plates start to change color (from all the ‘snow birds’ returning to their winter homes from states with milder summers and more intense winters). But most importantly, fall means the end of the interminable summer heat."
+          },{
+            "text": "By mid-August I’ve had enough lows in the 90s and highs in the 110 plus degree days, to make me question everything that made me decide to put down roots here. So when I start to see NFL jerseys and pumpkin spice lattes going on sale, a happy little hope starts building inside me."
+          },{
+            "text": "As the endless burning summer heat gives way to cool mornings, festivals start to spring up, bars start to open their patios and life returns to my backyard gardens. They say Arizona doesn’t have seasons, but I love the not Summer that takes up the other half of the year."
+          }
+        ]
+      }
+      ]
     }
   ]
 }

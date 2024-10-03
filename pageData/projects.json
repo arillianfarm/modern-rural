@@ -353,7 +353,7 @@
         "tile saw (preferably electric wet saw)",
         "something to measure water",
         "shop vac (to keep things tidy as you go)",
-        "dust clothes to wipe down when done with thinset / grout phases"
+        "dust cloths to wipe down when done with thinset / grout phases"
       ],
       "materials": [
         "disposable gloves (lots)",
@@ -586,6 +586,106 @@
             {
               "text": "After waiting the recommended time for the grout to cure, I sponged on two coats of grout sealer along all grout lines."
             }
+          ]
+        }
+      ]
+    },
+  {
+      "name": "Built-in Storage Bench",
+      "pub_date": "10/4/24",
+      "header_pic": "sBenchDone.png",
+      "about": "We needed some extra long term storage and also more seating at our dining table, so installing a storage bench/ window seat in our Bay Window was a quick, easy solution!",
+      "featured": false,
+      "categories": ["construction", "storage"],
+      "tools": [
+        "tape measure",
+        "pencil",
+        "electric miter saw (that can pivot to cut a beveled angle)",
+        "level",
+        "drill",
+        "pocket hole drill kit",
+        "circular saw or table saw",
+        "nail gun"
+      ],
+      "tool_pics": [
+        {
+          "name": "Pocket Hole Drill Kit",
+          "pic": "pocketHoleDrillKit.png"
+        }
+      ],
+      "materials": [
+        "pine 2x4s",
+        "1-2 sheets of plywood",
+        "trim wood",
+        "wood glue",
+        "hinges",
+        "3 inch pocket screws",
+        "3 inch deck or construction screws",
+        "16 gauge finishing nails",
+        "paint"
+      ],
+      "phases": [
+        {
+          "pic": "kitchenWindowStart.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Measure Space and Build Frame"
+            },
+            {
+              "text": "We used an electric miter saw to cut 2 x4s to frame the bench, leaving the bottom front portion of the frame floating (because we didn’t want to measure the floor). For the back of the frame, to create a shelf for the back of the bench top, we mounted beveled 2x4s flush against the wall, (using a level to check they were flat, before) drilling into the wood that frames the window –this required us to pivot the blade of my saw and do a bevel cut on the end of the frame pieces."
+            },
+            {
+              "h4": true,
+              "text": "Note - To measure the angles (for the non-square) walls below our window, you can use a protractor or digital angle finder if you have one or you can use a tape measure, (an AI) and trigonometry to calculate the angles."
+            }
+          ]
+        },{
+          "pic": "sBenchFrame.png",
+
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Build Supports For The Bench"
+            },
+            {
+              "text": "We used wood glue and a pocket hole drilling kit to make four 90 degree braces that we mounted with pocket screws to the bottom and back frame (these braces now hold the front frame board in place)."
+            }
+
+          ]
+        },{
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Cut And Attach Plywood For Bench Top and Front"
+            },
+            {
+              "text": "Using a circular saw, we cut plywood into two triangles (for the sides of the top besides the hinged lid), a narrow rectangle to mount against the back of the storage bench –where the backside of the hinges mount and a larger rectangle for the portion of the benchtop that lifts to access storage. Using wood glue and an air-compressor with a finishing nail gun, we attached the front of the storage bench, the two side triangles and the small back rectangle to the wood frame with 16 gauge nails."
+            }
+          ]
+        },{
+          "pic": "sBenchPainted.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Attach finishing wood and Paint"
+            },
+            {
+              "text": "We had left over quarter round trim form another project, so we used quarter round on the top of the bench to cover up nails etc. We didn’t have enough quarter round to do the front, so I used an L-shaped finishing wood I had from a different project to trim the front of the bench. (It would have been better off with ‘quarter round’ though because I’m always stepping on the bottom of the L when I open or close the blinds behind the bench now)."
+            },
+            {
+              "text": "Note - We painted before we attached the hinges to save from getting paint all over the hinges.\n"
+            }
+          ]
+        },{
+          "pic": "sBenchOpen.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Attach Hinges"
+            },
+            {
+              "text": "We bought the longest hinges we could find to give as much support as possible for the heavy plywood lid of the bench. It’s been holding up well for several years now"}
           ]
         }
       ]
