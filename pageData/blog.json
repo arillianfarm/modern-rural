@@ -533,7 +533,7 @@
       "entry_subject": "Falling in love with Autumn in the desert!",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/twoFalls.png"
+        "pic": "assets/blog/twofalls.png"
       },
       "feature_section_2": {
         "caption": "",
@@ -543,7 +543,7 @@
         "caption": "",
         "pic": ""
       },
-      "pic_file": "twoFalls.png",
+      "pic_file": "twofalls.png",
       "sections": [{
         "pics": ["fallCA.png"],
         "paragraphs": [
