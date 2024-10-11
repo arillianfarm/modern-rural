@@ -689,6 +689,75 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Pipe Furniture",
+      "pub_date": "10/11/24",
+      "header_pic": "pipeFurnitureDone.png",
+      "about": "I knew I wanted to use iron pipes to do open shelves in my new rental unit, so I bought a lot of pipes and had plenty left over to make some fun furniture pieces for our house too",
+      "featured": false,
+      "categories": ["furniture"],
+      "tools": [
+        "pipe wrench",
+        "level"
+      ],
+      "materials": [
+        "pipes",
+        "painters tape",
+        "wood (for shelves/table tops)",
+        "pipe brackets (to mount wood)",
+        "stain (for wood)",
+        "clear rus-o-leum or similar to prevent pipes rusting",
+        "2-part epoxy (to glue pipe joints)",
+        "mixing vessels (e.g. cups) for epoxy",
+        "stirring stick for epoxy",
+        "construction screws (if mounting to a floor or wall)"
+      ],
+      "phases": [
+        {
+          "pic": "pipeFurn1.png",
+          "paragraphs": [
+            {"text": "Planning",
+              "h4": true
+            },
+            {
+              "text": "I didn't start with any particular plan for any of the pipe furniture I built. I basically just looked (online) at what other people were doing with them and tried to copy other folks designs for the most part, but I modified things a bit to fit my space and needs."
+            },{
+              "text": "For joints where three or four pipes meet, I found having a 1 or 2 inch pipe was helpful to enable me to let a thread or two out on one side or another to make things symmetrical."
+            }
+          ]
+        },{
+          "pic": "pipeFurn2.png",
+          "paragraphs": [
+            {"text": "Rough Assembly",
+              "h4": true
+            },
+            {
+              "text": "Once you have an idea of your design, assemble it in 'one-dimensional chunks' "
+            },
+            {
+              "text": "It's important not to over tighten anything until you're certain you have finalized your design... keep a pipe wrench handy in case you do over-tighten though."
+            }
+          ]
+        },{
+          "pic": "pipeFurnitureDone.png",
+          "paragraphs": [
+            {"text": "Finishing",
+              "h4": true
+            },
+            {
+              "text": "I sprayed all of the furniture with a coat of clear rustoleum after I assembled them"
+            },
+            {
+              "text": "For one of my free-standing pieces where I was worried about loose joints, I used a two-part epoxy resin to hold the joints together -- once I had a rough assembly I was happy with, I unscrewed each pipe from each joint, dipped it in epoxy and screwed it back in place, the epoxy has been holding for a few years. The rest of my freestanding pieces are just screwed together and coated with rustoleum."
+            },
+            {
+              "text": "For the open-face kitchen cabinets, I used a flange to attach the shelves to the wall. (We had thought about putting some type of gasket between the tile wall and the flange, but we ended up just drilling through the tile and mounting without any protective backing and has been holding up fine for three years now)"
+            }
+
+          ]
+        }
+      ]
     }
 ]
 }

@@ -478,19 +478,22 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         }
         $rootScope.data.loading = true;
         dataService.getData(viewType,$scope).then(function(dataArr) {
-            if (['blog','pictures', 'videos'].indexOf(viewType) == -1){
+            if (['blog','pictures', 'videos', 'recipes'].indexOf(viewType) == -1){
                 $rootScope.data[view] = dataArr;
             }
             switch(viewType){
                 case 'recipes':
-                    $scope.recipeSort = 'a2z';
+                    $scope.recipeSort = 'n2o';
                     $scope.recipesRaw = dataArr.reduce((acc, item) => {
                         if (item.featured) {
                             $rootScope.data.featuredRecipe = item;
                         }
+                        item.published = new Date (item.pub_date);
                         acc.push(item);
+                        acc.sort((a, b) => b.published - a.published);
                         return acc;
                     }, []);
+                    $scope.data.recipes = angular.copy($scope.recipesRaw);
                     break;
                 case 'videos':
                         $scope.videosRaw = dataArr;

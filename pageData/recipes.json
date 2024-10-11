@@ -2,7 +2,6 @@
   "data": [
     {
       "name": "Baked eggs and Asparagus",
-      "featured": true,
       "pub_date": "8/9/24",
       "header_pic": "aspar5.png",
       "servings": "1-2 servings",
@@ -535,6 +534,78 @@
         "instruction":"Airfry at 385F for 7-10 minutes, or until desired crisp-/charred-ness."
       }],
       "notes": "Like The Kind They Serve At Trendy Breweries."
+    },
+    {
+      "name": "Spicy Basil, Eggplant",
+      "featured": true,
+      "pub_date": "10/11/24",
+      "header_pic": "teb1.png",
+      "ingredients": [
+        "1 large eggplant sliced into 1/2inch disks",
+        "pinch of salt (for sweating eggplant)",
+        "2 tablespoons olive oil",
+        "1 tablespoon minced garlic",
+        "1/2 tsp red pepper flakes",
+        "1/2 cup thai basil leaves",
+        "1/2 cup hot water",
+        "1/2 bouillon cube",
+        "1 tablespoon soy sauce",
+        "2 tablespoons brown sugar",
+        "1 tablespoon lime juice",
+        "Walnut halves and/or sesame seeds(optional)"],
+      "servings": "2-4 servings",
+      "steps": [{
+        "pic": "teb2.png",
+        "instruction":"Toss the eggplant slices in a bowl with a pinch of salt and let sit for 10-15 minutes."
+      },{
+        "pic": "tebBroth.png",
+        "instruction":"While the eggplant sweats, make a broth mixture in a small mixing bowl by dissolving the 1/2 bouillon cube and 2 tbs sugar in the 1/2 cup hot water. Then mix in red pepper flakes, basil leaves, and lime juice and set aside."
+      },{
+        "pic": "teb3.png",
+        "instruction":"Heat oil in a large skillet over medium heat, and add eggplant slices, coating both sides of each slice with oil then cook for 5-7 minutes --per side-- until browned and softened."
+      },{
+        "pic": "tebSetAside.png",
+        "instruction":"Set aside the eggplant and use the same pan to saute garlic until fragrant (about 30 seconds)."
+      },{
+        "pic": "teb4.png",
+        "instruction":"Pour broth mixture over sauteed garlic and bring to a simmer."
+      },{
+        "pic": "teb5.png",
+        "instruction":"Add eggplant slices back to the pan and toss to coat. (If you have walnut halves and/or or sesame seeds add them now) Simmer for 5-7 minutes (until the sauce has thickened and the eggplant is tender), stirring constantly."
+      },{
+        "pic": "tebServed.png",
+        "instruction":"Serve with rice."
+      }],
+      "notes": "Sweet, Tangy, Spicy!"
+    },
+    {
+      "name": "Stuffed Mushrooms",
+      "pub_date": "10/11/24",
+      "header_pic": "airFryMush.png",
+      "servings": "2-4 servings",
+      "ingredients": [
+        "12-18 Cremini (or other medium sized) mushroom",
+        "1 tsp fresh-ground black pepper",
+        "1/4 cup shredded mozzarella (and/or provolone) cheese",
+        "1/2 cup ricotta cheese",
+        "1/4 cup shredded parmesan cheese",
+        "2 cloves of garlic, minced",
+        "2 tablespoons olive oil"
+      ],
+      "steps": [{
+        "pic": "stufMus1.png",
+        "instruction":"Remove stems from mushrooms, coat with oil and set on the tray of an air-fryer."
+      },{
+        "pic": "stufMus2.png",
+        "instruction":"Mix cheeses, minced garlic and ground pepper in a small bowl."
+      },{
+        "pic": "stufMusStuf.png",
+        "instruction":"Stuff mushrooms with cheese mixture and air fry at 385F for 8-10 minutes."
+      },{
+        "pic": "airFryMush.png",
+        "instruction":"Mushrooms should be starting to wrinkle and cheese is browned, but not charred on top."
+      }],
+      "notes": "Great Appetizer To Share!"
     }
   ]
 }
