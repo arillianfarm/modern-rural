@@ -136,49 +136,91 @@
     {
       "youtubeID": "oRu1Mi0ifZU",
       "title": "Huey Ka-Bluey catches flying turtles like he's a super Mario Brother",
-      "albums": ["new","dogs", "animals"],
+      "albums": ["dogs", "animals"],
       "release_date": "10/11/24"
     },{
       "youtubeID": "yKpOoAmH_YU",
       "title": "Totes takes the stairs",
-      "albums": ["new","goats", "animals"],
+      "albums": ["goats", "animals"],
       "release_date": "10/11/24"
     },{
       "youtubeID": "u1fo9vt0S9g",
       "title": "Will She Or Wont She? Leghorn hen on the fence about flying into our artichoke garden",
-      "albums": ["new","chickens", "animals"],
+      "albums": ["chickens", "animals"],
       "release_date": "10/11/24"
     },
     {
       "youtubeID": "vK0z5BSsPTA",
       "title": "Chickens trying to get around a fence look like me learning to use a look stick for Skyrim!",
-      "albums": ["new","chickens", "animals"],
+      "albums": ["chickens", "animals"],
       "release_date": "10/11/24"
     },{
       "youtubeID": "aYYD-yaLdIk",
       "title": "Having a moment of Zen, watching fish in our pond when a Leghorn hops on my back",
-      "albums": ["new","chickens", "wildlife","animals"],
+      "albums": ["chickens", "wildlife","animals"],
       "release_date": "10/11/24"
     },{
       "youtubeID": "rj1Q0Erll0Q",
       "title": "Baby Leghorn, Buff Orpington and Ayam Cemani chicks chirping pecking and running for treats ",
-      "albums": ["new","chickens", "animals"],
+      "albums": ["chickens", "animals"],
       "release_date": "10/11/24"
     },{
       "youtubeID": "C1dCST6_u04",
       "title": "Some Chicks Spook Easily",
-      "albums": ["new","chickens", "animals"],
+      "albums": ["chickens", "animals"],
       "release_date": "10/11/24"
     },{
       "youtubeID": "ji6vqbXgNuo",
       "title": "Huey Ka-Bluey teaching me which toys he likes better. Episode 4 Green Vs Blue Dog-O-Soar",
-      "albums": ["new","dogs", "animals"],
+      "albums": ["dogs", "animals"],
       "release_date": "10/11/24"
     },{
       "youtubeID": "kmt63Vby2Qc",
       "title": "Beep-beep! A desert Roadrunner Checking Our Yard Out",
-      "albums": ["new","dogs", "animals"],
+      "albums": ["dogs", "animals"],
       "release_date": "10/11/24"
+    },
+    {
+      "youtubeID": "wRe5tXX9YNg",
+      "title": "Totes and McGoats Playing Chase Games Around Their Picnic Table",
+      "albums": ["new","goats", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "b2Xg7jWzqmQ",
+      "title": "Where You At Bro? Totes and McGoats Reunite After a Few Seconds Out Of Each Others' Site ",
+      "albums": ["new","goats", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "fMMOx86Q3f4",
+      "title": "The paw-ty never stops in our house! Arthur getting our dog pack amped up for some puppy play",
+      "albums": ["new","dogs", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "rRB55asFC4o",
+      "title": "When you've got chickens there's no such thing as weeds in your garden! Chickens flock to grass",
+      "albums": ["new","chickens", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "rRB55asFC4o",
+      "title": "When you've got chickens there's no such thing as weeds in your garden! Chickens flock to grass",
+      "albums": ["new","chickens", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "mIaYRjM3jSY",
+      "title": "Yay Hooray For Pool Filling Day!",
+      "albums": ["new", "dogs", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "UVEfGN9W2S0",
+      "title": "Huey Ka-Bluey teaching me which toys he likes better Episode 4: Cabela's Nylon Squeak Duck Vs Turtle",
+      "albums": ["new", "dogs", "animals"],
+      "release_date": "10/18/24"
     }
   ]
 }
