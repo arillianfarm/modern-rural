@@ -460,7 +460,6 @@
     },
     {
       "entry_number": 7,
-      "featured_blog": true,
       "pic_file": "marketStrategy.png",
       "entry_date": "Sept 20, 2024",
       "entry_subject": "Preparing For Launch",
@@ -561,6 +560,128 @@
             "text": "By mid-August I’ve had enough lows in the 90s and highs in the 110 plus degree days, to make me question everything that made me decide to put down roots here. So when I start to see NFL jerseys and pumpkin spice lattes going on sale, a happy little hope starts building inside me."
           },{
             "text": "As the endless burning summer heat gives way to cool mornings, festivals start to spring up, bars start to open their patios and life returns to my backyard gardens. They say Arizona doesn’t have seasons, but I love the not Summer that takes up the other half of the year."
+          }
+        ]
+      }
+      ]
+    },{
+      "entry_number": 9,
+      "featured_blog": true,
+      "entry_date": "Oct 4, 2024",
+      "entry_subject": "Fall Planting 2024",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/soilDone.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "pic_file": "",
+      "sections": [
+        {
+        "pics": [],
+          "link": "https://arillianfarm.com/#!/projects#making-garden-soil",
+          "pic_file": "soilDone.png",
+        "paragraphs": [
+          {
+            "text": "Aug 20, 2024 - Started Clearing Garden Beds and Making Soil",
+            "h4":  true
+          },
+          {
+            "text": "All the metaphors about grass roots seem so much more apt now that I've tried to dig some actual grass roots out of the soil. They stretch deep, don't let go and come back strong with even a little encouragement."
+          }
+        ]
+      },{
+        "pics": ["p828.png"],
+          "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "Aug 28, 2024 - Planted First Round of Seedlings Indoors",
+            "h4":  true
+          },{
+            "text": "Most of the seeds for Fall said to transplant 'after the soil has cooled', so I optimistically started them inside under a grow light (that Arthur designed for work a while back) with a 24 hour light cycle."
+          }
+        ]
+      },{
+        "pics": ["p831.png"],
+        "paragraphs": [
+          {
+            "h4":  true,
+            "text": "Aug 31, 2024 - First Sprouts Spring Up"
+          },{
+            "text": "Pumpkins, wheat and Peas were poking their heads up after about a week"
+          }
+        ]
+      },{
+        "pics": ["p98.png", "p981.png"],
+          "right_side_pic": true,
+        "paragraphs": [
+          {
+            "h4":  true,
+            "text": "Sept, 8, 2024 - More Sprouts and growth inside"
+          },
+          {
+            "text": "Lettuce, Broccoli and spinach are sprouting and wheat is growing long and I planted some garlic outside"
+          }
+        ]
+      },{
+        "pics": ["p912.png"],
+          "right_side_pic": true,
+        "paragraphs": [
+          {
+            "h4":  true,
+            "text": "Sept 12, 2024 - Second Round Of Indoor Planting"
+          },{
+            "text": "More of the same seeds from round 1"
+          }
+        ]
+      },{
+        "pics": ["p919.png","p9192.png","p9193.png","p9194.png"],"right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "Sept 19, 2024 - Taking It Outside"
+          },{
+            "text": "We had a 10 day forecast of all under 100 degree high temps, so I started planting seeds and some round 1 plants... but then we had a heat wave, so all of the peas and lettuce died and sparrows ate most of the broccoli, beet and kale seeds and sprouts"
+          }
+        ]
+      },{
+        "pics": ["p924.png"],
+        "paragraphs": [
+          {
+            "text": "Sept 24, 2024 - Indoor plants are ready... but its too hot to plant outside now"
+          },{
+            "text": "It hit 110 for the next several days and it started to get hot in our grow room. A lot of sprouts died"
+          }
+        ]
+      },
+        {
+        "pics": ["p102A.png","p102B.png","p102C.png","p102D.png","p102E.png"],
+        "paragraphs": [
+          {
+            "text": "Oct 2, 2024 - Still over 105 outside, but the indoor plants were starting to bloom and wither"
+          },{
+            "text": "I planted all the herbs I had started from cuttings on a semi-shaded hill at my house in Tempe and tried to find a suitable home for all the rest at my Mesa house and planted seeds between the indoor-started plants"
+          }
+        ]
+      },
+        {
+        "pics": ["pbugs1.png","pbugs2.png"],
+        "paragraphs": [
+          {
+            "text": "Oct 7, 2024 - Finally getting cool morning temps"
+          },{
+            "text": "...but then of course there's the critters that want to eat everything "
+          }]},
+        {
+        "pics": ["p1017.png","p1017B.png","p1017C.png","p1017D.png"],
+        "paragraphs": [
+          {
+            "text": "Oct 17, 2024 - We're under 100 for a high and it looks like we may pull off a lil crop after all"
           }
         ]
       }
