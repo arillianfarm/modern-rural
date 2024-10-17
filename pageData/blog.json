@@ -599,7 +599,7 @@
       },{
         "pics": ["p828.png"],
           "right_side_pic": true,
-        "paragraphs": [
+          "paragraphs": [
           {
             "text": "Aug 28, 2024 - Planted First Round of Seedlings Indoors",
             "h4":  true
@@ -609,7 +609,8 @@
         ]
       },{
         "pics": ["p831.png"],
-        "paragraphs": [
+          "right_side_pic": true,
+          "paragraphs": [
           {
             "h4":  true,
             "text": "Aug 31, 2024 - First Sprouts Spring Up"
@@ -620,7 +621,7 @@
       },{
         "pics": ["p98.png", "p981.png"],
           "right_side_pic": true,
-        "paragraphs": [
+          "paragraphs": [
           {
             "h4":  true,
             "text": "Sept, 8, 2024 - More Sprouts and growth inside"
@@ -632,7 +633,7 @@
       },{
         "pics": ["p912.png"],
           "right_side_pic": true,
-        "paragraphs": [
+          "paragraphs": [
           {
             "h4":  true,
             "text": "Sept 12, 2024 - Second Round Of Indoor Planting"
@@ -642,7 +643,8 @@
         ]
       },{
         "pics": ["p919.png","p9192.png","p9193.png","p9194.png"],"right_side_pic": true,
-        "paragraphs": [
+          "right_side_pic": true,
+          "paragraphs": [
           {
             "text": "Sept 19, 2024 - Taking It Outside"
           },{
@@ -651,7 +653,8 @@
         ]
       },{
         "pics": ["p924.png"],
-        "paragraphs": [
+          "right_side_pic": true,
+          "paragraphs": [
           {
             "text": "Sept 24, 2024 - Indoor plants are ready... but its too hot to plant outside now"
           },{
@@ -661,7 +664,8 @@
       },
         {
         "pics": ["p102A.png","p102B.png","p102C.png","p102D.png","p102E.png"],
-        "paragraphs": [
+          "right_side_pic": true,
+          "paragraphs": [
           {
             "text": "Oct 2, 2024 - Still over 105 outside, but the indoor plants were starting to bloom and wither"
           },{
@@ -671,7 +675,8 @@
       },
         {
         "pics": ["pbugs1.png","pbugs2.png"],
-        "paragraphs": [
+          "right_side_pic": true,
+          "paragraphs": [
           {
             "text": "Oct 7, 2024 - Finally getting cool morning temps"
           },{
@@ -679,7 +684,8 @@
           }]},
         {
         "pics": ["p1017.png","p1017B.png","p1017C.png","p1017D.png"],
-        "paragraphs": [
+          "right_side_pic": true,
+          "paragraphs": [
           {
             "text": "Oct 17, 2024 - We're under 100 for a high and it looks like we may pull off a lil crop after all"
           }
