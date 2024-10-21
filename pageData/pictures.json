@@ -42,6 +42,10 @@
       "caption": "Taking A Dirt Nap.",
       "albums": ["new","chickens", "animals"]
     },{
+      "imagur_id": "I73d9N2",
+      "caption": "My First Ever Fresh Chicken Eggs.",
+      "albums": ["new","chickens", "animals"]
+    },{
       "file": "chickensWading.png",
       "imagur_id": "Qg9jgdL",
       "caption": "Hen party at chicken beach.",
@@ -153,6 +157,10 @@
       "caption": "Puppy Pajama was a destroyer of worlds",
       "albums": ["new","dogs"]
     },{
+    "imagur_id": "TNNUuUC",
+    "caption": "Days Old Totes Drinking His Mother's Milk",
+    "albums": ["new","goats", "animals"]
+  },{
     "file": "totesMcGoatsComingHome.jpg",
     "imagur_id": "USaHrdS",
     "caption": "Bringing Totes and McGoats Home To The Farm",
@@ -163,9 +171,18 @@
     "caption": "Bottle Feeding The Kids",
     "albums": ["new","goats", "animals"]
   },{
+    "file": "bottleFeedTheKids.png",
+    "imagur_id": "re1sx27",
+    "caption": "Bottle Feeding 2",
+    "albums": ["new","goats", "animals"]
+  },{
       "file": "babyTotesMcGoats.png",
       "imagur_id": "7m5eMX9",
       "caption": "Totes and McGoats When They Were Angelic Baby Kids",
+      "albums": ["new","goats", "animals"]
+    },{
+      "imagur_id": "LG0g7EY",
+      "caption": "Milk-drunk McGoats",
       "albums": ["new","goats", "animals"]
     },{
     "file": "goatAirplane.png",
@@ -173,7 +190,10 @@
     "caption": "McGoats on Board",
     "albums": ["new","goats", "animals"]
   },{
-      "file": "farmfluencers.png",
+      "imagur_id": "lFiDunW",
+      "caption": "Rowena Feeding Treats to McGoats",
+      "albums": ["new","goats"]
+    },{
       "imagur_id": "L3mYkvi",
       "caption": "Totes And I Just Trying To Be Farmfluencers Over Here!",
       "albums": ["new","goats"]

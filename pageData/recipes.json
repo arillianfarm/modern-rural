@@ -675,6 +675,57 @@
         "instruction":"Assemble Sandwich - Spread mayo on one side of bread and then pile on the desired amount of all the other ingredients on top."
       }],
       "notes": "Its un-baguettable"
+    },
+    {
+      "name": "Air Fried Tofu & Veggie Rice Bowl",
+      "header_pic": "stairFryDone.png",
+      "servings": "2 servings",
+      "ingredients": [
+        "1/2 a block of tofu",
+        "1 cup fresh vegetables (e.g. bell pepper, butternut squash and asparagus)",
+        "1/2 a bouillon cube",
+        "2 tsp soysauce",
+        "1 teaspoon fresh ground black pepper",
+        "2 cloves garlic--minced",
+        "1/2 cup hot water",
+        "1/4 cup pickled onions in picking juice",
+        "1 teaspoon sesame oil",
+        "1 tablespoon butter",
+        "1 cup long-rain rice",
+        "1 cup water",
+        "sesame seeds to top"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"Wrap tofu in paper towels and press between two cutting boards to remove excess moisture."
+      },{
+        "pic": "stairFry1.png",
+        "instruction":"Slice tofu into 1/2inch thick rectangles and roughly chop fresh vegetables and mix together in a baking dish that fits into your air fryer."
+      },{
+        "pic": "",
+        "instruction":"In a small bowl, dissolve bouillon cube in hot water, then stir in: soy sauce, fresh ground pepper, minced garlic, pickled onions and sesame oil."
+      },{
+        "pic": "",
+        "instruction":"Rinse rice and combine with water in a rice cooker (or pot) and cook according to instructions or boil for approx 20 minutes on stove."
+      },{
+        "pic": "stairFryFry.png",
+        "instruction":"Pour bouillon mixture over tofu/vegetable mixture. Cover with foil and air fry at 385 for 12 minutes. Then uncover and air fry for another 2-3 minutes."
+      },{
+        "pic": "stairFryDone.png",
+        "instruction":"Serve with rice."
+      }],
+      "notes": "Easy, Healthy, Filling."
+    },
+    {
+      "name": "English Muffins",
+      "header_pic": "",
+      "servings": "6 servings",
+      "ingredients": [],
+      "steps": [{
+        "pic": "",
+        "instruction":""
+      }],
+      "notes": "The Perfect Base for a Delicious Breakfast Sandwich or a Pizza Snack"
     }
   ]
 }

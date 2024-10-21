@@ -183,50 +183,71 @@
     {
       "youtubeID": "4aeHP9EQMQE",
       "title": "Totes and McGoats Playing Chase Games Around Their Picnic Table",
-      "albums": ["new","goats", "animals"],
+      "albums": ["goats", "animals"],
       "release_date": "10/18/24"
     },
     {
       "youtubeID": "T0wBKFZGJMQ",
       "title": "Where You At Bro? Totes and McGoats Reunite After a Few Seconds Out Of Each Others' Site ",
-      "albums": ["new","goats", "animals"],
+      "albums": ["goats", "animals"],
       "release_date": "10/18/24"
     },
     {
       "youtubeID": "fMMOx86Q3f4",
       "title": "The paw-ty never stops in our house! Arthur getting our dog pack amped up for some puppy play",
-      "albums": ["new","dogs", "animals"],
+      "albums": ["dogs", "animals"],
       "release_date": "10/18/24"
     },
     {
       "youtubeID": "rRB55asFC4o",
       "title": "When you've got chickens there's no such thing as weeds in your garden! Chickens flock to grass",
-      "albums": ["new","chickens", "animals"],
+      "albums": ["chickens", "animals"],
       "release_date": "10/18/24"
     },
     {
       "youtubeID": "8bn9v0e__XA",
       "title": "Chickens Pumpkin Carving Fail- Act Like They Saw The Headless Horseman Even After I Put Corn Inside",
-      "albums": ["new","chickens", "animals"],
+      "albums": ["chickens", "animals"],
       "release_date": "10/18/24"
     },
     {
       "youtubeID": "mIaYRjM3jSY",
       "title": "Yay Hooray For Pool Filling Day!",
-      "albums": ["new", "dogs", "animals"],
+      "albums": [ "dogs", "animals"],
       "release_date": "10/18/24"
     },
     {
       "youtubeID": "UVEfGN9W2S0",
       "title": "Huey Ka-Bluey teaching me which toys he likes better Episode 4: Cabela's Nylon Squeak Duck Vs Turtle",
-      "albums": ["new", "dogs", "animals"],
+      "albums": ["dogs", "animals"],
       "release_date": "10/18/24"
     },
     {
-      "youtubeID": "4GkqrRblT4g",
-      "title": "Funny dog spook fail. Tryin to be a zombie pumpkin head to scare our dogs. Dogs just want to play with pumpkin ",
-      "albums": ["new", "dogs", "animals"],
-      "release_date": "10/18/24"
+      "youtubeID": "H35-bN3iuIw",
+      "title": "Chicks Playing Football w/ Pieces Of Corn ... it was all fun and games until I ruined it by talking about it",
+      "albums": [  "new","chickens", "animals"],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "F_aU8k4Fz54",
+      "title": "Funny Dog Videos slow-motion video of Huey Ka-Bluey, catching his flying turtle toy",
+      "albums": [  "new","dogs", "animals"],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "EBDwnJcYUBo",
+      "title": "Huey Ka-Bluey teaching me which toys he likes more Episode 5 Old Turtle New Turtle",
+      "albums": [  "new","dogs", "animals"],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "0YLFGs2w99Q",
+      "title": "Do You Have To Be A Prime Member To Get Packing Materials Airdropped In Your Yard?  #sky-ro-foam",
+      "albums": ["new"],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "",
+      "title": "Baby Goat Kids Get Spooked By Barking Dog And Flee to Higher Ground",
+      "albums": ["new", "goats", "animals"],
+      "release_date": "10/25/24"
     }
+
   ]
 }
