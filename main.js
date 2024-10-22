@@ -488,7 +488,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                         if (item.featured) {
                             $rootScope.data.featuredRecipe = item;
                         }
-                        item.published = new Date (item.pub_date);
+                        //todo: this jankly handles entries where I forgot to put a pub date
+                        item.published = item.pub_date ? new Date (item.pub_date) : new Date();
                         acc.push(item);
                         acc.sort((a, b) => b.published - a.published);
                         return acc;

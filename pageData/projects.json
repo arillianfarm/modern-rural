@@ -758,6 +758,121 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Concreting Over Corian or Laminate Counter Tops",
+      "pub_date": "10/25/24",
+      "header_pic": "kitchenAB.png",
+      "about": "Four years ago, I re-did our bathroom (Corian) counters and sink this way and they've been holding up great so I decided to give it a try in the kitchen too",
+      "featured": false,
+      "categories": ["finishing work"],
+      "tools": [
+        "Paint Can Opener or Screw Driver (To Pry Lids Off Sealer)",
+        "electric drill",
+        "drill bit with stirer (optional)",
+        "drill bit with wire brush (optional)",
+        "electric sander (optional)",
+        "microfiber dust clothes",
+        "finishing trowel (metal trowel with smooth edges)"
+      ],
+      "materials": [
+        "N95 masks",
+        "Disposable painters gloves",
+        "Sandpaper (80 grit, 150-180 grit and 220-240 grit)",
+        "Paint rollers (dense foam rollers for cabinets)",
+        "Underlayment Floor Patch (I used Henry Feather Finish 549)",
+        "2-part Food Grade Countertop Sealer (I used Matte Finish Surecrete 327)",
+        "Lots of mixing vessels (e.g. four 1/2 - 1 gallon buckets for floor patch and 8-10 plastic cups for sealer )",
+        "Stirring sticks (if you aren't using a drill attachment to stir)"
+      ],
+      "phases": [
+        {
+          "pic": "kitchStart.png",
+          "paragraphs": [
+            {
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },
+          {
+            "text": "Prep -",
+              "h4": true
+            },
+            {
+              "text": "ALWAYS WEAR A MASK WHEN SANDING!"
+            },{
+              "text": "Using an electric sander --starting with 80 grit --or an electric drill with a wire brush attached, scuff up the surface you will be concreting over."
+            },{
+              "text": "Wipe dust off from initial sanding and then re-sand with a finer grit (150 -180 grit)."
+            }
+          ]
+        },{
+          "pic": "kitchencoat1B.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {"text": "Apply Concrete Underlayment",
+              "h4": true
+            },
+            {
+              "text": "ALWAYS WEAR A MASK WHEN MIXING CONCRETE!"
+            },
+            {
+              "text": "Follow manufactures' instructions for mixing (it dries fast so start with a small amount)"
+            },
+            {
+              "text": "Using a finishing trowel, smooth a very thin layer of concrete underlayment across the surface of the counter (its okay if the counter still shows through in spots)"
+            },
+            {
+              "text": "Wait for initial coat to dry and then apply a second thin coat and then a third thin coat of underlayment"
+            },
+            {
+              "text": "When the third coat of underlayment is dry, gently sand the surface with 220-240 grit sandpaper and then wipe down with a microfiber cloth"
+            }
+          ]
+        },{
+          "pic": "kitchenCoatedB.png",
+          "paragraphs": [
+            {"text": "Seal Countertop",
+              "h4": true
+            },
+            {
+              "text": "PRO TIP - Keep at lease 1 extra roller dry and handy to back-roll and absorb excess sealer in any areas where the it's pooling up"
+            },
+            {
+              "text": "Follow manufacturors instructions to dilute and mix the countertop sealer"
+            },
+            {
+              "text": "Using a dense foam roller, liberally apply the first (primer) coat of the sealer. The counter will soak up a lot during this first application and it will seep down into the counter, so try to apply sealer evenly and don't roll to fast or the sealer will splatter and splashes may show through at the end."
+            },
+            {
+              "text": "Let the first coat dry and use a fresh roller to roll on the next coat of sealer. Let that coat dry and then apply the final coat(note -the counter will absorb much less of the sealer for the second coat and very little will get absorbed for the last coat)."
+            }
+
+          ]
+        },{
+          "pic": "kitchenDone2.png",
+          "paragraphs": [
+            {"text": "Wait for the sealer to dry and voilà",
+              "h4": true
+            }
+
+          ]
+        }
+      ]
     }
 ]
 }

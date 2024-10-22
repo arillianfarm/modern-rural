@@ -630,12 +630,10 @@
     },
     {
       "name": "Banh Mi Sandwich",
-      "featured": true,
       "pub_date": "10/18/24",
       "header_pic": "bmdone.png",
       "servings": "3 sandwiches",
       "related_recipes": [
-
       ],
       "ingredients": [
         "1 carrot - grated, shredded or julienned",
@@ -678,6 +676,7 @@
     },
     {
       "name": "Air Fried Tofu & Veggie Rice Bowl",
+      "pub_date": "10/24/24",
       "header_pic": "stairFryDone.png",
       "servings": "2 servings",
       "ingredients": [
@@ -717,15 +716,62 @@
       "notes": "Easy, Healthy, Filling."
     },
     {
-      "name": "English Muffins",
-      "header_pic": "",
-      "servings": "6 servings",
-      "ingredients": [],
+      "name": "Soft Pretzels",
+      "featured": true,
+      "pub_date": "10/25/24",
+      "header_pic": "prezDone.png",
+      "servings": "6 pretzels",
+      "categories": ["breads", "baked goods", "snacks"],
+      "ingredients": [
+        "3/4 cup water (approx 100F)",
+        "10.5 oz instant or active dry yeast (1/2 packet)",
+        "1/2 tsp kosher salt",
+        "1/2 Tbsp light brown sugar",
+        "1/2 Tbsp unsalted butter melted and at room temp",
+        "3/4 cup bread flour",
+        "1 cup all purpose flour",
+        "1/2 cup baking soda",
+        "9 cups water",
+        "salt to top pretzels - optional"
+      ],
       "steps": [{
         "pic": "",
-        "instruction":""
+        "instruction":"In the bowl of a stand mixer fitted with a dough hook, mix yeast into warm water and let sit for 1 minute."
+      },{
+        "pic": "prez2.png",
+        "instruction":"Mix salt, brown sugar and melted butter into the yeast mixture."
+      },{
+        "pic": "prez3.png",
+        "instruction":"Slowly (about 1/2 cup at a time) add 3/4 cup of bread flour and 3/4 cup of all purpose flour until dough thickens."
+      },{
+        "pic": "",
+        "instruction":"When dough is thick, add the remaining 1/4 cup all purpose flour and continue to mix until the dough is no longer sticky (add additional flour if needed)."
+      },{
+        "pic": "",
+        "instruction":"Knead the dough 5 minutes after it stops sticking."
+      },{
+        "pic": "prez4.png",
+        "instruction":"Shape dough into a ball, put in a lightly greased bowl and cover with a damp towel and rest for 10 minutes."
+      },{
+        "pic": "",
+        "instruction":"Add 1/2 cup baking soda and 9 cups of water to a large pot and start it towards boiling while you move onto shaping the pretzels."
+      },{
+        "pic": "prez5.png",
+        "instruction":"Punch down the dough and cut the rested dough it into six sections (about 1/3 cup each) and roll each section into a 20inch rope."
+      },{
+        "pic": "prez6.png",
+        "instruction":"Shape the dough into a pretzel shape."
+      },{
+        "pic": "prez8.png",
+        "instruction":"Drop the pretzels into rapidly boiling baking soda bath 1-2 at a time for 20-30 seconds. Flip each after 10-15 seconds (don't overboil or you'll get too much baking soda taste)."
+      },{
+        "pic": "prez10.png",
+        "instruction":"Place the pretzel on a parchment lined baking sheet and airfry at 385 for 8 minutes -- flip over after half way through cooking"
+      },{
+        "pic": "prezDone.png",
+        "instruction":"Baked and cooled pretzels can be frozen for upto 3 months."
       }],
-      "notes": "The Perfect Base for a Delicious Breakfast Sandwich or a Pizza Snack"
+      "notes": "Pairs Well With Easy Cheese"
     }
   ]
 }
