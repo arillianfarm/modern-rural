@@ -717,7 +717,6 @@
     },
     {
       "name": "Soft Pretzels",
-      "featured": true,
       "pub_date": "10/25/24",
       "header_pic": "prezDone.png",
       "servings": "6 pretzels",
@@ -772,6 +771,122 @@
         "instruction":"Baked and cooled pretzels can be frozen for upto 3 months."
       }],
       "notes": "Pairs Well With Easy Cheese"
+    },
+    {
+      "name": "Oven-Roasted Pumpkin Seeds",
+      "pub_date": "10/30/24",
+      "header_pic": "punkinSeedsDone.png",
+      "servings": "3-4 servings",
+      "categories": ["snacks"],
+      "related_recipes": [],
+      "ingredients": [
+        "Seeds From A Pumpkin, Rinsed Clean (with no remaining pumpkin guts)",
+        "1/2 Tablespoon Olive Oil",
+        "A couple Shakes Of Salt"
+      ],
+      "steps": [{
+        "pic": "punkinSeeds1.png",
+        "instruction":"toss pumpkin seeds with olive oil until evenly coated, then spread them evenly across the bottom of a pie tin"},
+        {
+          "pic": "punkinSeeds2.png",
+          "instruction":"Air Fry at 385 for 12-15 minutes (until crisp and golden brown) "},
+        {
+          "pic": "punkinSeedsDone.png",
+          "instruction": "Toss with salt"}
+      ],
+      "notes": "Makes Cleaning The Guts Out of a Pumpkin Feel Worth It!"
+    },
+    {
+      "name": "Pasta Dough",
+      "pub_date": "10/31/24",
+      "header_pic": "pDough.png",
+      "categories": ["pasta", "dinner"],
+      "servings": "8-10 oz of dough (approx 3 servings of pasta)",
+      "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce"],
+      "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce"],
+      "ingredients": [
+        "2 Cups Bread Flour or All Purpose Flour",
+        "1/4 tsp Salt",
+        "3 Large Eggs",
+        "1 Tsp Olive Oil"
+      ],
+      "steps": [{
+        "pic": "pumRav1.png",
+        "instruction":"Whisk together salt and flour in a medium-large bowl, then 'make a well' in the flour, crack the eggs and pour the olive oil into the well and whisk the wet ingridents together."
+      },
+        {
+          "instruction": "Using a fork, slowly mix the flour in with the wet ingredients."
+        },
+        {
+          "pic": "pumRav3.png",
+          "instruction": "Once all the flour is mixed in with the wet ingredients, turn onto a lightly floured work surface and knead dough for 8-10 minutes --until smooth and elastic."
+        },
+        {
+          "pic": "pumRav4.png",
+          "instruction": "Wrap Pasta Dough In Plastic and Rest In Fridge For 1/2 hour to 3 days."
+        }
+      ],
+      "notes": "Great For Raviolis, Lasagna noodles, pot stickers or spaghetti"
+    },{
+      "name": "Pumpkin Raviolis in Sweet Butter Sage Sauce",
+      "pub_date": "11/1/24",
+      "featured": true,
+      "header_pic": "pumRavDone.png",
+      "categories": ["pasta", "dinner"],
+      "servings": "3-4 servings",
+      "related_recipes": ["Pasta Dough"],
+      "ingredients": [
+        "8-10 oz pasta dough",
+        "1 Cup Roasted or Canned Pumpkin",
+        "1/4 Cup Grated Parmesan Cheese + extra for baking",
+        "1/4 Cup Grated Mozzarella Cheese",
+        "1/2 Cup Ricotta Cheese",
+        "3/4 tsp Ground Black Pepper --divided",
+        "4 Cloves of Garlic, Minced or Pressed --divided",
+        "1/4 Cup Unsalted Butter",
+        "1/2 Tsp Fresh Sage - Finely Diced (+ extra for baking)",
+        "1 tablespoon light brown sugar",
+        "1/4 cup chopped walnuts"
+      ],
+      "steps": [
+        {
+          "pic": "pumRav5.png",
+          "instruction": "Cheesey Pumpkin Filling - If using Fresh Pumpkin, Clean, Peel and Cut About 1/3 Of A Pie Pumpkin Into 8-12 Chunks and AirFry For 15 Minutes, Wait Until Cooled and Mash With a Whisk or Fork."
+        },
+        {
+          "pic": "pumRav6.png",
+          "instruction": "Mix Ricotta Cheese, Mozzarella, Parmesan, 1/2 Tsp Crushed Black Pepper, 2 Cloves of Minced Garlic, and Pumpkin, then Set Aside in Refrigerator."
+        },
+        {
+          "pic": "pumRav7.png",
+          "instruction": "Rolling & Filling Pasta Dough - When ready to use the dough --if you refrigerated it for more than two hours, set dough out for 30 minutes-- then divide into 3-4 even sections."
+        },
+        {
+          "pic": "pumRav8.png",
+          "instruction": "Roll each section of dough through a pasta maker starting with the rollers at the 1 setting and incrementing then re-roll at the next highest setting until the dough is thin enough to see your hand through the dough (setting 5 or 6). By the time you get to 4 or 5 you may want an extra pair of hands and/or cut the sheets in half as you go."
+        },
+        {
+          "pic": "pumRav10.png",
+          "instruction": "Spoon (1-2 teaspoon) blobs of cold ravioli filling every 1- 2 inches along the sheets of pasta dough, using a brush or your fingers wet the area around each filling-dollop, then fold the dough sheet over, cut a square around each dollop and fold the seems over, pressing them together to seal."
+        },
+        {
+          "pic": "pumRav9.png",
+          "instruction": "If you have extra sheets of pasta separate them with parchment and put them in a freezer bag can freeze for upto 3 months. If you have extra filling it is tasty as a stuffed mushroom filling or on toasted bread."
+        },
+        {
+          "instruction": "Boil Raviolis In Rapidly Boiling Water For 5 Minutes then drain water and set aside."
+        },{
+          "pic": "pumRav11.png",
+          "instruction": "Make Butter Sage Sauce - In a Medium Sized Pan, Melt butter and add 2 cloves of minced garlic, 1/4 tsp crush black pepper, walnuts and sage, saute for 2-3 minutes until nuts and sage are starting to brown then stir in brown sugar until dissolved."
+        },{
+          "pic": "pumRav12.png",
+          "instruction": "Transfer the cooked and drained ravioli to a baking dish and coat with sauce."
+        },{
+          "pic": "pumRavDone.png",
+          "instruction": "Top with shredded parmesan and sage and airfry for 5 Minutes -- until cheese and tops of raviolis start to brown"
+        }
+      ],
+      "notes": "You'll Be Pump-ked For This Deliciousness!"
     }
   ]
 }
