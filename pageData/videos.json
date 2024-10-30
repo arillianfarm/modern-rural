@@ -225,58 +225,28 @@
     {
       "youtubeID": "H35-bN3iuIw",
       "title": "Chicks Playing Football w/ Pieces Of Corn ... it was all fun and games until I ruined it by talking about it",
-      "albums": [ "chickens", "animals"],
+      "albums": ["new", "chickens", "animals"],
       "release_date": "10/25/24"
     },{
       "youtubeID": "F_aU8k4Fz54",
       "title": "Funny Dog Videos slow-motion video of Huey Ka-Bluey, catching his flying turtle toy",
-      "albums": [  "dogs", "animals"],
+      "albums": ["new",  "dogs", "animals"],
       "release_date": "10/25/24"
     },{
       "youtubeID": "EBDwnJcYUBo",
       "title": "Huey Ka-Bluey teaching me which toys he likes more Episode 5 Old Turtle New Turtle",
-      "albums": [ "dogs", "animals"],
+      "albums": ["new", "dogs", "animals"],
       "release_date": "10/25/24"
     },{
       "youtubeID": "0YLFGs2w99Q",
       "title": "Do You Have To Be A Prime Member To Get Packing Materials Airdropped In Your Yard?  #sky-ro-foam",
-      "albums": [],
+      "albums": ["new"],
       "release_date": "10/25/24"
     },{
       "youtubeID": "fKByX2yv89Q",
       "title": "Baby Goat Kids Get Spooked By Barking Dog And Flee to Higher Ground",
-      "albums": ["goats", "animals"],
+      "albums": ["new","goats", "animals"],
       "release_date": "10/25/24"
-    },{
-      "youtubeID": "AaXOSxsW06I",
-      "title": "Funny Dog Videos - When our dog Pajama plays catch it looks a lot more like he's playing volleyball",
-      "albums": ["new", "dogs", "animals"],
-      "release_date": "11/1/24"
-    },{
-      "youtubeID": "8ZPtwihaH8c",
-      "title": "Funny Dog Videos- Huey Ka-Bluey teaching me which toy he likes Episode 6 Red Turtle V Blue Football",
-      "albums": ["new", "dogs", "animals"],
-      "release_date": "11/1/24"
-    },{
-      "youtubeID": "ilLhEVvADAo",
-      "title": "Funny Animal Videos- Muffin Tries To Befriend Our Goats. Goats R All 'What Even Is That Thing!?'",
-      "albums": ["new", "dogs", "goats","animals"],
-      "release_date": "11/1/24"
-    },{
-      "youtubeID": "r5aw11lJ5-8",
-      "title": "Im Just Gonna Leaf This Here. Funny Goat Videos Totes & McGoats Eating Leaves Compilation",
-      "albums": ["new", "goats","animals"],
-      "release_date": "11/1/24"
-    },{
-      "youtubeID": "H2uxOXKWN5E",
-      "title": "funny farm animal sounds- Broodzilla, our broody Buff Orpington Hen growls and ruffles her feathers",
-      "albums": ["new", "chickens", "animals"],
-      "release_date": "11/1/24"
-    },{
-      "youtubeID": "Q3iw_eSl5uk",
-      "title": "Our leghorn, ayam cemani, and buff orpington chickens competing to be the early bird at breakfast",
-      "albums": ["new", "chickens", "animals"],
-      "release_date": "11/1/24"
     }
 
   ]
