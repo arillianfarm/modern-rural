@@ -498,7 +498,7 @@
         "pic": "addCheeseAfter8min.png",
         "instruction":"Toss potatoes in air frier tray, then sprinkle cheese evenly over the top."
       },{
-        "pic": "cheeseFriesDone1.png",
+        "pic": "cheeseFriesdone1.png",
         "instruction":"Air fry for another 5-8 minutes --until potatoes and cheese are desired crispness."
       },{
         "pic": "cheeseFriesDone.png",
@@ -799,7 +799,7 @@
     {
       "name": "Pasta Dough",
       "pub_date": "10/31/24",
-      "header_pic": "pDough.png",
+      "header_pic": "pdough.png",
       "categories": ["pasta", "dinner"],
       "servings": "8-10 oz of dough (approx 3 servings of pasta)",
       "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce"],
