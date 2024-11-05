@@ -250,33 +250,68 @@
     },{
       "youtubeID": "AaXOSxsW06I",
       "title": "Funny Dog Videos - When our dog Pajama plays catch it looks a lot more like he's playing volleyball",
-      "albums": ["new", "dogs", "animals"],
+      "albums": ["dogs", "animals"],
       "release_date": "11/1/24"
     },{
       "youtubeID": "8ZPtwihaH8c",
       "title": "Funny Dog Videos- Huey Ka-Bluey teaching me which toy he likes Episode 6 Red Turtle V Blue Football",
-      "albums": ["new", "dogs", "animals"],
+      "albums": ["dogs", "animals"],
       "release_date": "11/1/24"
     },{
       "youtubeID": "ilLhEVvADAo",
       "title": "Funny Animal Videos- Muffin Tries To Befriend Our Goats. Goats R All 'What Even Is That Thing!?'",
-      "albums": ["new", "dogs", "goats","animals"],
+      "albums": ["dogs", "goats","animals"],
       "release_date": "11/1/24"
     },{
       "youtubeID": "r5aw11lJ5-8",
       "title": "Im Just Gonna Leaf This Here. Funny Goat Videos Totes & McGoats Eating Leaves Compilation",
-      "albums": ["new", "goats","animals"],
+      "albums": ["goats","animals"],
       "release_date": "11/1/24"
     },{
       "youtubeID": "H2uxOXKWN5E",
       "title": "funny farm animal sounds- Broodzilla, our broody Buff Orpington Hen growls and ruffles her feathers",
-      "albums": ["new", "chickens", "animals"],
+      "albums": ["chickens", "animals"],
       "release_date": "11/1/24"
     },{
       "youtubeID": "Q3iw_eSl5uk",
       "title": "Our leghorn, ayam cemani, and buff orpington chickens competing to be the early bird at breakfast",
-      "albums": ["new", "chickens", "animals"],
+      "albums": ["chickens", "animals"],
       "release_date": "11/1/24"
+    },{
+      "youtubeID": "-MKzwCufrCo",
+      "title": "Waiting in line to vote like... ",
+      "albums": ["new", "chickens","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "dbI4Z-1qw9Y",
+      "title": "Crafting W/ Trash - When Life Hands You Election Mailers, Make Confetti (for election night or NYE)",
+      "albums": ["new"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "2HDlVcWu2Wg",
+      "title": "Funny Dogs Videos - Bella Momma-Dogging Blue Heeler, Huey Ka-Bluey, When He Was an 8 Week Old Puppy",
+      "albums": ["new", "dogs","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "gBjRYLKqxkY",
+      "title": "Funny Farm Animals Videos: Poo-Roulette Arthur was Pretty Worried About Getting Pooped On By Our Hen",
+      "albums": ["new", "chickens","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "kcImrrgDoIs",
+      "title": "Funny Farm Animals Sounds- Our baby goat kid, McGoats, bleating and hoping",
+      "albums": ["new", "goats","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "m8Jb2gHqfsU",
+      "title": "Funny Animals-  In The Clerb We All Fam! Leghorn, Ayam Cemani, Orpington Chicks Eat & Play Together",
+      "albums": ["new", "goats","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "m8Jb2gHqfsU",
+      "title": "Funny Animals-  In The Clerb We All Fam! Leghorn, Ayam Cemani, Orpington Chicks Eat & Play Together",
+      "albums": ["new", "goats","animals"],
+      "release_date": "11/8/24"
     }
   ]
 }

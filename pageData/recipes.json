@@ -803,7 +803,6 @@
       "categories": ["pasta", "dinner"],
       "servings": "8-10 oz of dough (approx 3 servings of pasta)",
       "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce"],
-      "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce"],
       "ingredients": [
         "2 Cups Bread Flour or All Purpose Flour",
         "1/4 tsp Salt",
@@ -830,7 +829,6 @@
     },{
       "name": "Pumpkin Raviolis in Sweet Butter Sage Sauce",
       "pub_date": "11/1/24",
-      "featured": true,
       "header_pic": "pumRavDone.png",
       "categories": ["pasta", "dinner"],
       "servings": "3-4 servings",
@@ -887,6 +885,78 @@
         }
       ],
       "notes": "You'll Be Pump-ked For This Deliciousness!"
+    },
+    {
+      "name": "Corn Chowder",
+      "pub_date": "11/7/24",
+      "header_pic": "cchow1.png",
+      "related_recipes": ["San Francisco Style Sourdough Bread"],
+      "servings": "3 servings",
+      "ingredients": [
+        "1 tablespoon butter",
+        "1 cup diced onion",
+        "1/2 tsp dried or fresh sage",
+        "1/2 tsp dried or fresh thyme &/or rosemary",
+        "1/4 tsp black pepper (freshly ground if possible)",
+        "1 clove of garlic -minced",
+        "2 cups boiling water",
+        "1 bullion cube",
+        "1 bay leaf",
+        "2 cups cubed potatoes (1/4 - 1/2 inch cubes)",
+        "1 rib of celery diced",
+        "1 cup diced carrot &/Or Sweet Potato",
+        "1 cup fresh or frozen corn kernels",
+        "1 tsp honey",
+        "1/4 cup heavy whipping cream"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"In a medium-large soup pot, melt butter over medium heat. Add pepper,sage, rosemary, garlic and onion. Saute until the onion is sweating."
+      },{
+        "pic":"cchow2.png",
+        "instruction": "Add boiling water, bullion cube, bay leaves, potatoes, celery and carrots/sweet potato. Boil (with lid off) for 10 minutes."
+      },{
+        "pic":"",
+        "instruction": "Add honey and frozen corn (which will cool things down a bit), then bring soup back up to a boil."
+      },{
+        "pic":"cchow3.png",
+        "instruction": "When the soup is back to boiling, remove from heat, let cool for 5 minutes, then remove the bay leaf and stir in cream."
+      },{
+        "pic":"cchowdone.png",
+        "instruction": "Enjoy with bread or crackers."
+      }],
+      "notes": "Pairs nicely with cold weather."
+    },{
+      "name": "Fall Forage Wrap",
+      "featured": true,
+      "pub_date": "11/8/24",
+      "header_pic": "ffwrap1.png",
+      "servings": "1-2 servings",
+      "categories": ["snacks", "lunch"],
+      "related_recipes": [],
+      "ingredients": [
+        "1 sundried tomato or spinach or plain tortilla wrap",
+        "A handful of whatever greens you have on hand (I used kale, broccoli sprouts, basil, beet leaves and lettuce)",
+        "1/4 cup roasted pumpkin",
+        "2 tablespoons chopped walnuts",
+        "2 tablespoons plain greek yogurt",
+        "2 tablespoons hummus",
+        "a pinch of pomegranate seeds",
+        "a pinch of shredded mozzarella cheese",
+        "a pinch of pickled onions"
+      ],
+      "steps": [{
+        "pic": "ffwrap2.png",
+        "instruction":"Spread yogurt and hummus in the center of tortilla/wrap and evenly distribute the rest of the ingredients on top."
+      },
+        {
+          "pic": "ffwraproll.png",
+          "instruction":"Roll up like a fruit roll up or like a burrito --whatever is easiest for you"},
+        {
+          "pic": "ffwrapdone.png",
+          "instruction": "Slice in half and enjoy"}
+      ],
+      "notes": "A Tasty, Healthy Way to Roll"
     }
   ]
 }
