@@ -873,6 +873,118 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Converting Mini Bike From Gas To Electric",
+      "header_pic": "minibikedone.png",
+      "pub_date": "11/8/24",
+      "featured": true,
+      "categories": ["Vehicles"],
+      "about": "More Zooms With Less Fumes",
+      "tools": [
+        "Electric Drill",
+        "Metal Drill Bit (3/8 inch)",
+        "Socket Set",
+        "Volt Meter",
+        "Square",
+        "Sharpie Pen",
+        "Chain Breaker (Amazon's Choice)",
+        "Channel locks"
+      ],
+      "materials": [
+        "Coleman CC 100 X Mini Bike",
+        "Electric Conversion Kit (48V 1000 W Brushed DC Motor With Gas Accelerator Throttle & Ignition Lock)",
+        "Sprocket for Back Wheel of Bike (65 tooth rear sprocket for Coleman CT100)",
+        "Lithium Battery (48 volt 12,000 mAH)",
+        "Blue Loctite",
+        "JB Quick",
+        "1 Pack of Outdoor Use Zip Ties",
+        "8 inches of 1 inch square tubing cut into two 4 inch halves (for engine spacers)",
+        "scrap metal and a hose clamp to make a battery cradle (L bracket and joist mount for 2x6 lumber)",
+        "hose clamps"
+      ],
+      "phases": [
+        {
+          "pic": "",
+          "label": "",
+          "paragraphs": [
+            {
+              "text": "If You've Talked To Arthur In The Last Six Months or So, Then You Probably Know, That I Stored His Gas-Powered Mini Bike Upside Down When I Was Trying to Get at Something Behind It in The Garage... Anyway, Now It's A Cool Electric Bike, So All's Well That Ends Well"}
+          ]},{
+          "pic": "",
+          "label": "Gather Tools & Materials",
+          "paragraphs": [
+            {
+              "text": "Arthur purchased the Coleman Mini Bike, Electric Conversion Kit, Wheel Sprocket and Lithium Battery and Chain Breaker from Amazon. The rest of the tools and materials can be purchased at Harbor Freight, online or a hardware store."
+            }
+          ]},{
+          "pic": "",
+          "label": "Removing Gas Engine",
+          "vid": "3cnwFuvfkPI",
+          "paragraphs": [
+            {
+              "text": "Using an electric drill with a socket bit, Arthur disconnected the hand throttle and remove the 4 bolts mounting the motor to the frame."
+            }
+          ]},{
+          "vid": "",
+          "label": "Replacing Rear Sprocket",
+          "paragraphs": [
+            {
+              "text": "After removing the existing rear wheel sprocket, Arthur replaced it with a new 65 tooth rear sprocket for Coleman CT100."
+            }
+          ]},{
+          "vid": "1CtRzSbTYzQ",
+          "label": "Positioning Electric Motor",
+          "paragraphs": [
+            {
+              "text": "After lining up the front and rear wheel sprockets, Arthur positioned the electric motor as far forward on the frame as possible."
+            },
+            {
+              "text": "Using a Sharpie, Arthur marked dots on the bike's chassis where the electric motor would mount."},
+            {
+              "text": "He set the electric motor aside and drilled holes in the chassis (then test fit to make sure it mounted appropriately before detaching it and setting it aside again)."
+            },{
+              "text": "Using the holes he just drilled in the chassis as a template, Arthur marked holes on the square tubing, then drill through the square tubing."
+            },{
+              "text": "He mounted the motor, with the spacers fastened in place between the chassis and the motor."
+            }
+          ]},{
+          "vid": "",
+          "label": "Resizing Chain",
+          "paragraphs": [
+            {
+              "text": "Using a chain-breaker, Arthur cut two links out of the mini bike's chain and then reassembled the chain."
+            }
+          ]},{
+          "vid": "",
+          "label": "Mounting the Throttle to Handlebars",
+          "paragraphs": [
+            {
+              "text": "Using the Alan wrench that comes with the electric motor kit, attach the throttle to the handlebar."
+            }
+          ]},{
+          "vid": "",
+          "label": "Attaching Electric Battery to Frame",
+          "paragraphs": [
+            {
+              "text": "Using a hose clamp, a metal L bracket and a metal bracket for 2x6 inch deck joists, Arthur made a cradle for the electric battery."
+            },
+            {
+              "text": "For the kits that Arthur purchased, he had to change out the battery input connector so that it could plug into the battery (which came with a different type of connector)."
+            },
+            {
+              "text": "Arthur also had to reverse the polarity on the output motor connector (because initially the tires went in reverse when the throttle was throttled)."
+            },
+            {
+              "text": "After testing that everything was working, he mounted the motor controller behind the seat using a hose clamp and used zip ties to tidy the wiring so everything was held tightly in place."
+            }
+          ]},{
+          "vid": "Zdz4dymWvV8",
+          "label": "Let's Go!",
+          "paragraphs": [
+          ]
+        }
+      ]
     }
-]
+  ]
 }

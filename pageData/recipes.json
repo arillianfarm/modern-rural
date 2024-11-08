@@ -192,7 +192,7 @@
         "15g (approx 1.5 tbsp) Active Dry Yeast",
         "8fl oz (approx 1 cup ) water --at temp 110F",
         "6 oz (approx 3/4 cup) Sourdough Starter",
-        "1 lb (approx 3 cups) Bread Flour",
+        "1 lb (approx 4 cups) Bread Flour",
         "15g (approx 2.5 tsp) salt",
         "cornmeal --as needed",
         "1 egg white -beaten"
@@ -203,10 +203,10 @@
       },
         {
           "pic": "sdb2.png",
-          "instruction":"In a medium- large bowl (preferably on a stand mixer fitted with a dough hook), mix the sourdough starter with the remaining 6oz (approx 3/4 cup) of water and then add 6oz (approx 5/8 cup) of bread flour."
+          "instruction":"In a medium- large bowl (preferably on a stand mixer fitted with a dough hook), mix the sourdough starter with the remaining 6oz (approx 3/4 cup) of water and then add 6oz (approx 1 -1.25 cup) of bread flour."
         },{
           "pic": "",
-          "instruction":"Stir until a dough forms, then add yeast mixture. Knead 5 minutes on medium speed."
+          "instruction":"Stir until a batter/dough forms, then add yeast mixture. Knead 5 minutes on medium speed."
         },{
           "pic": "",
           "instruction":"Add the remaining flour and the salt. Knead (with stand mixer with dough hook or by hand on a flat surface) until the dough is smooth and elastic, approx 10 minutes."
@@ -218,7 +218,7 @@
           "instruction": "Punch down the dough and shape it into a round loaf. (or you can divide into 2 smaller loaves) Place the loaf on a greased and cornmeal dusted sheet-pan."
         },{
           "pic": "coverandproof.png",
-          "instruction": "Proof the dough in a warm place, covered with a damp cloth, until it has risen to 2 1/2 times its original size."
+          "instruction": "Proof the dough in a warm place, covered with a damp cloth, until it has risen to 2 1/2 times its original size (about 45-60  minutes)."
         },{
           "pic": "sdb6.png",
           "instruction": "Brush the risen loaf with the beaten egg white and score the top of the loaf with a sharp knife. (if the knife is dull and doesn't cut deep enough, the bread will rip in weird ugly ways as it rises"
