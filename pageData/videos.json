@@ -280,28 +280,73 @@
     },{
       "youtubeID": "dbI4Z-1qw9Y",
       "title": "Crafting W/ Trash - When Life Hands You Election Mailers, Make Confetti (for election night or NYE)",
-      "albums": ["new"],
+      "albums": [],
       "release_date": "11/8/24"
     },{
       "youtubeID": "2HDlVcWu2Wg",
       "title": "Funny Dogs Videos - Bella Momma-Dogging Blue Heeler, Huey Ka-Bluey, When He Was an 8 Week Old Puppy",
-      "albums": ["new", "dogs","animals"],
+      "albums": ["dogs","animals"],
       "release_date": "11/8/24"
     },{
       "youtubeID": "gBjRYLKqxkY",
       "title": "Poo-Roulette Arthur didn't like the odds his shirt 'd stay unsoiled when our hen hopped on his back",
-      "albums": ["new", "chickens","animals"],
+      "albums": ["chickens","animals"],
       "release_date": "11/8/24"
     },{
       "youtubeID": "kcImrrgDoIs",
       "title": "Our baby goat kid, McGoats, bleating and hoping",
-      "albums": ["new", "goats","animals"],
+      "albums": ["goats","animals"],
       "release_date": "11/8/24"
     },{
       "youtubeID": "m8Jb2gHqfsU",
       "title": "In The Clerb We All Fam! Leghorn, Ayam Cemani, Orpington Chicks Eat & Play Together",
-      "albums": ["new", "goats","animals"],
+      "albums": [ "goats","animals"],
       "release_date": "11/8/24"
+    },{
+      "youtubeID": "CaBnCh5mByo",
+      "title": "Every Farm Needs a Cat, Ours Snarls - Arthur Peeling Out in His Resurrected 1969 Cougar",
+      "albums": ["new", "wildlife","animals"],
+      "release_date": "11/11/24"
+    },{
+      "youtubeID": "G34pP4mmm68",
+      "title": "Cardinals Fans Dreaming of a Post-Season...",
+      "albums": ["new", "dogs","animals"],
+      "release_date": "11/10/24"
+    },{
+      "youtubeID": "rKzZQTmj0v0",
+      "title": "Pajama snapping at turtles",
+      "albums": ["new", "dogs","animals"],
+      "release_date": "11/9/24"
+    },{
+      "youtubeID": "CR97Ez9tZCU",
+      "title": "Converting Gas Mini Bike to Electric (Coleman CC 100 X) Less Fumes, More Zooms",
+      "albums": ["new", "wildlife","animals"],
+      "release_date": "11/11/24"
+    },{
+      "youtubeID": "kBvGABThPwQ",
+      "title": "Xena's Daily Zoomies Have Blazed a Literal Trail Across Our Backyard",
+      "albums": ["new", "dogs","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "gv91Fu9gvuU",
+      "title": "Goats Playing Putting Green Sumo Wrestling ... who will get GOATed?",
+      "albums": ["new", "goats","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "bFFPrfEQpEo",
+      "title": "Huey Ka-Bluey teaching me which toy he likes more Episode 8 Red Turtle Blue Turtle",
+      "albums": ["new", "dogs","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "RbN2Pnd5yyw",
+      "title": "Cute Silly 2 Week Old Baby Goat Kid, McGoats, Jumping on His Bed(ding) ",
+      "albums": ["new", "goats","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "AWx5ZDUMfoA",
+      "title": "Our Hens Think I'm a Rooster, so They Duck Down For Me To Fiddle Their Feathers",
+      "albums": ["new", "chickens","animals"],
+      "release_date": "11/15/24"
     }
   ]
 }

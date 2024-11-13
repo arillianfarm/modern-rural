@@ -127,7 +127,7 @@
     {
       "name": "creamy avocado, pickled onion wontons",
       "pub_date": "8/30/24",
-      "related_recipes": ["Creamy banana walnut wonton"],
+      "related_recipes": ["pickled onions","Creamy banana walnut wontons"],
       "header_pic": "wontons6.png",
       "servings": "1 wonton",
       "summary": "INGREDIENTS: pinch of pickled onions, 1 wonton wrapper, 3-5 chunks of fresh avocado, a bit of chopped walnut (optional),1 healthy glob of cream cheese, oil (to coat wonton wrapper). INSTRUCTIONS: (1) coat the outside of wonton wrapper with oil then put all ingredients on un-oiled side (2) fold wonton wrapper around filling and put into a muffin tray, silicon muffin cup or directly onto the rack of an air frier (3) set temp to 385 and air fry for 4-6 minutes or until outside is browned",
@@ -679,6 +679,7 @@
       "pub_date": "10/24/24",
       "header_pic": "stairFryDone.png",
       "servings": "2 servings",
+      "related_recipes": ["pickled onions"],
       "ingredients": [
         "1/2 a block of tofu",
         "1 cup fresh vegetables (e.g. bell pepper, butternut squash and asparagus)",
@@ -933,7 +934,7 @@
       "header_pic": "ffwrap1.png",
       "servings": "1-2 servings",
       "categories": ["snacks", "lunch"],
-      "related_recipes": [],
+      "related_recipes": ["pickled onions"],
       "ingredients": [
         "1 sundried tomato or spinach or plain tortilla wrap",
         "A handful of whatever greens you have on hand (I used kale, broccoli sprouts, basil, beet leaves and lettuce)",
@@ -957,6 +958,69 @@
           "instruction": "Slice in half and enjoy"}
       ],
       "notes": "A Tasty, Healthy Way to Roll"
+    },{
+      "name": "Egg Salad Sandwich",
+      "pub_date": "11/14/24",
+      "header_pic": "eggSalDone.png",
+      "servings": "3-5 Servings",
+      "related_recipes": ["San Francisco Style Sourdough Bread", "pickled onions"],
+      "ingredients": [
+        "6 hard boiled eggs - cooled and peeled",
+        "1/4 cup mayonnaise",
+        "2 tablespoons Sweet pickle relish",
+        "1 tsp mustard",
+        "1/2 tsp soy sauce",
+        "1/4 cup finely diced onion",
+        "1/2 of a rib of celery - finely diced",
+        "Sliced (Sourdough) Bread",
+        "Lettuce or other greens (optional)",
+        "Thinly Sliced Cucumber (optional)",
+        "Pickled Onions (optional)"
+      ],
+      "steps": [{
+        "pic": "eggSal1.png",
+        "instruction":"Slice boiled eggs in half and Remove Yolks and set aside. Chop egg whites into desired chunk size."
+      },{
+        "pic": "eggSal2.png",
+        "instruction":"In a medium or large bowl smash the boiled egg yolks and mix with mayonnaise, mustard, soy sauce, celery and onion, then stir in egg whites."
+      },{
+        "pic": "eggSalDone.png",
+        "instruction":"Toast bread (if desired), scoop egg salad onto bread and add desired toppings."
+      }],
+      "notes": "An Egg-Salant option for lunch"
+    },
+    {
+      "name": "Chili",
+      "header_pic": "chili1.png",
+      "featured": true,
+      "pub_date": "11/15/24",
+      "servings": "3-4 servings",
+      "related_recipes": [],
+      "ingredients": [
+        "1 tsp olive oil",
+        "1/2 bullion cube -smashed into bits",
+        "3/4 cup finely diced onion",
+        "1 tablespoon chili powder",
+        "1 tsp cumin",
+        "1 clove garlic",
+        "2 cups diced sweet potato (diced into 1/4-1/2 inch cubes)",
+        "1 can of red kidney beans 14-15oz",
+        "1 can stewed tomatoes 14-15 oz"
+      ],
+      "steps": [{
+        "pic": "chili2.png",
+        "instruction":"Heat oil in a medium - large pot and add onion, bullion cube, cumin, garlic, diced onions, saute over medium heat until onion is translucent"
+      },{
+        "pic": "chili3.png",
+        "instruction":"Add sweet potatoes and saute another 5 min."
+      },{
+        "pic": "chili4.png",
+        "instruction":"Add tomatoes and kidney beans (including the liquid in the can). Bring to a boil, then simmer over low heat for 20 minutes."
+      },{
+        "pic": "chilidone.png",
+        "instruction":"Enjoy Topped with chopped onions, shredded cheese, plain yogurt and/or sour cream."
+      }],
+      "notes": "Warm Yourself Up With Some Chili When You're Chilly!"
     }
   ]
 }

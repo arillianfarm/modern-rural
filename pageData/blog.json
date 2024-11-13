@@ -566,7 +566,6 @@
       ]
     },{
       "entry_number": 9,
-      "featured_blog": true,
       "entry_date": "Oct 4, 2024",
       "entry_subject": "Fall Planting 2024",
       "feature_section_1": {
@@ -735,6 +734,52 @@
           }
         ]
       }
+      ]
+    }, {
+      "entry_number": 11,
+      "featured_blog": true,
+      "entry_date": "Nov 15, 2024",
+      "entry_subject": "You Tube-ing",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/youTubeA.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [{
+        "vid": "FRn6Brm5_8A",
+        "paragraphs": [
+          {
+            "text": "Making new videos and finding old ones to post to our YouTube channel has been a nice meditation. I find as I go through my daily chores lately, my sense are more finely tuned to finding funny, cute or fascinating moments in my everyday tasks. Almost like I'm constantly updating a video gratitude journal."
+          },
+          {
+            "text": "Plus, I'm not above needing validation; it feels good to see the views on some videos climb up into the hundreds and thousands. And its a nice little dream in the back of my mind that I can earn some more lumber and hardware money if I get enough subscribers. It's been seven weeks since I published our first video on our ArillianFarm channel and we have 53 subscribers... just 447 more and we'll start getting some percentage of ad revenue. It  may take a while, but I think we'll get there."
+          },{
+            "text": "Around the farm, I think the critters are pretty happy to be on the road to YouTube stardom. The goats and chickens are getting more treats than ever and the doggos are getting more toys and games of catch than ever."
+          }
+        ]
+      },{
+        "right_side_pic": true,
+          "vid": "rKzZQTmj0v0",
+          "paragraphs": [{
+            "text": "It's also been an interesting game trying to figure out how to 'catch the algorithm's eye' with my videos. I'm focusing on 'Shorts' (9:16 aspect ratio videos no more than 1 minute long that are meant to be consumed quickly and in mass), so I figure the high demand for short videos means I may get a chance to show up eventually in people's 'short's feed' without having to pay to promote our channel. It also means things like the 'thumbnail picture' for the video, hashtags, and title have to grab people's attention immediately. Also, I noticed that if the picture quality of a video wasn't good, the video would not get served out at all."
+          },{
+            "text":"I can tell that the title is very very important. For example, I had a video of our dog Pajama that wasn't getting much attention, so after viewing some other dog videos (that mentioned dog breed) I noted that Pajama is a Shibu Inu mix and re-posted the video. It suddenly became our most popular video to date (with over 4,200 views in the first 5 days it was up). I've also gotten some good tips from the 'analytics' tab on my YouTube Video Management page. i.e. Our viewership started going up after I started including the phrase 'funny animal memes' or 'funny dog video' in the title of our videos."
+
+          }]
+        },
+        {
+          "vid": "jFqmt_9XD-U",
+          "paragraphs": [{
+            "text": "I must admit, I keep catching myself being that jackass who's filming and photographing every moment of her life and prattling on a bit too much about video stats to people who seem not all that interested. I feel like a bit of a greasy salesman at times, but I'm super sucked into the hype of getting more views and subscribers and I expect the thrill of finding YouTube-able moments will fade, so for now I'm letting myself go a little bit, but I think I'll probably have myself reeled in by the end of month three or so."
+          }]
+        }
       ]
     }
   ]
