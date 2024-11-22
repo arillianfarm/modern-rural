@@ -1023,7 +1023,7 @@
     },
     {
       "name": "Quick Thick Herb Gravy",
-      "header_pic": "gravyDone.png",
+      "header_pic": "gravydone.png",
       "pub_date": "11/19/24",
       "servings": "8 (2-tablespoon) servings servings",
       "related_recipes": ["Holiday Sides Cup Cake Pies"],
@@ -1043,14 +1043,14 @@
         "pic": "gravy2.png",
         "instruction":"Add remaining ingredients and simmer for 10-15 minutes. "
       },{
-        "pic": "gravyDone.png",
+        "pic": "gravydone.png",
         "instruction":"Remove from heat to thicken."
       }],
       "notes": "Thick and Quick Just Like all The Best Things"
     },
     {
       "name": "Small Batch Green Bean Casserole",
-      "header_pic": "gBc1.png",
+      "header_pic": "gbc1.png",
       "pub_date": "11/21/24",
       "servings": "About 2 cups (3 servings)",
       "related_recipes": ["Quick Thick Herb Gravy", "small batch mashed potatoes", "Holiday Sides Cup Cake Pies"],
