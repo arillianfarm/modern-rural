@@ -690,7 +690,7 @@
         "1/2 cup hot water",
         "1/4 cup pickled onions in picking juice",
         "1 teaspoon sesame oil",
-        "1 tablespoon butter",
+        "1 tablespoon unsalted butter",
         "1 cup long-rain rice",
         "1 cup water",
         "sesame seeds to top"
@@ -894,7 +894,7 @@
       "related_recipes": ["San Francisco Style Sourdough Bread"],
       "servings": "3 servings",
       "ingredients": [
-        "1 tablespoon butter",
+        "1 tablespoon unsalted butter",
         "1 cup diced onion",
         "1/2 tsp dried or fresh sage",
         "1/2 tsp dried or fresh thyme &/or rosemary",
@@ -992,7 +992,6 @@
     {
       "name": "Chili",
       "header_pic": "chili1.png",
-      "featured": true,
       "pub_date": "11/15/24",
       "servings": "3-4 servings",
       "related_recipes": [],
@@ -1021,6 +1020,149 @@
         "instruction":"Enjoy Topped with chopped onions, shredded cheese, plain yogurt and/or sour cream."
       }],
       "notes": "Warm Yourself Up With Some Chili When You're Chilly!"
+    },
+    {
+      "name": "Quick Thick Herb Gravy",
+      "header_pic": "gravyDone.png",
+      "pub_date": "11/19/24",
+      "servings": "8 (2-tablespoon) servings servings",
+      "related_recipes": ["Holiday Sides Cup Cake Pies"],
+      "ingredients": [
+        "2 tablespoons butter",
+        "2 tablespoons flour",
+        "1 cup broth or 1/2 boiullon cube dissolved in 1 cup boiling water",
+        "1/4 tsp fresh ground black pepper",
+        "1 clove garlic - minced or pressed",
+        "1/4 tsp soy sauce",
+        "1/4 -1/2 tsp fresh rosemary and sage minced"
+      ],
+      "steps": [{
+        "pic": "gravy1.png",
+        "instruction":"make a roux by melting butter in a saucepan and gradually stirring in flour. Combine evenly over medium heat and then slowly pour in broth or water mixture, whisk over medium heat to combine evenly (should be a smooth paste)."
+      },{
+        "pic": "gravy2.png",
+        "instruction":"Add remaining ingredients and simmer for 10-15 minutes. "
+      },{
+        "pic": "gravyDone.png",
+        "instruction":"Remove from heat to thicken."
+      }],
+      "notes": "Thick and Quick Just Like all The Best Things"
+    },
+    {
+      "name": "Small Batch Green Bean Casserole",
+      "header_pic": "gBc1.png",
+      "pub_date": "11/21/24",
+      "servings": "About 2 cups (3 servings)",
+      "related_recipes": ["Quick Thick Herb Gravy", "small batch mashed potatoes", "Holiday Sides Cup Cake Pies"],
+      "ingredients": [
+        "1 tablespoons butter",
+        "1/2 cup fried onion strings (divided)",
+        "1/4 tsp black pepper",
+        "1/4 of a yellow onion (diced)",
+        "1 clove garlic (minced)",
+        "4-5 Cremini mushrooms (sliced into 1/2 inch chunks)",
+        "1/4 tsp soy sauce",
+        "1/2 cup broth or 1/4 of a bouillon cube dissolved in 1/2 cup boiling water",
+        "1 cup fresh green beans (chopped into 2-3 inch lengths)",
+        "1/4 cup heavy whipping cream"
+      ],
+      "steps": [
+        {
+        "pic": "gbc2.png",
+        "instruction":"Melt butter in a medium-large sauce pan over medium heat, finely crumble about a tablespoon of fried onion strings and stir into butter until evenly combined, then add diced onions and garlic and saute until onion is translucent."
+      },
+        {
+        "pic": "gbc2b.png",
+        "instruction":"Add mushrooms and continue to saute until mushrooms are sweating. (3-5 minutes)"
+      },
+        {
+        "pic": "gbc3.png",
+        "instruction":"Add soy sauce, broth and green beans. Cover and simmer for 7-10 minutes --until green beans reach desired tenderness."
+      },
+        {
+        "pic": "gbc4.png",
+        "instruction":"Remove from heat and stir in cream."
+      },
+        {
+        "pic": "gbc5.png",
+        "instruction":"Pour into a pie tin (or similar sized baking vessel) and crumble the remaining fried onion strings on top."
+      },
+        {
+        "pic": "gbcDone.png",
+        "instruction":"Air fry at 385 for 3-5 minutes --until mushroom gravy is bubbly and onion strings are browned."
+      }],
+      "notes": "This Dish Will Scratch Your Creamy, Crunchy, Savory, Umami Itch!"
+    },
+    {
+      "name": "Small Batch Mashed Potatoes",
+      "header_pic": "mpotDone.png",
+      "pub_date": "11/20/24",
+      "servings": "2-3 servings",
+      "related_recipes": ["Quick Thick Herb Gravy", "Small Batch Green Bean Casserole", "Holiday Sides Cup Cake Pies"],
+      "ingredients": [
+        "1 tablespoon unsalted butter",
+        "1/4 cup heavy whipping cream",
+        "1 large potato - peeled and chunked",
+        "Pinch of Salt"
+      ],
+      "steps": [
+        {
+        "pic": "mpot1.png",
+        "instruction":"Add sliced potato to a pot of boiling water and boil uncovered at high heat for 10-15 minutes (until potato chunks are tender and easy to pierce with a fork)."
+      },
+        {
+        "pic": "mpotDone.png",
+        "instruction":"Drain potatoes, add a pinch of salt, then use a whisk to whisk in butter then cream."
+      }],
+      "notes": "Serve with Gravy, Plain Yogurt &/Or Butter!"
+    },
+    {
+      "name": "Holiday Sides Cup Cake Pies",
+      "header_pic": "sidePieDone.png",
+      "featured": true,
+      "pub_date": "11/22/24",
+      "servings": "8 servings",
+      "related_recipes": ["Quick Thick Herb Gravy", "Small Batch Green Bean Casserole", "small batch mashed potatoes"],
+      "ingredients": [
+        "9-inch pie crust dough (make fresh or buy rolled/refrigerated crust dough)",
+        "2 cups green bean casserole",
+        "2 cups mashed potatoes",
+        "1/2 cup gravy (optional)",
+        "1/2 cup cranberry sauce (optional)",
+        "1/4 cup fried onion strings",
+        "1/4 cup pomegranate seeds (optional)",
+        "8 pearl onions or cocktail onions"
+      ],
+      "steps": [
+        {
+        "pic": "sidePie2.png",
+        "instruction":"Using a 3.5 inch circle cutter, cut the pie dough into 8 mini crusts -- Save the scraps to make toppings."
+      },
+        {
+        "pic": "sidePieLined.png",
+        "instruction":"Line 8 cupcake cups with the pie crust (either silicone stand alone cups or regular metal cupcake pans lined with paper). Perforate the bottom and sides of the crust with a fork and airfry for 5 minutes at 385F -then set aside to cool."
+      },
+        {
+        "pic": "sidePies3.png",
+        "instruction":"Add 1-2 spoonfuls of green bean casserole to each mini pie shell."
+      },
+        {
+        "pic": "sidePies4.png",
+        "instruction":"On top of green bean casserole, add 1-2 spoonfuls of mashed potatoes."
+      },
+        {
+        "pic": "sidePieB.png",
+        "instruction":"Top cupcakes with additional desired toppings."
+      },
+        {
+        "pic": "sidePieTopped.png",
+        "instruction":"Airfry at 385 for 5-10 minutes (depending if potatoes and green beans are cold to start)."
+      },
+        {
+        "pic": "sidePies7.png",
+        "instruction":"Serve with Gravy and cranberry sauce."
+      }],
+      "notes": "Use Left-Overs From a Holiday Meal or Make From Scratch as a Party Appetizer"
     }
   ]
 }

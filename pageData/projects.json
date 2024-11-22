@@ -508,7 +508,7 @@
       }
     ]
   },
-  {
+    {
       "name": "Wood Tile Floors",
       "pub_date": "9/27/24",
       "header_pic": "tilingdirty.png",
@@ -590,7 +590,7 @@
         }
       ]
     },
-  {
+    {
       "name": "Built-in Storage Bench",
       "pub_date": "10/4/24",
       "header_pic": "sBenchDone.png",
@@ -982,6 +982,96 @@
           "vid": "Zdz4dymWvV8",
           "label": "Let's Go!",
           "paragraphs": [
+          ]
+        }
+      ]
+    },
+    {
+      "name":  "Arillian Christmas Trees",
+      "pub_date": "11/22/24",
+      "header_pic": "xmasTree1.png",
+      "featured": true,
+      "categories": ["recreation"],
+      "about": "Arthur and I try to keep our tree fresh for the holidays.",
+      "tools": [
+        "various"
+      ],
+      "materials": [
+        "various"
+      ],
+      "materials_pics": [
+      ],
+      "phases": [
+        {
+          "pic": "xmasTree1.png",
+          "paragraphs": [{
+            "text": "When Arthur and I lived (in my now rental house) in Tempe, we made a 'Portal' Christmas tree."
+          },{
+            "text": " Arthur used his electrical engineering skills to wire the bottom half of a pre-lit artificial christmas tree to an overhead light fixture with a hula hoop tacked up around the tree bottom. (Arthur also fed a strip of led lights through the hula hoop and wired it to the ceiling)."
+          },{
+            "text": " We hung a second suspended the top half of the tree using fishing wires so that it butted up against our kitchen wall and we tacked a second hula hoop to the wall around that tree."
+          }]
+        },{
+          "right_side_pic": true,
+          "pic": "xmasTree2.png",
+          "paragraphs": [
+            {
+              "text": "The first year we lived in Mesa, I had gotten a major pay bump after starting my first software development job and renting out my Tempe house, and our front-room had high ceilings, so I bought a huge Christmas Tree."
+            }
+          ]
+        },{
+          "pic": "xmasTree3.png",
+          "paragraphs": [
+            {
+              "text": "I was raised on movies where folks go into a forest and cut down their own tree and bring it home and then a chipmonk or something pops our and reaks havoc, so when I found out you could cut trees down in the forest not too far from our house, I got a pass to cut our own tree..."
+            },{
+              "text": " There weren't too many good trees within the tree-chopping area, so we chose a weird one instead."
+            }
+          ]
+        },{
+          "pic": "xmasTree4.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "I wanted another big tree, but I know those are bad for my carbon footprint, so we decided to just decorate a big ladder instead."
+            }
+          ]
+        },{
+          "pic": "xmasTree5.png",
+          "paragraphs": [
+            {
+              "text": "We bought a welder a few years back and decided a good learning project would be to weld a christmas tree out of scrap metal we had around."
+            }
+          ]
+        },{
+          "pic": "xmasTree6.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "The next year I discovered and fell in love with Topo Chico mineral water and wanted to make that part of the tree, so we decided to weld spoons on to the previous year's metal tree and we strung lighs around the spoons then covered them with chico bottles."
+            }
+          ]
+        },{
+          "pic": "xmasTree7.png",
+          "paragraphs": [
+            {
+              "text": "And then we hung a tree net from the ceiling, attached it to the metal tree, lit the topo chico bottles the same way as before and filled the net with balloons."
+            }
+          ]
+        },{
+          "pic": "xmasTree8.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Last year was supposed to be a throw back to the portal tree, but it didn't turn out very well. It was supposed to be the bottom and top of a tree coming through opposing ports and colliding , but it sort of just looked like the Anaheim A's logo or something."
+            }
+          ]
+        },{
+          "vid": "YiTMXAvekAQ",
+          "paragraphs": [
+            {
+              "text": "This years tree is still a work in-progress, but it will definitely involve a matchbox car track and hopefully at least 1 loop."
+            }
           ]
         }
       ]
