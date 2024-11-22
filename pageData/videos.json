@@ -300,53 +300,83 @@
     },{
       "youtubeID": "m8Jb2gHqfsU",
       "title": "In The Clerb We All Fam! Leghorn, Ayam Cemani, Orpington Chicks Eat & Play Together",
-      "albums": [ "goats","animals"],
+      "albums": ["goats","animals"],
       "release_date": "11/8/24"
     },{
       "youtubeID": "CaBnCh5mByo",
       "title": "Every Farm Needs a Cat, Ours Snarls - Arthur Peeling Out in His Resurrected 1969 Cougar",
-      "albums": ["new", "wildlife","animals"],
+      "albums": ["wildlife","animals"],
       "release_date": "11/11/24"
     },{
       "youtubeID": "G34pP4mmm68",
       "title": "Cardinals Fans Dreaming of a Post-Season...",
-      "albums": ["new", "dogs","animals"],
+      "albums": ["dogs","animals"],
       "release_date": "11/10/24"
     },{
       "youtubeID": "rKzZQTmj0v0",
       "title": "Pajama snapping at turtles",
-      "albums": ["new", "dogs","animals"],
+      "albums": ["dogs","animals"],
       "release_date": "11/9/24"
     },{
       "youtubeID": "CR97Ez9tZCU",
       "title": "Converting Gas Mini Bike to Electric (Coleman CC 100 X) Less Fumes, More Zooms",
-      "albums": ["new", "wildlife","animals"],
+      "albums": ["wildlife","animals"],
       "release_date": "11/11/24"
     },{
       "youtubeID": "kBvGABThPwQ",
       "title": "Xena's Daily Zoomies Have Blazed a Literal Trail Across Our Backyard",
-      "albums": ["new", "dogs","animals"],
+      "albums": ["dogs","animals"],
       "release_date": "11/15/24"
     },{
       "youtubeID": "gv91Fu9gvuU",
       "title": "Goats Playing Putting Green Sumo Wrestling ... who will get GOATed?",
-      "albums": ["new", "goats","animals"],
+      "albums": ["goats","animals"],
       "release_date": "11/15/24"
     },{
       "youtubeID": "bFFPrfEQpEo",
       "title": "Huey Ka-Bluey teaching me which toy he likes more Episode 8 Red Turtle Blue Turtle",
-      "albums": ["new", "dogs","animals"],
+      "albums": ["dogs","animals"],
       "release_date": "11/15/24"
     },{
       "youtubeID": "RbN2Pnd5yyw",
       "title": "Cute Silly 2 Week Old Baby Goat Kid, McGoats, Jumping on His Bed(ding) ",
-      "albums": ["new", "goats","animals"],
+      "albums": ["goats","animals"],
       "release_date": "11/15/24"
     },{
       "youtubeID": "AWx5ZDUMfoA",
       "title": "Our Hens Think I'm a Rooster, so They Duck Down For Me To Fiddle Their Feathers",
-      "albums": ["new", "chickens","animals"],
+      "albums": ["chickens","animals"],
       "release_date": "11/15/24"
+    },{
+      "youtubeID": "3JwcquSE38s",
+      "title": "Baby Goat Kid, Totes, Zooming Across Barnyard To Go Inside Cute Baby Animal Video",
+      "albums": ["new","goats","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "9Tp_y7u0-NA",
+      "title": "Huey Ka-Bluey teaching me which toys he likes Ep 9: Turtle w/ new squeaker Vs de-squeakered football",
+      "albums": ["new", "dogs","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "sHADj90w9b8",
+      "title": "FOMO Fo Sho! Shibu Inu Mix, Pajama hears a Squeak Toy in the Other Room ",
+      "albums": ["new", "dogs","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "BhTTsbma4YA",
+      "title": "It caused quite a stir when I fed a Brussels sprout plant to Totes & McGoats (funny farm animals)",
+      "albums": ["new", "goats","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "uXKeZ3oumiI",
+      "title": "When You Just Wanna Crawl Under a Rock and Die But People Won't Leave You Alone",
+      "albums": ["new", "wildlife","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "VSUUxUG-bWU",
+      "title": "Let me get a closer look!",
+      "albums": ["new", "chickens","animals"],
+      "release_date": "11/22/24"
     }
   ]
 }
