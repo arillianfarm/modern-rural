@@ -312,9 +312,9 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     }
 
     $scope.assembleHashLink = function(nameTitleField){
-        let baseUrl = `${$scope.getBaseUrl()}#!${$location.path()}`;
+        let baseUrl = $scope.getBaseUrl()+"#!"+$location.path();
         let postHash = $scope.assembleIDattribute(nameTitleField);
-        let hashLink = `${baseUrl}#${postHash}`;
+        let hashLink = baseUrl+"#"+postHash;
         return hashLink;
     }
 
