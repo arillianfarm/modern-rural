@@ -42,7 +42,7 @@
                               <p ng-if="item.notes">{{trunc(item.notes,80)}}</p>
                               <div class="text-white cursPoint" >
                                   <button class="btn btn-light btn-xs" ng-click="assembleAndCopyRecipeSummary(item)"><i class="fa fa-files-o">  </i><b>Recipe</b></button>
-                                  <button class="btn btn-info btn-xs" ng-click="putHashLinkOnClipboard(item.name)"> <i class="fa fa-files-o">  </i><b>Link</b></button>
+                                  <button ng-if="false" class="btn btn-info btn-xs" ng-click="putHashLinkOnClipboard(item.name)"> <i class="fa fa-files-o">  </i><b>Link</b></button>
                               </div>
                           </div>
                       </div>
@@ -62,7 +62,7 @@
                      </div>
                      <div class="col-xs-12 col-lg-4 mt-4 text-white cursPoint text-right pull-right" >
                          <button class="btn btn-light btn-xs" ng-click="assembleAndCopyRecipeSummary(data.featuredRecipe)"><i class="fa fa-files-o">  </i><b>Recipe</b></button>
-                         <button class="btn btn-info btn-xs" ng-click="putHashLinkOnClipboard(data.featuredRecipe.name)"> <i class="fa fa-files-o">  </i><b>Link</b></button>
+                         <button ng-if="false" class="btn btn-info btn-xs" ng-click="putHashLinkOnClipboard(data.featuredRecipe.name)"> <i class="fa fa-files-o">  </i><b>Link</b></button>
                      </div>
                      <div class="col-xs-12 bb2 mb-2" style></div>
                 </div>

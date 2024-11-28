@@ -240,6 +240,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     //scroll to a specific entry on a specific view
     $scope.scrollToHashOrTop = function() {
         let locationHash = $location.hash();
+        //handle case where second # in url has been encoded to %23
+        let encodedURI = window.location.href;
+        if ( /%23/.test(encodedURI) ){
+            locationHash = encodedURI.split('%23')[1]
+        }
         if (locationHash) {
         let view = ($location.path()||'projects').replace('/','');
         let featuredItemType = 'featuredProject';
