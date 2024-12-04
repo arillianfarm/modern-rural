@@ -780,6 +780,32 @@
           }]
         }
       ]
+    }, {
+      "entry_number": 12,
+      "entry_date": "Dec 6, 2024",
+      "entry_subject": "Self Publishing on Amazon",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/amazonPub.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [{
+        "vid": "FRn6Brm5_8A",
+        "paragraphs": [
+          {
+            "text": ""
+          }
+        ]
+      }]
+        }
+      ]
     }
   ]
 }
