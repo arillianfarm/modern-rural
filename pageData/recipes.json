@@ -1163,6 +1163,50 @@
         "instruction":"Serve with Gravy and cranberry sauce."
       }],
       "notes": "Use Left-Overs From a Holiday Meal or Make From Scratch as a Party Appetizer"
+    },
+    {
+      "name": "Air Fried Veggies with Ricotta Honey Dip",
+      "header_pic": "vricotdone.png",
+      "pub_date": "12/06/24",
+      "servings": "2-3",
+      "related_recipes": [],
+      "ingredients": [
+        "2-3 cups chopped veggies (I use carrots and broccoli florets, but most veggies work)",
+        "1/2 tablespoon olive oil",
+        "1/4 cup ricotta cheese",
+        "1/2 tsp honey"
+      ],
+      "steps": [{
+        "pic": "vricot1.png",
+        "instruction":"Toss Veggies in olive oil and air fry at 385F for 10-15 minutes (depending on desired char and tenderness for the veggies)"
+      },{
+        "pic": "vricot2.png",
+        "instruction":"In a small bowl or cup, using a fork or whisk, stir honey into ricotta."
+      },{
+        "pic": "vricotdone.png",
+        "instruction":"Enjoy as a snack or side dish."
+      }],
+      "notes": "Some Yum For Your Tum"
+    },
+    {
+      "name": "Goat Cheese Stuffed Baby Bell Peppers",
+      "header_pic": "gpepdone.png",
+      "pub_date": "12/06/24",
+      "servings": "1",
+      "related_recipes": [],
+      "ingredients": [
+        "5 baby bell peppers (topped and de-seeded",
+        "2 tablespoons plain goat cheese",
+        "A drizzle of olive (optional)"
+      ],
+      "steps": [{
+        "pic": "gpep1.png",
+        "instruction":"divid goat cheese into 5 equal portions and use spoon to poke a portion into each bell pepper. (optional - drizzle with olive oil)"
+      },{
+        "pic": "gpepdone.png",
+        "instruction":"Air Fry at 385 for 10-15 minutes --until skin is blistered and exposed goat cheese is browned. -- serve when warm, but not hot."
+      }],
+      "notes": "An Easy, Pleasing Appetizer"
     }
   ]
 }
