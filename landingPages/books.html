@@ -6,7 +6,7 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-lg-5 mt-0 mb-2 text-center">
-            <h3 class="text-muted mt-0">
+            <h3 ng-if="false" class="text-muted mt-0">
                 <a href="#!hype123">Click Here to Read Hyperspear (full Novella) for Free!</a>
             </h3>
             <div class="text-justify mb-3" ng-click="setNextDisplayPage('hyperspear')">
@@ -16,6 +16,8 @@
                 <h4 class="text-white">
                     Three unlikely souls. One mysterious supper club -- And obviously-- a multiverse.
                 </h4>
+                <h4><a href="https://www.amazon.com/unFETTERed-Jillian-Fetter/dp/1508406952/ref=cm_cr_arp_d_product_top?ie=UTF8" target="_blank">Enter Hyperspear <i class="fa fa-external-link"></i></a></h4>
+
                 <p class="large text-muted">
                     Fremont, California. A group of strangers, drawn together by a curious online invitation and a longing for fellowship, find themselves sharing a meal in the front yard of a charmingly odd hobby chef and gardener named Jeff.
                     Little does each know, as they settle around Jeff’s picnic table for a bowl of “odd-ball soup”, that this seemingly quiet supper club will serve as their gateway to a mysterious reality bending adventure inside Hyperspear.
@@ -35,8 +37,8 @@
             </div>
         </div>
         <div class="col-xs-12 col-lg-5 text-justified text-white mb-3" ng-click="setNextDisplayPage()">
-            <a >
-                <img ng-src="./assets/books/{{data.unfettered_display_page}}" style="height: 700px;">
+            <a>
+                <img ng-src="./assets/books/{{data.unfettered_display_page}}" style="height:40em;max-width:30em;">
             </a>
             <span class="border-bottom border-warning" style="height: 10px;"></span>
             <h4 class="">If you like puns and self-deprecating humor...</h4>
