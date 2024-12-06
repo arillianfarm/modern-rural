@@ -738,7 +738,7 @@
     }, {
       "entry_number": 11,
       "entry_date": "Nov 15, 2024",
-      "entry_subject": "You Tube-ing",
+      "entry_subject": "YouTube-ing",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/youtubeA.png"
@@ -780,6 +780,46 @@
           }]
         }
       ]
+    }, {
+      "entry_number": 12,
+      "entry_date": "Dec 6, 2024",
+      "entry_subject": "Self Publishing on Amazon",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/amazonPub.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "right_side_pic": true,
+        "pics": ["amazonPub.png"],
+        "paragraphs": [
+          {
+            "text": "After nearly a decade of writing and tinkering, I finally decided to cast Hyperspear into the Amazon this week."
+          },
+          {
+            "text":  "The sendoff was smooth and simple: I had an AI generate me a cover (a while ago) and spent a few hours on Monday laying out chapter headings and content, and voilà -- Anyone with a Kindle can now read Hyperspear and next Tuesday anyone who wants to buy a paperback can snatch it up off Amazon."
+          },
+          {
+            "text": "Seeing my little 'Amazon Bookshelf' grow does elicit a twinge of pride, but now I face the humbling challenge of marketing and promotion."
+          }
+        ]
+      },{
+          "vid": "5WhMLswBhfM",
+          "paragraphs": [{
+            "text": "And, in a world ruled by fifteen second video shorts and paperless everything, it's going to be a struggle to grab and hold the attention of my audience, but if I've learned anything since I started working on this site, it's that -- I love YouTube so I should probably try to leverage that platform as much as I can."
+          },
+            {
+            "text": "To that end, I've started narrating and recording my chapters with the plan to eventually create a dedicatd Hyperspear YouTube channel and release a chapter or two per week. That being said, I hate the sound of my own voice and I think I have a few more things to learn about YouTube before I'm ready to start another channel, but for now, here's my best attempt at self narrating my book. And if you hate the sound of my voice as much as I do, please feel free to hop onto Amazon and get yourself a copy of Hyperspear to read silently to yourself!"
+          }]
+        }]
     }
   ]
 }

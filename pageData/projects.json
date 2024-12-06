@@ -4,7 +4,6 @@
     "name": "Catio",
     "pub_date": "8/9/24",
     "header_pic": "catioDone.png",
-    "featured": true,
     "categories": ["construction", "pets", "tempe"],
     "about": "Last year, my best friend and her girlfriend along with their three cats moved into one of the units in the two rental houses I own on a 9000 sq ft lot in Tempe, AZ. I wanted to make sure their cats had space to get fresh air and get away from each other if needed (as they blended their cat families) —and I love woodworking, so I decided to build a catio for them.",
     "tools": [
@@ -878,7 +877,6 @@
       "name": "Converting Mini Bike From Gas To Electric",
       "header_pic": "minibikedone.png",
       "pub_date": "11/8/24",
-      "featured": true,
       "categories": ["Vehicles"],
       "about": "More Zooms With Less Fumes",
       "tools": [
@@ -990,7 +988,6 @@
       "name":  "Arillian Christmas Trees",
       "pub_date": "11/22/24",
       "header_pic": "xmasTree1.png",
-      "featured": true,
       "categories": ["recreation"],
       "about": "Arthur and I try to keep our tree fresh for the holidays.",
       "tools": [
@@ -1071,6 +1068,62 @@
           "paragraphs": [
             {
               "text": "This years tree is still a work in-progress, but it will definitely involve a matchbox car track and hopefully at least 1 loop."
+            }
+          ]
+        }
+      ]
+    }, {
+      "name":  "Rube Goldberg Machine X-mas Tree",
+      "pub_date": "12/6/24",
+      "header_pic": "rgTreeStart.png",
+      "featured": true,
+      "categories": ["recreation"],
+      "about": "We Used Arthur's Sons' Toys to Make a Delightfully Inefficient Mechanism to Turn on Our Tree Lights This Year",
+       "tools": ["various"],
+      "materials": [
+        "various"
+      ],
+      "materials_pics": [
+      ],
+      "phases": [
+        {
+          "pic": "rgTreeStart.png",
+          "paragraphs": [
+            {"text": "First, we used a matchbox car set to make a track through our winter village."}
+          ]
+        },{
+          "right_side_pic": true,
+          "pic": "rgTree2.png",
+          "paragraphs": [
+            {"text": "At the end of the track, the matchbox car runs into a bucket with a string tied to the handle, knocking it off a platform."}
+          ]
+        },{
+          "pic": "rgTree3.png",
+          "paragraphs": [
+            {"text": "When the bucket falls, the string around its handle tugs on the end of a binder clip, where a golf ball is tenuously perched. The golf ball then falls down a duct"}
+          ]
+        },{
+          "pic": "rgTree4.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {"text": "The ball shoots out the bottom of the duct and runs down a series of ramps down around the tree before rolling down a wrapping paper tube."}
+          ]
+        },{
+          "pic": "rgTree5.png",
+          "paragraphs": [
+            {"text": "The wrapping paper tube is taped to another piece of Matchbox car track which has a mechanism to launch a second matchbox car --which has a fishing line duct taped to its roof. The other end of the line is tied to a release lever for a toy Thomas Train. (Arthur drilled a hole in that lever so we could tie the string securly). When the golf ball rolls down the rolling paper tube and down the matchbox track it triggers the Matchbox car to lurch forward, pulling the train release. The Thomas train then goes around the Christmas tree."}
+          ]
+        },{
+          "pic": "rgTree6.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {"text": "The train track terminates at a small drop off that dumps the train onto the paddle of a mouse trap. When the train runs off the track onto the paddle, the trap flips another matchbox track mechanism that has a bolt taped to it like a hammer head. The heavy bolt falls onto the switch of a power strip"}
+          ]
+        },{
+          "vid": "G4s1u7HVR2I",
+          "paragraphs": [
+            {
+              "text": "and just like that the Christmas Village and Tree are illuminated!."
             }
           ]
         }
