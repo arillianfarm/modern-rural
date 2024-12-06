@@ -780,9 +780,11 @@
           }]
         }
       ]
-    }, {
+    },
+    {
       "entry_number": 12,
       "entry_date": "Dec 6, 2024",
+      "featured_blog": true,
       "entry_subject": "Self Publishing on Amazon",
       "feature_section_1": {
         "caption": "",
@@ -798,7 +800,6 @@
       },
       "sections": [
         {
-          "right_side_pic": true,
         "pics": ["amazonPub.png"],
         "paragraphs": [
           {
@@ -813,6 +814,7 @@
         ]
       },{
           "vid": "5WhMLswBhfM",
+          "right_side_pic": true,
           "paragraphs": [{
             "text": "And, in a world ruled by fifteen second video shorts and paperless everything, it's going to be a struggle to grab and hold the attention of my audience, but if I've learned anything since I started working on this site, it's that -- I love YouTube so I should probably try to leverage that platform as much as I can."
           },
