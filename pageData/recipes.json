@@ -929,7 +929,6 @@
       "notes": "Pairs nicely with cold weather."
     },{
       "name": "Fall Forage Wrap",
-      "featured": true,
       "pub_date": "11/8/24",
       "header_pic": "ffwrap1.png",
       "servings": "1-2 servings",
@@ -1119,7 +1118,6 @@
     {
       "name": "Holiday Sides Cup Cake Pies",
       "header_pic": "sidePieDone.png",
-      "featured": true,
       "pub_date": "11/22/24",
       "servings": "8 servings",
       "related_recipes": ["Quick Thick Herb Gravy", "Small Batch Green Bean Casserole", "small batch mashed potatoes"],
@@ -1195,18 +1193,60 @@
       "servings": "1",
       "related_recipes": [],
       "ingredients": [
-        "5 baby bell peppers (topped and de-seeded",
+        "5 baby bell peppers (topped and de-seeded)",
         "2 tablespoons plain goat cheese",
         "A drizzle of olive (optional)"
       ],
       "steps": [{
         "pic": "gpep1.png",
-        "instruction":"divid goat cheese into 5 equal portions and use spoon to poke a portion into each bell pepper. (optional - drizzle with olive oil)"
+        "instruction":"divide goat cheese into 5 equal portions and use spoon to poke a portion into each bell pepper. (optional - drizzle with olive oil)"
       },{
         "pic": "gpepdone.png",
         "instruction":"Air Fry at 385 for 10-15 minutes --until skin is blistered and exposed goat cheese is browned. -- serve when warm, but not hot."
       }],
       "notes": "An Easy, Pleasing Appetizer"
+    },
+    {
+      "name": "rice-oto pilaf",
+      "header_pic": "riplafDone.png",
+      "pub_date": "12/13/24",
+      "servings": "3-4 servings",
+      "featured": true,
+      "related_recipes": [],
+      "ingredients": [
+        "1 tablespoon of butter",
+        "1 clove of garlic - minced or pressed",
+        "1/4 tsp (freshly) ground black pepper",
+        "1/4-1/2 tsp finely diced fresh sage",
+        "2 cups sliced crimini or portabella mushroom",
+        "5-6 asparagus spears (fresh or frozen) - chopped into 1 inch lengths",
+        "1 cup butternut squash chopped into 1/2inc cubes",
+        "1 cup broth (or 1/2 bullion cube hydrated in 1 cup boiling water)",
+        "1 tsp soy sauce",
+        "1/4 cup chopped walnuts",
+        "1/2 cup shredded parmesan cheese",
+        "2 cups of cooked rice"
+      ],
+      "steps": [{
+        "pic": "riplaf1.png",
+        "instruction":"Melt butter in a large pan over medium heat then add garlic, black pepper and sage - stir fry in butter until garlic is fragrant (about 2 minutes)."
+      },{
+        "pic": "riplaf2.png",
+        "instruction":"Add Mushrooms and continue to saute until mushrooms are sweating (about 5 minutes) Then add asparagus and butternut squash."
+      },{
+        "pic": "riplaf3.png",
+        "instruction":"Saute another 5 minutes, then add broth and soy sauce, turn heat up to high and simmer for 8-10 minutes (until butternut squash is tender)"
+      },{
+        "pic": "riplaf4.png",
+        "instruction":"Remove from heat and stir in parmesan cheese."
+      },{
+        "pic": "riplaf5.png",
+        "instruction":"Stir in rice."
+      },{
+        "pic": "riplafdone.png",
+        "instruction":"Serve hot, a squeeze of lemon juice is nice if you have a fresh lemon handy."
+      }],
+      "notes": "It's like Rice Pilaf and Risotto had a baby!"
     }
   ]
 }
