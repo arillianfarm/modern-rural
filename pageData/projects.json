@@ -1128,6 +1128,100 @@
           ]
         }
       ]
-    }
+    },
+    {
+      "name": "Carrom Boards",
+      "pub_date": "12/13/24",
+      "header_pic": "carromdone.png",
+      "about": "A fun game table game to play with friends and family and a great way to use some wood scraps",
+      "featured": true,
+      "categories": ["gift ideas"],
+      "tools": [],
+      "materials": [],
+      "phases": [
+        {
+          "pic": "carromA.png",
+          "paragraphs": [
+            {
+              "text": "When my brother and I were in elementary school, there were carrom boards we loved to play with at recess. I thought it would be fun for him to play those games with my nieces, so I recreated a couple of the boards for my brother's Christmas present last year."},
+            {
+              "text": "There were several different stick and puck games, my favorite ones were a maze and a golf game. I didn't remember exactly how the games were played, so I found images of those games online for inspiration. "
+            }
+          ]
+        },
+        {
+          "pic": "carrom1.png",
+          "paragraphs": [
+            {
+              "text": "I had enough leftover plywood (from another project) to make two 2-sided boards, so I decided to recreate the maze game on one board and the golf game on the other and then make up new games to go on the bottom side of each of those game boards (I made a soccer game on one and, just colored circles inside of circles for the other --thinking my brother and neices could make up their own game rules for that board."
+            }, {
+              "text": "I used iron pipes to make a frame to hold the boards and made sure my board designs left a flat space for the table upper supports to slot in."
+            }
+          ]
+        },
+        {
+          "pic": "carrom2.png",
+          "paragraphs": [
+            {
+              "text": "For the soccer game, I used an electric miter saw to cut small pieces of wood which I dyed with food coloring to represent soccer players."
+            }
+          ]
+        },
+        {
+          "pic": "carrom3.png",
+          "paragraphs": [
+            {
+              "text": "For a grassy effect on the golf course and soccer games, I dyed the board green with food coloring."
+            }
+          ]
+        },
+        {
+          "pic": "carrom6.png",
+          "paragraphs": [
+            {
+              "text": "Then I drew soccer lines on with a white paint pen and ruler (and used the inner circle of a roll of painters tape to trace circles and semi-circles for round features)."
+            }]
+        },
+        {
+          "pic": "carrom7.png",
+          "paragraphs": [
+            {
+              "text": "I glued the dyed wood pieces onto the board with wood glue."
+            }]
+        },
+        {
+          "pic": "carrom8.png",
+          "paragraphs": [
+            {
+              "text": "I added a piece of trim around the edge to allow for bank shots and to keep the wooden game puck from constantly flying off the table."
+            }]},
+        {
+          "pic": "carrom4.png",
+          "paragraphs": [
+            {
+              "text": "For the 'golf course', I glued down cut pieces as obstacles and used paint pens to mark the 'holes' and add additional obstacles. I made wooden pucks by sawing discs off the ends of a closet dowel I had and I died those with food coloring as well."
+            }
+          ]
+        },
+            {
+          "pic": "carrom9.png",
+          "paragraphs": [
+            {
+              "text": "I bought a pack of 1/2 inch x 12 inch white wood pieces from the trim wood section of Home Depot. Using those, I laid out a small laberynth and glued those in place with wood glue. Then I used paint markers to add shoots and ladder style bonuses and traps to the labrynth"
+            }]},
+            {
+          "pic": "carromD1.png",
+          "paragraphs": [
+            {
+              "text": "After I had all the boards painted and wooden features glued, I varnished each board to protect the paint and help the wooden pucks slide easier"
+            }]},
+            {
+          "pic": "carromD2.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        }]}
   ]
 }

@@ -1208,10 +1208,10 @@
     },
     {
       "name": "rice-oto pilaf",
+      "featured": true,
       "header_pic": "riplafDone.png",
       "pub_date": "12/13/24",
       "servings": "3-4 servings",
-      "featured": true,
       "related_recipes": [],
       "ingredients": [
         "1 tablespoon of butter",
