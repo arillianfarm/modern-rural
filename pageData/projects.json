@@ -1134,10 +1134,22 @@
       "pub_date": "12/13/24",
       "header_pic": "carromdone.png",
       "about": "A fun game table game to play with friends and family and a great way to use some wood scraps",
-      "featured": true,
       "categories": ["gift ideas"],
-      "tools": [],
-      "materials": [],
+      "tools": [
+        "circular saw",
+        "electric miter saw"
+      ],
+      "materials": [
+        "1/4 sheet of plywood - cut in half",
+        "scrap wood for various obstacles",
+        "1 ft of closet dowel wood",
+        "framing wood (to go around edges of board)",
+        "colored paint pens",
+        "food coloring",
+        "small dowels to use as cue sticks",
+        "pipes (for table frame)",
+        "varnish"
+      ],
       "phases": [
         {
           "pic": "carromA.png",
@@ -1220,6 +1232,67 @@
           "paragraphs": [
             {
               "text": ""
+            }
+          ]
+        }]},
+    {
+      "name": "Resin and Rock Chess Board",
+      "pub_date": "12/20/24",
+      "header_pic": "chessDone.png",
+      "about": "Epoxy is a fun and versatile medium for crafting",
+      "featured": true,
+      "categories": ["gift ideas"],
+      "tools": [
+        "electric miter saw (to cut wood frame pieces)",
+        "gloves",
+        "silicone molds for chess pieces and board (from Amazon)",
+        "stirring stick (to mix epoxy resin)",
+        "mixing vessels (to combine part A and part B of epoxy resin)"
+      ],
+      "materials": [
+        "quarter round wood trim (for framing the board)",
+        "super glue (to glue frame to board)",
+        "A/B Epoxy resin mix",
+        "stain or finish for wood frame",
+        "dark and light gravel, dried flowers, seeds, etc",
+        "toothpicks (for repositioning floating decor)"
+      ],
+      "phases": [
+        {
+          "pic": "Chess2.png",
+          "paragraphs": [
+            {
+              "text": "Find a level workspace, lay down a piece of cardboard, plastic or cloth under the chess board mold and begin laying out stones, seeds etc, in each square of the mold, alternating dark and light in a checkerboard fashion."
+            },{
+              "text": "Pro Tip-  About 70-80% of the board should be epoxy, so don't layer materials too thick inside the mold."
+            }
+          ]
+        },
+        {
+          "pic": "Chess2b.png",
+          "paragraphs": [
+            {
+              "text": "When you are satisfied with the board layout, follow instructions on epoxy resin kit to make about 1 cup of resin for the chess board. When fully mixed and activated, pour resin over the gravel etc in your board frame"
+            },
+            {"text":   "Pro-tip: keep a tooth pick handy to help reposition dried flowers or lighter materials that may float up when you pour the epoxy"}
+          ]
+        },
+        {
+          "pic": "chess4.png",
+          "paragraphs": [
+            {
+              "text": "While the board hardens, begin filling the molds for the chess pieces."
+            },
+            {
+              "text": "Pro Tip - Use small bits of material in the molds for the chess pieces so that the gravel won't choke off epoxy from penetrating all the way throughout the mold and remember should be at least 70-80% Epoxy and only 20-30% gravel."
+            }
+          ]
+        },
+        {
+          "pic": "chessDone.png",
+          "paragraphs": [
+            {
+              "text": "Once the board is fully hardened and no longer tacky, miter cut quarter round and use super glue to glue it in place around the board."
             }
           ]
         }]}

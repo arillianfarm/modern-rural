@@ -1208,7 +1208,6 @@
     },
     {
       "name": "rice-oto pilaf",
-      "featured": true,
       "header_pic": "riplafDone.png",
       "pub_date": "12/13/24",
       "servings": "3-4 servings",
@@ -1247,6 +1246,51 @@
         "instruction":"Serve hot, a squeeze of lemon juice is nice if you have a fresh lemon handy."
       }],
       "notes": "It's like Rice Pilaf and Risotto had a baby!"
+    },
+    {
+      "name": "Ginger Molasses Cookies",
+      "featured": true,
+      "header_pic": "ginCookPre.png",
+      "pub_date": "12/20/24",
+      "servings": "3-4 servings",
+      "related_recipes": [],
+      "ingredients": [
+        "3/4 cup unsalted butter - softened",
+        "1 large egg",
+        "1 1/4 cup granulated sugar - divided",
+        "2 tablespoons fresh grated ginger",
+        "1/4 cup molasses",
+        "2 1/4 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp salt"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"Dry Ingredients - In a medium-large bowl, whisk or mix together flour, baking soda, and salt."
+      },{
+        "pic": "ginCook1.png",
+        "instruction":"In the bowl of a stand mixer (or using a hand mixer), beat butter, 1 cup sugar, and ginger until light and fluffy. Then add in molasses and egg."
+      },{
+        "pic": "ginCookMol.png",
+        "instruction":"Note - If you're low on molasses, set the jar in a mug of hot water before pouring"
+      },
+        {
+        "pic": "ginCook2.png",
+        "instruction":"Using a rubber scraper or spoon, fold in the 'Dry Ingredients' until roughly combined, then cover and chill in the fridge for at least an hour."
+        },{
+        "pic": "",
+        "instruction":"Remove dough from fridge and preheat oven to 350F."
+      },{
+        "pic": "ginCook3.png",
+        "instruction":"Roll 1-2 inch balls of chilled dough in the remaining 1/4 cup of sugar and place 2 inches apart on an un-greased baking tray."
+      },{
+        "pic": "ginCook4.png",
+        "instruction":"Bake for 15 minutes (or until the edges are starting to brown)."
+      },{
+        "pic": "ginCookDone.png",
+        "instruction":"Remove from oven and cool on baking rack."
+      }],
+      "notes": "Raw Ginger Keeps It Fresh!"
     }
   ]
 }
