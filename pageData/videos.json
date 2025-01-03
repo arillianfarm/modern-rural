@@ -513,16 +513,6 @@
       "albums": ["chickens","animals"],
       "release_date": "12/20/24"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new", "chickens","animals"],
-      "release_date": "12/27/24"
-    },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new", "chickens","animals"],
-      "release_date": "12/27/24"
-    },{
       "youtubeID": "PlbNmCnbQmY",
       "title": "Puppy Christmas Morning 2023 - You can see each dog's distinct personality",
       "albums": ["new", "dogs","animals"],
@@ -636,6 +626,11 @@
       "youtubeID": "aHprU-WKKew",
       "title": "Clucking neighbors always peeping over our wall",
       "albums": ["new", "chickens","animals"],
+      "release_date": "1/3/24"
+    },{
+      "youtubeID": "SjO6DoXPn9s",
+      "title": "Looking Back at our Dogs' favorite toys in 2024",
+      "albums": ["new", "dogs","animals"],
       "release_date": "1/3/24"
     }
   ]

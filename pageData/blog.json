@@ -784,7 +784,6 @@
     {
       "entry_number": 12,
       "entry_date": "Dec 6, 2024",
-      "featured_blog": true,
       "entry_subject": "Self Publishing on Amazon",
       "feature_section_1": {
         "caption": "",
@@ -820,6 +819,86 @@
           },
             {
             "text": "To that end, I've started narrating and recording my chapters with the plan to eventually create a dedicatd Hyperspear YouTube channel and release a chapter or two per week. That being said, I hate the sound of my own voice and I think I have a few more things to learn about YouTube before I'm ready to start another channel, but for now, here's my best attempt at self narrating my book. And if you hate the sound of my voice as much as I do, please feel free to hop onto Amazon and get yourself a copy of Hyperspear to read silently to yourself!"
+          }]
+        }]
+    },
+    {
+      "entry_number": 13,
+      "entry_date": "Jan 3, 2025",
+      "featured_blog": true,
+      "entry_subject": "Looking Back at Our Dogs Favorite Toys in 2024",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/turtleToy.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pic_file": "turtleToy.png",
+          "link": "https://www.amazon.com/YILAKO-Aggressive-Chewers-Indestructible-Non-Toxic/dp/B094FZ3PPZ?pd_rd_w=CPFjv&content-id=amzn1.sym.59910fa8-b73c-408a-aa5f-d0b4e0aa42cb&pf_rd_p=59910fa8-b73c-408a-aa5f-d0b4e0aa42cb&pf_rd_r=B3E24NTCSGG85A2R8SMV&pd_rd_wg=0v5op&pd_rd_r=40ec9c93-d4d2-4754-9001-84d6a1fd5456&pd_rd_i=B094FZ3PPZ&ref_=pd_bap_d_grid_rp_0_1_ec_pd_hp_d_atf_rp_3_i&th=1",
+          "paragraphs": [
+            {
+              "text": "Overall Favorite - YILAKO Squeaky Turtle",
+              "h4": true
+            },
+          {
+            "text": "This has been a long time favorite in our household. The shape of this toy makes it bounce randomly and up until the bottom plug is ripped out it can bounce pretty high too."
+          },{
+            "text": "It took our dogs a couple months to rip the squeaker plug out of the first turlte we bought, but these days if we get a new turtle the squeaker is usually out within a week, but the turtle itself is very durable and can last a year or more if you keep it out of the sun."
+          }
+        ]
+      },{
+          "right_side_pic": true,
+        "pic_file": "dogOsoar.png",
+        "link":"https://www.amazon.com/Flying-Flyer-Rubber-Interactive-Small/dp/B098BJM7BB/ref=sr_1_4?crid=3ERB6R7DEE58F&dib=eyJ2IjoiMSJ9.QnoYoFeY25kI0rpzXJ0WiAD9hTgy8xd5C2BPvTRlXa8PeJiRI0driHCnlGdR2aZo8I5ADwpEHjDHCCSWKWKl_rOnvV0DHOHnrnPC0_7aveYgoGpWFwiSeskSKv7wQfTXH_zXlBruqOMFANwH_X0bgFxrQj63KW8SA4_v1DGiHdzIvdvVo5PI66ZN_4-MUlondSWoKl-glDQ25EzbqbBaH5ar1O4HjqqNyUnZCe5bKGHVQ2tsJpsXANYk-hGibpc4N9FJAlXiLvPy4I2-QRqwFL5hx6u_lL6YpOtpNvkufYn1bdA7y_CYJQLSWaTql7uwmHJRkcwzE6yOF8adJcNKy-S77wJtmQ97ca9m_TXQ8gY.BdqzxqkGVlCm-Kcqmkm1HVTuI8A54Cyed_uoIGaEuAg&dib_tag=se&keywords=dog%2Bo%2Bsoar&qid=1735836885&s=pet-supplies&sprefix=dog%2Bo%2Bsoar%2Cpets%2C177&sr=1-4&th=1",
+        "paragraphs": [
+          {
+            "text": "Favorite Flying Disc - Dog-O-Soar Frisbee",
+            "h4": true
+          },{
+            "text": "This toy is not durable at all whatsoever, but it continues to fly well and remains a popular toy with our toy-loving boy dogs even though there's barely any toy left to love."
+          }
+        ]
+      },{
+        "pic_file": "blueftball.png",
+        "link":"https://www.amazon.com/gp/product/B086BTZM3V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1",
+        "paragraphs": [
+          {
+            "text": "Best For Catch - EASTBLUE squeaky football",
+            "h4": true
+          },{
+            "text": "This toy was very popular with Huey Ka-Bluey and Pajama for playing catch. Its a good size and shape for them to wrap their mouth around and the football shape is obviously easy to throw far and has a random bounce when it lands."
+          },{
+            "text": "It took over a month before (obsessively destructive) Pajama ripped the front off and chewed up the squeaker plug. Even without the squeaker, the football has remained popular with our boy dogs."
+          }
+        ]
+      },{
+          "right_side_pic": true,
+        "pic_file": "foodBall.png",
+        "link":"https://www.amazon.com/dp/B0CQR9741Z/ref=vp_d_fuw_pd?_encoding=UTF8&pf_rd_p=95590a51-8b9e-49a7-bb36-7db49ee510df&pf_rd_r=KHCB79Q8J6GD20FBVEY0&pd_rd_wg=7xvwE&pd_rd_i=B0CQR9741Z&pd_rd_w=UTABj&content-id=amzn1.sym.95590a51-8b9e-49a7-bb36-7db49ee510df&pd_rd_r=f8bd9966-d5d6-4838-9e77-a38cabf83bfb&th=1",
+          "paragraphs": [
+          {
+            "text": "Best Distraction - YIPETOR Treat Dispensing Dog Toy",
+            "h4": true
+          },{
+            "text": "This toy is great for times when I want all of the dogs to be quiet and leave me alone because ALL of our dogs --EVEN XENA-- love this toy. It's a quality rubber toy that actually bounces pretty well and is decent for fetch when its empty, but its a great way to pacify dogs and give them a snack."
+            },
+            {
+              "text": "There is a removable plug, so you can either put kibble/ treats in with the plug or you can put broth or yogurt etc in and freeze it. I can't wait to give the dogs homemade dog popsicles when we're in the pool next summer!"
+            }
+        ]
+      },{
+          "vid": "SjO6DoXPn9s",
+          "paragraphs": [{
+            "text": "Toys In Action.",
+            "h4": true
           }]
         }]
     }
