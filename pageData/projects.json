@@ -1295,54 +1295,78 @@
               "text": "Once the board is fully hardened and no longer tacky, miter cut quarter round and use super glue to glue it in place around the board."
             }
           ]
-        }]},{
-      "name": "Tough Shed Barn",
+        }]},
+    {
+      "name": "8ft x 8 ft Paver Patio",
       "pub_date": "1/10/25",
-      "header_pic": "",
+      "header_pic": "pavPat4.png",
       "about": "",
       "featured": true,
       "categories": ["construction","farm"],
       "tools": [
+        "Tape measure",
+        "Wood stakes, rebar or similar",
+        "Rope or twine",
+        "Shovel",
+        "Rake",
+        "Level",
+        "2x4 (to screed sand)",
+        "Tamper or compactor",
+        "Push broom"
       ],
       "materials": [
+        "8 1/2 cu ft bags of gravel",
+        "10 1/2 cu ft bags of paver sand",
+        "64 1ft x 1ft x 1.5inch paver stones"
       ],
       "phases": [
+        {
+          "pic": "pavPat1.png",
+          "paragraphs": [
+            {
+              "text": "Using a tape measure, stake out a 8.6ft x 8.6ft square. Then run rope or twine around the stakes to mark the perimeter of your patio."
+            }
+          ]
+        },
         {
           "pic": "",
           "paragraphs": [
             {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "",
-          "paragraphs": [
-            {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "",
-          "paragraphs": [
-            {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "",
-          "paragraphs": [
-            {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "",
-          "paragraphs": [
-            {
-              "text": ""
+              "text": "Use shovel (or preferred digging tool) to dig your patio area down 2 inches. Use a rake to roughly level the patio area."
             }
           ]
         },
-  ]}
+        {
+          "pic": "pavPat2.png",
+          "paragraphs": [
+            {
+              "text": "Distribute bags of gravel around patio area, break the bags open with a shovel (discard bags) and use a shovel to distribute the gravel around the patio area. Use rake to roughly level the gravel, then tamp down until gravel is evenly pact. Place a straight 2x4 on one edge of the gravel and hold a level on top of it screed the patio with the 2x4 until level."
+            }
+          ]
+        },
+        {
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Distribute 8 bags of sand around patio area (reserving 2 bags to use as joint sand), break the bags open with a shovel (discard bags) and use a shovel to distribute the sand around the patio area. Use rake to roughly level the sand, then use a 2x4 (and hold a level on top) to 'screed' the sand."
+            }]},
+        {
+          "pic": "pavPat3.png",
+          "paragraphs": [
+            {
+              "text": "Carefully place the pavers on the screeded sand bedin a grid pattern then use tamp to level the paver stones."
+            }
+          ]
+        },
+        {
+          "pic": "pavPat4.png",
+          "paragraphs": [
+            {
+              "text": "Puncture the remaining sand bags and shake evenly over the top of the tamped pavers the, using a push broom, spread the sand around the paver patio until all paving stones are locked in place."
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
