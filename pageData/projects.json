@@ -1295,6 +1295,54 @@
               "text": "Once the board is fully hardened and no longer tacky, miter cut quarter round and use super glue to glue it in place around the board."
             }
           ]
-        }]}
+        }]},{
+      "name": "Tough Shed Barn",
+      "pub_date": "1/10/25",
+      "header_pic": "",
+      "about": "",
+      "featured": true,
+      "categories": ["construction","farm"],
+      "tools": [
+      ],
+      "materials": [
+      ],
+      "phases": [
+        {
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },
+  ]}
   ]
 }
