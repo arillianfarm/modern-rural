@@ -1296,7 +1296,6 @@
     {
       "name": "Pecan Pie",
       "header_pic": "pecPieDone.png",
-      "featured": true,
       "pub_date": "1/3/25",
       "servings": "1 pie or 6-8 mini pies",
       "related_recipes": [],
@@ -1329,6 +1328,45 @@
         "instruction": "Bake at 400F for 10 minutes, then reduce heat to 350F and bake for another 30-40 minutes (until filling is set). Remove from oven and cool to room temperature before serving."
       }],
       "notes": "That Icky Sticky!"
+    },
+    {
+      "name": "Asparagus Mushroom Quiche",
+      "header_pic": "asQuiDone.png",
+      "featured": true,
+      "pub_date": "1/10/25",
+      "servings": "1 pie (serves 4-6)",
+      "related_recipes": [],
+      "ingredients": [
+        "1 un-baked pie crust (9inches)",
+        "2 tablespoons butter",
+        "1/2 cup chopped onion",
+        "1/2 tsp black pepper",
+        "1 cup chopped Asparagus",
+        "1 cup chopped Crimini or Button mushrooms",
+        "4 large eggs (at room temperature)",
+        "1 cup milk",
+        "1 cup grated cheese (cheddar, mozzarella and/or swiss)",
+        "1/4 tsp salt",
+        "6-12 baby bell peppers to decorate top (optional)"
+      ],
+      "steps": [
+        {
+        "pic": "asQui1.png",
+        "instruction":"Pre-bake the pie crust for 5-7 minutes (until starting to brown). NOTE - If you would like to make mini pies instead of 1 large pie, cut pie dough into (6-8) 3-inch circles and line cupcake or mini pie tins with the dough.)"
+      },{
+          "pic": "asQui2.png",
+          "instruction": "In a large skillet, melt butter over medium heat. Add onion and black pepper then cook about 5 minutes (until translucent and fragrant). Add asparagus and mushrooms cook 4-6 minutes more (until asparagus and mushrooms are tender, fragrant and starting to crisp)."
+        },{
+          "pic": "asQui3.png",
+          "instruction": "In a large bowl, whisk together eggs, milk, and salt then Stir in cheddar cheese and sauteed vegetables. (NOTE - you can prepare in advance and store this mixture in the fridge for upto 24 hours)"
+        },{
+          "pic": "asQui4.png",
+          "instruction": "Pour egg mixture into pre-baked pie crust and Bake at 375F for 40-45 minutes (until the center is set and the edges are golden brown)."
+        },{
+          "pic": "asQuiDone.png",
+          "instruction": "Let cool for 10 minutes before serving."
+        }],
+      "notes": "Nice Brunch After the Holidays... when Pie Crusts are On Sale!"
     }
   ]
 }

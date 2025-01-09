@@ -9,11 +9,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     console.log("app loaded "+ Date.now())
     $routeProvider
         .when("/", {
-            templateUrl : "landingPages/main.html",
+            templateUrl : "landingPages/videos.html",
             controller: "mainController"
         })
         .when("/main", {
-            templateUrl : "landingPages/main.html"
+            templateUrl : "landingPages/videos.html"
         })
         .when("/pets", {
             templateUrl : "landingPages/animalCare.html"
@@ -468,7 +468,10 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
 
     $rootScope.initializeView = function(view){
         let viewType = view.toLowerCase();
-        let uninitializedViews = ['merch','main', 'about', 'comics', 'hype123',''];
+        let uninitializedViews = ['merch', 'about', 'comics', 'hype123'];
+        if (viewType == '' || viewType == 'main'){
+            viewType = 'videos';
+        }
         if (uninitializedViews.indexOf(viewType) > -1){
             $scope.scrollToHashOrTop();
             return;
@@ -502,6 +505,7 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
                     $scope.data.recipes = angular.copy($scope.recipesRaw);
                     break;
                 case 'videos':
+                case 'main':
                         $scope.videosRaw = dataArr;
                         $scope.goToAlbum('new', viewType);
                     break;
