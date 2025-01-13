@@ -825,7 +825,6 @@
     {
       "entry_number": 13,
       "entry_date": "Jan 3, 2025",
-      "featured_blog": true,
       "entry_subject": "Looking Back at Our Dogs Favorite Toys in 2024",
       "feature_section_1": {
         "caption": "",
@@ -901,6 +900,37 @@
             "h4": true
           }]
         }]
+    }, {
+      "entry_number": 14,
+      "entry_date": "Jan 17, 2025",
+      "featured_blog": true,
+      "entry_subject": "Ten Years of Arillian",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/arillian1.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pic_file": "",
+          "link": "",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+          {
+            "text": ""
+          }
+        ]
+      }]
     }
   ]
 }
