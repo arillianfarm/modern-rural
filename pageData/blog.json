@@ -907,7 +907,7 @@
       "entry_subject": "Ten Years of Arillian",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/arillian1.jpg"
+        "pic": "assets/blog/arillian1.png"
       },
       "feature_section_2": {
         "caption": "",
@@ -919,16 +919,50 @@
       },
       "sections": [
         {
-          "pic_file": "",
+          "pics": ["piDay.png"],
           "link": "",
           "paragraphs": [
             {
-              "text": "",
+              "text": "Ten years ago (1/18/15) OK Cupid fired its electronic arrow into Arthur's and my Inbox.",
+              "h4": true
+            },
+            {
+              "text": "I friend-zoned him early on, but Arthur took that pie in the face like the heroic rodeo clown of a dude that he is and stood by me as a friend for months while I figured out that I was actually in love with him."
+            }
+        ]
+      },{
+          "pics": ["prague.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Following the Breadcrumbs Laid Out For Us",
               "h4": true
             },
           {
-            "text": ""
+            "text": "We Traipsed across the world (or at least Prague) and all around the Western US"
           }
+        ]
+      },{
+          "pics": ["recentUs.png"],
+          "link": "",
+          "paragraphs": [
+            {
+              "text": "But the home we made together in Arizona",
+              "h4": true
+            },
+          {
+            "text": "Is my favorite, comfy, funny farm, dog-packed wonderland in the world."
+          }
+        ]
+      },{
+          "vid": "x3fGIP3ChNU",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Cheers To 10 Years!",
+              "h4": true
+            }
+
         ]
       }]
     }
