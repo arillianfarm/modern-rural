@@ -1301,7 +1301,6 @@
       "pub_date": "1/10/25",
       "header_pic": "pavPat4.png",
       "about": "",
-      "featured": true,
       "categories": ["construction","farm"],
       "tools": [
         "Tape measure",
@@ -1366,6 +1365,70 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "Desktop Zen Garden (with secret storage spot)",
+      "pub_date": "1/24/25",
+      "header_pic": "sandBoxDone.png",
+      "about": "Cute Gift Idea",
+      "featured": true,
+      "categories": ["gift ideas"],
+      "tools": [
+        "Tape Measure",
+        "Electric Miter Saw or Circular Saw",
+        "Pipe cutter (to cut chop stick)",
+        "Chisel or flathead screwdriver",
+        "hammer",
+        "Wood Glue",
+        "Clamps"
+      ],
+      "materials": [
+        "Quarter Round Trim Wood - To Frame Sand",
+        "Square Dowel (1/2 - 1 inch wide) - For Bottom Feet",
+        "Scrap Wood For Base (shelf wood, plywood etc)",
+        "Sand",
+        "Rocks",
+        "Popsicle Sticks",
+        "Wooden Chop Stick",
+        "Wood BBQ skewer"
+      ],
+      "phases": [
+        {
+          "pic": "sandBox1.png",
+          "paragraphs": [
+            {
+              "text": "Using a Tape Measure and an Electric Miter Saw or Circular Saw, Cut an 8-12 inch square or rectangle for the  base. NOTE - If you are making storage underneath the width of the rectangle should be approx the same as the length of a popsicle stick"
+            },{
+              "text": "Measure each side of the quarter round trim wood to have a slight overhang off edge of the base. Cut ends to meet tightly at a 45 degree angle at each corner. Test fit and re-cut any sides if necessary, then glue the bottom to the base and corner seems together with wood glue and clamp in place until dry."
+            },{
+              "text": "While the top portion is drying, cut off two identical pieces from the square dowel --each should be the same length as the base (or slightly less if you're short on dowel)."
+            }
+          ]},{
+          "pic": "sandBox2.png",
+          "paragraphs": [
+            {
+              "text": "For the 'secret storage compartment' (or greeting card holder), Use a Chisel or Flathead Screw Driver and a Hammer to gouge out slots for the popsicle sticks in the square dowels, (each dowel should have three slots carved out directly across from the opposite base side)."
+            },{
+              "text": "After the glue on the top frame is dry, glue one side of the legs in place, then dip the ends of three popsicle sticks in woodglue and fit into the slots you gouged out."
+            },{
+              "text": "Put glue on both sides of the free end of each popsicle stick, then glue the second leg to the base, while fitting each popsicle stick into place"
+            }
+          ]},{
+          "pic": "sandbox3.png",
+          "paragraphs": [
+            {
+              "text": "To make a Rake For The Garden, use a pipe cutter to cut 1-2 inches off the end off of a Wooden Chop Stick and cut three small dowels off of Wooden BBQ Skewer"
+            },{
+              "text": "To make the broom head, use wood glue to glue the small dowels onto the small portion of the chopstick. When the glue on the broomhead is dry, glue it to the longer end of the chopstick."
+            }
+          ]},{
+          "pic": "sandboxDone.png",
+          "paragraphs": [
+            {
+              "text": "When the glue on the feet is dry, fill with sand, place a few rocks inside and bing bang boom you're in business!"
+            }
+          ]}
       ]
     }
   ]

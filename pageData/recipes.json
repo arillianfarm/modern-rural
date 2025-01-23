@@ -928,7 +928,8 @@
         "instruction": "Enjoy with bread or crackers."
       }],
       "notes": "Pairs nicely with cold weather."
-    },{
+    },
+    {
       "name": "Fall Forage Wrap",
       "pub_date": "11/8/24",
       "header_pic": "ffwrap1.png",
@@ -958,7 +959,8 @@
           "instruction": "Slice in half and enjoy"}
       ],
       "notes": "A Tasty, Healthy Way to Roll"
-    },{
+    },
+    {
       "name": "Egg Salad Sandwich",
       "pub_date": "11/14/24",
       "header_pic": "eggSalDone.png",
@@ -1366,10 +1368,10 @@
           "instruction": "Let cool for 10 minutes before serving."
         }],
       "notes": "Nice Brunch After the Holidays... when Pie Crusts are On Sale!"
-    },{
+    },
+    {
       "name": "Traditional Sourdough Bread",
       "pub_date": "1/17/25",
-      "featured": true,
       "related_recipes": ["Sourdough Starter"],
       "header_pic": "sddone.png",
       "servings": "1 loaf of bread",
@@ -1405,6 +1407,65 @@
           "instruction": "Score the proofed loaf lengthwise 3-4 times then bake at 425 for 40-45 minutes --injecting steam for the first 3-5 minutes. Crust should be dark brown."
         }],
       "notes": "Proof that good things take time."
+    },
+    {
+      "name": "Lemon Meringue Pie",
+      "header_pic": "lemPieDone.png",
+      "featured": true,
+      "pub_date": "1/24/25",
+      "servings": "1 pie or 6-8 mini pies",
+      "related_recipes": [],
+      "ingredients": [
+        "2 cups granulated sugar (1 1/2 cups for filling and 1/2 cup for meringue)",
+        "3 tablespoons corn starch",
+        "1 pinch of salt",
+        "1 1/2 cups cold water",
+        "5 eggs (5 yolks for filling and 5 whites for meringue)",
+        "1/4 cup fresh lemon juice (squeeze 6-8 fresh lemons depending on size)",
+        "1 tablespoon fresh lemon zest (grated from 2-4 lemons)",
+        "1 tablespoon unsalted butter -at room temperature",
+        "1 pie crust -pre baked"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "To prepare pie crust line a pie tin with pie dough or cut pie dough into (6-8) 3-inch circles and line cupcake or mini pie tins with the dough, then air fry for 4-6 minutes at 385 or bake at 400 for 7-10 minutes until starting to brown."
+        },
+        {
+          "pic": "lemPie1.png",
+          "instruction":"In a medium-large pot, stir sugar, corn starch and salt into cold water. Cook over medium heat, stirring constantly until thick and almost clear."
+        },
+        {
+          "pic": "lemPie2.png",
+          "instruction": "Temporarily remove the pot from the burner and in a separate bowl, whisk together approx 1 cup of hot liquid with the egg yolks (to temper the eggs)."
+        },
+        {
+          "pic": "",
+          "instruction": "Whisk the yolk mixture in with the rest of the sugar starch water and return to heat, stirring constantly until thick and smooth."
+
+        },
+        {
+          "pic": "",
+          "instruction": "Stir in the lemon juice and zest then remove from heat and stir in the butter until melted and thoroughly combined."
+
+        },
+        {
+          "pic": "lemPie3.png",
+          "instruction": "Set the filling aside to cool for 3-5 minutes then pour into pre-baked pie-crust"
+        },
+        {
+          "pic": "lemPie4.png",
+          "instruction": "To make the meringue, In the (chilled) bowl of a stand mixer with (chilled) beater attachment, whip the eggwhites until soft peaks form, them slowly add 1/2 cup of white sugar (in small batches with mixer on high speed) until a stiff glossy meringue forms."
+        },
+        {
+          "pic": "lemPie5.png",
+          "instruction": "Using a rubber scraper, glob the meringue over the pie filling and then smooth it into decorative peaks."
+        },
+        {
+          "pic": "lemPieDone.png",
+          "instruction": "Bake at 400 5-8 minutes (until the meringue browns). Let cool then refrigerate to chill filling. Best serve same day as baked."
+        }],
+      "notes": "A nice treat when you're rolling deep in eggs!"
     }
   ]
 }
