@@ -1272,7 +1272,7 @@
         "instruction":"Dry Ingredients - In a medium-large bowl, whisk or mix together flour, baking soda, and salt."
       },{
         "pic": "ginCook1.png",
-        "instruction":"In the bowl of a stand mixer (or using a hand mixer), beat butter, 1 cup sugar, and ginger until light and fluffy. Then add in molasses and egg."
+        "instruction":"Using an electric mixer, in a large bowl, beat butter, 1 cup sugar, and ginger until light and fluffy. Then add in molasses and egg."
       },{
         "pic": "ginCookMol.png",
         "instruction":"Note - If you're low on molasses, set the jar in a mug of hot water before pouring"
@@ -1411,7 +1411,6 @@
     {
       "name": "Lemon Meringue Pie",
       "header_pic": "lemPieDone.png",
-      "featured": true,
       "pub_date": "1/24/25",
       "servings": "1 pie or 6-8 mini pies",
       "related_recipes": [],
@@ -1455,7 +1454,7 @@
         },
         {
           "pic": "lemPie4.png",
-          "instruction": "To make the meringue, In the (chilled) bowl of a stand mixer with (chilled) beater attachment, whip the eggwhites until soft peaks form, them slowly add 1/2 cup of white sugar (in small batches with mixer on high speed) until a stiff glossy meringue forms."
+          "instruction": "To make the meringue, In a large (chilled) bowl use electric mixer with (chilled) beater attachment, whip the eggwhites until soft peaks form, them slowly add 1/2 cup of white sugar (in small batches with mixer on high speed) until a stiff glossy meringue forms."
         },
         {
           "pic": "lemPie5.png",
@@ -1466,6 +1465,52 @@
           "instruction": "Bake at 400 5-8 minutes (until the meringue browns). Let cool then refrigerate to chill filling. Best serve same day as baked."
         }],
       "notes": "A nice treat when you're rolling deep in eggs!"
+    },
+    {
+      "name": "Pavlova",
+      "header_pic": "pavDone.png",
+      "featured": true,
+      "pub_date": "1/31/25",
+      "servings": "1 pavlova (4-6 servings)",
+      "related_recipes": [],
+      "ingredients": [
+        "1.5 cups + 1 tablespoon fine casters sugar or table sugar (separated)",
+        "6 egg whites",
+        "1 cup heavy whipping cream",
+        "1/4 tsp vanilla",
+        "2-4 cups sliced strawberries and/or other berries"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Preheat oven to 245F DO NOT USE AIR FRYER OR CONVECTION SETTING ON OVEN OR PAVLOVA WILL FALL."
+        },{
+          "pic": "finesugar.png",
+          "instruction": "IF YOU ARE USING REGULAR TABLE SUGAR, BLEND IT IN 1/2 CUP BATCHES (PULSING EACH BATCH FOR ABOUT 30 SECONDS) TO MAKE IT MORE LIKE CASTERS SUGAR"
+        }, {
+          "pic": "",
+          "instruction": "Draw a 9 inch circle on a piece of parchment paper and use it to line a baking tray (drawing side down)."
+        }, {
+          "pic": "pav1.png",
+          "instruction": "Using an electric mixer, beat egg whites on medium-high speed, until soft peaks form, then gradually add 1.5 cups of sugar (about 1 tablespoon at a time)."
+        }, {
+          "pic": "pav2.png",
+          "instruction": "Using a rubber spatula, dollup the whipped egg whites in the middle of the circle on the baking sheet, then form the mixture into a high circle."
+        }, {
+          "pic": "",
+          "instruction": "Bake for 80-90 minutes, until shell is firm. Disturb the baking Pavlova as little as possible --- Opening the oven before it is set, can cause it to crack or fall."
+        }, {
+          "pic": "",
+          "instruction": "Turn off oven and allow Pavlova to cool down undisturbed in the oven for 1-2 hours."
+        }, {
+          "pic": "pav3.png",
+          "instruction": "When it is almost cool, use electric mixer to whip the heavy cream, vanilla and remaining 1 tablespoon of sugar until stiff peaks form."
+        }, {
+          "pic": "pavDone.png",
+          "instruction": "Gently spoon whipped cream onto the cooled Pavlova and arrange berries on top."
+        }
+        ],
+      "notes": "A Desert Fit For A Premier Ballerina!"
     }
   ]
 }

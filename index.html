@@ -2,7 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="welcome arillian farm where you will find funny farm animals shorts, fresh healthy recipes, a diy blog and some cute, silly animal merch.">
+	<meta name="keywords" content="arillian farm, shorts, recipes, diy, LitRPG, funny, animals, dogs, chickens goats">
+	<meta name="author" content="Arillian Farm">
+	<link rel="canonical" href="https://www.arillianfarm.com">
+
+	<!-- Open Graph Meta Tags for Social Sharing -->
+	<meta property="og:title" content="welcome to arillian farm where you will find funny farm animals shorts, fresh healthy recipes, a diy blog and some cute, silly animal merch.">
+	<meta property="og:description" content="Laugh along with us and our goofy pack of pups, goats and chickens as we DIY our way through life, video games and the wonders of our own backyard.">
+	<meta property="og:image" content="https://www.yoursite.com/assets/arillianArtichokejpeg.jpeg">
+	<meta property="og:url" content="https://www.arillianfarm.com">
+	<meta property="og:type" content="website">
+
 	<title>Arillian Farm</title>
 
 	<!-- App favicon -->
@@ -15,7 +27,7 @@
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-\
+
 <!--	<base href="/modern-rural/">-->
 </head>
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
@@ -24,27 +36,35 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
 <body ng-app="myApp">
-<div class="container" >
+	<header class="small-hide big-hide">
+		<h1>content="welcome to Arillian Farm where you will find funny farm animals shorts, fun healthy recipes, diy ideas and some cute silly animal merch fresh from our lil corner of the world.</h1>
+	</header>
+	<main>
+		<div class="container" >
 
-    <div top-menu ></div>
+			<div top-menu ></div>
 
-	<div class="viewrow">
-		<div ng-view ng-controller="mainController"></div>
-	</div>
-
-	<div click-icons class="mt-5" ></div>
-
-	<div class="row mt-3">
-		<div class="col-xs-12 text-center text-lg-start text-white">
-			<!-- Copyright -->
-			<div class="text-center p-3" style="text-align:center">
-				© 2024 Copyright:
-				<a class="text-white" href="/">Arillian Farm</a>
+			<div class="viewrow">
+				<div ng-view ng-controller="mainController"></div>
 			</div>
-			<!-- Copyright -->
+
+			<div click-icons class="mt-5" ></div>
+
+			<div class="row mt-3">
+				<div class="col-xs-12 text-center text-lg-start text-white">
+					<!-- Copyright -->
+					<div class="text-center p-3" style="text-align:center">
+						© 2025 Copyright:
+						<a class="text-white" href="/">Arillian Farm</a>
+					</div>
+					<!-- Copyright -->
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
+	</main>
+	<footer class="big-hide small-hide">
+		<p>&copy; 2025 Arillian Farm. All rights reserved.</p>
+	</footer>
 	<script src='main.js'></script>
 </body>
 </html>
