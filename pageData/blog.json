@@ -971,10 +971,10 @@
       "entry_number": 15,
       "entry_date": "Jan 31, 2025",
       "featured_blog": true,
-      "entry_subject": "",
+      "entry_subject": "Modding My Way Into Game Writing?",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/arillian1.png"
+        "pic": "assets/blog/gemtalk.png"
       },
       "feature_section_2": {
         "caption": "",
@@ -986,42 +986,41 @@
       },
       "sections": [
         {
-          "pics": [],
-          "link": "",
+          "pics": ["gemtalk.png"],
           "paragraphs": [
             {
-              "text": "One AI’s advice on How to Break into Game Writing Through Modding",
+              "text": "The other day, I was chatting with my AI pal, Google Gemini ( GG for short ), about the RPG-sized hole in my heart.",
               "h4": true
             },
             {
-              "text": "The other day, I was chatting with my (AI) pal, Google Gemini (GG), about the RPG-sized hole in my heart. I gave GG a rundown of the type of RPG I was looking to get involved with: open-world, lets me advance through the game even with my sad lack of combat skills, inexpensive and most importantly at some point some old lady should ask me to bring her some herbs and then 13 tasks/murder favors later, she’ll give me some gold and armor."
+              "text": "I gave GG a rundown of the type of RPG I was looking to get involved with: open-world, lets me advance through the game even with my sad lack of combat skills, inexpensive and most importantly at some point some old lady should ask me to bring her some herbs and then 13 tasks/murder favors later, she’ll give me some gold and armor."
+            },
+            {
+              "text": "After listening to my RPG wish list, GG was like — ‘Got it! Check out Assassin’s Creed Valhalla' (not a direct quote)."
             }
-        ]
-      },{
-          "pics": [],
+          ]
+      },
+        {
+          "vid": "jhLGQc2Fyf8",
           "right_side_pic": true,
           "paragraphs": [
             {
-              "text": "After listening to my RPG wish list, GG was like — ‘Got it! Check out Assassin’s Creed Valhalla' (not a direct quote)."
-            },{
               "text": "Assassin’s Creed Valhalla is currently free with my PS+ membership, so I downloaded it.",
               "h4": true
             },{
               "text": "Holy Wow! It’s exactly what I was craving: Open world, Skyrim-esque graphics, mini games within the game, and plenty of folks wanting some help from me!"
+            },{
+              "text": "As I button mashed my way through the first battle sequence, got a literal bird’s-eye view of my surroundings (thanks to my hawk companion), sailed across the sea, and disembarked at my Viking camp, I found myself unexpectedly obsessed with the dialogue. "
+            },
+            {
+              "text": "I actually didn't want to skip through the dialogue with the town folks, – like I do in most games. (There’s even some like slam-poetry battle sub game that’s pretty unique and fun)."
+            },
+            {
+              "text": "It got me thinking about how much I loved writing dialogue for Hyperspear and unFETTERed. Finding the right quippy, quirky lines to give depth to a character is my favorite part — and that seems to be what game dialogue writers do. I’ve always loved RPGs, but I never considered writing for them. Suddenly, I wanted in. I want to be part of the creative process."
             }
         ]
-      },{
-          "pics": [],
-          "link": "",
-          "paragraphs": [
-            {
-              "text": "As I button mashed my way through the first battle sequence, got a literal bird’s-eye view of my surroundings (thanks to my hawk companion), sailed across the sea, and disembarked at my Viking camp, I found myself unexpectedly obsessed with the dialogue. I actually didn’t want to skip through the dialogue with the town folks, – like I do in most games. (There’s even some like slam-poetry battle sub game that’s pretty unique and fun)."
-            },
-          {
-            "text": "It got me thinking about how much I loved writing dialogue for Hyperspear and unFETTERed. Finding the right quippy, quirky lines to give depth to a character is my favorite part — and that seems to be what game dialogue writers do. I’ve always loved RPGs, but I never considered writing for them. Suddenly, I wanted in. I want to be part of the creative process."
-          }
-        ]
-      },{
+      },
+        {
           "pics": [],
           "link": "",
           "paragraphs": [
@@ -1030,7 +1029,7 @@
           }
         ]
       },{
-          "pics": [],
+          "pics": ["skymooder.png"],
           "link": "",
           "paragraphs": [
             {
@@ -1048,7 +1047,7 @@
           "link": "",
           "paragraphs": [
             {
-              "text": "Along the Breadcrumb Trail I go",
+              "text": "Down the Breadcrumb Trail I go",
               "h4": true
             },
           {

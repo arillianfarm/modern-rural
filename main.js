@@ -289,10 +289,21 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             console.error("function $rootScope.titleCaps failed");
             return;
         }
+        let allCapsWords = {
+            "ai":"AI",
+            "ai's":"AI's",
+            "rpg":"RPG",
+            "gg": "GG"
+        };
 
         let splitStr = string.toLowerCase().split(' ');
         for (var i = 0; i < splitStr.length; i++) {
-                splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+            let currentWord = splitStr[i];
+             if( allCapsWords[currentWord]){
+                 splitStr[i] = allCapsWords[currentWord];
+             } else {
+                 splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+             }
             }
         return splitStr.join(" ");
     };
