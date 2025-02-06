@@ -1372,7 +1372,6 @@
       "pub_date": "1/24/25",
       "header_pic": "sandBoxDone.png",
       "about": "Cute Gift Idea",
-      "featured": true,
       "categories": ["gift ideas"],
       "tools": [
         "Tape Measure",
@@ -1429,6 +1428,83 @@
               "text": "When the glue on the feet is dry, fill with sand, place a few rocks inside and bing bang boom you're in business!"
             }
           ]}
+      ]
+    },
+    {
+      "name": "Growing Artichokes From Seed",
+      "pub_date": "2/7/25",
+      "header_pic": "scoutNchokes.png",
+      "about": "Artichokes are Beautiful Delicious Plants that add Flare to any Backyard Garden",
+      "featured": true,
+      "categories": ["gardening"],
+      "tools": [
+        "Scissors",
+        "Shovel",
+        "Gloves",
+        "Optional - Indoor Grow Light"
+      ],
+      "materials": [
+        "Artichoke Seeds",
+        "LaCroix Box",
+        "Tape",
+        "Soil (enough to fill LaCroix Box + extra for planting)"
+      ],
+      "phases": [
+        {
+          "pic": "choke1.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},
+        {
+          "pic": "choke2.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},{
+          "pic": "choke3.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},{
+          "pic": "choke4.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},{
+          "pic": "choke5.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},{
+          "pic": "choke6.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},{
+          "pic": "choke7.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},{
+          "pic": "choke8.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},{
+          "vid": "nU0Z_lkOx40",
+          "label": "Getting All Choked Up!",
+          "paragraphs": [
+          ]
+        }
       ]
     }
   ]

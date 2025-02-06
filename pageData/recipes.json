@@ -1469,7 +1469,6 @@
     {
       "name": "Pavlova",
       "header_pic": "pavDone.png",
-      "featured": true,
       "pub_date": "1/31/25",
       "servings": "1 pavlova (4-6 servings)",
       "related_recipes": [],
@@ -1511,6 +1510,31 @@
         }
         ],
       "notes": "A Desert Fit For A Premier Ballerina!"
+    },
+    {
+      "name": "Fresh Rolls",
+      "header_pic": "fRollDone.png",
+      "featured": true,
+      "pub_date": "2/7/25",
+      "servings": "4 rolls",
+      "related_recipes": [],
+      "ingredients": [
+        "Dehydrated rice paper wrapper",
+        "Fresh Thai Basil Leaves",
+        "Fresh Mint Leaves",
+        "Lettuce",
+        "Shredded Carrot",
+        "Cucumber sliced into spears",
+        "chopped peanuts",
+        "Fried Tofu"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": ""
+        }
+        ],
+      "notes": "Rolling Out The Freshest Wraps In Town!"
     }
   ]
 }
