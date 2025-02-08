@@ -828,9 +828,14 @@
       "albums": ["new","wildlife","animals"],
       "release_date": "2/7/25"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new","chickens","animals"],
+      "youtubeID": "zHCYx1gUdu0",
+      "title": "Goats, Totes & McGoats Eat Artichokes ‘cause They’ve Got High High Hopes",
+      "albums": ["new","goats","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "OQlpZs4Rxe8",
+      "title": "Winston and Dolly getting Jiggy to MIB",
+      "albums": ["new","dogs","animals"],
       "release_date": "2/7/25"
     }
   ]

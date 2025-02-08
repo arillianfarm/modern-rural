@@ -293,7 +293,8 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             "ai":"AI",
             "ai's":"AI's",
             "rpg":"RPG",
-            "gg": "GG"
+            "gg": "GG",
+            "mib": "MIB"
         };
 
         let splitStr = string.toLowerCase().split(' ');

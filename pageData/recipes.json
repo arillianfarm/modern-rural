@@ -1513,28 +1513,43 @@
     },
     {
       "name": "Fresh Rolls",
-      "header_pic": "fRollDone.png",
+      "header_pic": "sRoll2.png",
       "featured": true,
       "pub_date": "2/7/25",
-      "servings": "4 rolls",
+      "servings": "Varies",
       "related_recipes": [],
       "ingredients": [
         "Dehydrated rice paper wrapper",
         "Fresh Thai Basil Leaves",
         "Fresh Mint Leaves",
-        "Lettuce",
+        "Fresh Cilantro Leaves",
+        "Shredded Lettuce",
         "Shredded Carrot",
-        "Cucumber sliced into spears",
+        "Cucumber sliced into match sticks or spears",
         "chopped peanuts",
+        "Avocado",
         "Fried Tofu"
       ],
       "steps": [
         {
           "pic": "",
-          "instruction": ""
+          "instruction": "NOTE - All ingredients are suggestions only, you can sub in or out whatever you want -- except the mint and thai basil... those are what make these rolls pop"
+        },
+        {
+          "pic": "sRollRinse.png",
+          "instruction": "Quickly rinse both sides of rice paper wrapper under running water so that both sides are wet then gently shake off excess moisture"
+        },{
+          "pic": "sRoll1.png",
+          "instruction": "Lay the rice paper wrapper 'textured-side' down on a plate such that the wrapper is hanging over the edge of the plate by 1-2 inches then, leaving about an inch on the side edges, arrange your fillings on the moistened wrapper --keep in mind, the more fillings you add the more likely your roll will tear, but if you don't have enough or the wrapper get bunched up it will be chewy AF"
+        },{
+          "pic": "sRollDone.png",
+          "instruction": "Carefully fold each edge, pull taught and stick the edge to the bottof wrapper so that the filling is snug on each side. Then roll like a burrito, keeping filling tucked and tight as you go."
+        },{
+          "pic": "",
+          "instruction": "Serve with Peanut Sauce, Sweet and Sour or whatever you want to dunk it in"
         }
         ],
-      "notes": "Rolling Out The Freshest Wraps In Town!"
+      "notes": "Roll W/ The Freshest Wraps in Your Hood!"
     }
   ]
 }
