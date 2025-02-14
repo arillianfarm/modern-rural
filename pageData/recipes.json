@@ -1552,14 +1552,14 @@
       "notes": "Roll W/ The Freshest Wraps in Your Hood!"
     },
     {
-      "name": "Fettucini and Broccoli Alfredo",
+      "name": "Fettuccine and Broccoli Alfredo",
       "header_pic": "alfPre.png",
       "featured": true,
       "pub_date": "2/14/25",
       "servings": "2-3 servings",
       "related_recipes": ["Pasta Dough"],
       "ingredients": [
-        "Pasta",
+        "Fettuccine Pasta (or sheets of fresh pasta cut into strips)",
         "broccoli",
         "1/4 cup butter (1/2 stick)",
         "1/2 cup heavy cream (room temperature)",
@@ -1577,7 +1577,7 @@
           "instruction": "Remove sauce from heat and let cool for 5 minutes, then whisk in heavy cream."
         },{
           "pic": "alf2.png",
-          "instruction": "As the sauce is cooling, Steam broccoli to desired crispness and boil pasta (11 minutes for dry pasta 3-5 minutes for fresh noodles), reserving 1-2 tablespoons of the 'pasta water' when you drain it."
+          "instruction": "As the sauce is cooling, Steam broccoli to desired crispness and boil pasta (3-5 minutes for fresh noodles and 11 minutes for dry pasta), reserving 1-2 tablespoons of the 'pasta water' when you drain it."
         },
         {
           "pic": "alf4.png",
@@ -1588,7 +1588,7 @@
           "instruction": "Then top pasta and broccoli with Alfredo Sauce and sprinkle on chopped parsley leaves for a pop of freshness."
         }
         ],
-      "notes": "Be Cheesy and Broc the Night Away!"
+      "notes": "Be Cheesy - Broc the Night Away!"
     }
   ]
 }
