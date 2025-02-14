@@ -1057,10 +1057,11 @@
     {
       "entry_number": 16,
       "entry_date": "Feb 14, 2025",
-      "entry_subject": "Happy Distractions",
+      "featured_blog": true,
+      "entry_subject": "Springing Ahead",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/gemtalk.png"
+        "pic": "assets/blog/spr5.png"
       },
       "feature_section_2": {
         "caption": "",
@@ -1072,14 +1073,28 @@
       },
       "sections": [
         {
-          "pics": [],
+          "pics": [ "spr2.png","spr1.png"],
           "paragraphs": [
             {
-              "text": "Spring came early this year, so I've put a pin in my aspiring video game modding career to go turn some soil and plant some things in our yard.",
+              "text": "Spring has sprung in Mesa, AZ, and it’s put a Bounce in my step!",
               "h4": true
             },
             {
-              "text": ""
+              "text": "I’ve been stepping up my shoveling game the last couple weeks. Between planting artichokes and prepping garden beds, my back is definitely feeling it! To keep things balanced, I’ve been easing back into yoga—and in the process, stepping away from long laptop sessions and putting my game modding ambitions on pause for now."
+            }
+          ]
+        },
+        {
+          "pics": ["spr5.png"],
+          "paragraphs": [
+            {
+              "text": "Meanwhile, the garden is absolutely bursting with life.",
+              "h4": true
+            },
+            {
+              "text": "Clusters of bell peppers are finding their way from our garden to our table alongside fresh herbs and broccoli and the chickens have finished molting, so our egg supply is back in full force."
+            },{
+              "text": "With the backyard thriving, I’ve been stockpiling footage for YouTube shorts, brainstorming recipe ideas and just enjoying the vibrant spring that’s poppin off around us.  "
             }
           ]
         }
