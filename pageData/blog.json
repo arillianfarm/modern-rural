@@ -904,7 +904,6 @@
     {
       "entry_number": 14,
       "entry_date": "Jan 17, 2025",
-      "featured_blog": true,
       "entry_subject": "Ten Years of Arillian",
       "feature_section_1": {
         "caption": "",
@@ -970,7 +969,6 @@
     {
       "entry_number": 15,
       "entry_date": "Jan 31, 2025",
-      "featured_blog": true,
       "entry_subject": "Modding My Way Into Game Writing?",
       "feature_section_1": {
         "caption": "",
@@ -1055,6 +1053,37 @@
           }
         ]
       }]
+    },
+    {
+      "entry_number": 16,
+      "entry_date": "Feb 14, 2025",
+      "entry_subject": "Happy Distractions",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/gemtalk.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Spring came early this year, so I've put a pin in my aspiring video game modding career to go turn some soil and plant some things in our yard.",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
+          ]
+        }
+        ]
     }
   ]
 }
