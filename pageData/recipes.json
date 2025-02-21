@@ -1187,7 +1187,7 @@
         "pic": "vricotdone.png",
         "instruction":"Enjoy as a snack or side dish."
       }],
-      "notes": "Some Yum For Your Tum"
+      "notes": "24 carrot yum"
     },
     {
       "name": "Goat Cheese Stuffed Baby Bell Peppers",
@@ -1554,7 +1554,6 @@
     {
       "name": "Fettuccine and Broccoli Alfredo",
       "header_pic": "alfPre.png",
-      "featured": true,
       "pub_date": "2/14/25",
       "servings": "2-3 servings",
       "related_recipes": ["Pasta Dough"],
@@ -1589,6 +1588,43 @@
         }
         ],
       "notes": "Be Cheesy - Broc the Night Away!"
+    },{
+      "name": "Strawberry Cream Cheese French Toast Bites",
+      "header_pic": "ftdone.png",
+      "featured": true,
+      "pub_date": "2/21/25",
+      "servings": "1 serving",
+      "related_recipes": [],
+      "ingredients": [
+        "1 thick slice of bread",
+        "1 egg",
+        "2 tablespoons heavy cream",
+        "1 tablespoon water",
+        "A drop of vanilla",
+        "A pinch of cinnamon",
+        "1/2 tablepsoon butter",
+        "1 tablespoon cream cheese",
+        "3-4 strawberries"
+      ],
+      "steps": [
+        {
+          "pic": "ft1.png",
+          "instruction": "Whisk together cream, egg, water, vanilla and cinnamon and pour into a shallow dish, slice bread into strips or squares and soak in egg mixture. (Leave each side soaking for 1-2 minutes or until fully saturated)."
+        },
+        {
+          "pic": "ft2.png",
+          "instruction": "Melt butter in a frying pan and cook each side of each bread piece for 2-3 minutes."
+        },
+        {
+          "pic": "ft3.png",
+          "instruction": "Slice strawberries so that there is enough to put at least 1 slice of strawberry on each piece of french toast, then divy up cream cheese and spread a portion on each of the strawberries (to sort of glue them to the french toast bites)."
+        },{
+          "pic": "ftdone2.png",
+          "instruction": "Stick a cream cheesed up strawberry onto each french toast bite and enjoy."
+        }
+
+      ],
+      "notes": "The Toast of The Town"
     }
   ]
 }

@@ -1435,7 +1435,6 @@
       "pub_date": "2/7/25",
       "header_pic": "scoutNchokes.png",
       "about": "Artichokes are Beautiful Delicious Plants that add Flare to any Backyard Garden",
-      "featured": true,
       "categories": ["gardening"],
       "tools": [
         "Scissors",
@@ -1505,6 +1504,41 @@
           ]},{
           "vid": "nU0Z_lkOx40",
           "label": "Getting All Choked Up!",
+          "paragraphs": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Converting a Tough Shed into a Goat/ Chicken Barn",
+      "pub_date": "2/21/25",
+      "featured": true,
+      "header_pic": "coopDone.png",
+      "about": "",
+      "categories": [],
+      "tools": [
+        ""
+      ],
+      "materials": [
+        ""
+      ],
+      "phases": [
+        {
+          "pic": "coop1.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},{
+          "pic": "coop2.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]},
+       {
+          "vid": "y2myFliCKpA",
+          "label": "Cooping Upwards!",
           "paragraphs": [
           ]
         }
