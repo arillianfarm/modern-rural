@@ -69,7 +69,7 @@
         "pic": "catioAlmostDone.png",
         "label": "Enclose the frame",
         "paragraphs": [{
-          "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taught and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame. We ended up just short of wire for the longest side, so we used a bit of regular chicken wire across the top corner)"
+          "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taut and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame. We ended up just short of wire for the longest side, so we used a bit of regular chicken wire across the top corner)"
         }]
       },
       {
@@ -1513,27 +1513,105 @@
       "name": "Converting a Tough Shed into a Goat/ Chicken Barn",
       "pub_date": "2/21/25",
       "featured": true,
-      "header_pic": "coopDone.png",
+      "header_pic": "coopFullFront.png",
       "about": "",
       "categories": [],
       "tools": [
-        ""
+        "Electric Drill",
+        "Sawzall",
+        "Electric Miter Saw",
+        "ladder",
+        "staple gun",
+        "air compressor --if required for staple gun"
       ],
       "materials": [
-        ""
+        "Construction Screws",
+        "washers and/or construction staples",
+        "50ft x 4ft roll of livestock fencing",
+        "wood glue",
+        "wood for shelves (particle board, ply wood, fence boards, shelf boards or whatever is available)",
+        "chicken wire",
+        "trim wood / thin strips of wood - to make chicken ladders",
+        "shallow box - for grit pit",
+        "water bowl",
+        "clip on fan",
+        "cinder blocks (optional)",
+        "wood sealer (optional)"
       ],
       "phases": [
         {
-          "pic": "coop1.png",
+          "pic": "coopFullFront.png",
           "paragraphs": [
             {
-              "text": ""
+              "text": "The Barnyard",
+              "h4": true
+            },
+            {
+              "text": "Our property already had two tough sheds when we moved in, so I decided to turn one into a barn (and the other into a she-shed). Last year we added a pond in front of the 'barn' so that our chickens could have a place to cool their heels in the summers (when temps can be up to 120F)."
+            },{
+              "text": "Since the sheds were near to the North wall of our property, I only had to enclose two small gaps, run some chicken wire overhead between the sheds and the north and west corner of our property and put in a gate in order to create a secure space for them."
             }
           ]},{
-          "pic": "coop2.png",
+          "pic": "coopOut1.png",
           "paragraphs": [
             {
-              "text": ""
+              "text": "Ice House",
+              "h4": true
+            },{
+              "text": "I set up an 'ice house' in an area that is almost always shaded -- between the She Shed and the Barn. If it's over 100F out, I'll bring a few pint of solid ice and stack it in the back of their little outside house. (I also add a pint of ice to each water bucket twice a day in the summer) "
+            }
+          ]},{
+          "pic": "coopInFull.png",
+          "paragraphs": [
+            {
+              "text": "Dividing the Barn",
+              "h4": true
+            },{
+              "text": "Using 3inch construction screws, an electric miter saw and about a dozen 2x4s, I built a frame that lined up exactly with the center of the barn's double doors. (Note- I screwed 1-2 ft sections of scrap 2x4s to the floor in certain places both to brace the verticle beams and also to give me more surface to screw/staple into as I enclosed the inner coop."
+            },{
+              "text": "At about chest height, I put a 4inch ledge across the frame (so that I could store misc)."
+            },{
+              "text": "Once the frame was up, I used fence boards and construction screws (with washers) to pin the livestock taut against the bottom frame (from the goat side) -- For the top part I used chicken wire and staples. Eventually I added chicken wire all around the bottom of the barn because the goats were eating the drywall and young chickens were finding their way out at night."
+            }
+          ]},{
+          "pic": "coopOut2in.png",
+          "paragraphs": [
+            {
+              "text": "In Out Access",
+              "h4": true
+            },{
+              "text": "I Used a Sawzall attachment on our drill to cut a hole in the bottom back corner of the 'barn' and used wood glue and strips of wood (that I cut with an electric miter saw) to make a chicken ladder leading up from the outside chicken enclosure to the chicken coop portion of the barn."
+            },{
+              "text": "I originally cut a hole in the goat-side barn door and installed an insulated doggy door for them and ran an in-wall AC unit, but it turned out that it was better to keep the doors open for better airflow and let the goats and chickens all naturally climatize and just gulp down water all day rather than try to cool the shed."
+            },{
+              "text": "To keep the goats from reeking havok, I set ciner blocks on the chicken coop side of the barn dor and stack them in a way that the goats will topple them (or climb into a water bucket) if they try to get into the chicken side. They learned pretty quickly to stop going in there."
+            }
+          ]},{
+          "pic": "nestegg.png",
+          "paragraphs": [
+            {
+              "text": "Nesting Boxes",
+              "h4": true
+            },{
+              "text": "I set up three nesting boxes, one above the back portal and two under chicken ladders -- the one above the back portal is the most popular."
+            }
+          ]},{
+          "pic": "coopFan.png",
+          "paragraphs": [
+            {
+              "text": "Ventilation",
+              "h4": true
+            },{
+              "text": "All the animals are big FANS of ventilation, so besides keeping the door open, I also use clip on fans (clipped to the rafters or set on the middle shelf) to keep air flowing."
+            }
+          ]},{
+          "pic": "coopIn1.png",
+          "paragraphs": [
+            {
+              "text": "Cooping Upwards",
+              "h4": true
+            },{
+              "text": "I had some left over construction materials and some awkward spaces to try to get the chickens up, so I made a pipe ladder and a broken-ikea-bed-slats ladder for them to get to their top story"
             }
           ]},
        {
