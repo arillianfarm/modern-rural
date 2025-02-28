@@ -1057,7 +1057,6 @@
     {
       "entry_number": 16,
       "entry_date": "Feb 14, 2025",
-      "featured_blog": true,
       "entry_subject": "Springing Ahead",
       "feature_section_1": {
         "caption": "",
@@ -1095,6 +1094,85 @@
               "text": "Clusters of bell peppers are finding their way from our garden to our table alongside fresh herbs and broccoli and the chickens have finished molting, so our egg supply is back in full force."
             },{
               "text": "With the backyard thriving, I’ve been stockpiling footage for YouTube shorts, brainstorming recipe ideas and just enjoying the vibrant spring that’s poppin off around us.  "
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 17,
+      "featured_blog": true,
+      "entry_date": "Feb 28, 2025",
+      "entry_subject": "I’m Just a Lil Robot Trying to Broadcast My Data",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/lilbot.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Developing strong relationships with my peers has always been the hardest, scariest and most important thing in the world for me.",
+              "h4": true
+            },
+            {
+              "text": "As a child, if I hadn’t observed someone for at least several months, my brain simply would not dish out any words for me to say to that person… and if I did say something it was usually something that came off strange or critical. Suffice to say, I didn’t have a ton of friends growing up, but it didn’t occur to me that I might be autistic until an acquaintance invited me on a trip to her cabin and offered me her unsolicited peer diagnosis midway through our two hour drive.\n"
+            }
+          ]
+        },
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "I didn’t really know how to respond to being told that there was something so obviously wrong with me that she’d taken it upon herself to diagnose me with a ‘mental disorder’. ",
+              "h4": true
+            },
+            {
+              "text": "We had a pretty quiet trip after that and our friendship eventually tapered off, but to her credit, I Googled it, and I do have almost every single symptom of “female autism” that Google Lists, so she was probably right."
+            }
+          ]
+        },{
+          "paragraphs": [
+            {
+            "text": "Here are the traits (according to Google) that make me seem autistic:",
+            "h4": true
+          },{
+              "text": "I wring my hands and rub my nose between my palms all the time without noticing."
+            },
+            {
+              "text": "I keep our house lit like a cave because I get jarred and annoyed by loud sounds and bright lights."
+            },{
+              "text": "I love my daily routine and vacation stresses me out."
+            },{
+              "text": "In a given year I have at least a couple meltdowns over anxiety, criticism or rejection and there have been so many times in my life that I have said the weirdest or most offensive thing without realizing it was weird or offensive until I see the reaction of the person I just upset."
+            }
+          ]
+        },{
+          "paragraphs": [
+            {
+              "text": "In short I can be cringy to talk to –but it does usually go away once I feel comfortable with a person.",
+              "h4": true
+            },{
+              "text": "Although, I did really want to befriend the receptionist at my old job though and for some reason after she told me she was getting a bike, I couldn’t stop asking her every single day if she had gotten the bike yet –for like a month and I truly don’t know why I couldn’t think of one single other thing to say to her in the two or three months she worked at my company."
+            }
+          ]
+        },{
+          "paragraphs": [
+            {
+              "text": "I don’t want to lean into a diagnosis though or use it as a crutch.",
+              "h4": true
+            },
+            {
+              "text": "I want people to genuinely enjoy my company and not pity me or pander to me, so I don’t want any official diagnosis. I definitely could see myself getting annoyed with playing the “bear with me I’m Autistic” card. \n"
             }
           ]
         }

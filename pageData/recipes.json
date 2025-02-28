@@ -1591,7 +1591,6 @@
     },{
       "name": "Strawberry Cream Cheese French Toast Bites",
       "header_pic": "ftdone.png",
-      "featured": true,
       "pub_date": "2/21/25",
       "servings": "1 serving",
       "related_recipes": [],
@@ -1625,6 +1624,39 @@
 
       ],
       "notes": "The Toast of The Town"
+    },{
+      "name": "Good Morning, Sunshine Bowl",
+      "header_pic": "goodmorningbowl.png",
+      "featured": true,
+      "pub_date": "2/28/25",
+      "servings": "1 serving",
+      "related_recipes": [],
+      "ingredients": [
+        "1/2 Cup greek yogurt",
+        "1/2 Cup cherry tomatoes",
+        "Fresh Basil",
+        "1/2 Avocado",
+        "1 Mango",
+        "Handful of walnuts",
+        "Fresh Cilantro",
+        "Sesame seeds",
+        "Lime juice",
+        "1 tsp honey"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Slice tomatoes in half or quarters, finely chop basil and toss with tomatoes."
+        },{
+          "pic": "",
+          "instruction": "Slice Mango and avocado into chunks, toss together with cilantro leaves, walnuts, sesame seeds and lime juice and honey."
+        },{
+          "pic": "goodmorningbowl.png",
+          "instruction": "Plate greek yogurt between the tomato salad and the mango salad and enjoy (note - both the tomato salad and the mango salad taste good with the yogurt but the tomatoes are kind of weird with the mango)"
+        }
+
+      ],
+      "notes": "Start your Day Fresh"
     }
   ]
 }
