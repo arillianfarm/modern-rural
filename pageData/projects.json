@@ -1076,7 +1076,6 @@
       "name":  "Rube Goldberg Machine X-mas Tree",
       "pub_date": "12/6/24",
       "header_pic": "rgTreeStart.png",
-      "featured": true,
       "categories": ["recreation"],
       "about": "We Used Arthur's Sons' Toys to Make a Delightfully Inefficient Mechanism to Turn on Our Tree Lights This Year",
        "tools": ["various"],
@@ -1240,7 +1239,6 @@
       "pub_date": "12/20/24",
       "header_pic": "chessDone.png",
       "about": "Epoxy is a fun and versatile medium for crafting",
-      "featured": true,
       "categories": ["gift ideas"],
       "tools": [
         "electric miter saw (to cut wood frame pieces)",
@@ -1512,7 +1510,6 @@
     {
       "name": "Converting a Tough Shed into a Goat/ Chicken Barn",
       "pub_date": "2/21/25",
-      "featured": true,
       "header_pic": "coopFullFront.png",
       "about": "",
       "categories": [],
@@ -1561,6 +1558,8 @@
               "text": "I set up an 'ice house' in an area that is almost always shaded -- between the She Shed and the Barn. If it's over 100F out, I'll bring a few pint of solid ice and stack it in the back of their little outside house. (I also add a pint of ice to each water bucket twice a day in the summer) "
             }
           ]},{
+          "pic": "barnPre.png"
+        },{
           "pic": "coopInFull.png",
           "paragraphs": [
             {
@@ -1618,6 +1617,135 @@
           "vid": "y2myFliCKpA",
           "label": "Cooping Upwards!",
           "paragraphs": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "She Shed",
+      "pub_date": "3/7/25",
+      "featured": true,
+      "header_pic": "ssbdone2.png",
+      "about": "",
+      "categories": ["construction"],
+      "tools": [
+        "Tape Measure",
+        "Level",
+        "Electric Miter Saw",
+        "Electric Drill",
+        "Aircompressor with finsihing nail gun"
+      ],
+      "materials": [
+        "Sheets of Drywall",
+        "Drywall screws",
+        "Drywall (seam) tape",
+        "Drywall mud",
+        "Thick fabric",
+        "Rolls of Insulation",
+        "Litestone",
+        "Construction Adhesive",
+        "Trim wood",
+        "Drywall texture",
+        "Paint",
+        "Painting Tarps",
+        "Lattice",
+        "Baseboards",
+        "15 gauge finishing nails",
+        "Linoleum Wood Tiles (for floor)",
+        "Adhesion promoter (for floor tiles)",
+        "Ceiling fan",
+        "2x4s",
+        "4x4s",
+        "plywood"
+      ],
+      "phases": [
+        {
+          "pic": "ssbdone2.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "ssb1.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "ssb2.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "ssb3.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "ssbdone.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "sswall1.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "sswall2.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "sswalldone.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
+            }
           ]
         }
       ]

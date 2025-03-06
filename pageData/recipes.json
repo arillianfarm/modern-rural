@@ -157,7 +157,7 @@
       "name": "Sourdough Starter",
       "pub_date": "9/6/24",
       "header_pic": "sds1.png",
-      "related_recipes": ["San Francisco Style Sourdough Bread"],
+      "related_recipes": ["San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
       "servings": "1 jar of sourdough starter",
       "ingredients": [
         "Flour",
@@ -1627,7 +1627,6 @@
     },{
       "name": "Good Morning, Sunshine Bowl",
       "header_pic": "goodmorningbowl.png",
-      "featured": true,
       "pub_date": "2/28/25",
       "servings": "1 serving",
       "related_recipes": [],
@@ -1657,6 +1656,33 @@
 
       ],
       "notes": "Start your Day Fresh"
+    },{
+      "name": "Herb Croutons",
+      "header_pic": "croutonsdone.png",
+      "featured": true,
+      "pub_date": "3/7/25",
+      "servings": "Approx 32 oz of croutons",
+      "related_recipes": ["San Francisco Style Sourdough Bread", "Traditional Sourdough Bread"],
+      "ingredients": [
+        "4-6 cups stale bread -cubed",
+        "2 tablespoons finely diced fresh herbs (parsley, sage, garlic, etc)",
+        "1/2 teaspoon ground black pepper",
+        "2 tablespoons olive oil (in a spritz bottle if possible)"
+      ],
+      "steps": [
+        {
+          "pic": "croutons1.png",
+          "instruction": "Spray/ coat breadcrumbs with approx 2 tablespoons of olive oil and toss with fresh herbs in a large bowl."
+        },{
+          "pic": "croutons2.png",
+          "instruction": "Air fry (in batches if necessary) at 375F for 8-10 minutes -until crisp and brown."
+        },{
+          "pic": "croutonsdone.png",
+          "instruction": "Store in Jars and Enjoy as a Snack or Salad Topper"
+        }
+
+      ],
+      "notes": "Nice as a Snack or Salad Topper"
     }
   ]
 }
