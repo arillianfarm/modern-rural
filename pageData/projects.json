@@ -1626,16 +1626,21 @@
       "pub_date": "3/7/25",
       "featured": true,
       "header_pic": "ssbdone2.png",
-      "about": "",
+      "about": "A lot of Well-Worth-it work went into this cute lil getaway spot",
       "categories": ["construction"],
       "tools": [
+        "Gloves",
         "Tape Measure",
         "Level",
         "Electric Miter Saw",
         "Electric Drill",
-        "Aircompressor with finsihing nail gun"
+        "Air compressor with finsihing nail gun",
+        "Steel drywall taping knife",
+        "Drywall mud pan",
+        "painting tarps"
       ],
       "materials": [
+        "n95 mask",
         "Sheets of Drywall",
         "Drywall screws",
         "Drywall (seam) tape",
@@ -1654,12 +1659,48 @@
         "Linoleum Wood Tiles (for floor)",
         "Adhesion promoter (for floor tiles)",
         "Ceiling fan",
-        "2x4s",
-        "4x4s",
-        "plywood"
+        "10 2x4s",
+        "3 4x4s",
+        "plywood",
+        "3 inch construction screws"
       ],
       "phases": [
         {
+          "pic": "ssb2.png",
+          "paragraphs": [
+            {
+              "text": "Insulation and Drywall and Framing",
+              "h4": true
+            },
+            {
+              "text": "The space that became my she-shack was a 20ft x 10 ft TuffShed that already had electricity hooked up, two large sturdy shelves and an AC unit mounted in the wall before we bought our house."
+            },{
+              "text": "To make the space habitable in the summer, we used a staple gun (attached to an air compressor) to install rolls of insulation in the walls and ceiling (stapling the insulation seems to the 2x6 frame of the shed)."
+            },{
+              "text":"Once the insulation was up, Arthur helped me to install sheets of drywall around the room, using an electric drill to screw the drywall into the shed's studs before using a drywall knife, ''tape and mud to tape the drywall seems throughout the room. Once the seems were taped, we sprayed wall texture and then painted the walls."
+            },{
+              "text": "Note - Mask up and wear gloves when working with insulation!"
+            },{
+              "text": "For the ceiling (to cover the insulation), I stapled curtain liner fabric (that I bought at walmart) across the ceiling (stapling along the ceiling fame)"
+            },{
+              "text": "Using the electric miter saw and a nail gun we mounted baseboards and window frames/ window sills."
+            }
+          ]
+        },{
+          "pic": "ssbdone.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Mezzanine",
+              "h4": true
+            },
+            {
+              "text": "We mounted three 4x4 posts beside the existing shelves and built an additional platfom (using 2x4s and plywood) which we mounted next to the existing top shelf (anchoring the new platform to the shelf with 3 inch construction screws) and that made a nice little Mezzanie for extra storage and an extra sleeping space if needed."
+            },{
+              "text": "Using 2x4s and some plastic lattice, we made a guard rail/frame for the Mezzanine."
+            }
+          ]
+        },{
           "pic": "ssbdone2.png",
           "paragraphs": [
             {
@@ -1667,84 +1708,60 @@
               "h4": true
             },
             {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "ssb1.png",
-          "paragraphs": [
-            {
-              "text": "",
-              "h4": true
-            },
-            {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "ssb2.png",
-          "paragraphs": [
-            {
-              "text": "",
-              "h4": true
-            },
-            {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "ssb3.png",
-          "paragraphs": [
-            {
-              "text": "",
-              "h4": true
-            },
-            {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "ssbdone.png",
-          "paragraphs": [
-            {
-              "text": "",
-              "h4": true
-            },
-            {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "sswall1.png",
-          "paragraphs": [
-            {
-              "text": "",
-              "h4": true
-            },
-            {
-              "text": ""
-            }
-          ]
-        },{
-          "pic": "sswall2.png",
-          "paragraphs": [
-            {
-              "text": "",
-              "h4": true
-            },
-            {
-              "text": ""
+              "text": "For the floor I rolled on an adhesion promoter before sticking down linolium wood  tiles"
             }
           ]
         },{
           "pic": "sswalldone.png",
+          "right_side_pic": true,
           "paragraphs": [
             {
-              "text": "",
+              "text": "Decorative Stone Wall",
               "h4": true
             },
             {
-              "text": ""
+              "text": "I added a decorative rock wall. Using 'LiteStone' and construction adhesive."
+        },{
+              "text": " I had to lay out a few rows on the floor before glueing them (so I could distribute the rocks in a sort of controlled random way across the wall). "
+            }
+          ]
+        },
+        {
+          "pic": "sshide.png",
+          "paragraphs": [
+            {
+              "text": "Secret Compartments",
+              "h4": true
+            },
+            {
+              "text": "It was pretty expensive and tedious by the time I was done, but it hosts my favorite feature of the whole room -- the secret compartmants where I hide candy for my nieces when they come to visit."
+            }
+          ]
+        },{
+          "pic": "ssparty2.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "From Tea Parties and Sleep-overs With My Nieces"
+            }
+          ]
+        },{
+          "pic": "ssparty3.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "To Monthly Murder Mystery Parties"
+            }
+          ]
+        },
+        {
+          "pic": "ssparty1.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "The work and sweat I shed to make the she shed has cultivated a lot of fun memories over the years!"
             }
           ]
         }
