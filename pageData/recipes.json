@@ -1678,11 +1678,37 @@
           "instruction": "Air fry (in batches if necessary) at 375F for 8-10 minutes -until crisp and brown."
         },{
           "pic": "croutonsdone.png",
-          "instruction": "Store in Jars and Enjoy as a Snack or Salad Topper"
+          "instruction": "Store in Jars and Enjoy as a Snack or Salad Topper. Save the breadcrumbs as breading or sprinkle on pasta bakes etc."
         }
 
       ],
       "notes": "Nice as a Snack or Salad Topper"
+    },{
+      "name": "Garlic Soy Green Beans",
+      "header_pic": "gbeansdone.png",
+      "featured": true,
+      "pub_date": "3/14/25",
+      "servings": "3-4 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "3-4 cloves of garlic - crushed or minced",
+        "2 tablespoons unsalted butter",
+        "1 teaspoon soy sauce",
+        "1 lb whole green beans/string beans (stems and strings removed)"
+      ],
+      "steps": [
+        {
+          "pic": "gbeans1.png",
+          "instruction": "Bring a large pot of water to a rapid boil and add green beans. Boil for 3-4 minutes (until beans are just getting tender). Then quickly strain in a colander and rinse with cold water."
+        },{
+          "pic": "gbeans2.png",
+          "instruction": "Set the green beans aside and in a large pan melt butter and saute garlic over medium heat for 3-4 minutes until garlic is fragrant then add the beans and soy sauce."
+        },{
+          "pic": "gbeansdone.png",
+          "instruction": "Continue to cook green beans for 4-5 minutes, stirring constantly until they start to get a slight blister/ char."
+        }
+      ],
+      "notes": "Show Your Savory Side"
     }
   ]
 }

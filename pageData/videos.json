@@ -965,33 +965,38 @@
     },{
       "youtubeID": "6QnlCWRjIPc",
       "title": "Remember this pre-internet meme loop from when you were a kid?",
-      "albums": ["new","dogs","animals"],
+      "albums": ["dogs","animals"],
       "release_date": "3/7/25"
     },{
       "youtubeID": "E2MgNDNlF7c",
       "title": "Huey Ka-Bluey being Xena’s dog toothbrush",
-      "albums": ["new","goats","animals"],
+      "albums": ["goats","animals"],
       "release_date": "3/7/25"
     },{
       "youtubeID": "rXrqJA4-NC0",
       "title": "Running amok ruins our hammock - Meh Monday",
-      "albums": ["new","dogs","animals"],
+      "albums": ["dogs","animals"],
       "release_date": "3/7/25"
     },{
       "youtubeID": "Uc0QXFAzoBY",
       "title": "Huey Ka-Bluey Teaching Me Which Toys He Likes Best (Nope Yup)",
-      "albums": ["new","dogs","animals"],
+      "albums": ["dogs","animals"],
       "release_date": "3/7/25"
     },{
       "youtubeID": "j0FlluXsGLY",
       "title": "Does Anyone Else See the Faces Birds Carved in Our Saguaro Cactus?",
-      "albums": ["new"],
+      "albums": [],
       "release_date": "3/7/25"
     },{
       "youtubeID": "hOS0sH3xRLA",
       "title": "Pajama’s Cross Town Crush, Dolly Really Activates his Almonds",
-      "albums": ["new"],
+      "albums": ["dogs"],
       "release_date": "3/7/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "3/14/25"
     }
   ]
 }
