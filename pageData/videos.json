@@ -993,9 +993,49 @@
       "albums": ["dogs"],
       "release_date": "3/7/25"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
+      "youtubeID": "XRimkzAKxM4",
+      "title": "Free snacks = competition + anxiety",
+      "albums": ["new", "wildlife"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "QPcHpMlPsD8",
+      "title": "POV Bringing Treats To The Barnyard",
+      "albums": ["new", "goats", "chickens"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "Th3P3_Bew0A",
+      "title": "Cute Blue Heeler Puppy Barks Will Melt Your Heart",
+      "albums": ["new", "dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "-yxfxC7IZmM",
+      "title": "Pi Day Feasts & Fails - Don't forget to have some pi day pie for 3.14",
+      "albums": ["new", "goats", "chickens", "dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "wMAAt0P78uk",
+      "title": "Huey Ka-Bluey Teaching me Which Toy He Likes Best (this one that one)",
+      "albums": ["new", "dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "CK0ASXCqKLk",
+      "title": "Pajama's a Happy Guy (Who Can't Catch)",
+      "albums": ["new", "dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "olyKxsU8VjU",
+      "title": "Wonky Toe, The Squirrel Who Proved Them Wrong",
+      "albums": ["new", "wildlife"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "OLxEcZg4d3A",
+      "title": "Xena Dog Growing up Playing Ruff",
+      "albums": ["new", "dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "jnwytbQii2k",
+      "title": "Gathering those freshy fresh eggs to make pasta dough",
+      "albums": ["new", "chickens"],
       "release_date": "3/14/25"
     }
   ]
