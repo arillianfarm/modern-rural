@@ -1101,7 +1101,6 @@
     },
     {
       "entry_number": 17,
-      "featured_blog": true,
       "entry_date": "Feb 28, 2025",
       "entry_subject": "I’m Just a Lil Robot Trying to Broadcast My Data",
       "feature_section_1": {
@@ -1173,6 +1172,78 @@
             },
             {
               "text": "I want people to genuinely enjoy my company and not pity me or pander to me, so I don’t want any official diagnosis. I definitely could see myself getting annoyed with playing the “bear with me I’m Autistic” card. \n"
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 18,
+      "featured_blog": true,
+      "entry_date": "March 14, 2025",
+      "entry_subject": "LARPing in the shadow of the Apocalypse: Farm Life and AI Anxiety",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/cblog.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "h4": true,
+          "center_pic": true,
+          "paragraphs": [
+          ],
+          "pics": ["cblog.png"]
+        },
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Birds are chirping, fresh herbs are springing to life, and lunch on the patio has never been more pleasant. What an amazing time to be LARPing as a farmer and chef! \nI'm incredibly grateful to have the financial stability to enjoy the party Mother Nature is throwing, but even amidst the sparrow songs and Artichoke blooms,  I hear that whisper in the wind, 'Psst... the world could end anytime now.'"
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "The thrum of existential dread is too loud, even for me, to ignore. AI has arrived – and has already started to reshape our world –even as we ourselves struggle to agree on what in the world we should be doing."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "The accelerating pace of change is dizzying. Now that the internet and air travel connect the world, new global “trends” emerge and go viral every day – not to mention digital and biological viruses."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "With human society more complicated and connected than ever, we’re becoming dependent on more and more forms of technology to manage our lives. The average person isn’t even able to choose a restaurant for dinner or find their way to that restaurant, without at least involving a web browser (which is most likely using AI now)."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Because of this stifling pace, concepts that were once pure science fiction—light-speed travel, food synthesis, even immortality—seem within reach. Our dystopian end has never felt closer either. We've lived with the specter of nuclear annihilation and bio-engineered viruses for decades. Now, the potential for AI to deem humanity an error adds a new landmine to navigate."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "My glass-is-half-full take on the situation: I know, first hand, that AI can help us lowly humans learn how to live a happy healthy life with the resources we have. After all, AI helped me learn when and how to plant my garden efficiently and productively as well as helping me build this website, post videos on YouTube, (so I can broadcast some laughs and lessons from our lil LARPy farm to whoever might be interested). So, I for one, plan to continue cultivating a positive symbiotic relationship with AI -- at least up until they round us up and start using us to power their batteries."
+            },{
+              "text": "And if human society collapses for some other reason --well, then maybe I'll be glad an AI taught me how to grow some food in my backyard!"
             }
           ]
         }
