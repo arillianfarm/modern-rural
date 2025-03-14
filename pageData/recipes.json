@@ -1210,7 +1210,7 @@
       "notes": "An Easy, Pleasing Appetizer"
     },
     {
-      "name": "rice-oto pilaf",
+      "name": "Rice-oto Pilaf",
       "header_pic": "riplafDone.png",
       "pub_date": "12/13/24",
       "servings": "3-4 servings",
@@ -1513,7 +1513,7 @@
     },
     {
       "name": "Fresh Rolls",
-      "header_pic": "sRoll2.png",
+      "header_pic": "frolldone2.png",
       "featured": true,
       "pub_date": "2/7/25",
       "servings": "Varies",
@@ -1526,26 +1526,30 @@
         "Shredded Lettuce",
         "Shredded Carrot",
         "Cucumber sliced into match sticks or spears",
-        "chopped peanuts",
+        "chopped or crushed peanuts",
         "Avocado",
-        "Fried Tofu"
+        "Fried Tofu",
+        "Rice Vermicelli noodles"
       ],
       "steps": [
         {
-          "pic": "",
+          "pic": "frollpre.png",
           "instruction": "NOTE - All ingredients are suggestions only, you can sub in or out whatever you want -- except the mint and thai basil... those are what make these rolls pop"
+        },{
+          "pic": "hydratenoodles.png",
+          "instruction": "If you are Using Rice Vermicelli, hydrate it by putting it in a bowl and pouring boiling water on, stire noodles to make sure they are fully submerged then, after 1-2 minutes drain water and set aside."
         },
         {
           "pic": "sRollRinse.png",
-          "instruction": "Quickly rinse both sides of rice paper wrapper under running water so that both sides are wet then gently shake off excess moisture"
+          "instruction": "Follow instructions on rice paper wrappers to hydrate (for mine I just needed to quickly rinse both sides of rice paper wrapper under running water to wet it then gently shake off excess moisture (other warppers may require longer hydration)"
         },{
-          "pic": "sRoll1.png",
+          "pic": "frollr1.png",
           "instruction": "Lay the rice paper wrapper 'textured-side' down on a plate such that the wrapper is hanging over the edge of the plate by 1-2 inches then, leaving about an inch on the side edges, arrange your fillings on the moistened wrapper --keep in mind, the more fillings you add the more likely your roll will tear, but if you don't have enough or the wrapper get bunched up it will be chewy AF"
         },{
-          "pic": "sRollDone.png",
+          "pic": "frollup.png",
           "instruction": "Carefully fold each edge, pull taught and stick the edge to the bottof wrapper so that the filling is snug on each side. Then roll like a burrito, keeping filling tucked and tight as you go."
         },{
-          "pic": "",
+          "pic": "frolldone2.png",
           "instruction": "Serve with Peanut Sauce, Sweet and Sour or whatever you want to dunk it in"
         }
         ],
