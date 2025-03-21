@@ -1624,7 +1624,6 @@
     {
       "name": "She Shed",
       "pub_date": "3/7/25",
-      "featured": true,
       "header_pic": "ssbdone2.png",
       "about": "A lot of Well-Worth-it work went into this cute lil getaway spot",
       "categories": ["construction"],
@@ -1762,6 +1761,177 @@
             {
               "h4": true,
               "text": "The work and sweat I shed to make the she shed has cultivated a lot of fun memories over the years!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rain Gutters w/ Water Collection Barrels",
+      "pub_date": "3/21/25",
+      "featured": true,
+      "header_pic": "rbardone.png",
+      "about": "Don't let all your spring rain go down the drain",
+      "categories": ["construction","gardening"],
+      "tools": [
+        "Gloves",
+        "Tape measure",
+        "Level",
+        "Chalk line",
+        "Drill",
+        "Pencil or marker",
+        "Caulk Gun",
+        "Ladder",
+        "Disposable gloves",
+        "Electric drill",
+        "Construction scissors or a sharp knife"
+      ],
+      "materials": [
+        "Gutter troughs",
+        "Gutter Mounting Clamps",
+        "Gutter End Caps",
+        "Gutter Outlet Tubes (for downspouts)",
+        "Gutter Elbows (for corners)",
+        "Gutter downspouts",
+        "Construction Screws",
+        "Rain gutter caulk",
+        "Outdoor Rubber Trashcan with Lid",
+        "Mosquito Fish (optional)"
+      ],
+      "phases": [
+        {
+          "pic": "rbar1.png",
+          "paragraphs": [
+            {
+              "text": "Planning and Measurement",
+              "h4": true
+            },
+            {
+              "text": "Determine Downspout Locations: Decide where you want your downspouts to be. This will influence the slope of your gutters."
+            },{
+              "text": "Measure the Length: Measure the length of the fascia board where you'll be installing the gutters."
+            },{
+              "text": "Calculate Slope: Gutters need a slight slope (about 1/4 inch per 10 feet) to direct water towards the downspouts."
+            }
+          ]
+        },{
+          "pic": "rbar2.png",
+          "paragraphs": [
+            {
+              "text": "Mark High and Low Points:",
+              "h4": true
+            },
+            {
+              "text": "Start at the highest point (usually the opposite end from the downspout)."
+            },{
+              "text": "Measure down the appropriate slope for the length of the gutter run."
+            },{
+              "text": "Mark the low point (where the downspout outlet will be)."
+            },{
+              "text": "Snap a chalk line between the high and low points you marked on the fascia board. (This will give you a straight line to guide where you should mount gutter brackets)"
+            }
+          ]
+        },{
+          "pic": "rbar3.png",
+          "paragraphs": [
+            {
+              "text": "Mark Gutter Bracket Locations",
+              "h4": true
+            },
+            {
+              "text": "Mark gutter brackets locations along the gutter run: spaced approximately 24 inches apart and at each end of the gutters."
+            },
+            {
+              "text": ""
+            },
+            {
+              "text": ""
+            },
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pic": "rbar3.png",
+          "paragraphs": [
+            {
+              "text": "Installing the Brackets",
+              "h4": true
+            },
+            {
+              "text": "Drill pilot holes at the marked bracket locations (This will prevent the fascia board from splitting)"
+            },
+            {
+              "text": "Ensure the brackets are level and properly aligned as you go, secure the brackets to the fascia board using screws (or gutter nails)"
+            }
+          ]
+        },{
+          "pic": "rbar3.png",
+          "paragraphs": [
+            {
+              "text": "Assembling the Gutters",
+              "h4": true
+            },
+            {
+              "text": "Being careful to make clean, straight cuts, cut the gutters to the correct length using a hacksaw or tin snips"
+            },
+            {
+              "text": "Apply rain gutter sealant to the inside of the end caps and attach the end caps to the ends of the gutters"
+            },{
+              "text": "Cut a hole in the gutter at the downspout location and apply sealant to the outlet tube and attach it to the gutter"
+            }
+          ]
+        },{
+          "pic": "rbar3.png",
+          "paragraphs": [
+            {
+              "text": "Mounting the Gutters",
+              "h4": true
+            },
+            {
+              "text": "Carefully place the gutters onto the installed brackets, ensure they are securely seated and aligned with the chalk line."
+            },{
+              "text": "Use screws or rivets, secure the gutters to the brackets. (Follow the manufacturer's instructions for your specific gutter system)"
+            },{
+              "text": "If your gutter run has corners, assemble the corner pieces using the rain gutter sealant, and then attach them to the straight gutter pieces."
+            }
+          ]
+        },{
+          "pic": "rbar3.png",
+          "paragraphs": [
+            {
+              "text": "Installing Downspouts",
+              "h4": true
+            },
+            {
+              "text": "Set a rubber trash can below each downspout location."
+            },{
+              "text": "Secure the downspouts to the house using downspout straps or brackets and terminate the downspout in the can to catch runoff water."
+            }
+          ]
+        },{
+          "pic": "rbar3.png",
+          "paragraphs": [
+            {
+              "text": "Seal All Joints",
+              "h4": true
+            },
+            {
+              "text": "Apply rain gutter sealant to all joints and seams to prevent leaks."
+            },{
+              "text": "Pour water into the gutters to test for leaks and ensure proper drainage. Make any necessary adjustments."
+            }
+          ]
+        },{
+          "label": "Mosquito Fish are Friends",
+          "vid": "abmrpxilJ5c",
+          "paragraphs": [
+            {
+              "text": "Add Mosquito Fish to Filled Catchment Barrels",
+              "h4": true
+            },
+            {
+              "text": "When the barrels are full, you can add mosquito fish to control mosquito larva (Note- You should have a pond or tank to store fish in when the barrels are not full so you can move them back and forth as needed during teh rainy season."
             }
           ]
         }

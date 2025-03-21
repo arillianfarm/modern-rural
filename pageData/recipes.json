@@ -1687,10 +1687,10 @@
 
       ],
       "notes": "Nice as a Snack or Salad Topper"
-    },{
+    },
+    {
       "name": "Garlic Soy Green Beans",
       "header_pic": "gbeansdone.png",
-      "featured": true,
       "pub_date": "3/14/25",
       "servings": "3-4 Servings",
       "related_recipes": [],
@@ -1713,6 +1713,41 @@
         }
       ],
       "notes": "Show Your Savory Side"
+    },
+    {
+      "name": "Air Fried Crispy Tofu",
+      "header_pic": "ftofudone.png",
+      "featured": true,
+      "pub_date": "3/21/25",
+      "servings": "3-4 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "1 block of Extra Firm Tofu (14-16 oz) ",
+        "1 tsp Soy Sauce",
+        "1 Tablespoon Corn Starch",
+        "1/2 tsp Ground Black Pepper",
+        "1/2 tsp Chili Powder or paprika",
+        "1 Tsp Sesame Oil (or whatever oil you have on hand)"
+      ],
+      "steps": [
+        {
+          "pic": "ftofu1.png",
+          "instruction": "Press tofu to drain excess water. My method is to wrap with a paper towel and put a heavy cookbook on top for 10 minutes, then remove wet paper towel, re-wrap with a dry one, flip the tofu over and put the book on top for another 10 minutes."
+        },{
+          "pic": "ftofu3.png",
+          "instruction": "Cut tofu into approx 1 inch cubes and, in a large mixing bowl, drizzle soy sauce over tofu cubes and mix to coat all cubes."
+        },{
+          "pic": "ftofu4.png",
+          "instruction": "In a separate (small) bowl, whisk together dry ingredients then evenly coat the tofu with the dry ingredients before drizzling or spraying the oil over the coated tofu. Then remix until oil is evenly distributed."
+        },{
+          "pic": "ftofudone.png",
+          "instruction": "Air fry at 385 for 15 minutes and serve with your favorite dipping sauce."
+        },{
+          "pic": "tofuSamDone.png",
+          "instruction": "Note - This tofu is also nice over rice, in a sandwich or burrito"
+        }
+      ],
+      "notes": "A Tofu Treat To Satisfy Vegetarians' McMemories of Nuggets"
     }
   ]
 }
