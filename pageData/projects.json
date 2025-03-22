@@ -1767,10 +1767,10 @@
       ]
     },
     {
-      "name": "Rain Gutters w/ Water Collection Barrels",
+      "name": "Rain Gutters w/ Water Collection Barrel",
       "pub_date": "3/21/25",
       "featured": true,
-      "header_pic": "rbardone.png",
+      "header_pic": "rbarrel.png",
       "about": "Don't let all your spring rain go down the drain",
       "categories": ["construction","gardening"],
       "tools": [
@@ -1782,7 +1782,7 @@
         "Pencil or marker",
         "Caulk Gun",
         "Ladder",
-        "Disposable gloves",
+        "Gloves",
         "Electric drill",
         "Construction scissors or a sharp knife"
       ],
@@ -1800,7 +1800,7 @@
       ],
       "phases": [
         {
-          "pic": "rbar1.png",
+          "pic": "",
           "paragraphs": [
             {
               "text": "Planning and Measurement",
@@ -1815,7 +1815,7 @@
             }
           ]
         },{
-          "pic": "rbar2.png",
+          "pic": "",
           "paragraphs": [
             {
               "text": "Mark High and Low Points:",
@@ -1832,7 +1832,7 @@
             }
           ]
         },{
-          "pic": "rbar3.png",
+          "pic": "",
           "paragraphs": [
             {
               "text": "Mark Gutter Bracket Locations",
@@ -1840,19 +1840,10 @@
             },
             {
               "text": "Mark gutter brackets locations along the gutter run: spaced approximately 24 inches apart and at each end of the gutters."
-            },
-            {
-              "text": ""
-            },
-            {
-              "text": ""
-            },
-            {
-              "text": ""
             }
           ]
         },{
-          "pic": "rbar3.png",
+          "pic": "gbend.png",
           "paragraphs": [
             {
               "text": "Installing the Brackets",
@@ -1866,7 +1857,7 @@
             }
           ]
         },{
-          "pic": "rbar3.png",
+          "pic": "gutA.png",
           "paragraphs": [
             {
               "text": "Assembling the Gutters",
@@ -1882,7 +1873,7 @@
             }
           ]
         },{
-          "pic": "rbar3.png",
+          "pic": "gut1.png",
           "paragraphs": [
             {
               "text": "Mounting the Gutters",
@@ -1897,7 +1888,7 @@
             }
           ]
         },{
-          "pic": "rbar3.png",
+          "pic": "rbarrel.png",
           "paragraphs": [
             {
               "text": "Installing Downspouts",
@@ -1910,7 +1901,7 @@
             }
           ]
         },{
-          "pic": "rbar3.png",
+          "pic": "gutT.png",
           "paragraphs": [
             {
               "text": "Seal All Joints",
