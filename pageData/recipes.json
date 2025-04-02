@@ -1798,29 +1798,50 @@
       ],
       "steps": [
         {
+          "pic": "",
+          "instruction": "Prep Artichokes: Add lemon juice to a bowl of cold water (to keep prepped raw artichokes from browning)"
+        },{
+          "pic": "",
+          "instruction": "Snap off the tough outer leaves until you reach the tender inner leaves. Trim the stem, leaving about 1 inch."
+        },{
           "pic": "mchoke1.png",
-          "instruction": "Prep Artichokes: Snap off the tough outer leaves until you reach the tender inner leaves."
-        },{
-          "pic": "",
-          "instruction": "Cut off the top third of the artichoke."
-        },{
-          "pic": "",
-          "instruction": "Trim the stem, leaving about 1 inch."
+          "instruction": "Cut off the top third of the artichoke then cut in half."
         },{
           "pic": "mchoke2.png",
-          "instruction": ""
+          "instruction": "Use a spoon to scoop out the fuzzy choke in the center."
         },{
-          "pic": "mchoke1.png",
-          "instruction": ""
+          "pic": "mchoke3.png",
+          "instruction": "Put prepped artichokes into lemon water (to prevent browning)."
         },{
-          "pic": "mchoke1.png",
-          "instruction": ""
+          "pic": "mchoke4.png",
+          "instruction": "Cook Artichokes: Bring a pot of salted water to a boil. Add the artichoke halves and cook until tender, about 15-20 minutes"
         },{
-          "pic": "mchoke1.png",
-          "instruction": ""
-        },
+          "pic": "",
+          "instruction": "Drain the artichokes and let them cool and cut larger artichoke halves in half (1/4 of full artichoke)."
+        },{
+          "pic": "mchoke6.png",
+          "instruction": " Pull any remaining tough leaves off the cooled artichokes (you can set these aside as a snack to dip in butter, lemon juice or mayonnaise and scrape the leaf pulp with your teeth)."
+        },{
+          "pic": "mchoke7.png",
+          "instruction": "Prepare Marinade: In a jar, shake to combine olive oil, lemon juice, garlic, oregano, salt, and pepper."
+        },{
+          "pic": "",
+          "instruction": "Place the cooked artichoke hearts in the jar of marinade."
+        },{
+          "pic": "",
+          "instruction": "Gently swivel and agitate the jar to coat artichokes"
+        },{
+          "pic": "mchokedone.png",
+          "instruction": "Refrigerate for at least 2 hours, or preferably overnight, to allow the flavors to meld"
+        },{
+          "pic": "mchokepasta.png",
+          "instruction": "Serve the marinated artichokes as an appetizer, toast topper or in pasta (or other) salad. Stays good in refrigerator for upto a week."
+        },{
+          "pic": "",
+          "instruction": "Note- You can swap in or out ingredients for the marinade to better fit your taset -e.g. Use balsamic vinegar instead of lemon juice, Add sliced onions or bell peppers to the marinade(esp good if using the artichokes in pasta salad) or add other herbs and spices, such as thyme, rosemary, or bay leaves."
+        }
       ],
-      "notes": "Time To Get Choked Up"
+      "notes": "Get Choked Up This Spring!"
     }
   ]
 }

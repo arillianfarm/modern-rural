@@ -1255,14 +1255,14 @@
       "entry_subject": "Facing the Language Loop: From Hieroglyphs to Emojis",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/hiero.png"
+        "pic": "assets/blog/writblog.png"
       },
       "feature_section_2": {
         "caption": "",
         "pic": ""
       },
       "feature_section_3": {
-        "caption": "",
+        "caption": "¯\\_\\(ツ)_/¯ ",
         "pic": ""
       },
       "sections": [
@@ -1271,7 +1271,7 @@
           "center_pic": true,
           "paragraphs": [
           ],
-          "pics": ["cblog.png"]
+          "pics": ["writblog.png"]
         },
         {
           "pics": [],
