@@ -1040,38 +1040,128 @@
     },{
       "youtubeID": "v4wkBPvmpAc",
       "title": " Go Find Your Pot O' Gold and Dig In!",
-      "albums": ["new", "wildlife"],
+      "albums": [ "wildlife"],
       "release_date": "3/21/25"
     },{
       "youtubeID": "G9Fr-s3cWYo",
       "title": "Crafting with trash: Frankenstein-ing old dog toys",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "3/21/25"
     },{
       "youtubeID": "Pajama Plays Too Ruff For This Tough Dog Toy — Meh Monday",
       "title": "k-PtZIlezlI",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "3/21/25"
     },{
       "youtubeID": "I3tG2t1--yE",
       "title": "Huey Ka-Bluey teaching me which toys he likes best: Huey Ka-Bluey Vs The Toy Basket",
-      "albums": ["new", "chickens"],
+      "albums": [ "chickens"],
       "release_date": "3/21/25"
     },{
       "youtubeID": "VwlvqtJIAJE",
       "title": "Totes, the Goat is Totes Adorbs Bouncing Around our chicken Coop (funny farm animals)",
-      "albums": ["new", "goats"],
+      "albums": [ "goats"],
       "release_date": "3/21/25"
     },{
       "youtubeID": "sIkSzkcv380",
       "title": "Funny Farm Animal Sound Swap",
-      "albums": ["new", "chickens", "goats", "dogs"],
+      "albums": [ "chickens", "goats", "dogs"],
       "release_date": "3/21/25"
     },{
       "youtubeID": "cA_ygg8K_SY",
-      "title": "POV- Dog Treats Couch Like a Trampoline Park",
-      "albums": ["new", "dogs"],
+      "title": "POV- Our Dogs Treat our Couch Like a Trampoline Park",
+      "albums": [ "dogs"],
       "release_date": "3/21/25"
+    },{
+      "youtubeID": "kSp-4Sj7534",
+      "title": "Is Huey Ka-Bluey trying to talk to me or am I hearing things ¯\\_(ツ)_/¯",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "abmrpxilJ5c",
+      "title": "Mosquito mischief managed! #lifehack",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "V72U7A4gRTU",
+      "title": "Spring Break when you’re 20 vs when you’re 40",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "yDW_EEITdR8",
+      "title": "Xena dog is a Playful Player",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "VbxCavSKQp4",
+      "title": "Huey Ka-Bluey teaching me which toys he likes - Old Frankensteined Toys",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "vReXfbv0cj4",
+      "title": " Huey Ka-Bluey reacts to seeing himself as a stuffed animal",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "1UMGH5ivkUE",
+      "title": "Ducking Out When The Friend You Didn’t Invite Shows Up",
+      "albums": ["wildlife"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "D9TiUDQA5RY",
+      "title": "Teenage Dirtbags aka Pullet Chickens  (funny farm animals)",
+      "albums": ["chickens"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "tBz47mO35GU",
+      "title": "Rut Row: Rutting Goats, Totes & McGoats Butt Heads",
+      "albums": ["goats"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", "goats"],
+      "release_date": "4/4/25"
     }
   ]
 }

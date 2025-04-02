@@ -1927,6 +1927,54 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Pruning and Harvesting Artichokes",
+      "pub_date": "3/21/25",
+      "featured": true,
+      "header_pic": "chokes1.png",
+      "about": "Harnessing the Flower Power from our Farmyard",
+      "categories": ["gardening"],
+      "tools": [
+        "Gloves",
+        "serrated knife"
+      ],
+      "materials": [
+      ],
+      "phases": [
+        {
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Growing the Most Artichokes (to jar and marinate)",
+              "h4": true
+            },
+            {
+              "text": "."
+            }
+          ]
+        },{
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Growing the Biggest Artichokes (Big enough to scrape flower meat with your teeth)",
+              "h4": true
+            },
+            {
+              "text": "."
+            }
+          ]
+        },{
+          "label": "",
+          "vid": "ODRSl6mnIIA",
+          "paragraphs": [
+            {
+              "text": "Marinated Artichokes From Yard To Jar",
+              "h4": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }

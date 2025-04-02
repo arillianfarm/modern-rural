@@ -1717,7 +1717,6 @@
     {
       "name": "Air Fried Crispy Tofu",
       "header_pic": "ftofudone.png",
-      "featured": true,
       "pub_date": "3/21/25",
       "servings": "3-4 Servings",
       "related_recipes": [],
@@ -1748,6 +1747,80 @@
         }
       ],
       "notes": "A Tofu Treat To Satisfy Vegetarians' McMemories of Nuggets"
+    },
+    {
+      "name": "Eggs in a Basket",
+      "header_pic": "ebdone.png",
+      "pub_date": "3/28/25",
+      "servings": "1 Serving",
+      "related_recipes": ["Traditional Sourdough Bread", "San Francisco Style Sourdough Bread"],
+      "ingredients": [
+        "1 egg",
+        "1 slice of bread",
+        "1/2 tablespoon butter",
+        "sprinkle of shredded cheese"
+      ],
+      "steps": [
+        {
+          "pic": "eb2.png",
+          "instruction": "melt butter in a small pan"
+        },{
+          "pic": "",
+          "instruction": "Make a hole in the middle of a piece of bread, when the butter is hot dip one side of the bread in the butter, then flip over to let the other side soak up the rest of the butter"
+        },{
+          "pic": "eb3.png",
+          "instruction": "Crack egg, so that the yolk lands in the bread hole then swivel the pan to spread the egg white around the bread."
+        },{
+          "pic": "ebcheese.png",
+          "instruction": " Cook for 2-3 minutes, then carefully flip (without breaking the yolk), then cook for 2-3 minutes on the otherside"
+        },{
+          "pic": "ebdone2.png",
+          "instruction": "Sprinkle cheese on top and enjoy (Personally, I like to tear the corners off and dip them in the yolk)"
+        }
+      ],
+      "notes": "An eggcellent way to eat toast and eggs!"
+    },
+    {
+      "name": "Marinated Artichokes",
+      "header_pic": "mchokedone.png",
+      "featured": true,
+      "pub_date": "4/4/25",
+      "servings": "3-4 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "6-12 medium-very small artichokes",
+        "2 cloves garlic (pressed or minced)",
+        "1/4 cup olive oil",
+        "2 tablespoons lemon juice + extra for soaking raw, sliced artichokes",
+        "1 tsp dried oregano leaves",
+        "1/8 tsp black pepper",
+        "1/8 tsp salt"
+      ],
+      "steps": [
+        {
+          "pic": "mchoke1.png",
+          "instruction": ""
+        },{
+          "pic": "mchoke1.png",
+          "instruction": ""
+        },{
+          "pic": "mchoke1.png",
+          "instruction": ""
+        },{
+          "pic": "mchoke1.png",
+          "instruction": ""
+        },{
+          "pic": "mchoke1.png",
+          "instruction": ""
+        },{
+          "pic": "mchoke1.png",
+          "instruction": ""
+        },{
+          "pic": "mchoke1.png",
+          "instruction": ""
+        },
+      ],
+      "notes": "Time To Get Choked Up"
     }
   ]
 }

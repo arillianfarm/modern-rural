@@ -1179,9 +1179,8 @@
     },
     {
       "entry_number": 18,
-      "featured_blog": true,
       "entry_date": "March 14, 2025",
-      "entry_subject": "LARPing in the shadow of the Apocalypse: Farm Life and AI Anxiety",
+      "entry_subject": "LARPing in the face of the Apocalypse: Farm Life and AI Anxiety",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/cblog.png"
@@ -1244,6 +1243,76 @@
               "text": "My glass-is-half-full take on the situation: I know, first hand, that AI can help us lowly humans learn how to live a happy healthy life with the resources we have. After all, AI helped me learn when and how to plant my garden efficiently and productively as well as helping me build this website, post videos on YouTube, (so I can broadcast some laughs and lessons from our lil LARPy farm to whoever might be interested). So, I for one, plan to continue cultivating a positive symbiotic relationship with AI -- at least up until they round us up and start using us to power their batteries."
             },{
               "text": "And if human society collapses for some other reason --well, then maybe I'll be glad an AI taught me how to grow some food in my backyard!"
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 19,
+      "entry_date": "April 4th, 2025",
+      "featured_blog": true,
+      "entry_subject": "Facing the Language Loop: From Hieroglyphs to Emojis",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/hiero.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "h4": true,
+          "center_pic": true,
+          "paragraphs": [
+          ],
+          "pics": ["cblog.png"]
+        },
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": ""
             }
           ]
         }
