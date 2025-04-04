@@ -1933,7 +1933,7 @@
       "pub_date": "3/21/25",
       "featured": true,
       "header_pic": "achokebundle.png",
-      "about": "Harnessing Farmyard Flower Power",
+      "about": "Harness some Farmyard Flower Power",
       "categories": ["gardening"],
       "tools": [
         "Gloves",
@@ -1943,7 +1943,7 @@
       "materials": [
       ],
       "phases": [{
-        "pic": "",
+        "vid": "nU0Z_lkOx40",
         "paragraphs": [
           {
             "text": "Artichokes the Gift that Keeps Giving",
@@ -1966,7 +1966,7 @@
           }
         ]
       },{
-        "pic": "",
+        "pic": "achokey.png",
         "paragraphs": [
           {
             "text": "Cultivating Chokes Big Enough to Scrape Flower Meat with Your Teeth",
@@ -1982,7 +1982,8 @@
           }
         ]
       },{
-          "pic": "",
+          "pic": "smallchoke.png",
+        "right_side_pic": true,
           "paragraphs": [
             {
               "text": "When More is More:",
