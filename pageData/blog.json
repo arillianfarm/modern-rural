@@ -1312,7 +1312,7 @@
             }
           ]
         },{
-          "pics": ["ablogcard.png"],
+          "pics": ["ablogCard.png"],
           "right_side_pic": true,
           "paragraphs": [
             {
