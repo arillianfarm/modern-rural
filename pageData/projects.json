@@ -1937,7 +1937,8 @@
       "categories": ["gardening"],
       "tools": [
         "Gloves",
-        "Serrated knife"
+        "Serrated knife",
+        "Garden Scissors"
       ],
       "materials": [
       ],
@@ -1945,58 +1946,54 @@
         "pic": "",
         "paragraphs": [
           {
-            "text": "General Artichoke Tips",
+            "text": "Artichokes the Gift that Keeps Giving",
             "h4": true
           },
           {
-            "text": "Grow in full sun, well-drained soil and fertilize regularly from after the last frost until mid-late summer."
+            "text": "Artichokes are sun-bathing beauties, so after the last winter frost, find a spot for seeds or young plants that gets at least 6-8 hours of direct sunshine."
           },
           {
-            "text": "During the growing season, flood artichokes with several gallons of water once a week (to develop a healthy tap root). I increase watering to every 2-3 days during the punishing AZ summer."
+            "text": "NOTE - nobody likes wimpy soggy roots, so mix a nutrient-rich compost or fertilizer into the soil and ensure there is good drainage!"
           },
           {
-            "text": "This encourages new growth, in early spring, remove dead or damaged leaves and stems."
+            "text": "Healthy artichoke plants will establish a taproot that can regrow for six or more years. To develop those healthy roots, start regularly fertilizing and watering the previous year’s artichokes (as well as your new ones) from late winter through mid-late summer."
           },{
-            "text": "Remove any suckers (small shoots growing from the base). This directs the plant's energy towards producing more artichokes."
+            "text": "Less frequent, deep watering helps develop the strong taproot artichokes need to pull through. Our punishing Arizona summers make our chokes thirsty, so I flood them with several gallons of water every 2-3 days in the summer, but in the winter and spring here (and all the time when I lived in CA), I flood them once a week."
           },{
-            "text": "Harvest each artichoke when the scales are still tightly closed."
+            "text": "To encourage fresh growth and big blooms, there’ll be some tidying up to do in mid spring. Carefully rip away (or use garden scissors to snip away) any dead or damaged leaves and stems."
           },{
-            "text": "I usually leave a few Artichokes to flower. They are vibrantly purple, attract bees and yeild a lot of seeds."
+            "text": "NOTE - Artichoke flowers are thorny, so you’ll want to glove up!"
+          }
+        ]
+      },{
+        "pic": "",
+        "paragraphs": [
+          {
+            "text": "Cultivating Chokes Big Enough to Scrape Flower Meat with Your Teeth",
+            "h4": true
+          },
+          {
+            "text": "If you get choked up at the thought of those hefty-hearted chokes – the kind where you really get to feel the joy of scraping the flower meat off each petal – then this method is for you!"
+          },
+          {
+            "text": "In early spring you have to get cutthroat; cull the weak! Snip off small side branches, leaving only the strongest, most promising few. If little artichokes crowd bigger buds, cut ‘em. The fewer buds there are to soak up the goodness, the better the few buds will be."
           },{
-            "text": "At the end of the growing season, cut back the plant to ground level after the harvest is complete. This allows the plant to rest and prepare for the next season."
-          },{
-            "text": "Artichoke plants will go dormant late summer - winter and grow back from the same taproot for upto 6 years."
+            "text": "Timing your harvest(s) is crucial! If you let flowers start to open, the petals may be too tough to eat, but if you want a big artichoke, you must also resist the urge to harvest too soon. When timed right though, your teeth will be gloriously gliding through plump flower meat for days."
           }
         ]
       },{
           "pic": "",
           "paragraphs": [
             {
-              "text": "Pruning and Harvesting for Max Flower Count",
+              "text": "When More is More:",
               "h4": true
             },
             {
-              "text": "If you want to get a higher count of small artichokes (which are good for marinating and jarring), harvest the main, central artichoke first."
+              "text": "Want a bumper crop of those adorable, tender little artichokes perfect for pickling or adding whole to your favorite pasta, salad, pasta salad, or maybe even a flower bouquet?"
             },{
-              "text": "Then Harvest side shoots when they are still tight and firm, about 2-3 inches in diameter."
+              "text": "Harvest the main, central artichoke first. Then Harvest side shoots when they are still tight and firm, about 2-3 inches in diameter."
             },{
-              "text": "Cut the stems about 2 inches below the artichoke."
-            }
-          ]
-        },{
-          "pic": "",
-          "paragraphs": [
-            {
-              "text": "Cultivating Chokes Big Enough to Scrape Flower Meat with Your Teeth",
-              "h4": true
-            },
-            {
-              "text": "In early spring, remove all side branches except the strongest ones. (This directs the plant's energy towards producing a few very large artichokes)"
-            },
-            {
-              "text": "If multiple artichokes are developing close together, thin them out, leaving only the largest ones. (Smaller ones can be marinated)."
-            },{
-              "text": "Allow the central artichoke to grow larger than usual, but harvest it before it begins to open. (Allow the remaining side shoots to grow larger as well)."
+              "text": "NOTE -Cut the stems about 2 inches below the artichoke."
             }
           ]
         },{
@@ -2004,8 +2001,10 @@
           "vid": "Ug6_yLQvA0E",
           "paragraphs": [
             {
-              "text": "Choking Upwards",
+              "text": "Aim for the table and you may end up with a pocket full of seeds",
               "h4": true
+            },{
+              "text": "There’s really no way to fail with artichokes – even if you don’t get to them before they start to open, you end up with vibrant, beautiful flowers in your yard!"
             }
           ]
         }

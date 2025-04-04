@@ -9,11 +9,13 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     console.log("app loaded "+ Date.now())
     $routeProvider
         .when("/", {
-            templateUrl : "landingPages/videos.html",
+            templateUrl : "landingPages/chokeWeek.html",
+            // templateUrl : "landingPages/videos.html",
             controller: "mainController"
         })
         .when("/main", {
-            templateUrl : "landingPages/videos.html"
+            templateUrl : "landingPages/chokeWeek.html"
+            // templateUrl : "landingPages/videos.html"
         })
         .when("/pets", {
             templateUrl : "landingPages/animalCare.html"
@@ -319,6 +321,37 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         $rootScope.data.collapse_nav_scroll = true;
         globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     }
+
+    $rootScope.chokeweekvids = [
+        {
+            "youtubeID": "nU0Z_lkOx40",
+            "title": "Growing Artichokes From Seeds in LaCroix Boxes (Crafting With Trash Ep 3)"
+        },
+        {
+            "youtubeID": "Ug6_yLQvA0E",
+            "title": "All choked up - Pruning Artichokes for quantity VS size of flower heads"
+        },
+        {
+            "youtubeID": "ODRSl6mnIIA",
+            "title": "Halve a Heart: Marinated Artichokes from Yard to Table"
+        },
+        {
+            "youtubeID": "zHCYx1gUdu0",
+            "title": "Goats, Totes & McGoats Eat Artichokes ‘cause They’ve Got High High Hopes"
+        },
+        {
+            "youtubeID": "u1fo9vt0S9g",
+            "title": "Will She Or Wont She? Leghorn hen thinks about jumping over to our dog's side of the fence"
+        },
+        {
+            "youtubeID": "P1SMOgI1tas",
+            "title": "Chicken treats our garden like her personal salad bar - Meh Monday"
+        },
+        {
+            "youtubeID": "axsl0sfhCwo",
+            "title": "Quick Desert Vegetable Garden Tour - Starting Over After a Scorching Summer - November 2024"
+        }
+    ];
 
     $rootScope.assembleIDattribute = function(docName){
         return docName.split(" ").join("-").replace("'","").toLowerCase();

@@ -1787,7 +1787,7 @@
       "servings": "3-4 Servings",
       "related_recipes": [],
       "ingredients": [
-        "6-12 medium-very small artichokes",
+        "6-12 medium - very small artichokes",
         "2 cloves garlic (pressed or minced)",
         "1/4 cup olive oil",
         "2 tablespoons lemon juice + extra for soaking raw, sliced artichokes",
@@ -1843,19 +1843,29 @@
       "notes": "Eat Your Heart Out"
     },
     {
-      "name": "Ricotta Garlic Choke Toast",
-      "header_pic": "",
+      "name": "Ricotta Artichoke GarlicToast",
+      "header_pic": "arictoastDone.png",
       "featured": true,
       "pub_date": "4/4/25",
       "servings": "2-4 Servings",
-      "related_recipes": [],
+      "related_recipes": ["Marinated Artichokes","San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
       "ingredients": [
-        "",
+        "4 Slices of Bread",
+        "1/2 cup ricotta cheese",
+        "1/4 cup shredded mozzarella",
+        "2 cloves of garlic (minced or pressed)",
+        "Marinated Artichokes"
       ],
       "steps": [
         {
+          "pic": "arictoast1.png",
+          "instruction": "Combine ricotta, mozzarella and garlic."
+        },{
+          "pic": "arictoast2.png",
+          "instruction": "Spread ricotta mixture onto bread and top with marinated artichokes."
+        },{
           "pic": "",
-          "instruction": ""
+          "instruction": "Airfry for 7-8 minutes (or bake for 10 minutes then broil for 2 minutes)"
         }
       ],
       "notes": "A Toast to Artichokes"

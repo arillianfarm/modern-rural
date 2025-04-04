@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arillian Farm - Artichoke Week!</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0; /* Remove default body margin */
+      background-color: #1e272e; /* Dark background like your site */
+      color: #f8f9fa; /* White/light text */
+      text-align: center;
+      padding-top: 60px; /* To account for a potential fixed header */
+    }
+    .container {
+      max-width: 960px; /* Adjust to your content width */
+      margin: 20px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #a5d6a7; /* A slightly brighter green for the title */
+      margin-bottom: 30px;
+      font-size: 2.5em;
+      text-shadow: 1px 1px 2px #000; /* Add a subtle shadow to make it pop */
+    }
+    p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    .video-container {
+      margin-bottom: 30px;
+      border: 1px solid #37474f; /* Darker border for the video boxes */
+      border-radius: 8px;
+      overflow: hidden;
+      display: inline-block;
+      max-width: 560px;
+      width: 100%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    }
+    .video-title {
+      padding: 10px;
+      background-color: #263238; /* Slightly darker background for the title bar */
+      font-weight: bold;
+      text-align: center;
+    }
+    .video-iframe {
+      width: 100%;
+      height: 315px;
+      display: block; /* Prevent extra space below iframe */
+    }
+    a {
+      color: #a5d6a7; /* Link color */
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Arillian Farm's <span style="color: #ffb74d;">Artichoke Week!</span></h1>
+  <h3>Welcome to a week dedicated to the magnificent artichoke! Join us as we celebrate our first harvest of 2025 with a collection of our favorite artichoke-themed YouTube shorts:</h3>
+
+  <div class="row" ng-if="!data.loading">
+    <div class="col-xs-12 mb-3"
+         style="height:45em;"
+         ng-repeat="video in chokeweekvids track by $index">
+      <div class="row">
+        <div class="col-xs-12">
+          <a class="text-white"
+             ng-href="{{getIframeSrcForYouTube(video.youtubeID)}}"
+             target="_blank">{{titleCaps(video.title, 50)}}
+            <i class="fa fa-external-link"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <iframe
+                ng-if="!smallView"
+                class="video-box"
+                height="500"
+                width="500"
+                autoplay="0"
+                ng-src="{{getIframeSrcForYouTube(video.youtubeID)}}">
+        </iframe>
+        <iframe ng-if="smallView"
+                class="video-box"
+                height="500"
+                width="300"
+                autoplay="0"
+                ng-src="{{getIframeSrcForYouTube(video.youtubeID)}}">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <p><a href="#!videos">Back to Main Site</a></p>
+</div>
+</body>
+</html>
