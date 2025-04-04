@@ -1252,17 +1252,17 @@
       "entry_number": 19,
       "entry_date": "April 4th, 2025",
       "featured_blog": true,
-      "entry_subject": "Facing the Language Loop: From Hieroglyphs to Emojis",
+      "entry_subject": "An Ode to Artichokes",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/writblog.png"
+        "pic": "assets/blog/ablogharvest.png"
       },
       "feature_section_2": {
         "caption": "",
         "pic": ""
       },
       "feature_section_3": {
-        "caption": "¯\\_\\(ツ)_/¯ ",
+        "caption": "",
         "pic": ""
       },
       "sections": [
@@ -1271,48 +1271,63 @@
           "center_pic": true,
           "paragraphs": [
           ],
-          "pics": ["writblog.png"]
+          "pics": ["ablogharvest.png"]
         },
         {
-          "pics": [],
+          "pics": ["aplate.png"],
           "paragraphs": [
             {
-              "text": ""
+              "text": "Artichokes remind me of me, tough, vibrant and good with a side of mayonnaise, so I guess that's why they're my favorite flower."
+            },{
+              "text": "As a child, I'd feel a burst of excitement when my mom would get out our gleaming white 'Artichoke plates' --with a central circle to set an artichoke surrounded by built-in troughs for dips and discarded leaves "
+            },{
+              "text": "We usually shared one or two artichokes between our family of four, so there was always a scramble to grab and gobble as much mayo-dipped flower meat as you could before my dad meticulously divided the artichoke heart."
+            },{
+              "text": "After settling for scraped off tidbits of leaf meat, the luxury of sinking my teeth into the warm, mayonnaised up heart of the choke was a savory satisfying delight!"
+            }
+
+          ]
+        },{
+          "pics": ["ablogFlowering.png"],
+          "paragraphs": [
+            {
+              "text": "It wasn't until my adult life, when I bought my first house and planted artichokes in my garden that I saw a blooming artichoke and realized what a feast for the eyes they can be!"
+            },
+            {"text": "Another Bonus of artichokes is that their thistle-like purple flowers, rich in both nectar and pollen, attract and provide for bees,butterflies, and other beneficial insects"
+            },{
+              "text": "Plus artichokes grow from a taproot, so they can grow back from the same tap root for six years or more."
             }
           ]
         },{
-          "pics": [],
+          "pics": ["drychoke.png"],
           "paragraphs": [
             {
-              "text": ""
+              "text": "Everything about the Artichoke flower is beautiful to me. From the tough purple thistle head to the delicate parasols that spread their seeds in the wind like dandelions."
             }
           ]
         },{
-          "pics": [],
+          "pics": ["chokebat.png","chokebat2.png","chokebat3.png"],
           "paragraphs": [
             {
-              "text": ""
+              "text": "I've actually been trying to get an AI to generate an image for my first tattoo that captures the juxtiposition of strength and delicate grace of an artichoke."
+            },{
+              "text": "I want it to be like the girl blowing a dandelion tattoo, but with a girl smashing a baseball bat into a dried artichoke flower (still on the plant) and scattering seeds, attached to their shimmering sparkle parasols, all around."
+            },{
+              "text": "So far the AI hasn't been able to show me what I want, so I probably should talk to a human tattoo artist about it, but also the idea of etching an image onto my skin feels like a big commitment."
             }
           ]
         },{
-          "pics": [],
+          "pics": ["ablogcard.png"],
           "paragraphs": [
             {
-              "text": ""
+              "text": "Even if they never end up on my skin, Artichokes have made it under my skin, into my heart and onto a couple greeting cards I've made for the ones I love."
             }
           ]
         },{
-          "pics": [],
+          "vid": "ODRSl6mnIIA",
           "paragraphs": [
             {
-              "text": ""
-            }
-          ]
-        },{
-          "pics": [],
-          "paragraphs": [
-            {
-              "text": ""
+              "text": "Halve a Heart and Eat an Artichoke Today!"
             }
           ]
         }

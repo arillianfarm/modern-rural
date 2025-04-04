@@ -1932,12 +1932,12 @@
       "name": "Cultivating Culinary Artichokes",
       "pub_date": "3/21/25",
       "featured": true,
-      "header_pic": "chokes1.png",
+      "header_pic": "achokebundle.png",
       "about": "Harnessing Farmyard Flower Power",
       "categories": ["gardening"],
       "tools": [
         "Gloves",
-        "serrated knife"
+        "Serrated knife"
       ],
       "materials": [
       ],
@@ -1949,49 +1949,45 @@
             "h4": true
           },
           {
-            "text": "Grow in full sun, well-drained soil and fertilize regularly after frost - summer, then let go dormant."
+            "text": "Grow in full sun, well-drained soil and fertilize regularly from after the last frost until mid-late summer."
           },
           {
-            "text": "Water by flooding with severa gallons of water once a week in winter - spring (to develop a healthy tap root). If summers are hot and dry, increase watering to every 2-3 days."
+            "text": "During the growing season, flood artichokes with several gallons of water once a week (to develop a healthy tap root). I increase watering to every 2-3 days during the punishing AZ summer."
           },
           {
-            "text": " during the growing season."
+            "text": "This encourages new growth, in early spring, remove dead or damaged leaves and stems."
+          },{
+            "text": "Remove any suckers (small shoots growing from the base). This directs the plant's energy towards producing more artichokes."
+          },{
+            "text": "Harvest each artichoke when the scales are still tightly closed."
+          },{
+            "text": "I usually leave a few Artichokes to flower. They are vibrantly purple, attract bees and yeild a lot of seeds."
+          },{
+            "text": "At the end of the growing season, cut back the plant to ground level after the harvest is complete. This allows the plant to rest and prepare for the next season."
+          },{
+            "text": "Artichoke plants will go dormant late summer - winter and grow back from the same taproot for upto 6 years."
           }
         ]
-      },
-        {
+      },{
           "pic": "",
           "paragraphs": [
             {
-              "text": "Pruning and Harvesting Artichokes",
+              "text": "Pruning and Harvesting for Max Flower Count",
               "h4": true
             },
             {
-              "text": "This encourages new growth, in early spring, remove dead or damaged leaves and stems."
+              "text": "If you want to get a higher count of small artichokes (which are good for marinating and jarring), harvest the main, central artichoke first."
             },{
-              "text": "Remove any suckers (small shoots growing from the base). This directs the plant's energy towards producing more artichokes."
+              "text": "Then Harvest side shoots when they are still tight and firm, about 2-3 inches in diameter."
             },{
-              "text": "Harvest regularly to prevent the artichokes from opening into flowers."
+              "text": "Cut the stems about 2 inches below the artichoke."
             }
           ]
         },{
           "pic": "",
           "paragraphs": [
             {
-              "text": "Growing the Most Artichokes",
-              "h4": true
-            },
-            {
-              "text": "If you want to get a higher count of small artichokes (which are good for marinating and jarring), harvest the main, central artichoke first. Then Harvest side shoots when they are still tight and firm, about 2-3 inches in diameter. Cut the stems about 2 inches below the artichoke."
-            },{
-              "text": "After Harvest: Cut back the plant to ground level after the harvest is complete. This allows the plant to rest and prepare for the next season."
-            }
-          ]
-        },{
-          "pic": "",
-          "paragraphs": [
-            {
-              "text": "Growing the Biggest Artichokes (Big enough to scrape flower meat with your teeth)",
+              "text": "Cultivating Chokes Big Enough to Scrape Flower Meat with Your Teeth",
               "h4": true
             },
             {
@@ -2001,16 +1997,14 @@
               "text": "If multiple artichokes are developing close together, thin them out, leaving only the largest ones. (Smaller ones can be marinated)."
             },{
               "text": "Allow the central artichoke to grow larger than usual, but harvest it before it begins to open. (Allow the remaining side shoots to grow larger as well)."
-            },{
-              "text": "Harvest each artichoke when the scales are still tightly closed"
             }
           ]
         },{
           "label": "",
-          "vid": "ODRSl6mnIIA",
+          "vid": "Ug6_yLQvA0E",
           "paragraphs": [
             {
-              "text": "Marinated Artichokes From Yard To Jar",
+              "text": "Choking Upwards",
               "h4": true
             }
           ]

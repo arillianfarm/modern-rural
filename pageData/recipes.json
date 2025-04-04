@@ -1783,7 +1783,6 @@
     {
       "name": "Marinated Artichokes",
       "header_pic": "mchokedone.png",
-      "featured": true,
       "pub_date": "4/4/25",
       "servings": "3-4 Servings",
       "related_recipes": [],
@@ -1838,10 +1837,28 @@
           "instruction": "Serve the marinated artichokes as an appetizer, toast topper or in pasta (or other) salad. Stays good in refrigerator for upto a week."
         },{
           "pic": "",
-          "instruction": "Note- You can swap in or out ingredients for the marinade to better fit your taset -e.g. Use balsamic vinegar instead of lemon juice, Add sliced onions or bell peppers to the marinade(esp good if using the artichokes in pasta salad) or add other herbs and spices, such as thyme, rosemary, or bay leaves."
+          "instruction": "Note- You can swap in or out ingredients for the marinade to better fit your taste -e.g. Add red pepper flakes to give it some heat, use balsamic vinegar instead of lemon juice, Add sliced onions or bell peppers to the marinade(esp good if using the artichokes in pasta salad) or add other herbs and spices, such as thyme, rosemary, or bay leaves."
         }
       ],
-      "notes": "Get Choked Up This Spring!"
+      "notes": "Eat Your Heart Out"
+    },
+    {
+      "name": "Ricotta Garlic Choke Toast",
+      "header_pic": "",
+      "featured": true,
+      "pub_date": "4/4/25",
+      "servings": "2-4 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "",
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": ""
+        }
+      ],
+      "notes": "A Toast to Artichokes"
     }
   ]
 }
