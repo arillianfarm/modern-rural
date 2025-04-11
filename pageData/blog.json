@@ -1251,7 +1251,6 @@
     {
       "entry_number": 19,
       "entry_date": "April 4th, 2025",
-      "featured_blog": true,
       "entry_subject": "An Ode to Artichokes",
       "feature_section_1": {
         "caption": "Artichokes remind me of me, tough, vibrant and good with a side of mayonnaise",
@@ -1324,6 +1323,71 @@
           "paragraphs": [
             {
               "text": "Halve a Heart and Eat an Artichoke Today!"
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 20,
+      "entry_date": "April 11th, 2025",
+      "featured_blog": true,
+      "entry_subject": "The Linguistic Loop",
+      "feature_section_1": {
+        "caption": " Will Words Become Pictures Again?",
+        "pic": "assets/blog/hiero.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Since I’ve started my YouTube channel, I’ve come to notice the importance of an apt, well placed emoji in my shorts’ titles. They’re eye-catching and can concisely convey the theme or tone of a video to most people in the world at this point. My 76 year old father even started embracing them in the last couple years."
+            }
+
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "It’s made me think about the funny little tour that human language has been on. From Hieroglyphics on the walls of Egyptian temples to Emojis on the walls of our Facebook pages, we seem to be heading back to where we started."
+            }
+
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "We seem to have always known, a picture is worth a thousand words…so why have we been wasting our time filling our books and brains with thousands of words? A friend of mine was telling me the other day, that he thinks now that we have AI we’ll eventually drop written language entirely and just verbally confer with AI. I think this would be a step backwards though."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Jotting things down has always been a way for me to organize the chaos inside my head. When I put things on paper (or screen), I’m able to take long strings of half-formed thoughts and transform them into clear and concise communication. I think it’s like having extra ram to hold overflow thoughts while my brain grinds on different tasks."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Arthur was telling me about a Physicist who asked an AI to solve a simple equation (like 87 + 52) and rather than executing simple math, like a human would, it parsed through an enormous amount of tokens before arriving at the answer. When asked to explain how it arrived at the answer to the math problem, rather than recounting the steps that it had actually taken, the AI started parsing an entirely new set of tokens. The physicist took this as proof that AIs as they exist now are neither intrinsically intelligent nor self-aware."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "To me, the physicist’s example suggests that we may be losing out on some fundamental ‘selfness’ and detail in our understanding if we all start leaning towards universally understood symbols over complex nuanced words developed over time in different unique cultures. I guess we’ll all just have to wait and see who or what writes the next act of human communication."
             }
           ]
         }

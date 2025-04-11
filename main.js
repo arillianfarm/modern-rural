@@ -9,13 +9,11 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
     console.log("app loaded "+ Date.now())
     $routeProvider
         .when("/", {
-            templateUrl : "landingPages/chokeWeek.html",
-            // templateUrl : "landingPages/videos.html",
+            templateUrl : "landingPages/videos.html",
             controller: "mainController"
         })
         .when("/main", {
-            templateUrl : "landingPages/chokeWeek.html"
-            // templateUrl : "landingPages/videos.html"
+            templateUrl : "landingPages/videos.html"
         })
         .when("/pets", {
             templateUrl : "landingPages/animalCare.html"

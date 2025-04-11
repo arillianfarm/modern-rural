@@ -992,7 +992,7 @@
       "notes": "An Egg-Salant option for lunch"
     },
     {
-      "name": "Chili",
+      "name": "Chilly Day Chili",
       "header_pic": "chili1.png",
       "pub_date": "11/15/24",
       "servings": "3-4 servings",
@@ -1482,7 +1482,7 @@
       "steps": [
         {
           "pic": "",
-          "instruction": "Preheat oven to 245F DO NOT USE AIR FRYER OR CONVECTION SETTING ON OVEN OR PAVLOVA WILL FALL."
+          "instruction": "Preheat oven to 245F DO NOT USE AIR FRYER OR CONVECTION SETTING ON OVEN OR PAVLOVA MAY FALL."
         },{
           "pic": "finesugar.png",
           "instruction": "IF YOU ARE USING REGULAR TABLE SUGAR, BLEND IT IN 1/2 CUP BATCHES (PULSING EACH BATCH FOR ABOUT 30 SECONDS) TO MAKE IT MORE LIKE CASTERS SUGAR"
@@ -1845,7 +1845,6 @@
     {
       "name": "Ricotta Artichoke GarlicToast",
       "header_pic": "arictoastDone.png",
-      "featured": true,
       "pub_date": "4/4/25",
       "servings": "2-4 Servings",
       "related_recipes": ["Marinated Artichokes","San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
@@ -1869,6 +1868,60 @@
         }
       ],
       "notes": "A Toast to Artichokes"
+    },
+    {
+      "name": "Hash Browns For a Rainy Day",
+      "header_pic": "hbrownc2.png",
+      "featured": true,
+      "pub_date": "4/11/25",
+      "servings": "4-6 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "6 (old) potatoes",
+        "1 tablespoon chopped green onion (optional)",
+        "1/4 tsp salt",
+        "1/2 tsp (fresh) ground black pepper"
+      ],
+      "steps": [
+        {
+          "pic": "hbrown1.png",
+          "instruction": "If you've got sprouts on some potatoes (that you don't want to plant), why not make 'em into hash browns."
+        },{
+          "pic": "hbrownnubknock.png",
+          "instruction": "IMPORTANT - Rub and/or scrub off any sprouts from the potatoes (the sprouts may contain traces of toxins)."
+        },{
+          "pic": "hbrown2.png",
+          "instruction": "Shred potatoes using a cheese grater, then soak shredded potatoes in a large bowl of water (to leach off excess starch)."
+        },{
+          "pic": "hbrownboil.png",
+          "instruction": "While the potatoes soak, finely slice green onions and bring a large pot of water to a boil."
+        },{
+          "pic": "hbrownpress.png",
+          "instruction": "When the water is boiling, strain the soaking potatoes in a colander (in a sink) and optionally, for crispier hash browns - press with a towel to absorb more starch."
+        },{
+          "pic": "hbrownsoak.png",
+          "instruction": "Prepare an ice bath in your potato-soaking bowl and, then boil the potatoes for 1-2 minutes."
+        },{
+          "pic": "",
+          "instruction": "drain in a colander, then plunge the drained potatoes into your ice bath and then remove, and drain them when they're cool."
+        },{
+          "pic": "",
+          "instruction": "Using a towel, press the moisture out of the potatoes, then use hands to mix in green onion, salt and pepper"
+        },{
+          "pic": "hbrownf1.png",
+          "instruction": "Press the potatoes into a small layer onto a metal baking sheet, loaf pans etc and place into freezer until frozen solid (an hour or so)."
+        },{
+          "pic": "hbronwf3.png",
+          "instruction": "Slide the frozen solid potatoes into freezer bags for storage."
+        },{
+          "pic": "hbrownc1.png",
+          "instruction": "When you're ready to eat 'em, heat them on the rack of an air fryer at 400 for 5 minutes."
+        },{
+          "pic": "hbrowndone1.png",
+          "instruction": "then stir and shake to break up and air fry for another 5 minutes at 400."
+        }
+      ],
+      "notes": "Turn yesterdays' potatoes into tomorrow'; hash browns"
     }
   ]
 }

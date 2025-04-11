@@ -1120,38 +1120,83 @@
     },{
       "youtubeID": "P1SMOgI1tas",
       "title": "Chicken treats our garden like her personal salad bar - Meh Monday",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "4/4/25"
     },{
       "youtubeID": "qnylxFBs2Fs",
       "title": "Huey Ka-Bluey teaching me which toys he likes better: Bear hat vs squeaky dangler hat",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "4/4/25"
     },{
       "youtubeID": "zQMRbifQmmA",
       "title": "Crafting with Trash - Egg Cartons from Soda Box + cardboard tubes",
-      "albums": ["new"],
+      "albums": [],
       "release_date": "4/4/25"
     },{
       "youtubeID": "4tzj6vTHu0M",
       "title": "Pajama's Paw-some Catch Skills!",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "4/4/25"
     },{
       "youtubeID": "c9iqMBOWB5I",
       "title": "POV Chicken banana",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "4/4/25"
     },{
       "youtubeID": "zEoZnGs89pQ",
       "title": "Throwback Fursday - Goats, Totes & McGoats Keep it Copacetic",
-      "albums": ["new", "goats"],
+      "albums": ["goats"],
       "release_date": "4/4/25"
     },{
       "youtubeID": "GNUdbbLV_yI",
       "title": "Totes & McGoats giving off Lady and The Tramp Vibes",
-      "albums": ["new", "goats"],
+      "albums": ["goats"],
       "release_date": "4/4/25"
+    },{
+      "youtubeID": "AnQTpuI3f_c",
+      "title": "Holy Blooming Water Lily, Spashman",
+      "albums": ["new", "wildlife"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "Ug6_yLQvA0E",
+      "title": "All choked up - Pruning Artichokes for quantity VS size of flower heads",
+      "albums": ["new", "wildlife"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "ODRSl6mnIIA",
+      "title": "Halve a Heart: Marinated Artichokes from Yard to Table",
+      "albums": ["new", "wildlife"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "5GsjLlQ8uQg",
+      "title": "Trying to Leave a Paws-itive Impression After Vet Visit - meh Monday",
+      "albums": ["new", "dogs"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "QH-uwCmJAtE",
+      "title": "Where you at bro? Baby goat twins joyfully reunite after 2 seconds apart",
+      "albums": ["new", "goats"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "Bo-WVRviOqM",
+      "title": "Fish are Friends AND Food - treating our chickens to fresh fish",
+      "albums": ["new", "chickens"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "PBgXLU-i_5Y",
+      "title": "The Pack That Plays Together Stays Together! #siblinggoals",
+      "albums": ["new", "dogs"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "SDBLm2yVx8o",
+      "title": "Big Sister Vibes Happy Sinlings day from #xenadog #hueykabluey",
+      "albums": ["new", "dogs"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "d6_Y-YqmM-4",
+      "title": "Animal Sound Mix Around",
+      "albums": ["new", "chickens","goats"],
+      "release_date": "4/11/25"
     }
   ]
 }

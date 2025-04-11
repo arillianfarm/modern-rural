@@ -6,9 +6,6 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-lg-5 mt-0 mb-2 text-center">
-            <h3 ng-if="false" class="text-muted mt-0">
-                <a href="#!hype123">Click Here to Read Hyperspear (full Novella) for Free!</a>
-            </h3>
             <div class="text-justify mb-3" ng-click="setNextDisplayPage('hyperspear')">
                 <a href="">
                     <img ng-src="./assets/books/{{data.hyperspear_display_page}}" style="height:40em;max-width:30em;">
@@ -24,16 +21,6 @@
                     As our narrators travel beyond the borders of their humble hometown, they are forced to embark on a tumultuous odyssey through a kaleidoscope of wonderlands – where they must battle mystical creatures, unravel hidden secrets, and grapple with the unsettling nature of reality itself.
                     Settle in, tuck your napkin, and enjoy every humor-packed, soul-searching bite of Hyperspear.
                 </p>
-            </div>
-            <div ng-if="false">
-                <h3 class="text-muted mt-3 mb-3">
-                    <a href="https://www.youtube.com/watch?v=5WhMLswBhfM" target="_blank">Listen To Chapters 1 & 2 on YouTube <i class="fa fa-external-link"></i></a>
-                </h3>
-                <iframe
-                        class="video-box"
-                        autoplay="0"
-                        ng-src="{{getIframeSrcForYouTube('5WhMLswBhfM')}}">
-                </iframe>
             </div>
         </div>
         <div class="col-xs-12 col-lg-5 text-justified text-white mb-3" ng-click="setNextDisplayPage()">
