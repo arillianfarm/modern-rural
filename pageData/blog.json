@@ -1347,27 +1347,17 @@
       },
       "sections": [
         {
-          "pics": [],
+          "pics": ["hiero.png"],
+          "right_side_pic": true,
           "paragraphs": [
             {
               "text": "Since I’ve started my YouTube channel, I’ve come to notice the importance of an apt, well placed emoji in my shorts’ titles. They’re eye-catching and can concisely convey the theme or tone of a video to most people in the world at this point. My 76 year old father even started embracing them in the last couple years."
-            }
-
-          ]
-        },{
-          "pics": [],
-          "paragraphs": [
-            {
+            }, {
               "text": "It’s made me think about the funny little tour that human language has been on. From Hieroglyphics on the walls of Egyptian temples to Emojis on the walls of our Facebook pages, we seem to be heading back to where we started."
-            }
-
-          ]
-        },{
-          "pics": [],
-          "paragraphs": [
-            {
+            },{
               "text": "We seem to have always known, a picture is worth a thousand words…so why have we been wasting our time filling our books and brains with thousands of words? A friend of mine was telling me the other day, that he thinks now that we have AI we’ll eventually drop written language entirely and just verbally confer with AI. I think this would be a step backwards though."
             }
+
           ]
         },{
           "pics": [],
