@@ -31,13 +31,6 @@
       </div>
     </div>
   </div>
-  <div class="row text-center" >
-    <div class="col-xs-12">
-      <h4 class="text-white">Picture Albums</h4>
-      <div class="ml-5 big-hide" style="max-width:26em;" album-header album-type="pictures"></div>
-      <div class="ml-5 small-hide" album-header album-type="pictures"></div>
-    </div>
-  </div>
   <hr>
   <div class="row text-center" ng-if="data.pictures && !data.loading">
     <div class="col-xs-12 mb-5" ng-repeat="pic in data.pictures track by $index">
@@ -48,14 +41,21 @@
               ng-if="pic.imagur_id"
               class="imgur-embed-pub" lang="en"
               ng-style="{'height': smallView ? 'auto' : '15em'}"
-      data-id="{{pic.imagur_id}}"><a
+              data-id="{{pic.imagur_id}}"><a
               ng-href="https://imgur.com/{{pic.imagur_id}}"></a>
       </blockquote>
       <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-    <img ng-if="!pic.imagur_id" class="br20"
-            ng-src="./assets/pictures/{{pic.file}}"
-            ng-style="{'height': smallView ? 'auto' : '18em'}">
+      <img ng-if="!pic.imagur_id" class="br20"
+           ng-src="./assets/pictures/{{pic.file}}"
+           ng-style="{'height': smallView ? 'auto' : '18em'}">
+    </div>
+  </div>
+  <div class="row text-center" >
+    <div class="col-xs-12">
+      <h4 class="text-white">Picture Albums</h4>
+      <div class="ml-5 big-hide" style="max-width:26em;" album-header album-type="pictures"></div>
+      <div class="ml-5 small-hide" album-header album-type="pictures"></div>
     </div>
   </div>
 </div>

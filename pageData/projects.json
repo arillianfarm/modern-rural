@@ -1930,8 +1930,7 @@
     },
     {
       "name": "Cultivating Culinary Artichokes",
-      "pub_date": "3/21/25",
-      "featured": true,
+      "pub_date": "4/4/25",
       "header_pic": "achokebundle.png",
       "about": "Harness some Farmyard Flower Power",
       "categories": ["gardening"],
@@ -2006,6 +2005,46 @@
               "h4": true
             },{
               "text": "There’s really no way to fail with artichokes – even if you don’t get to them before they start to open, you end up with vibrant, beautiful flowers in your yard!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Potentially Fantastic Easter Basket",
+      "pub_date": "4/18/25",
+      "featured": true,
+      "header_pic": "straw1.png",
+      "about": "Go Against the Grain, try Straw Crafting",
+      "categories": ["gardening", "straw"],
+      "tools": [
+        "Construction Scissors"
+      ],
+      "materials": [
+        "Straw",
+        "Twine (From Hay Bales)"
+      ],
+      "phases": [{
+        "vid": "",
+        "paragraphs": [
+          {
+            "text": "",
+            "h4": true
+          },
+          {
+            "text": ""
+          }
+        ]
+      },{
+          "pic": "",
+        "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": ""
             }
           ]
         }
