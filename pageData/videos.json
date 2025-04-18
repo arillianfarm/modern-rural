@@ -825,7 +825,7 @@
     },{
       "youtubeID": "nU0Z_lkOx40",
       "title": "Crafting With Trash Ep 3: Starting Artichoke Plants in LaCroix Boxes",
-      "albums": ["wildlife","animals"],
+      "albums": ["wildlife","animals", "diy"],
       "release_date": "2/7/25"
     },{
       "youtubeID": "zHCYx1gUdu0",
@@ -1160,12 +1160,12 @@
     },{
       "youtubeID": "Ug6_yLQvA0E",
       "title": "All choked up - Pruning Artichokes for quantity VS size of flower heads",
-      "albums": ["wildlife"],
+      "albums": ["wildlife", "diy"],
       "release_date": "4/11/25"
     },{
       "youtubeID": "ODRSl6mnIIA",
       "title": "Halve a Heart: Marinated Artichokes from Yard to Table",
-      "albums": ["wildlife"],
+      "albums": ["wildlife", "diy", "cooking"],
       "release_date": "4/11/25"
     },{
       "youtubeID": "5GsjLlQ8uQg",
@@ -1189,7 +1189,7 @@
       "release_date": "4/11/25"
     },{
       "youtubeID": "SDBLm2yVx8o",
-      "title": "Big Sister Vibes Happy Sinlings day from #xenadog #hueykabluey",
+      "title": "Big Sister Vibes Happy Siblings day from #xenadog #hueykabluey",
       "albums": ["dogs"],
       "release_date": "4/11/25"
     },{
@@ -1198,54 +1198,34 @@
       "albums": ["chickens","goats"],
       "release_date": "4/11/25"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
+      "youtubeID": "GLN8JSan00E",
+      "title": "A Happy Found Dog Story #muffindog",
+      "albums": ["new", "dogs"],
       "release_date": "4/18/25"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
+      "youtubeID": "0ob6IJw4YEs",
+      "title": "Our Chickens are Fancy. They eat escargot",
+      "albums": ["new", "chickens"],
       "release_date": "4/18/25"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
+      "youtubeID": "NZRtZpf1ShM",
+      "title": "Nesting Dove Makes Alarming Discovery About Her New Home - Meh Monday",
+      "albums": ["new", "wildlife"],
       "release_date": "4/18/25"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
+      "youtubeID": "33I8hF4ZHBw",
+      "title": "(Poorly Planned) Dog Easter Egg Hunt Chaos",
+      "albums": ["new", "dogs"],
       "release_date": "4/18/25"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
+      "youtubeID": "AD3UmKrTSmU",
+      "title": "An Eggstra Cute Photoshoot w/ The Arillian Farm Dogs - Work it Wednesday!",
+      "albums": ["new", "dogs"],
       "release_date": "4/18/25"
     },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
-      "release_date": "4/18/25"
-    },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
-      "release_date": "4/18/25"
-    },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
-      "release_date": "4/18/25"
-    },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
-      "release_date": "4/18/25"
-    },{
-      "youtubeID": "",
-      "title": "",
-      "albums": ["new"],
+      "youtubeID": "4MtIj9GJDTs",
+      "title": "Going Against the Grain w/ Straw Crafts (crafting with trash)",
+      "albums": ["new", "diy"],
       "release_date": "4/18/25"
     }
   ]

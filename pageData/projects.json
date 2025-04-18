@@ -2011,11 +2011,11 @@
       ]
     },
     {
-      "name": "Potentially Fantastic Easter Basket",
+      "name": "(Sort of) Making a Straw Hat/ Easter Basket ¯\\_(ツ)_/¯",
       "pub_date": "4/18/25",
       "featured": true,
-      "header_pic": "straw1.png",
-      "about": "Go Against the Grain, try Straw Crafting",
+      "header_pic": "ebasketdone.png",
+      "about": "Go Against the Grain with Straw Crafting",
       "categories": ["gardening", "straw"],
       "tools": [
         "Construction Scissors"
@@ -2025,26 +2025,122 @@
         "Twine (From Hay Bales)"
       ],
       "phases": [{
-        "vid": "",
+        "pic": "ebasketcut.png",
         "paragraphs": [
           {
-            "text": "",
+            "text": "Growing and Harvesting Straw Craft Supplies",
             "h4": true
           },
           {
-            "text": ""
+            "text": "In the winter, I plant wheat and barley to feed to my chickens as treats, so by late spring my garden is full of headless grain stalks."
+          },{
+            "text": "Usually I just cut those stalks up and compost them, but recently, it dawned on me that those stalks might actually be useful --and thus my dream to weave myself a straw pool hat from Arillian straw was born."
+          },{
+            "text": "The idea of making something entirely from home-grown crafting materials, makes my heart flutter, so I asked my go-to AI, Gemini, to explain the process of making a straw-hat from grain stalks and this is how it went..."
+          },
+          {
+            "text": "Gemini, my AI advisor, instructed me to cut my wheat and barley shafts when they were almost completely yellow --with just a little green left in the stalk. I did my best to figure out what that meant and pulled in a pretty good haul of straw."
           }
         ]
       },{
-          "pic": "",
+        "pic": "ebasketsoak.png",
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "According to Gemini soaking is the key to successful straw crafting, so I drew a cold bath for my cut straw and left it to soak for 2 hours --until (I decided) it was pliable enough to work without breaking. However, Gemini said it can take upto 24 hours to soften straw for braiding."
+          }
+        ]
+      },{
+        "pic": "ebasketwrap.png",
+        "right_side_pic": true,
+        "paragraphs": [
+        {
+          "text": "After it's bath, I wrapped my straw in a damp towel, pulling only a few strands out at a time -- to keep it from drying out while I worked with it."
+        }
+        ]
+      },{
+        "pic": "ebasketbraid.png",
+        "paragraphs": [
+          {
+            "text": "Weaving a New Path",
+            "h4": true
+          },
+          {
+            "text": "Some straws broke when I went to tie the ends of my braid,so I obviously hadn't soaked the grain stalks long enough. But I was pretty jazzed to make my sun hat, so I picked out the pieces of straw that seemed particularly bendy and stared braiding similar-length strands of straw into short ropes."
+          }
+        ]
+      },{
+          "pic": "ebasketframe.png",
         "right_side_pic": true,
           "paragraphs": [
             {
-              "text": "",
+              "text": "Frame Job",
               "h4": true
             },
             {
-              "text": ""
+              "text": "Once I had several straw ropes, I started to make the base of my hat by tying two long, loose pieces of straw together to make an X shape. I then started weaving the braids over-under around the X until I had... something."
+            },{
+              "text": "After a few hours of struggling with my straw, I decided to just get creative and have fun with the process, so I ditched Gemini and went rogue!"
+            }
+          ]
+        },{
+          "pic": "ebasketshape.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "I knew I would need to make the brim jut out from the head part of the hat, so I started weaving straw ropes through the 'base' that I'd formed at the top of the hat."
+            }
+          ]
+        },{
+          "pic": "ebaskethatfail2.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "After some more random braiding and weaving, what I ended up with was almost certainly not a hat. Arthur thought it looked like a basket from a history museum..."
+
+            },
+            {
+              "text": "So I decided to Pivot From a Hat to an Easter Basket",
+              "h4": true
+            },{
+              "text": "Easter's coming up, so it almost felt like kismet."
+            }
+          ]
+        },{
+          "pic": "ebaskethandle.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "I grabbed some baling twine (that I'd saved from Totes and McGoats hay bales) and started weaving it through the straw sculpture formerly intended as a hat."
+            }
+          ]
+        },{
+          "pic": "ebasketdone.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Eventually I ended up with something that actually resembled an Easter basket."
+            }
+          ]
+        },{
+          "pic": "ebasketmulch.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Mulch Ado About Straw Scraps",
+              "h4": true
+            },
+            {
+              "text": "I had plenty of broken and leftover straw, so I decided to re-invest those scraps back into the garden by using them as mulch and compost!"
+            }
+          ]
+        },{
+          "vid": "4MtIj9GJDTs",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Crafting with Trash: Going against the Grain with Straw Crafts",
+              "h4": true
             }
           ]
         }

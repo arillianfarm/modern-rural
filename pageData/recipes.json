@@ -1920,7 +1920,7 @@
           "instruction": "then stir and shake to break up and air fry for another 5 minutes at 400."
         }
       ],
-      "notes": "Turn yesterdays' potatoes into tomorrow's hash browns"
+      "notes": "Turn yesterday's potatoes into tomorrow's hash browns"
     },
     {
       "name": "Steamy Cheesy Artichoke Dip",
@@ -1928,41 +1928,39 @@
       "featured": true,
       "pub_date": "4/18/25",
       "servings": "1-1.5 cups (3-6 Servings)",
-      "related_recipes": ["San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
+      "related_recipes": ["Marinated Artichokes","San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
       "ingredients": [
         "(8-10 small artichokes) or 7 oz canned artichokes",
-        "1/2 -1  tablespoon lemon juice (if working with fresh artichokes)",
-        "1/4 tsp salt (if working with fresh artichokes)",
+        "(if working with fresh artichokes) 1/2 -1  tablespoon lemon juice ",
+        "(if working with fresh artichokes) 1/4 tsp salt ",
         "1/2 cup mayonnaise",
         "1/2 cup grated parmesan",
-        "1/2 cup grated mozzarella",
-        "2 cloves garlic",
-        "pinch of red pepper flakes",
-        "1/2 tsp (fresh) ground black pepper",
-        "Dip to Mouth Vessels (such as chips or crusty bread)"
+        "1/4 cup grated mozzarella",
+        "1-2 cloves garlic - minced or pressed",
+        "pinch of red pepper flakes (optional)",
+        "1/4 tsp (fresh) ground black pepper",
+        "1-2 tablespoons breadcrumbs (optional)",
+        "Dip-To-Mouth-Vessels (such as chips or crusty bread)"
       ],
       "steps": [
         {
           "pic": "adip1.png",
-          "instruction": "."
+          "instruction": "<----- If Using Fresh Artichokes - Follow instructions from marinated artichoke recipe (on this site) to prep and boil artichoke hearts."
         },{
-          "pic": "adip1.png",
-          "instruction": "."
+          "pic": "",
+          "instruction": "If Using Canned Artichokes - Drain the canned artichoke hearts well and roughly chop them into smaller, bite-sized pieces."
         },{
-          "pic": "adip1.png",
-          "instruction": "."
+          "pic": "adip2.png",
+          "instruction": "In a medium bowl, combine the chopped artichoke hearts, mayonnaise, Parmesan cheese, mozzarella cheese, red pepper flakes (if using), salt, pepper and minced garlic."
         },{
-          "pic": "adip1.png",
-          "instruction": "."
+          "pic": "adip4.png",
+          "instruction": "Spread the mixture evenly in a small baking dish and top with breadcrumbs."
         },{
-          "pic": "adip1.png",
-          "instruction": "."
+          "pic": "adip5.png",
+          "instruction": "Air fry for 10-15 minutes at 375F, or until the dip is hot, bubbly, and golden brown on top."
         },{
-          "pic": "adip1.png",
-          "instruction": "."
-        },{
-          "pic": "adip1.png",
-          "instruction": "."
+          "pic": "adipdone.png",
+          "instruction": "Serve with chips, pita or crusty bread."
         }
       ],
       "notes": "Put Some Heart into Your Dip"
