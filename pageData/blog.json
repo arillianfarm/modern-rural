@@ -1331,7 +1331,6 @@
     {
       "entry_number": 20,
       "entry_date": "April 11th, 2025",
-      "featured_blog": true,
       "entry_subject": "The Linguistic Loop",
       "feature_section_1": {
         "caption": " Will Words Become Pictures Again?",
@@ -1378,6 +1377,90 @@
           "paragraphs": [
             {
               "text": "To me, the physicist’s example suggests that we may be losing out on some fundamental ‘selfness’ and detail in our understanding if we all start leaning towards universally understood symbols over complex nuanced words developed over time in different unique cultures. I guess we’ll all just have to wait and see who or what writes the next act of human communication."
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 21,
+      "entry_date": "April 25th, 2025",
+      "featured_blog": true,
+      "entry_subject": "Fitness Snacks",
+      "feature_section_1": {
+        "caption": "Finding Mindful Moments for Movement",
+        "pic": "assets/blog/fitsnack1.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": ["fitsnack1.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "The Snack That Gives Back",
+              "h4": true
+            },
+            {
+              "text": "A decade and a half ago, I was on a date with a tall, athletic MBA at Stanford and I really wanted to be into him, but it was like he was just too perfect. The only thing I found interesting about him was that he would occasionally stop to enjoy ‘fitness snacks’."
+            },
+            {
+              "text": "Fitness snacks were a concept that he’d learned about from his crew rowing coach where you find little ways as you go through your day, to sneak in bits of exercise. For example, if you’re feeding your dogs instead of hunching to set down their bowl, take a moment to straighten your back, engage your core and do a squat as you set their food down."
+            }
+          ]
+        },{
+          "pics": ["fitsnack2.png"],
+          "paragraphs": [
+            {
+              "text": "Holistic with my Whole Heart",
+              "h4": true
+            },
+            {
+              "text": "I wasn’t too familiar with the concept at the time, but I think his coach was basically describing the holistic lifestyle movement. A lifestyle where a person mindfully incorporates small, beneficial practices into daily tasks to maintain mental and physical health."
+            },{
+              "text":"I love this concept because I hate having to go out of my way to exercise. Drive to the gym, change into gym clothes, run in place, sweat through gym clothes, shower, change into street clothes, drive home and boom two hours of your life are gone."
+            },{
+              "text":"With fitness snacks, you can find all the exercise you need without having to pull yourself away from the tasks you’re working on. Plus, being mindful and engaging in athletic activities throughout the day can actually help with productivity, reduce sluggishness and help you sleep better."
+            }
+
+          ]
+        },
+        {
+          "pics": ["fitsnack5.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Yogi and Boo Boos",
+              "h4": true
+            },
+            {
+              "text": "Sadly, my first attempt at fitness snacking failed. I kept pulling muscles, getting shin splints and other random injuries. Apparently, I didn’t know the proper way to move my body, but instead of figuring it out, I stopped looking for fitness snacks."
+            },
+            {
+              "text": "It wasn’t until I was doing a 30-day yoga series that the concept floated back into my mind. After following the guided yoga for a few weeks, I started to understand how to move my body –the right way! No more twisting and straining my muscles and tendons the wrong way for me!"
+            },
+            {
+              "text": "Since I became a living room Yogi (in my late 30s), I've become more mindful about how I move my body as I go through everyday tasks: I put my back into it when I knead dough, keep a straight back and hinge from my waist when I'm turning shovels full of soil in the garden, and squat all the way down and all the way up before I clang each dog's food dish down in front of them."
+            },
+            {
+              "text": "As promised by Julia Marie (the instructor of my favorite Yoga Video Series), I have started to actually crave certain muscle movements when I feel stiff or sore. A couple cat cows for a stiff back or a sun salute or two when I’m feeling generally stiff or sluggish."
+            }
+          ]
+        },{
+          "pics": ["fitsnack3.png"],
+          "paragraphs": [
+            {
+              "text": "Yogi Snacks",
+              "h4": true
+            },{
+              "text": "Yoga and fitness snacks are part of a balanced life for me now. It’s what keeps my mind and body limber enough to take on all the chores, random messes and farmyard challenges that crop up on our lil ⅓ of an acre in the suburban desert."
             }
           ]
         }

@@ -1679,7 +1679,7 @@
           "instruction": "Spray/ coat breadcrumbs with approx 2 tablespoons of olive oil and toss with fresh herbs in a large bowl."
         },{
           "pic": "croutons2.png",
-          "instruction": "Air fry (in batches if necessary) at 375F for 8-10 minutes -until crisp and brown."
+          "instruction": "Air fry (in batches if necessary) at 385F until crisp and brown: about 5-8 minutes, shaking half way through."
         },{
           "pic": "croutonsdone.png",
           "instruction": "Store in Jars and Enjoy as a Snack or Salad Topper. Save the breadcrumbs as breading or sprinkle on pasta bakes etc."
@@ -1925,7 +1925,6 @@
     {
       "name": "Steamy Cheesy Artichoke Dip",
       "header_pic": "adipdone.png",
-      "featured": true,
       "pub_date": "4/18/25",
       "servings": "1-1.5 cups (3-6 Servings)",
       "related_recipes": ["Marinated Artichokes","San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
@@ -1964,6 +1963,42 @@
         }
       ],
       "notes": "Put Some Heart into Your Dip"
+    },
+    {
+      "name": "Yardfresh Breakfast Burrito",
+      "header_pic": "bburdone.png",
+      "featured": true,
+      "pub_date": "4/25/25",
+      "servings": "2 burritos",
+      "related_recipes": ["Hash Browns For a Rainy Day"],
+      "ingredients": [
+        "1 tablespoon butter",
+        "3-4 eggs",
+        "1 tablespoon chopped green onion",
+        "(fresh) ground black pepper",
+        "1-2 cups frozen hash browns",
+        "1/4 -1/2 cup greek yogurt or sour cream",
+        "1/4-1/2 cup shredded cheese",
+        "1/4 cup grated mozzarella",
+        "2-4 tablespoons green (or red) salsa",
+        "2 flour tortillas"
+      ],
+      "steps": [
+        {
+          "pic": "bbur1.png",
+          "instruction": "Melt butter in a pan and scramble eggs together with pepper and green onion."
+        },{
+          "pic": "bburcheese.png",
+          "instruction": "Optional - To ensure that cheese is melted and help make the tortillas pliable, sprinkle cheese on each tortilla and microwave for 30 seconds."
+        },{
+          "pic": "bburhb.png",
+          "instruction": "Cook Hash browns and place all ingredients (in rows at one end of the tortilla)."
+        },{
+          "pic": "bburroll.png",
+          "instruction": "Roll up and enjoy."
+        }
+      ],
+      "notes": "Elevate Eggs From Hen House to Handheld Helpins of Homemade Goodness"
     }
   ]
 }

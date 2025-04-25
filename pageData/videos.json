@@ -1200,33 +1200,73 @@
     },{
       "youtubeID": "GLN8JSan00E",
       "title": "A Happy Found Dog Story #muffindog",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "4/18/25"
     },{
       "youtubeID": "0ob6IJw4YEs",
       "title": "Our Chickens are Fancy. They eat escargot",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "4/18/25"
     },{
       "youtubeID": "NZRtZpf1ShM",
       "title": "Nesting Dove Makes Alarming Discovery About Her New Home - Meh Monday",
-      "albums": ["new", "wildlife"],
+      "albums": ["wildlife"],
       "release_date": "4/18/25"
     },{
       "youtubeID": "33I8hF4ZHBw",
       "title": "(Poorly Planned) Dog Easter Egg Hunt Chaos",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "4/18/25"
     },{
       "youtubeID": "AD3UmKrTSmU",
       "title": "An Eggstra Cute Photoshoot w/ The Arillian Farm Dogs - Work it Wednesday!",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "4/18/25"
     },{
       "youtubeID": "4MtIj9GJDTs",
       "title": "Going Against the Grain w/ Straw Crafts (crafting with trash)",
-      "albums": ["new", "diy"],
+      "albums": ["diy"],
       "release_date": "4/18/25"
+    },{
+      "youtubeID": "7KOTOChjB4I",
+      "title": "Chickens can be Chicken about Trying New Things",
+      "albums": ["new", "chickens"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "0LWhFAE93JE",
+      "title": "Our Dogs Are Clothes Hounds",
+      "albums": ["new", "dogs"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "eUMdDBEvhqM",
+      "title": "Strutting Birds Workin it on our Wall #workitwednesday",
+      "albums": ["new", "wildlife"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "SLmt8D-UKr4",
+      "title": "Peep peep is the palindrome of springtime & this short’s a palindrome of birds flying in loops",
+      "albums": ["new", "wildlife"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "MZSqNLo6rGE",
+      "title": "We got pigeon problems in our barnyard - Meh Monday",
+      "albums": ["new", "chickens"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "uwcyZ9WK3J0",
+      "title": "Life lessons w/ Huey Ka-Bluey",
+      "albums": ["new", "dogs"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "3scYB3NrLCQ",
+      "title": "Duckhunt Vibes (Classic NES nostalgia)",
+      "albums": ["new", "chickens", "dogs"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "r8DzWIpc_e0",
+      "title": "Making Mini Meringue Magic (mini pavlovas with fresh strawberries)",
+      "albums": ["new", "cooking"],
+      "release_date": "4/25/25"
     }
   ]
 }

@@ -2052,7 +2052,6 @@
         ]
       },{
         "pic": "ebasketwrap.png",
-        "right_side_pic": true,
         "paragraphs": [
         {
           "text": "After it's bath, I wrapped my straw in a damp towel, pulling only a few strands out at a time -- to keep it from drying out while I worked with it."
@@ -2060,6 +2059,7 @@
         ]
       },{
         "pic": "ebasketbraid.png",
+        "right_side_pic": true,
         "paragraphs": [
           {
             "text": "Weaving a New Path",
@@ -2071,7 +2071,6 @@
         ]
       },{
           "pic": "ebasketframe.png",
-        "right_side_pic": true,
           "paragraphs": [
             {
               "text": "Frame Job",
@@ -2093,7 +2092,6 @@
           ]
         },{
           "pic": "ebaskethatfail2.png",
-          "right_side_pic": true,
           "paragraphs": [
             {
               "text": "After some more random braiding and weaving, what I ended up with was almost certainly not a hat. Arthur thought it looked like a basket from a history museum..."
@@ -2116,7 +2114,6 @@
           ]
         },{
           "pic": "ebasketdone.png",
-          "right_side_pic": true,
           "paragraphs": [
             {
               "text": "Eventually I ended up with something that actually resembled an Easter basket."
@@ -2136,7 +2133,6 @@
           ]
         },{
           "vid": "4MtIj9GJDTs",
-          "right_side_pic": true,
           "paragraphs": [
             {
               "text": "Crafting with Trash: Going against the Grain with Straw Crafts",
