@@ -237,42 +237,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         return 'https://www.youtube.com/embed/' + videoId;
     };
 
-    //scroll to a specific entry on a specific view
-    $scope.scrollToHashOrTop = function() {
-        let locationHash = $location.hash();
-        //handle case where second # in url has been encoded to %23
-        let encodedURI = window.location.href;
-        if ( /%23/.test(encodedURI) ){
-            locationHash = encodedURI.split('%23')[1]
-        }
-        if (locationHash) {
-        let view = ($location.path()||'projects').replace('/','');
-        let featuredItemType = 'featuredProject';
-        let rawCollection = 'projectsRaw'
-        let fieldName = 'name';
-            switch(view){
-                case 'blog':
-                    featuredItemType = 'featuredBlogEntry'
-                    rawCollection = 'blogEntriesRaw'
-                    fieldName = 'entry_subject';
-                break;
-                case 'recipes':
-                    featuredItemType = 'featuredRecipe'
-                    rawCollection = 'recipesRaw'
-                break;
-            }
-        let matchingDoc = ($scope[rawCollection]||[]).find((item)=>{
-            let hashName = $rootScope.assembleIDattribute(item[fieldName]);
-            if (hashName === locationHash){
-                return true;
-            };
-        });
-        $scope.data[featuredItemType] = matchingDoc;
-            globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-        } else {
-            globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-        }
-    };
 
     //put text into clipboard
     $scope.copyForClipboard = function(text) {
@@ -284,41 +248,6 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
         });
     };
 
-    $rootScope.titleCaps = function(string){
-        if (!string || !string.length){
-            console.error("function $rootScope.titleCaps failed");
-            return;
-        }
-        let allCapsWords = {
-            "ai":"AI",
-            "ai's":"AI's",
-            "rpg":"RPG",
-            "gg": "GG",
-            "mib": "MIB",
-            "az,": "AZ,",
-            "az": "AZ"
-        };
-
-        let splitStr = string.toLowerCase().split(' ');
-        for (var i = 0; i < splitStr.length; i++) {
-            let currentWord = splitStr[i];
-             if( allCapsWords[currentWord]){
-                 splitStr[i] = allCapsWords[currentWord];
-             } else {
-                 splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
-             }
-            }
-        return splitStr.join(" ");
-    };
-
-    $scope.scrollToBlogItem = function(docName){
-        let hashLink = $scope.assembleIDattribute(docName);
-        $location.hash(hashLink);
-        let blogEntries =$scope.blogEntriesRaw && $scope.blogEntriesRaw.length ? $scope.blogEntriesRaw : $rootScope.data.blogEntries||[];
-        $rootScope.data.featuredBlogEntry = blogEntries.find(item=>item.entry_subject==docName);
-        $rootScope.data.collapse_nav_scroll = true;
-        globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    }
 
     $rootScope.chokeweekvids = [
         {
@@ -350,6 +279,81 @@ app.config(function($routeProvider,$locationProvider, $sceDelegateProvider) {
             "title": "Quick Desert Vegetable Garden Tour - Starting Over After a Scorching Summer - November 2024"
         }
     ];
+
+
+    $rootScope.titleCaps = function(string){
+        if (!string || !string.length){
+            console.error("function $rootScope.titleCaps failed");
+            return;
+        }
+        let allCapsWords = {
+            "ai":"AI",
+            "ai's":"AI's",
+            "rpg":"RPG",
+            "gg": "GG",
+            "mib": "MIB",
+            "az,": "AZ,",
+            "az": "AZ"
+        };
+
+        let splitStr = string.toLowerCase().split(' ');
+        for (var i = 0; i < splitStr.length; i++) {
+            let currentWord = splitStr[i];
+             if( allCapsWords[currentWord]){
+                 splitStr[i] = allCapsWords[currentWord];
+             } else {
+                 splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+             }
+            }
+        return splitStr.join(" ");
+    };
+
+
+    //scroll to a specific entry on a specific view
+    $scope.scrollToHashOrTop = function() {
+        let locationHash = $location.hash();
+        //handle case where second # in url has been encoded to %23
+        let encodedURI = window.location.href;
+        if ( /%23/.test(encodedURI) ){
+            locationHash = encodedURI.split('%23')[1]
+        }
+        if (locationHash) {
+            let view = ($location.path()||'projects').replace('/','');
+            let featuredItemType = 'featuredProject';
+            let rawCollection = 'projectsRaw'
+            let fieldName = 'name';
+            switch(view){
+                case 'blog':
+                    featuredItemType = 'featuredBlogEntry'
+                    rawCollection = 'blogEntriesRaw'
+                    fieldName = 'entry_subject';
+                    break;
+                case 'recipes':
+                    featuredItemType = 'featuredRecipe'
+                    rawCollection = 'recipesRaw'
+                    break;
+            }
+            let matchingDoc = ($scope[rawCollection]||[]).find((item)=>{
+                let hashName = $rootScope.assembleIDattribute(item[fieldName]);
+                if (hashName === locationHash){
+                    return true;
+                };
+            });
+            $scope.data[featuredItemType] = matchingDoc;
+            globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        } else {
+            globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        }
+    };
+
+    $scope.scrollToBlogItem = function(docName){
+        let hashLink = $scope.assembleIDattribute(docName);
+        $location.hash(hashLink);
+        let blogEntries =$scope.blogEntriesRaw && $scope.blogEntriesRaw.length ? $scope.blogEntriesRaw : $rootScope.data.blogEntries||[];
+        $rootScope.data.featuredBlogEntry = blogEntries.find(item=>item.entry_subject==docName);
+        $rootScope.data.collapse_nav_scroll = true;
+        globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
 
     $rootScope.assembleIDattribute = function(docName){
         return docName.split(" ").join("-").replace("'","").toLowerCase();
