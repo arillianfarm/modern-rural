@@ -2140,33 +2140,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "Let's Broc About Sprouting Broccoli",
-      "pub_date": "4/30/25",
-      "featured": true,
-      "header_pic": "sproccoliDone.png",
-      "about": "Its Like Silly String For Your Sandwich",
-      "categories": ["gardening", "straw"],
-      "tools": [
-        "Clean jar",
-      ],
-      "materials": [
-        "Cheese Cloth",
-        "Broccoli Seeds"
-      ],
-      "phases": [{
-        "pic": "sproccoliDone.png",
-        "paragraphs": [
-          {
-            "text": "Broccoli Seeds Can be More than Just Sparrow Food",
-            "h4": true
-          },
-          {
-            "text": ""
-          }
-        ]
-      }]
     }
   ]
 }
